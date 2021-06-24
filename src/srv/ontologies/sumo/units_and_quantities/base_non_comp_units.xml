@@ -1,3 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
 <!--Base non composite units.-->
 <concept name="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)">
     <attr obj="non composite unit of measure (Instances of this class are units of measure that are applied to a single dimension, and so are not intrinsically defined by the functional composition of other units.)" rel="inheritance"/>
@@ -65,3 +67,5 @@
     <attr obj="composite unit of measure (Instances of this class are units of measure that are applied to a single dimension, and so are not intrinsically defined by the functional composition of other units.)" rel="inheritance"/>
     <attr rel="be unit of measure of physical quantity ((about unit of measure) to be unit of measure of physical quantity)" obj="luminosity intensity [Entity] (luminosity intensity)"/>
 </concept>
+
+</ontology>

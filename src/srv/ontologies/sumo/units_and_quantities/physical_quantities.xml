@@ -1,3 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
 <!--physical quantities-->
 <concept name="length [Entity] (length)">
     <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)"/>
@@ -60,5 +62,4 @@
 <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)"/>
 </concept>
 
-
-
+</ontology>
