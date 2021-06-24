@@ -1,0 +1,272 @@
+<!--Units of mass.-->
+<concept name="gram [Entity] (base mass unit)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+</concept>
+
+<concept name="g [Entity] (base mass unit)">
+<attr obj="gram [Entity] (base mass unit)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctogram [Entity] (mass unit equal to 0.000000000000000000000001 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptogram [Entity] (mass unit equal to 0.000000000000000000001 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attogram [Entity] (mass unit equal to 0.000000000000000001 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtogram [Entity] (mass unit equal to 0.000000000000001 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picogram [Entity] (mass unit equal to 0.000000000001 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanogram [Entity] (mass unit equal to 0.000000001 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microgram [Entity] (mass unit equal to 0.000001 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="milligram [Entity] (mass unit equal to 0.001 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centigram [Entity] (mass unit equal to 0.01 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decigram [Entity] (mass unit equal to 0.1 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decagram [Entity] (mass unit equal to 10 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectogram [Entity] (mass unit equal to 100 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilogram [Entity] (mass unit equal to 1000 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megagram [Entity] (mass unit equal to 1000000 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigagram [Entity] (mass unit equal to 1000000000 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="teragram [Entity] (mass unit equal to 1000000000000 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petagram [Entity] (mass unit equal to 1000000000000000 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exagram [Entity] (mass unit equal to 1000000000000000000 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettagram [Entity] (mass unit equal to 1000000000000000000000 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottagram [Entity] (mass unit equal to 1000000000000000000000000 gram)">
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="yg [Entity] (mass unit equal to 0.000000000000000000000001 gram)">
+<attr obj="yoctogram [Entity] (mass unit equal to 0.000000000000000000000001 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zg [Entity] (mass unit equal to 0.000000000000000000001 gram)">
+<attr obj="zeptogram [Entity] (mass unit equal to 0.000000000000000000001 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="ag [Entity] (mass unit equal to 0.000000000000000001 gram)">
+<attr obj="attogram [Entity] (mass unit equal to 0.000000000000000001 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fg [Entity] (mass unit equal to 0.000000000000001 gram)">
+<attr obj="femtogram [Entity] (mass unit equal to 0.000000000000001 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pg [Entity] (mass unit equal to 0.000000000001 gram)">
+<attr obj="picogram [Entity] (mass unit equal to 0.000000000001 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="ng [Entity] (mass unit equal to 0.000000001 gram)">
+<attr obj="nanogram [Entity] (mass unit equal to 0.000000001 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µg [Entity] (mass unit equal to 0.000001 gram)">
+<attr obj="microgram [Entity] (mass unit equal to 0.000001 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mg [Entity] (mass unit equal to 0.001 gram)">
+<attr obj="milligram [Entity] (mass unit equal to 0.001 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cg [Entity] (mass unit equal to 0.01 gram)">
+<attr obj="centigram [Entity] (mass unit equal to 0.01 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dg [Entity] (mass unit equal to 0.1 gram)">
+<attr obj="decigram [Entity] (mass unit equal to 0.1 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="dag [Entity] (mass unit equal to 10 gram)">
+<attr obj="decagram [Entity] (mass unit equal to 10 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hg [Entity] (mass unit equal to 100 gram)">
+<attr obj="hectogram [Entity] (mass unit equal to 100 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kg [Entity] (mass unit equal to 1000 gram)">
+<attr obj="kilogram [Entity] (mass unit equal to 1000 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="Mg [Entity] (mass unit equal to 1000000 gram)">
+<attr obj="megagram [Entity] (mass unit equal to 1000000 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="Gg [Entity] (mass unit equal to 1000000000 gram)">
+<attr obj="gigagram [Entity] (mass unit equal to 1000000000 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="Tg [Entity] (mass unit equal to 1000000000000 gram)">
+<attr obj="teragram [Entity] (mass unit equal to 1000000000000 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="Pg [Entity] (mass unit equal to 1000000000000000 gram)">
+<attr obj="petagram [Entity] (mass unit equal to 1000000000000000 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="Eg [Entity] (mass unit equal to 1000000000000000000 gram)">
+<attr obj="exagram [Entity] (mass unit equal to 1000000000000000000 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="Zg [Entity] (mass unit equal to 1000000000000000000000 gram)">
+<attr obj="zettagram [Entity] (mass unit equal to 1000000000000000000000 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="Yg [Entity] (mass unit equal to 1000000000000000000000000 gram)">
+<attr obj="yottagram [Entity] (mass unit equal to 1000000000000000000000000 gram)" rel="equivalence of concepts"/>
+<attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+

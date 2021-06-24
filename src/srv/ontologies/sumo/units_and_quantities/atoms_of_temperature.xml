@@ -1,0 +1,169 @@
+<!--atoms of units of temperature.-->
+<concept name="kelvin [Entity]">
+<attr obj="kelvin [Entity] (base temperature unit)" rel="Coding"/>
+</concept>
+
+<concept name="K [Entity]">
+<attr obj="K [Entity] (base temperature unit)" rel="Coding"/>
+</concept>
+
+<concept name="yoctokelvin [Entity]">
+<attr obj="yoctokelvin [Entity] (temperature unit equal to 0.000000000000000000000001 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="zeptokelvin [Entity]">
+<attr obj="zeptokelvin [Entity] (temperature unit equal to 0.000000000000000000001 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="attokelvin [Entity]">
+<attr obj="attokelvin [Entity] (temperature unit equal to 0.000000000000000001 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="femtokelvin [Entity]">
+<attr obj="femtokelvin [Entity] (temperature unit equal to 0.000000000000001 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="picokelvin [Entity]">
+<attr obj="picokelvin [Entity] (temperature unit equal to 0.000000000001 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="nanokelvin [Entity]">
+<attr obj="nanokelvin [Entity] (temperature unit equal to 0.000000001 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="microkelvin [Entity]">
+<attr obj="microkelvin [Entity] (temperature unit equal to 0.000001 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="millikelvin [Entity]">
+<attr obj="millikelvin [Entity] (temperature unit equal to 0.001 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="centikelvin [Entity]">
+<attr obj="centikelvin [Entity] (temperature unit equal to 0.01 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="decikelvin [Entity]">
+<attr obj="decikelvin [Entity] (temperature unit equal to 0.1 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="decakelvin [Entity]">
+<attr obj="decakelvin [Entity] (temperature unit equal to 10 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="hectokelvin [Entity]">
+<attr obj="hectokelvin [Entity] (temperature unit equal to 100 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="kilokelvin [Entity]">
+<attr obj="kilokelvin [Entity] (temperature unit equal to 1000 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="megakelvin [Entity]">
+<attr obj="megakelvin [Entity] (temperature unit equal to 1000000 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="gigakelvin [Entity]">
+<attr obj="gigakelvin [Entity] (temperature unit equal to 1000000000 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="terakelvin [Entity]">
+<attr obj="terakelvin [Entity] (temperature unit equal to 1000000000000 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="petakelvin [Entity]">
+<attr obj="petakelvin [Entity] (temperature unit equal to 1000000000000000 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="exakelvin [Entity]">
+<attr obj="exakelvin [Entity] (temperature unit equal to 1000000000000000000 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="zettakelvin [Entity]">
+<attr obj="zettakelvin [Entity] (temperature unit equal to 1000000000000000000000 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="yottakelvin [Entity]">
+<attr obj="yottakelvin [Entity] (temperature unit equal to 1000000000000000000000000 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="yK [Entity]">
+<attr obj="yK [Entity] (temperature unit equal to 0.000000000000000000000001 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="zK [Entity]">
+<attr obj="zK [Entity] (temperature unit equal to 0.000000000000000000001 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="aK [Entity]">
+<attr obj="aK [Entity] (temperature unit equal to 0.000000000000000001 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="fK [Entity]">
+<attr obj="fK [Entity] (temperature unit equal to 0.000000000000001 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="pK [Entity]">
+<attr obj="pK [Entity] (temperature unit equal to 0.000000000001 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="nK [Entity]">
+<attr obj="nK [Entity] (temperature unit equal to 0.000000001 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="µK [Entity]">
+<attr obj="µK [Entity] (temperature unit equal to 0.000001 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="mK [Entity]">
+<attr obj="mK [Entity] (temperature unit equal to 0.001 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="cK [Entity]">
+<attr obj="cK [Entity] (temperature unit equal to 0.01 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="dK [Entity]">
+<attr obj="dK [Entity] (temperature unit equal to 0.1 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="daK [Entity]">
+<attr obj="daK [Entity] (temperature unit equal to 10 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="hK [Entity]">
+<attr obj="hK [Entity] (temperature unit equal to 100 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="kK [Entity]">
+<attr obj="kK [Entity] (temperature unit equal to 1000 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="MK [Entity]">
+<attr obj="MK [Entity] (temperature unit equal to 1000000 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="GK [Entity]">
+<attr obj="GK [Entity] (temperature unit equal to 1000000000 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="TK [Entity]">
+<attr obj="TK [Entity] (temperature unit equal to 1000000000000 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="PK [Entity]">
+<attr obj="PK [Entity] (temperature unit equal to 1000000000000000 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="EK [Entity]">
+<attr obj="EK [Entity] (temperature unit equal to 1000000000000000000 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="ZK [Entity]">
+<attr obj="ZK [Entity] (temperature unit equal to 1000000000000000000000 kelvin)" rel="Coding"/>
+</concept>
+
+<concept name="YK [Entity]">
+<attr obj="YK [Entity] (temperature unit equal to 1000000000000000000000000 kelvin)" rel="Coding"/>
+</concept>
+

@@ -1,0 +1,168 @@
+<!--atoms of units of luminosity intensity.-->
+<concept name="candela [Entity]">
+<attr obj="candela [Entity] (base luminosity intensity unit)" rel="Coding"/>
+</concept>
+
+<concept name="cd [Entity]">
+<attr obj="cd [Entity] (base luminosity intensity unit)" rel="Coding"/>
+</concept>
+
+<concept name="yoctocandela [Entity]">
+<attr obj="yoctocandela [Entity] (luminosity intensity unit equal to 0.000000000000000000000001 candela)" rel="Coding"/>
+</concept>
+
+<concept name="zeptocandela [Entity]">
+<attr obj="zeptocandela [Entity] (luminosity intensity unit equal to 0.000000000000000000001 candela)" rel="Coding"/>
+</concept>
+
+<concept name="attocandela [Entity]">
+<attr obj="attocandela [Entity] (luminosity intensity unit equal to 0.000000000000000001 candela)" rel="Coding"/>
+</concept>
+
+<concept name="femtocandela [Entity]">
+<attr obj="femtocandela [Entity] (luminosity intensity unit equal to 0.000000000000001 candela)" rel="Coding"/>
+</concept>
+
+<concept name="picocandela [Entity]">
+<attr obj="picocandela [Entity] (luminosity intensity unit equal to 0.000000000001 candela)" rel="Coding"/>
+</concept>
+
+<concept name="nanocandela [Entity]">
+<attr obj="nanocandela [Entity] (luminosity intensity unit equal to 0.000000001 candela)" rel="Coding"/>
+</concept>
+
+<concept name="microcandela [Entity]">
+<attr obj="microcandela [Entity] (luminosity intensity unit equal to 0.000001 candela)" rel="Coding"/>
+</concept>
+
+<concept name="millicandela [Entity]">
+<attr obj="millicandela [Entity] (luminosity intensity unit equal to 0.001 candela)" rel="Coding"/>
+</concept>
+
+<concept name="centicandela [Entity]">
+<attr obj="centicandela [Entity] (luminosity intensity unit equal to 0.01 candela)" rel="Coding"/>
+</concept>
+
+<concept name="decicandela [Entity]">
+<attr obj="decicandela [Entity] (luminosity intensity unit equal to 0.1 candela)" rel="Coding"/>
+</concept>
+
+<concept name="decacandela [Entity]">
+<attr obj="decacandela [Entity] (luminosity intensity unit equal to 10 candela)" rel="Coding"/>
+</concept>
+
+<concept name="hectocandela [Entity]">
+<attr obj="hectocandela [Entity] (luminosity intensity unit equal to 100 candela)" rel="Coding"/>
+</concept>
+
+<concept name="kilocandela [Entity]">
+<attr obj="kilocandela [Entity] (luminosity intensity unit equal to 1000 candela)" rel="Coding"/>
+</concept>
+
+<concept name="megacandela [Entity]">
+<attr obj="megacandela [Entity] (luminosity intensity unit equal to 1000000 candela)" rel="Coding"/>
+</concept>
+
+<concept name="gigacandela [Entity]">
+<attr obj="gigacandela [Entity] (luminosity intensity unit equal to 1000000000 candela)" rel="Coding"/>
+</concept>
+
+<concept name="teracandela [Entity]">
+<attr obj="teracandela [Entity] (luminosity intensity unit equal to 1000000000000 candela)" rel="Coding"/>
+</concept>
+
+<concept name="petacandela [Entity]">
+<attr obj="petacandela [Entity] (luminosity intensity unit equal to 1000000000000000 candela)" rel="Coding"/>
+</concept>
+
+<concept name="exacandela [Entity]">
+<attr obj="exacandela [Entity] (luminosity intensity unit equal to 1000000000000000000 candela)" rel="Coding"/>
+</concept>
+
+<concept name="zettacandela [Entity]">
+<attr obj="zettacandela [Entity] (luminosity intensity unit equal to 1000000000000000000000 candela)" rel="Coding"/>
+</concept>
+
+<concept name="yottacandela [Entity]">
+<attr obj="yottacandela [Entity] (luminosity intensity unit equal to 1000000000000000000000000 candela)" rel="Coding"/>
+</concept>
+
+<concept name="ycd [Entity]">
+<attr obj="ycd [Entity] (luminosity intensity unit equal to 0.000000000000000000000001 candela)" rel="Coding"/>
+</concept>
+
+<concept name="zcd [Entity]">
+<attr obj="zcd [Entity] (luminosity intensity unit equal to 0.000000000000000000001 candela)" rel="Coding"/>
+</concept>
+
+<concept name="acd [Entity]">
+<attr obj="acd [Entity] (luminosity intensity unit equal to 0.000000000000000001 candela)" rel="Coding"/>
+</concept>
+
+<concept name="fcd [Entity]">
+<attr obj="fcd [Entity] (luminosity intensity unit equal to 0.000000000000001 candela)" rel="Coding"/>
+</concept>
+
+<concept name="pcd [Entity]">
+<attr obj="pcd [Entity] (luminosity intensity unit equal to 0.000000000001 candela)" rel="Coding"/>
+</concept>
+
+<concept name="ncd [Entity]">
+<attr obj="ncd [Entity] (luminosity intensity unit equal to 0.000000001 candela)" rel="Coding"/>
+</concept>
+
+<concept name="µcd [Entity]">
+<attr obj="µcd [Entity] (luminosity intensity unit equal to 0.000001 candela)" rel="Coding"/>
+</concept>
+
+<concept name="mcd [Entity]">
+<attr obj="mcd [Entity] (luminosity intensity unit equal to 0.001 candela)" rel="Coding"/>
+</concept>
+
+<concept name="ccd [Entity]">
+<attr obj="ccd [Entity] (luminosity intensity unit equal to 0.01 candela)" rel="Coding"/>
+</concept>
+
+<concept name="dcd [Entity]">
+<attr obj="dcd [Entity] (luminosity intensity unit equal to 0.1 candela)" rel="Coding"/>
+</concept>
+
+<concept name="dacd [Entity]">
+<attr obj="dacd [Entity] (luminosity intensity unit equal to 10 candela)" rel="Coding"/>
+</concept>
+
+<concept name="hcd [Entity]">
+<attr obj="hcd [Entity] (luminosity intensity unit equal to 100 candela)" rel="Coding"/>
+</concept>
+
+<concept name="kcd [Entity]">
+<attr obj="kcd [Entity] (luminosity intensity unit equal to 1000 candela)" rel="Coding"/>
+</concept>
+
+<concept name="Mcd [Entity]">
+<attr obj="Mcd [Entity] (luminosity intensity unit equal to 1000000 candela)" rel="Coding"/>
+</concept>
+
+<concept name="Gcd [Entity]">
+<attr obj="Gcd [Entity] (luminosity intensity unit equal to 1000000000 candela)" rel="Coding"/>
+</concept>
+
+<concept name="Tcd [Entity]">
+<attr obj="Tcd [Entity] (luminosity intensity unit equal to 1000000000000 candela)" rel="Coding"/>
+</concept>
+
+<concept name="Pcd [Entity]">
+<attr obj="Pcd [Entity] (luminosity intensity unit equal to 1000000000000000 candela)" rel="Coding"/>
+</concept>
+
+<concept name="Ecd [Entity]">
+<attr obj="Ecd [Entity] (luminosity intensity unit equal to 1000000000000000000 candela)" rel="Coding"/>
+</concept>
+
+<concept name="Zcd [Entity]">
+<attr obj="Zcd [Entity] (luminosity intensity unit equal to 1000000000000000000000 candela)" rel="Coding"/>
+</concept>
+
+<concept name="Ycd [Entity]">
+<attr obj="Ycd [Entity] (luminosity intensity unit equal to 1000000000000000000000000 candela)" rel="Coding"/>
+</concept>

@@ -1,0 +1,169 @@
+<!--atoms of units of electric current.-->
+<concept name="ampere [Entity]">
+<attr obj="ampere [Entity] (base electric current unit)" rel="Coding"/>
+</concept>
+
+<concept name="A [Entity]">
+<attr obj="A [Entity] (base electric current unit)" rel="Coding"/>
+</concept>
+
+<concept name="yoctoampere [Entity]">
+<attr obj="yoctoampere [Entity] (electric current unit equal to 0.000000000000000000000001 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="zeptoampere [Entity]">
+<attr obj="zeptoampere [Entity] (electric current unit equal to 0.000000000000000000001 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="attoampere [Entity]">
+<attr obj="attoampere [Entity] (electric current unit equal to 0.000000000000000001 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="femtoampere [Entity]">
+<attr obj="femtoampere [Entity] (electric current unit equal to 0.000000000000001 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="picoampere [Entity]">
+<attr obj="picoampere [Entity] (electric current unit equal to 0.000000000001 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="nanoampere [Entity]">
+<attr obj="nanoampere [Entity] (electric current unit equal to 0.000000001 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="microampere [Entity]">
+<attr obj="microampere [Entity] (electric current unit equal to 0.000001 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="milliampere [Entity]">
+<attr obj="milliampere [Entity] (electric current unit equal to 0.001 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="centiampere [Entity]">
+<attr obj="centiampere [Entity] (electric current unit equal to 0.01 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="deciampere [Entity]">
+<attr obj="deciampere [Entity] (electric current unit equal to 0.1 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="decaampere [Entity]">
+<attr obj="decaampere [Entity] (electric current unit equal to 10 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="hectoampere [Entity]">
+<attr obj="hectoampere [Entity] (electric current unit equal to 100 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="kiloampere [Entity]">
+<attr obj="kiloampere [Entity] (electric current unit equal to 1000 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="megaampere [Entity]">
+<attr obj="megaampere [Entity] (electric current unit equal to 1000000 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="gigaampere [Entity]">
+<attr obj="gigaampere [Entity] (electric current unit equal to 1000000000 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="teraampere [Entity]">
+<attr obj="teraampere [Entity] (electric current unit equal to 1000000000000 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="petaampere [Entity]">
+<attr obj="petaampere [Entity] (electric current unit equal to 1000000000000000 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="exaampere [Entity]">
+<attr obj="exaampere [Entity] (electric current unit equal to 1000000000000000000 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="zettaampere [Entity]">
+<attr obj="zettaampere [Entity] (electric current unit equal to 1000000000000000000000 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="yottaampere [Entity]">
+<attr obj="yottaampere [Entity] (electric current unit equal to 1000000000000000000000000 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="yA [Entity]">
+<attr obj="yA [Entity] (electric current unit equal to 0.000000000000000000000001 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="zA [Entity]">
+<attr obj="zA [Entity] (electric current unit equal to 0.000000000000000000001 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="aA [Entity]">
+<attr obj="aA [Entity] (electric current unit equal to 0.000000000000000001 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="fA [Entity]">
+<attr obj="fA [Entity] (electric current unit equal to 0.000000000000001 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="pA [Entity]">
+<attr obj="pA [Entity] (electric current unit equal to 0.000000000001 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="nA [Entity]">
+<attr obj="nA [Entity] (electric current unit equal to 0.000000001 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="µA [Entity]">
+<attr obj="µA [Entity] (electric current unit equal to 0.000001 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="mA [Entity]">
+<attr obj="mA [Entity] (electric current unit equal to 0.001 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="cA [Entity]">
+<attr obj="cA [Entity] (electric current unit equal to 0.01 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="dA [Entity]">
+<attr obj="dA [Entity] (electric current unit equal to 0.1 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="daA [Entity]">
+<attr obj="daA [Entity] (electric current unit equal to 10 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="hA [Entity]">
+<attr obj="hA [Entity] (electric current unit equal to 100 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="kA [Entity]">
+<attr obj="kA [Entity] (electric current unit equal to 1000 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="MA [Entity]">
+<attr obj="MA [Entity] (electric current unit equal to 1000000 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="GA [Entity]">
+<attr obj="GA [Entity] (electric current unit equal to 1000000000 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="TA [Entity]">
+<attr obj="TA [Entity] (electric current unit equal to 1000000000000 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="PA [Entity]">
+<attr obj="PA [Entity] (electric current unit equal to 1000000000000000 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="EA [Entity]">
+<attr obj="EA [Entity] (electric current unit equal to 1000000000000000000 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="ZA [Entity]">
+<attr obj="ZA [Entity] (electric current unit equal to 1000000000000000000000 ampere)" rel="Coding"/>
+</concept>
+
+<concept name="YA [Entity]">
+<attr obj="YA [Entity] (electric current unit equal to 1000000000000000000000000 ampere)" rel="Coding"/>
+</concept>
+

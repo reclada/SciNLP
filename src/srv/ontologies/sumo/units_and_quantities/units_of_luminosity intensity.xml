@@ -1,0 +1,272 @@
+<!--Units of luminosity intensity.-->
+<concept name="candela [Entity] (base luminosity intensity unit)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+</concept>
+
+<concept name="cd [Entity] (base luminosity intensity unit)">
+<attr obj="candela [Entity] (base luminosity intensity unit)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctocandela [Entity] (luminosity intensity unit equal to 0.000000000000000000000001 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptocandela [Entity] (luminosity intensity unit equal to 0.000000000000000000001 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attocandela [Entity] (luminosity intensity unit equal to 0.000000000000000001 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtocandela [Entity] (luminosity intensity unit equal to 0.000000000000001 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picocandela [Entity] (luminosity intensity unit equal to 0.000000000001 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanocandela [Entity] (luminosity intensity unit equal to 0.000000001 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microcandela [Entity] (luminosity intensity unit equal to 0.000001 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millicandela [Entity] (luminosity intensity unit equal to 0.001 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centicandela [Entity] (luminosity intensity unit equal to 0.01 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decicandela [Entity] (luminosity intensity unit equal to 0.1 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decacandela [Entity] (luminosity intensity unit equal to 10 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectocandela [Entity] (luminosity intensity unit equal to 100 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilocandela [Entity] (luminosity intensity unit equal to 1000 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megacandela [Entity] (luminosity intensity unit equal to 1000000 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigacandela [Entity] (luminosity intensity unit equal to 1000000000 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="teracandela [Entity] (luminosity intensity unit equal to 1000000000000 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petacandela [Entity] (luminosity intensity unit equal to 1000000000000000 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exacandela [Entity] (luminosity intensity unit equal to 1000000000000000000 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettacandela [Entity] (luminosity intensity unit equal to 1000000000000000000000 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottacandela [Entity] (luminosity intensity unit equal to 1000000000000000000000000 candela)">
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="ycd [Entity] (luminosity intensity unit equal to 0.000000000000000000000001 candela)">
+<attr obj="yoctocandela [Entity] (luminosity intensity unit equal to 0.000000000000000000000001 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zcd [Entity] (luminosity intensity unit equal to 0.000000000000000000001 candela)">
+<attr obj="zeptocandela [Entity] (luminosity intensity unit equal to 0.000000000000000000001 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="acd [Entity] (luminosity intensity unit equal to 0.000000000000000001 candela)">
+<attr obj="attocandela [Entity] (luminosity intensity unit equal to 0.000000000000000001 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fcd [Entity] (luminosity intensity unit equal to 0.000000000000001 candela)">
+<attr obj="femtocandela [Entity] (luminosity intensity unit equal to 0.000000000000001 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pcd [Entity] (luminosity intensity unit equal to 0.000000000001 candela)">
+<attr obj="picocandela [Entity] (luminosity intensity unit equal to 0.000000000001 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="ncd [Entity] (luminosity intensity unit equal to 0.000000001 candela)">
+<attr obj="nanocandela [Entity] (luminosity intensity unit equal to 0.000000001 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µcd [Entity] (luminosity intensity unit equal to 0.000001 candela)">
+<attr obj="microcandela [Entity] (luminosity intensity unit equal to 0.000001 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mcd [Entity] (luminosity intensity unit equal to 0.001 candela)">
+<attr obj="millicandela [Entity] (luminosity intensity unit equal to 0.001 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="ccd [Entity] (luminosity intensity unit equal to 0.01 candela)">
+<attr obj="centicandela [Entity] (luminosity intensity unit equal to 0.01 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dcd [Entity] (luminosity intensity unit equal to 0.1 candela)">
+<attr obj="decicandela [Entity] (luminosity intensity unit equal to 0.1 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="dacd [Entity] (luminosity intensity unit equal to 10 candela)">
+<attr obj="decacandela [Entity] (luminosity intensity unit equal to 10 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hcd [Entity] (luminosity intensity unit equal to 100 candela)">
+<attr obj="hectocandela [Entity] (luminosity intensity unit equal to 100 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kcd [Entity] (luminosity intensity unit equal to 1000 candela)">
+<attr obj="kilocandela [Entity] (luminosity intensity unit equal to 1000 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="Mcd [Entity] (luminosity intensity unit equal to 1000000 candela)">
+<attr obj="megacandela [Entity] (luminosity intensity unit equal to 1000000 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="Gcd [Entity] (luminosity intensity unit equal to 1000000000 candela)">
+<attr obj="gigacandela [Entity] (luminosity intensity unit equal to 1000000000 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="Tcd [Entity] (luminosity intensity unit equal to 1000000000000 candela)">
+<attr obj="teracandela [Entity] (luminosity intensity unit equal to 1000000000000 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="Pcd [Entity] (luminosity intensity unit equal to 1000000000000000 candela)">
+<attr obj="petacandela [Entity] (luminosity intensity unit equal to 1000000000000000 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="Ecd [Entity] (luminosity intensity unit equal to 1000000000000000000 candela)">
+<attr obj="exacandela [Entity] (luminosity intensity unit equal to 1000000000000000000 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="Zcd [Entity] (luminosity intensity unit equal to 1000000000000000000000 candela)">
+<attr obj="zettacandela [Entity] (luminosity intensity unit equal to 1000000000000000000000 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="Ycd [Entity] (luminosity intensity unit equal to 1000000000000000000000000 candela)">
+<attr obj="yottacandela [Entity] (luminosity intensity unit equal to 1000000000000000000000000 candela)" rel="equivalence of concepts"/>
+<attr obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="candela [Entity] (base luminosity intensity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+

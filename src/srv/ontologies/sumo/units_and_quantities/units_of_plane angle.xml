@@ -1,0 +1,272 @@
+<!--Units of plane angle.-->
+<concept name="radian [Entity] (base plane angle unit)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+</concept>
+
+<concept name="rad [Entity] (base plane angle unit)">
+<attr obj="radian [Entity] (base plane angle unit)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctoradian [Entity] (plane angle unit equal to 0.000000000000000000000001 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptoradian [Entity] (plane angle unit equal to 0.000000000000000000001 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attoradian [Entity] (plane angle unit equal to 0.000000000000000001 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtoradian [Entity] (plane angle unit equal to 0.000000000000001 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picoradian [Entity] (plane angle unit equal to 0.000000000001 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanoradian [Entity] (plane angle unit equal to 0.000000001 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microradian [Entity] (plane angle unit equal to 0.000001 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="milliradian [Entity] (plane angle unit equal to 0.001 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centiradian [Entity] (plane angle unit equal to 0.01 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="deciradian [Entity] (plane angle unit equal to 0.1 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decaradian [Entity] (plane angle unit equal to 10 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectoradian [Entity] (plane angle unit equal to 100 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kiloradian [Entity] (plane angle unit equal to 1000 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megaradian [Entity] (plane angle unit equal to 1000000 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigaradian [Entity] (plane angle unit equal to 1000000000 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="teraradian [Entity] (plane angle unit equal to 1000000000000 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petaradian [Entity] (plane angle unit equal to 1000000000000000 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exaradian [Entity] (plane angle unit equal to 1000000000000000000 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettaradian [Entity] (plane angle unit equal to 1000000000000000000000 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottaradian [Entity] (plane angle unit equal to 1000000000000000000000000 radian)">
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="yrad [Entity] (plane angle unit equal to 0.000000000000000000000001 radian)">
+<attr obj="yoctoradian [Entity] (plane angle unit equal to 0.000000000000000000000001 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zrad [Entity] (plane angle unit equal to 0.000000000000000000001 radian)">
+<attr obj="zeptoradian [Entity] (plane angle unit equal to 0.000000000000000000001 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="arad [Entity] (plane angle unit equal to 0.000000000000000001 radian)">
+<attr obj="attoradian [Entity] (plane angle unit equal to 0.000000000000000001 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="frad [Entity] (plane angle unit equal to 0.000000000000001 radian)">
+<attr obj="femtoradian [Entity] (plane angle unit equal to 0.000000000000001 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="prad [Entity] (plane angle unit equal to 0.000000000001 radian)">
+<attr obj="picoradian [Entity] (plane angle unit equal to 0.000000000001 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nrad [Entity] (plane angle unit equal to 0.000000001 radian)">
+<attr obj="nanoradian [Entity] (plane angle unit equal to 0.000000001 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µrad [Entity] (plane angle unit equal to 0.000001 radian)">
+<attr obj="microradian [Entity] (plane angle unit equal to 0.000001 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mrad [Entity] (plane angle unit equal to 0.001 radian)">
+<attr obj="milliradian [Entity] (plane angle unit equal to 0.001 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="crad [Entity] (plane angle unit equal to 0.01 radian)">
+<attr obj="centiradian [Entity] (plane angle unit equal to 0.01 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="drad [Entity] (plane angle unit equal to 0.1 radian)">
+<attr obj="deciradian [Entity] (plane angle unit equal to 0.1 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="darad [Entity] (plane angle unit equal to 10 radian)">
+<attr obj="decaradian [Entity] (plane angle unit equal to 10 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hrad [Entity] (plane angle unit equal to 100 radian)">
+<attr obj="hectoradian [Entity] (plane angle unit equal to 100 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="krad [Entity] (plane angle unit equal to 1000 radian)">
+<attr obj="kiloradian [Entity] (plane angle unit equal to 1000 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="Mrad [Entity] (plane angle unit equal to 1000000 radian)">
+<attr obj="megaradian [Entity] (plane angle unit equal to 1000000 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="Grad [Entity] (plane angle unit equal to 1000000000 radian)">
+<attr obj="gigaradian [Entity] (plane angle unit equal to 1000000000 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="Trad [Entity] (plane angle unit equal to 1000000000000 radian)">
+<attr obj="teraradian [Entity] (plane angle unit equal to 1000000000000 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="Prad [Entity] (plane angle unit equal to 1000000000000000 radian)">
+<attr obj="petaradian [Entity] (plane angle unit equal to 1000000000000000 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="Erad [Entity] (plane angle unit equal to 1000000000000000000 radian)">
+<attr obj="exaradian [Entity] (plane angle unit equal to 1000000000000000000 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="Zrad [Entity] (plane angle unit equal to 1000000000000000000000 radian)">
+<attr obj="zettaradian [Entity] (plane angle unit equal to 1000000000000000000000 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="Yrad [Entity] (plane angle unit equal to 1000000000000000000000000 radian)">
+<attr obj="yottaradian [Entity] (plane angle unit equal to 1000000000000000000000000 radian)" rel="equivalence of concepts"/>
+<attr obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="radian [Entity] (base plane angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+

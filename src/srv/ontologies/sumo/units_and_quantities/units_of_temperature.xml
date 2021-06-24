@@ -1,0 +1,272 @@
+<!--Units of temperature.-->
+<concept name="kelvin [Entity] (base temperature unit)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+</concept>
+
+<concept name="K [Entity] (base temperature unit)">
+<attr obj="kelvin [Entity] (base temperature unit)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctokelvin [Entity] (temperature unit equal to 0.000000000000000000000001 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptokelvin [Entity] (temperature unit equal to 0.000000000000000000001 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attokelvin [Entity] (temperature unit equal to 0.000000000000000001 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtokelvin [Entity] (temperature unit equal to 0.000000000000001 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picokelvin [Entity] (temperature unit equal to 0.000000000001 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanokelvin [Entity] (temperature unit equal to 0.000000001 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microkelvin [Entity] (temperature unit equal to 0.000001 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millikelvin [Entity] (temperature unit equal to 0.001 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centikelvin [Entity] (temperature unit equal to 0.01 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decikelvin [Entity] (temperature unit equal to 0.1 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decakelvin [Entity] (temperature unit equal to 10 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectokelvin [Entity] (temperature unit equal to 100 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilokelvin [Entity] (temperature unit equal to 1000 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megakelvin [Entity] (temperature unit equal to 1000000 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigakelvin [Entity] (temperature unit equal to 1000000000 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="terakelvin [Entity] (temperature unit equal to 1000000000000 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petakelvin [Entity] (temperature unit equal to 1000000000000000 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exakelvin [Entity] (temperature unit equal to 1000000000000000000 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettakelvin [Entity] (temperature unit equal to 1000000000000000000000 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottakelvin [Entity] (temperature unit equal to 1000000000000000000000000 kelvin)">
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="yK [Entity] (temperature unit equal to 0.000000000000000000000001 kelvin)">
+<attr obj="yoctokelvin [Entity] (temperature unit equal to 0.000000000000000000000001 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zK [Entity] (temperature unit equal to 0.000000000000000000001 kelvin)">
+<attr obj="zeptokelvin [Entity] (temperature unit equal to 0.000000000000000000001 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="aK [Entity] (temperature unit equal to 0.000000000000000001 kelvin)">
+<attr obj="attokelvin [Entity] (temperature unit equal to 0.000000000000000001 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fK [Entity] (temperature unit equal to 0.000000000000001 kelvin)">
+<attr obj="femtokelvin [Entity] (temperature unit equal to 0.000000000000001 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pK [Entity] (temperature unit equal to 0.000000000001 kelvin)">
+<attr obj="picokelvin [Entity] (temperature unit equal to 0.000000000001 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nK [Entity] (temperature unit equal to 0.000000001 kelvin)">
+<attr obj="nanokelvin [Entity] (temperature unit equal to 0.000000001 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µK [Entity] (temperature unit equal to 0.000001 kelvin)">
+<attr obj="microkelvin [Entity] (temperature unit equal to 0.000001 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mK [Entity] (temperature unit equal to 0.001 kelvin)">
+<attr obj="millikelvin [Entity] (temperature unit equal to 0.001 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cK [Entity] (temperature unit equal to 0.01 kelvin)">
+<attr obj="centikelvin [Entity] (temperature unit equal to 0.01 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dK [Entity] (temperature unit equal to 0.1 kelvin)">
+<attr obj="decikelvin [Entity] (temperature unit equal to 0.1 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="daK [Entity] (temperature unit equal to 10 kelvin)">
+<attr obj="decakelvin [Entity] (temperature unit equal to 10 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hK [Entity] (temperature unit equal to 100 kelvin)">
+<attr obj="hectokelvin [Entity] (temperature unit equal to 100 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kK [Entity] (temperature unit equal to 1000 kelvin)">
+<attr obj="kilokelvin [Entity] (temperature unit equal to 1000 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="MK [Entity] (temperature unit equal to 1000000 kelvin)">
+<attr obj="megakelvin [Entity] (temperature unit equal to 1000000 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="GK [Entity] (temperature unit equal to 1000000000 kelvin)">
+<attr obj="gigakelvin [Entity] (temperature unit equal to 1000000000 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="TK [Entity] (temperature unit equal to 1000000000000 kelvin)">
+<attr obj="terakelvin [Entity] (temperature unit equal to 1000000000000 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="PK [Entity] (temperature unit equal to 1000000000000000 kelvin)">
+<attr obj="petakelvin [Entity] (temperature unit equal to 1000000000000000 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="EK [Entity] (temperature unit equal to 1000000000000000000 kelvin)">
+<attr obj="exakelvin [Entity] (temperature unit equal to 1000000000000000000 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="ZK [Entity] (temperature unit equal to 1000000000000000000000 kelvin)">
+<attr obj="zettakelvin [Entity] (temperature unit equal to 1000000000000000000000 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="YK [Entity] (temperature unit equal to 1000000000000000000000000 kelvin)">
+<attr obj="yottakelvin [Entity] (temperature unit equal to 1000000000000000000000000 kelvin)" rel="equivalence of concepts"/>
+<attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="kelvin [Entity] (base temperature unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+

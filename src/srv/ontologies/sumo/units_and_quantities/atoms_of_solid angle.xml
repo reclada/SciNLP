@@ -1,0 +1,169 @@
+<!--atoms of units of solid angle.-->
+<concept name="steradian [Entity]">
+<attr obj="steradian [Entity] (base solid angle unit)" rel="Coding"/>
+</concept>
+
+<concept name="sr [Entity]">
+<attr obj="sr [Entity] (base solid angle unit)" rel="Coding"/>
+</concept>
+
+<concept name="yoctosteradian [Entity]">
+<attr obj="yoctosteradian [Entity] (solid angle unit equal to 0.000000000000000000000001 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="zeptosteradian [Entity]">
+<attr obj="zeptosteradian [Entity] (solid angle unit equal to 0.000000000000000000001 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="attosteradian [Entity]">
+<attr obj="attosteradian [Entity] (solid angle unit equal to 0.000000000000000001 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="femtosteradian [Entity]">
+<attr obj="femtosteradian [Entity] (solid angle unit equal to 0.000000000000001 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="picosteradian [Entity]">
+<attr obj="picosteradian [Entity] (solid angle unit equal to 0.000000000001 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="nanosteradian [Entity]">
+<attr obj="nanosteradian [Entity] (solid angle unit equal to 0.000000001 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="microsteradian [Entity]">
+<attr obj="microsteradian [Entity] (solid angle unit equal to 0.000001 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="millisteradian [Entity]">
+<attr obj="millisteradian [Entity] (solid angle unit equal to 0.001 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="centisteradian [Entity]">
+<attr obj="centisteradian [Entity] (solid angle unit equal to 0.01 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="decisteradian [Entity]">
+<attr obj="decisteradian [Entity] (solid angle unit equal to 0.1 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="decasteradian [Entity]">
+<attr obj="decasteradian [Entity] (solid angle unit equal to 10 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="hectosteradian [Entity]">
+<attr obj="hectosteradian [Entity] (solid angle unit equal to 100 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="kilosteradian [Entity]">
+<attr obj="kilosteradian [Entity] (solid angle unit equal to 1000 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="megasteradian [Entity]">
+<attr obj="megasteradian [Entity] (solid angle unit equal to 1000000 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="gigasteradian [Entity]">
+<attr obj="gigasteradian [Entity] (solid angle unit equal to 1000000000 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="terasteradian [Entity]">
+<attr obj="terasteradian [Entity] (solid angle unit equal to 1000000000000 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="petasteradian [Entity]">
+<attr obj="petasteradian [Entity] (solid angle unit equal to 1000000000000000 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="exasteradian [Entity]">
+<attr obj="exasteradian [Entity] (solid angle unit equal to 1000000000000000000 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="zettasteradian [Entity]">
+<attr obj="zettasteradian [Entity] (solid angle unit equal to 1000000000000000000000 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="yottasteradian [Entity]">
+<attr obj="yottasteradian [Entity] (solid angle unit equal to 1000000000000000000000000 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="ysr [Entity]">
+<attr obj="ysr [Entity] (solid angle unit equal to 0.000000000000000000000001 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="zsr [Entity]">
+<attr obj="zsr [Entity] (solid angle unit equal to 0.000000000000000000001 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="asr [Entity]">
+<attr obj="asr [Entity] (solid angle unit equal to 0.000000000000000001 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="fsr [Entity]">
+<attr obj="fsr [Entity] (solid angle unit equal to 0.000000000000001 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="psr [Entity]">
+<attr obj="psr [Entity] (solid angle unit equal to 0.000000000001 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="nsr [Entity]">
+<attr obj="nsr [Entity] (solid angle unit equal to 0.000000001 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="µsr [Entity]">
+<attr obj="µsr [Entity] (solid angle unit equal to 0.000001 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="msr [Entity]">
+<attr obj="msr [Entity] (solid angle unit equal to 0.001 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="csr [Entity]">
+<attr obj="csr [Entity] (solid angle unit equal to 0.01 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="dsr [Entity]">
+<attr obj="dsr [Entity] (solid angle unit equal to 0.1 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="dasr [Entity]">
+<attr obj="dasr [Entity] (solid angle unit equal to 10 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="hsr [Entity]">
+<attr obj="hsr [Entity] (solid angle unit equal to 100 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="ksr [Entity]">
+<attr obj="ksr [Entity] (solid angle unit equal to 1000 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="Msr [Entity]">
+<attr obj="Msr [Entity] (solid angle unit equal to 1000000 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="Gsr [Entity]">
+<attr obj="Gsr [Entity] (solid angle unit equal to 1000000000 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="Tsr [Entity]">
+<attr obj="Tsr [Entity] (solid angle unit equal to 1000000000000 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="Psr [Entity]">
+<attr obj="Psr [Entity] (solid angle unit equal to 1000000000000000 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="Esr [Entity]">
+<attr obj="Esr [Entity] (solid angle unit equal to 1000000000000000000 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="Zsr [Entity]">
+<attr obj="Zsr [Entity] (solid angle unit equal to 1000000000000000000000 steradian)" rel="Coding"/>
+</concept>
+
+<concept name="Ysr [Entity]">
+<attr obj="Ysr [Entity] (solid angle unit equal to 1000000000000000000000000 steradian)" rel="Coding"/>
+</concept>
+

@@ -1,0 +1,169 @@
+<!--atoms of units of mass.-->
+<concept name="gram [Entity]">
+<attr obj="gram [Entity] (base mass unit)" rel="Coding"/>
+</concept>
+
+<concept name="g [Entity]">
+<attr obj="g [Entity] (base mass unit)" rel="Coding"/>
+</concept>
+
+<concept name="yoctogram [Entity]">
+<attr obj="yoctogram [Entity] (mass unit equal to 0.000000000000000000000001 gram)" rel="Coding"/>
+</concept>
+
+<concept name="zeptogram [Entity]">
+<attr obj="zeptogram [Entity] (mass unit equal to 0.000000000000000000001 gram)" rel="Coding"/>
+</concept>
+
+<concept name="attogram [Entity]">
+<attr obj="attogram [Entity] (mass unit equal to 0.000000000000000001 gram)" rel="Coding"/>
+</concept>
+
+<concept name="femtogram [Entity]">
+<attr obj="femtogram [Entity] (mass unit equal to 0.000000000000001 gram)" rel="Coding"/>
+</concept>
+
+<concept name="picogram [Entity]">
+<attr obj="picogram [Entity] (mass unit equal to 0.000000000001 gram)" rel="Coding"/>
+</concept>
+
+<concept name="nanogram [Entity]">
+<attr obj="nanogram [Entity] (mass unit equal to 0.000000001 gram)" rel="Coding"/>
+</concept>
+
+<concept name="microgram [Entity]">
+<attr obj="microgram [Entity] (mass unit equal to 0.000001 gram)" rel="Coding"/>
+</concept>
+
+<concept name="milligram [Entity]">
+<attr obj="milligram [Entity] (mass unit equal to 0.001 gram)" rel="Coding"/>
+</concept>
+
+<concept name="centigram [Entity]">
+<attr obj="centigram [Entity] (mass unit equal to 0.01 gram)" rel="Coding"/>
+</concept>
+
+<concept name="decigram [Entity]">
+<attr obj="decigram [Entity] (mass unit equal to 0.1 gram)" rel="Coding"/>
+</concept>
+
+<concept name="decagram [Entity]">
+<attr obj="decagram [Entity] (mass unit equal to 10 gram)" rel="Coding"/>
+</concept>
+
+<concept name="hectogram [Entity]">
+<attr obj="hectogram [Entity] (mass unit equal to 100 gram)" rel="Coding"/>
+</concept>
+
+<concept name="kilogram [Entity]">
+<attr obj="kilogram [Entity] (mass unit equal to 1000 gram)" rel="Coding"/>
+</concept>
+
+<concept name="megagram [Entity]">
+<attr obj="megagram [Entity] (mass unit equal to 1000000 gram)" rel="Coding"/>
+</concept>
+
+<concept name="gigagram [Entity]">
+<attr obj="gigagram [Entity] (mass unit equal to 1000000000 gram)" rel="Coding"/>
+</concept>
+
+<concept name="teragram [Entity]">
+<attr obj="teragram [Entity] (mass unit equal to 1000000000000 gram)" rel="Coding"/>
+</concept>
+
+<concept name="petagram [Entity]">
+<attr obj="petagram [Entity] (mass unit equal to 1000000000000000 gram)" rel="Coding"/>
+</concept>
+
+<concept name="exagram [Entity]">
+<attr obj="exagram [Entity] (mass unit equal to 1000000000000000000 gram)" rel="Coding"/>
+</concept>
+
+<concept name="zettagram [Entity]">
+<attr obj="zettagram [Entity] (mass unit equal to 1000000000000000000000 gram)" rel="Coding"/>
+</concept>
+
+<concept name="yottagram [Entity]">
+<attr obj="yottagram [Entity] (mass unit equal to 1000000000000000000000000 gram)" rel="Coding"/>
+</concept>
+
+<concept name="yg [Entity]">
+<attr obj="yg [Entity] (mass unit equal to 0.000000000000000000000001 gram)" rel="Coding"/>
+</concept>
+
+<concept name="zg [Entity]">
+<attr obj="zg [Entity] (mass unit equal to 0.000000000000000000001 gram)" rel="Coding"/>
+</concept>
+
+<concept name="ag [Entity]">
+<attr obj="ag [Entity] (mass unit equal to 0.000000000000000001 gram)" rel="Coding"/>
+</concept>
+
+<concept name="fg [Entity]">
+<attr obj="fg [Entity] (mass unit equal to 0.000000000000001 gram)" rel="Coding"/>
+</concept>
+
+<concept name="pg [Entity]">
+<attr obj="pg [Entity] (mass unit equal to 0.000000000001 gram)" rel="Coding"/>
+</concept>
+
+<concept name="ng [Entity]">
+<attr obj="ng [Entity] (mass unit equal to 0.000000001 gram)" rel="Coding"/>
+</concept>
+
+<concept name="µg [Entity]">
+<attr obj="µg [Entity] (mass unit equal to 0.000001 gram)" rel="Coding"/>
+</concept>
+
+<concept name="mg [Entity]">
+<attr obj="mg [Entity] (mass unit equal to 0.001 gram)" rel="Coding"/>
+</concept>
+
+<concept name="cg [Entity]">
+<attr obj="cg [Entity] (mass unit equal to 0.01 gram)" rel="Coding"/>
+</concept>
+
+<concept name="dg [Entity]">
+<attr obj="dg [Entity] (mass unit equal to 0.1 gram)" rel="Coding"/>
+</concept>
+
+<concept name="dag [Entity]">
+<attr obj="dag [Entity] (mass unit equal to 10 gram)" rel="Coding"/>
+</concept>
+
+<concept name="hg [Entity]">
+<attr obj="hg [Entity] (mass unit equal to 100 gram)" rel="Coding"/>
+</concept>
+
+<concept name="kg [Entity]">
+<attr obj="kg [Entity] (mass unit equal to 1000 gram)" rel="Coding"/>
+</concept>
+
+<concept name="Mg [Entity]">
+<attr obj="Mg [Entity] (mass unit equal to 1000000 gram)" rel="Coding"/>
+</concept>
+
+<concept name="Gg [Entity]">
+<attr obj="Gg [Entity] (mass unit equal to 1000000000 gram)" rel="Coding"/>
+</concept>
+
+<concept name="Tg [Entity]">
+<attr obj="Tg [Entity] (mass unit equal to 1000000000000 gram)" rel="Coding"/>
+</concept>
+
+<concept name="Pg [Entity]">
+<attr obj="Pg [Entity] (mass unit equal to 1000000000000000 gram)" rel="Coding"/>
+</concept>
+
+<concept name="Eg [Entity]">
+<attr obj="Eg [Entity] (mass unit equal to 1000000000000000000 gram)" rel="Coding"/>
+</concept>
+
+<concept name="Zg [Entity]">
+<attr obj="Zg [Entity] (mass unit equal to 1000000000000000000000 gram)" rel="Coding"/>
+</concept>
+
+<concept name="Yg [Entity]">
+<attr obj="Yg [Entity] (mass unit equal to 1000000000000000000000000 gram)" rel="Coding"/>
+</concept>
+

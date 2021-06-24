@@ -1,0 +1,253 @@
+<!--atoms of units of length.-->
+<concept name="meter [Entity]">
+<attr obj="meter [Entity] (base length unit)" rel="Coding"/>
+</concept>
+
+<concept name="m [Entity]">
+<attr obj="m [Entity] (base length unit)" rel="Coding"/>
+</concept>
+
+<concept name="metre [Entity]">
+<attr obj="metre [Entity] (base length unit)" rel="Coding"/>
+</concept>
+
+<concept name="yoctometer [Entity]">
+<attr obj="yoctometer [Entity] (length unit equal to 0.000000000000000000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="zeptometer [Entity]">
+<attr obj="zeptometer [Entity] (length unit equal to 0.000000000000000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="attometer [Entity]">
+<attr obj="attometer [Entity] (length unit equal to 0.000000000000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="femtometer [Entity]">
+<attr obj="femtometer [Entity] (length unit equal to 0.000000000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="picometer [Entity]">
+<attr obj="picometer [Entity] (length unit equal to 0.000000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="nanometer [Entity]">
+<attr obj="nanometer [Entity] (length unit equal to 0.000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="micrometer [Entity]">
+<attr obj="micrometer [Entity] (length unit equal to 0.000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="millimeter [Entity]">
+<attr obj="millimeter [Entity] (length unit equal to 0.001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="centimeter [Entity]">
+<attr obj="centimeter [Entity] (length unit equal to 0.01 meter)" rel="Coding"/>
+</concept>
+
+<concept name="decimeter [Entity]">
+<attr obj="decimeter [Entity] (length unit equal to 0.1 meter)" rel="Coding"/>
+</concept>
+
+<concept name="decameter [Entity]">
+<attr obj="decameter [Entity] (length unit equal to 10 meter)" rel="Coding"/>
+</concept>
+
+<concept name="hectometer [Entity]">
+<attr obj="hectometer [Entity] (length unit equal to 100 meter)" rel="Coding"/>
+</concept>
+
+<concept name="kilometer [Entity]">
+<attr obj="kilometer [Entity] (length unit equal to 1000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="megameter [Entity]">
+<attr obj="megameter [Entity] (length unit equal to 1000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="gigameter [Entity]">
+<attr obj="gigameter [Entity] (length unit equal to 1000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="terameter [Entity]">
+<attr obj="terameter [Entity] (length unit equal to 1000000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="petameter [Entity]">
+<attr obj="petameter [Entity] (length unit equal to 1000000000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="exameter [Entity]">
+<attr obj="exameter [Entity] (length unit equal to 1000000000000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="zettameter [Entity]">
+<attr obj="zettameter [Entity] (length unit equal to 1000000000000000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="yottameter [Entity]">
+<attr obj="yottameter [Entity] (length unit equal to 1000000000000000000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="yoctometre [Entity]">
+<attr obj="yoctometre [Entity] (length unit equal to 0.000000000000000000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="zeptometre [Entity]">
+<attr obj="zeptometre [Entity] (length unit equal to 0.000000000000000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="attometre [Entity]">
+<attr obj="attometre [Entity] (length unit equal to 0.000000000000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="femtometre [Entity]">
+<attr obj="femtometre [Entity] (length unit equal to 0.000000000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="picometre [Entity]">
+<attr obj="picometre [Entity] (length unit equal to 0.000000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="nanometre [Entity]">
+<attr obj="nanometre [Entity] (length unit equal to 0.000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="micrometre [Entity]">
+<attr obj="micrometre [Entity] (length unit equal to 0.000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="millimetre [Entity]">
+<attr obj="millimetre [Entity] (length unit equal to 0.001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="centimetre [Entity]">
+<attr obj="centimetre [Entity] (length unit equal to 0.01 meter)" rel="Coding"/>
+</concept>
+
+<concept name="decimetre [Entity]">
+<attr obj="decimetre [Entity] (length unit equal to 0.1 meter)" rel="Coding"/>
+</concept>
+
+<concept name="decametre [Entity]">
+<attr obj="decametre [Entity] (length unit equal to 10 meter)" rel="Coding"/>
+</concept>
+
+<concept name="hectometre [Entity]">
+<attr obj="hectometre [Entity] (length unit equal to 100 meter)" rel="Coding"/>
+</concept>
+
+<concept name="kilometre [Entity]">
+<attr obj="kilometre [Entity] (length unit equal to 1000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="megametre [Entity]">
+<attr obj="megametre [Entity] (length unit equal to 1000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="gigametre [Entity]">
+<attr obj="gigametre [Entity] (length unit equal to 1000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="terametre [Entity]">
+<attr obj="terametre [Entity] (length unit equal to 1000000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="petametre [Entity]">
+<attr obj="petametre [Entity] (length unit equal to 1000000000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="exametre [Entity]">
+<attr obj="exametre [Entity] (length unit equal to 1000000000000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="zettametre [Entity]">
+<attr obj="zettametre [Entity] (length unit equal to 1000000000000000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="yottametre [Entity]">
+<attr obj="yottametre [Entity] (length unit equal to 1000000000000000000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="ym [Entity]">
+<attr obj="ym [Entity] (length unit equal to 0.000000000000000000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="zm [Entity]">
+<attr obj="zm [Entity] (length unit equal to 0.000000000000000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="am [Entity]">
+<attr obj="am [Entity] (length unit equal to 0.000000000000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="fm [Entity]">
+<attr obj="fm [Entity] (length unit equal to 0.000000000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="pm [Entity]">
+<attr obj="pm [Entity] (length unit equal to 0.000000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="nm [Entity]">
+<attr obj="nm [Entity] (length unit equal to 0.000000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="µm [Entity]">
+<attr obj="µm [Entity] (length unit equal to 0.000001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="mm [Entity]">
+<attr obj="mm [Entity] (length unit equal to 0.001 meter)" rel="Coding"/>
+</concept>
+
+<concept name="cm [Entity]">
+<attr obj="cm [Entity] (length unit equal to 0.01 meter)" rel="Coding"/>
+</concept>
+
+<concept name="dm [Entity]">
+<attr obj="dm [Entity] (length unit equal to 0.1 meter)" rel="Coding"/>
+</concept>
+
+<concept name="dam [Entity]">
+<attr obj="dam [Entity] (length unit equal to 10 meter)" rel="Coding"/>
+</concept>
+
+<concept name="hm [Entity]">
+<attr obj="hm [Entity] (length unit equal to 100 meter)" rel="Coding"/>
+</concept>
+
+<concept name="km [Entity]">
+<attr obj="km [Entity] (length unit equal to 1000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="Mm [Entity]">
+<attr obj="Mm [Entity] (length unit equal to 1000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="Gm [Entity]">
+<attr obj="Gm [Entity] (length unit equal to 1000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="Tm [Entity]">
+<attr obj="Tm [Entity] (length unit equal to 1000000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="Pm [Entity]">
+<attr obj="Pm [Entity] (length unit equal to 1000000000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="Em [Entity]">
+<attr obj="Em [Entity] (length unit equal to 1000000000000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="Zm [Entity]">
+<attr obj="Zm [Entity] (length unit equal to 1000000000000000000000 meter)" rel="Coding"/>
+</concept>
+
+<concept name="Ym [Entity]">
+<attr obj="Ym [Entity] (length unit equal to 1000000000000000000000000 meter)" rel="Coding"/>
+</concept>
+

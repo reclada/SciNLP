@@ -1,0 +1,41 @@
+<!--This is the root node of the SUMO ontology.-->
+<concept name="entity (The universal class of individuals.)"> </concept>
+
+<concept name="abstract (Properties or qualities as distinguished from any particular embodiment of the properties/qualities in a physical medium.)">
+    <attr obj="entity (The universal class of individuals.)" rel="inheritance"/>
+</concept>
+
+<concept name="quantity (Any specification of how many or how much of something there is.)">
+    <attr obj="abstract (Properties or qualities as distinguished from any particular embodiment of the properties/qualities in a physical medium.)" rel="inheritance"/>
+</concept>
+
+<concept name="physical quantity (Physical quantity is a measure of some quantifiable aspect of the modeled world.)">
+    <attr obj="quantity (Any specification of how many or how much of something there is.)" rel="inheritance"/>
+</concept>
+
+<concept name="constant quantity (A constant quantity is a physical quantity that has a constant value.)">
+    <attr obj="physical quantity (Physical quantity is a measure of some quantifiable aspect of the modeled world.)" rel="inheritance"/>
+</concept>
+
+<concept name="function quantity (A function quantity is a physical quantity that is returned by a function that maps from one or more instances of constant quantity to another instance of constant quantity.)">
+    <attr obj="physical quantity (Physical quantity is a measure of some quantifiable aspect of the modeled world.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of measure (A standard of measurement for some dimension.)">
+    <attr obj="physical quantity (Physical quantity is a measure of some quantifiable aspect of the modeled world.)" rel="inheritance"/>
+</concept>
+
+<concept name="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)">
+    <attr obj="function quantity  (A function quantity is a physical quantity that is returned by a function that maps from one or more instances of constant quantity to another instance of constant quantity.)" rel="inheritance"/>
+    <attr obj="unit of measure (A standard of measurement for some dimension.)" rel="inheritance"/>
+</concept>
+
+<concept name="non composite unit of measure (Instances of this class are units of measure that are applied to a single dimension, and so are not intrinsically defined by the functional
+composition of other units.)">
+    <attr obj="constant quantity  (A constant quantity is a physical quantity that has a constant value.)" rel="inheritance"/>
+    <attr obj="unit of measure (A standard of measurement for some dimension.)" rel="inheritance"/>
+</concept>
+
+<concept name="systeme international unit (The class of Systeme International (SI) units.)">
+    <attr obj="unit of measure (A standard of measurement for some dimension.)" rel="inheritance"/>
+</concept>

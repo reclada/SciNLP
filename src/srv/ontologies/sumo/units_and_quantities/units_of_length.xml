@@ -1,0 +1,419 @@
+<!--Units of length.-->
+<concept name="meter [Entity] (base length unit)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+</concept>
+
+<concept name="m [Entity] (base length unit)">
+<attr obj="meter [Entity] (base length unit)"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+</concept>
+
+<concept name="metre [Entity] (base length unit)">
+<attr obj="meter [Entity] (base length unit)"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctometer [Entity] (length unit equal to 0.000000000000000000000001 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptometer [Entity] (length unit equal to 0.000000000000000000001 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attometer [Entity] (length unit equal to 0.000000000000000001 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtometer [Entity] (length unit equal to 0.000000000000001 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picometer [Entity] (length unit equal to 0.000000000001 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanometer [Entity] (length unit equal to 0.000000001 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="micrometer [Entity] (length unit equal to 0.000001 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millimeter [Entity] (length unit equal to 0.001 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centimeter [Entity] (length unit equal to 0.01 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decimeter [Entity] (length unit equal to 0.1 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decameter [Entity] (length unit equal to 10 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectometer [Entity] (length unit equal to 100 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilometer [Entity] (length unit equal to 1000 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megameter [Entity] (length unit equal to 1000000 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigameter [Entity] (length unit equal to 1000000000 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="terameter [Entity] (length unit equal to 1000000000000 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petameter [Entity] (length unit equal to 1000000000000000 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exameter [Entity] (length unit equal to 1000000000000000000 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettameter [Entity] (length unit equal to 1000000000000000000000 meter)">
+<attr obj="zettameter [Entity] (length unit equal to 1000000000000000000000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottameter [Entity] (length unit equal to 1000000000000000000000000 meter)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="yoctometre [Entity] (length unit equal to 0.000000000000000000000001 meter)">
+<attr obj="yoctometer [Entity] (length unit equal to 0.000000000000000000000001 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptometre [Entity] (length unit equal to 0.000000000000000000001 meter)">
+<attr obj="zettameter [Entity] (length unit equal to 1000000000000000000000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attometre [Entity] (length unit equal to 0.000000000000000001 meter)">
+<attr obj="attometer [Entity] (length unit equal to 0.000000000000000001 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtometre [Entity] (length unit equal to 0.000000000000001 meter)">
+<attr obj="femtometer [Entity] (length unit equal to 0.000000000000001 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picometre [Entity] (length unit equal to 0.000000000001 meter)">
+<attr obj="picometer [Entity] (length unit equal to 0.000000000001 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanometre [Entity] (length unit equal to 0.000000001 meter)">
+<attr obj="nanometer [Entity] (length unit equal to 0.000000001 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="micrometre [Entity] (length unit equal to 0.000001 meter)">
+<attr obj="micrometer [Entity] (length unit equal to 0.000001 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millimetre [Entity] (length unit equal to 0.001 meter)">
+<attr obj="millimeter [Entity] (length unit equal to 0.001 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centimetre [Entity] (length unit equal to 0.01 meter)">
+<attr obj="centimeter [Entity] (length unit equal to 0.01 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decimetre [Entity] (length unit equal to 0.1 meter)">
+<attr obj="decimeter [Entity] (length unit equal to 0.1 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decametre [Entity] (length unit equal to 10 meter)">
+<attr obj="decameter [Entity] (length unit equal to 10 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectometre [Entity] (length unit equal to 100 meter)">
+<attr obj="hectometer [Entity] (length unit equal to 100 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilometre [Entity] (length unit equal to 1000 meter)">
+<attr obj="kilometer [Entity] (length unit equal to 1000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megametre [Entity] (length unit equal to 1000000 meter)">
+<attr obj="megameter [Entity] (length unit equal to 1000000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigametre [Entity] (length unit equal to 1000000000 meter)">
+<attr obj="gigameter [Entity] (length unit equal to 1000000000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="terametre [Entity] (length unit equal to 1000000000000 meter)">
+<attr obj="terameter [Entity] (length unit equal to 1000000000000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petametre [Entity] (length unit equal to 1000000000000000 meter)">
+<attr obj="petameter [Entity] (length unit equal to 1000000000000000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exametre [Entity] (length unit equal to 1000000000000000000 meter)">
+<attr obj="exameter [Entity] (length unit equal to 1000000000000000000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettametre [Entity] (length unit equal to 1000000000000000000000 meter)">
+<attr obj="zettameter [Entity] (length unit equal to 1000000000000000000000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottametre [Entity] (length unit equal to 1000000000000000000000000 meter)">
+<attr obj="yottameter [Entity] (length unit equal to 1000000000000000000000000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="ym [Entity] (length unit equal to 0.000000000000000000000001 meter)">
+<attr obj="yoctometer [Entity] (length unit equal to 0.000000000000000000000001 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zm [Entity] (length unit equal to 0.000000000000000000001 meter)">
+<attr obj="zeptometer [Entity] (length unit equal to 0.000000000000000000001 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="am [Entity] (length unit equal to 0.000000000000000001 meter)">
+<attr obj="attometer [Entity] (length unit equal to 0.000000000000000001 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fm [Entity] (length unit equal to 0.000000000000001 meter)">
+<attr obj="femtometer [Entity] (length unit equal to 0.000000000000001 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pm [Entity] (length unit equal to 0.000000000001 meter)">
+<attr obj="picometer [Entity] (length unit equal to 0.000000000001 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nm [Entity] (length unit equal to 0.000000001 meter)">
+<attr obj="nanometer [Entity] (length unit equal to 0.000000001 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µm [Entity] (length unit equal to 0.000001 meter)">
+<attr obj="micrometer [Entity] (length unit equal to 0.000001 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mm [Entity] (length unit equal to 0.001 meter)">
+<attr obj="millimeter [Entity] (length unit equal to 0.001 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cm [Entity] (length unit equal to 0.01 meter)">
+<attr obj="centimeter [Entity] (length unit equal to 0.01 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dm [Entity] (length unit equal to 0.1 meter)">
+<attr obj="decimeter [Entity] (length unit equal to 0.1 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="dam [Entity] (length unit equal to 10 meter)">
+<attr obj="decameter [Entity] (length unit equal to 10 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hm [Entity] (length unit equal to 100 meter)">
+<attr obj="hectometer [Entity] (length unit equal to 100 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="km [Entity] (length unit equal to 1000 meter)">
+<attr obj="kilometer [Entity] (length unit equal to 1000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="Mm [Entity] (length unit equal to 1000000 meter)">
+<attr obj="megameter [Entity] (length unit equal to 1000000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="Gm [Entity] (length unit equal to 1000000000 meter)">
+<attr obj="gigameter [Entity] (length unit equal to 1000000000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="Tm [Entity] (length unit equal to 1000000000000 meter)">
+<attr obj="terameter [Entity] (length unit equal to 1000000000000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="Pm [Entity] (length unit equal to 1000000000000000 meter)">
+<attr obj="petameter [Entity] (length unit equal to 1000000000000000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="Em [Entity] (length unit equal to 1000000000000000000 meter)">
+<attr obj="exameter [Entity] (length unit equal to 1000000000000000000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="Zm [Entity] (length unit equal to 1000000000000000000000 meter)">
+<attr obj="zettameter [Entity] (length unit equal to 1000000000000000000000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="Ym [Entity] (length unit equal to 1000000000000000000000000 meter)">
+<attr obj="yottameter [Entity] (length unit equal to 1000000000000000000000000 meter)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+

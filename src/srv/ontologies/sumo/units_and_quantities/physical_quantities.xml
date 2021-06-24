@@ -1,0 +1,64 @@
+<!--physical quantities-->
+<concept name="length [Entity] (length)">
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)"/>
+</concept>
+
+<concept name="time [Entity] (time)">
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)"/>
+</concept>
+
+<concept name="mass [Entity] (mass)">
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)"/>
+</concept>
+
+<concept name="temperature [Entity] (temperature)">
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)"/>
+</concept>
+
+<concept name="currency [Entity] (currency)">
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of currency (Every instance of this class is a unit of measure that can be used to form instances of currency measure)"/>
+</concept>
+
+<concept name="plane angle [Entity] (angle)">
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of plane angle (Every instance of this class is a unit of measure that can be used to form instances of plane angle measure)"/>
+</concept>
+
+<concept name="solid angle [Entity] (angle)">
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)"/>
+</concept>
+
+<concept name="information [Entity] (information)">
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)"/>
+</concept>
+
+<concept name="area [Entity] (area)">
+<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of area (Every instance of this class is a unit of measure that can be used to form instances of area measure)"/>
+</concept>
+
+<concept name="volume [Entity] (volume)">
+<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)"/>
+</concept>
+
+<concept name="frequency [Entity] (frequency)">
+<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of frequency (Every instance of this class is a unit of measure that can be used to form instances of frequency measure)"/>
+</concept>
+
+<concept name="pressure [Entity] (pressure)">
+<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of atmospheric pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)"/>
+</concept>
+
+<concept name="electric current [Entity] (electric current)">
+<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of electric current (Every instance of this class is a unit of measure that can be used to form instances of electric current measure)"/>
+</concept>
+
+<concept name="luminosity intensity [Entity] (luminosity intensity)">
+<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)"/>
+</concept>
+
+<concept name="amount of substance [Entity] (amount of substance)">
+<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)"/>
+<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)"/>
+</concept>
+
+
+

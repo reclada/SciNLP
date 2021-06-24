@@ -1,0 +1,67 @@
+<!--atoms of physical quantities-->
+<concept name="length [Entity]">
+<attr obj="length [Entity] (length)" rel="Coding"/>
+</concept>
+
+<concept name="time [Entity]">
+<attr obj="time [Entity] (time)" rel="Coding"/>
+</concept>
+
+<concept name="mass [Entity]">
+<attr obj="mass [Entity] (mass)" rel="Coding"/>
+</concept>
+
+<concept name="temperature [Entity]">
+<attr obj="temperature [Entity] (temperature)" rel="Coding"/>
+</concept>
+
+<concept name="currency [Entity]">
+<attr obj="currency [Entity] (currency)" rel="Coding"/>
+</concept>
+
+<concept name="plane angle [Entity] (angle)">
+<attr obj="plane angle [Entity] (angle)" rel="Coding"/>
+</concept>
+
+<concept name="solid angle [Entity] (angle)">
+<attr obj="solid angle [Entity] (angle)" rel="Coding"/>
+</concept>
+
+<concept name="information [Entity]">
+<attr obj="information [Entity] (information)" rel="Coding"/>
+</concept>
+
+<concept name="area [Entity]">
+<attr obj="area [Entity] (area)" rel="Coding"/>
+</concept>
+
+<concept name="volume [Entity]">
+<attr obj="volume [Entity] (volume)" rel="Coding"/>
+</concept>
+
+<concept name="frequency [Entity]">
+<attr obj="frequency [Entity] (frequency)" rel="Coding"/>
+</concept>
+
+<concept name="pressure [Entity]">
+<attr obj="pressure [Entity] (pressure)" rel="Coding"/>
+</concept>
+
+<concept name="electric current [Entity]">
+<attr obj="electric current [Entity] (electric current)" rel="Coding"/>
+</concept>
+
+<concept name="luminosity intensity [Entity]">
+<attr obj="luminosity intensity [Entity] (luminosity intensity)" rel="Coding"/>
+</concept>
+
+<concept name="amount of substance [Entity]">
+<attr obj="amount of substance [Entity] (amount of substance)" rel="Coding"/>
+</concept>
+
+<concept name="amount of substance [Entity]">
+<attr obj="amount of substance [Entity] (amount of substance)" rel="Coding"/>
+</concept>
+
+
+
