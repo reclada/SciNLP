@@ -1,3 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
 <!--atoms of units of time.-->
 <concept name="second [Entity]">
 <attr obj="second [Entity] (base time unit)" rel="Coding"/>
@@ -171,3 +173,4 @@
 <attr obj="Ys [Entity] (time unit equal to 1000000000000000000000000 second)" rel="Coding"/>
 </concept>
 
+</ontology>

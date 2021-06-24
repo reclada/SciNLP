@@ -1,3 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
 <!--atoms of physical quantities-->
 <concept name="length [Entity]">
 <attr obj="length [Entity] (length)" rel="Coding"/>
@@ -63,5 +65,4 @@
 <attr obj="amount of substance [Entity] (amount of substance)" rel="Coding"/>
 </concept>
 
-
-
+</ontology>
