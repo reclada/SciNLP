@@ -1,0 +1,169 @@
+<!--atoms of units of amount of substance.-->
+<concept name="mole [Entity]">
+<attr obj="mole [Entity] (base amount of substance unit)" rel="Coding"/>
+</concept>
+
+<concept name="mol [Entity]">
+<attr obj="mol [Entity] (base amount of substance unit)" rel="Coding"/>
+</concept>
+
+<concept name="yoctomole [Entity]">
+<attr obj="yoctomole [Entity] (amount of substance unit equal to 0.000000000000000000000001 mole)" rel="Coding"/>
+</concept>
+
+<concept name="zeptomole [Entity]">
+<attr obj="zeptomole [Entity] (amount of substance unit equal to 0.000000000000000000001 mole)" rel="Coding"/>
+</concept>
+
+<concept name="attomole [Entity]">
+<attr obj="attomole [Entity] (amount of substance unit equal to 0.000000000000000001 mole)" rel="Coding"/>
+</concept>
+
+<concept name="femtomole [Entity]">
+<attr obj="femtomole [Entity] (amount of substance unit equal to 0.000000000000001 mole)" rel="Coding"/>
+</concept>
+
+<concept name="picomole [Entity]">
+<attr obj="picomole [Entity] (amount of substance unit equal to 0.000000000001 mole)" rel="Coding"/>
+</concept>
+
+<concept name="nanomole [Entity]">
+<attr obj="nanomole [Entity] (amount of substance unit equal to 0.000000001 mole)" rel="Coding"/>
+</concept>
+
+<concept name="micromole [Entity]">
+<attr obj="micromole [Entity] (amount of substance unit equal to 0.000001 mole)" rel="Coding"/>
+</concept>
+
+<concept name="millimole [Entity]">
+<attr obj="millimole [Entity] (amount of substance unit equal to 0.001 mole)" rel="Coding"/>
+</concept>
+
+<concept name="centimole [Entity]">
+<attr obj="centimole [Entity] (amount of substance unit equal to 0.01 mole)" rel="Coding"/>
+</concept>
+
+<concept name="decimole [Entity]">
+<attr obj="decimole [Entity] (amount of substance unit equal to 0.1 mole)" rel="Coding"/>
+</concept>
+
+<concept name="decamole [Entity]">
+<attr obj="decamole [Entity] (amount of substance unit equal to 10 mole)" rel="Coding"/>
+</concept>
+
+<concept name="hectomole [Entity]">
+<attr obj="hectomole [Entity] (amount of substance unit equal to 100 mole)" rel="Coding"/>
+</concept>
+
+<concept name="kilomole [Entity]">
+<attr obj="kilomole [Entity] (amount of substance unit equal to 1000 mole)" rel="Coding"/>
+</concept>
+
+<concept name="megamole [Entity]">
+<attr obj="megamole [Entity] (amount of substance unit equal to 1000000 mole)" rel="Coding"/>
+</concept>
+
+<concept name="gigamole [Entity]">
+<attr obj="gigamole [Entity] (amount of substance unit equal to 1000000000 mole)" rel="Coding"/>
+</concept>
+
+<concept name="teramole [Entity]">
+<attr obj="teramole [Entity] (amount of substance unit equal to 1000000000000 mole)" rel="Coding"/>
+</concept>
+
+<concept name="petamole [Entity]">
+<attr obj="petamole [Entity] (amount of substance unit equal to 1000000000000000 mole)" rel="Coding"/>
+</concept>
+
+<concept name="examole [Entity]">
+<attr obj="examole [Entity] (amount of substance unit equal to 1000000000000000000 mole)" rel="Coding"/>
+</concept>
+
+<concept name="zettamole [Entity]">
+<attr obj="zettamole [Entity] (amount of substance unit equal to 1000000000000000000000 mole)" rel="Coding"/>
+</concept>
+
+<concept name="yottamole [Entity]">
+<attr obj="yottamole [Entity] (amount of substance unit equal to 1000000000000000000000000 mole)" rel="Coding"/>
+</concept>
+
+<concept name="ymol [Entity]">
+<attr obj="ymol [Entity] (amount of substance unit equal to 0.000000000000000000000001 mole)" rel="Coding"/>
+</concept>
+
+<concept name="zmol [Entity]">
+<attr obj="zmol [Entity] (amount of substance unit equal to 0.000000000000000000001 mole)" rel="Coding"/>
+</concept>
+
+<concept name="amol [Entity]">
+<attr obj="amol [Entity] (amount of substance unit equal to 0.000000000000000001 mole)" rel="Coding"/>
+</concept>
+
+<concept name="fmol [Entity]">
+<attr obj="fmol [Entity] (amount of substance unit equal to 0.000000000000001 mole)" rel="Coding"/>
+</concept>
+
+<concept name="pmol [Entity]">
+<attr obj="pmol [Entity] (amount of substance unit equal to 0.000000000001 mole)" rel="Coding"/>
+</concept>
+
+<concept name="nmol [Entity]">
+<attr obj="nmol [Entity] (amount of substance unit equal to 0.000000001 mole)" rel="Coding"/>
+</concept>
+
+<concept name="µmol [Entity]">
+<attr obj="µmol [Entity] (amount of substance unit equal to 0.000001 mole)" rel="Coding"/>
+</concept>
+
+<concept name="mmol [Entity]">
+<attr obj="mmol [Entity] (amount of substance unit equal to 0.001 mole)" rel="Coding"/>
+</concept>
+
+<concept name="cmol [Entity]">
+<attr obj="cmol [Entity] (amount of substance unit equal to 0.01 mole)" rel="Coding"/>
+</concept>
+
+<concept name="dmol [Entity]">
+<attr obj="dmol [Entity] (amount of substance unit equal to 0.1 mole)" rel="Coding"/>
+</concept>
+
+<concept name="damol [Entity]">
+<attr obj="damol [Entity] (amount of substance unit equal to 10 mole)" rel="Coding"/>
+</concept>
+
+<concept name="hmol [Entity]">
+<attr obj="hmol [Entity] (amount of substance unit equal to 100 mole)" rel="Coding"/>
+</concept>
+
+<concept name="kmol [Entity]">
+<attr obj="kmol [Entity] (amount of substance unit equal to 1000 mole)" rel="Coding"/>
+</concept>
+
+<concept name="Mmol [Entity]">
+<attr obj="Mmol [Entity] (amount of substance unit equal to 1000000 mole)" rel="Coding"/>
+</concept>
+
+<concept name="Gmol [Entity]">
+<attr obj="Gmol [Entity] (amount of substance unit equal to 1000000000 mole)" rel="Coding"/>
+</concept>
+
+<concept name="Tmol [Entity]">
+<attr obj="Tmol [Entity] (amount of substance unit equal to 1000000000000 mole)" rel="Coding"/>
+</concept>
+
+<concept name="Pmol [Entity]">
+<attr obj="Pmol [Entity] (amount of substance unit equal to 1000000000000000 mole)" rel="Coding"/>
+</concept>
+
+<concept name="Emol [Entity]">
+<attr obj="Emol [Entity] (amount of substance unit equal to 1000000000000000000 mole)" rel="Coding"/>
+</concept>
+
+<concept name="Zmol [Entity]">
+<attr obj="Zmol [Entity] (amount of substance unit equal to 1000000000000000000000 mole)" rel="Coding"/>
+</concept>
+
+<concept name="Ymol [Entity]">
+<attr obj="Ymol [Entity] (amount of substance unit equal to 1000000000000000000000000 mole)" rel="Coding"/>
+</concept>
+

@@ -1,0 +1,278 @@
+<!--Units of time.-->
+<concept name="second [Entity] (base time unit)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+</concept>
+
+<concept name="s [Entity] (base time unit)">
+<attr obj="second [Entity] (base time unit)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+</concept>
+
+<concept name="sec [Entity] (base time unit)">
+<attr obj="second [Entity] (base time unit)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctosecond [Entity] (time unit equal to 0.000000000000000000000001 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptosecond [Entity] (time unit equal to 0.000000000000000000001 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attosecond [Entity] (time unit equal to 0.000000000000000001 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtosecond [Entity] (time unit equal to 0.000000000000001 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picosecond [Entity] (time unit equal to 0.000000000001 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanosecond [Entity] (time unit equal to 0.000000001 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microsecond [Entity] (time unit equal to 0.000001 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millisecond [Entity] (time unit equal to 0.001 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centisecond [Entity] (time unit equal to 0.01 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decisecond [Entity] (time unit equal to 0.1 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decasecond [Entity] (time unit equal to 10 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectosecond [Entity] (time unit equal to 100 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilosecond [Entity] (time unit equal to 1000 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megasecond [Entity] (time unit equal to 1000000 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigasecond [Entity] (time unit equal to 1000000000 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="terasecond [Entity] (time unit equal to 1000000000000 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petasecond [Entity] (time unit equal to 1000000000000000 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exasecond [Entity] (time unit equal to 1000000000000000000 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettasecond [Entity] (time unit equal to 1000000000000000000000 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottasecond [Entity] (time unit equal to 1000000000000000000000000 second)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="ys [Entity] (time unit equal to 0.000000000000000000000001 second)">
+<attr obj="yoctosecond [Entity] (time unit equal to 0.000000000000000000000001 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zs [Entity] (time unit equal to 0.000000000000000000001 second)">
+<attr obj="zeptosecond [Entity] (time unit equal to 0.000000000000000000001 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="as [Entity] (time unit equal to 0.000000000000000001 second)">
+<attr obj="attosecond [Entity] (time unit equal to 0.000000000000000001 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fs [Entity] (time unit equal to 0.000000000000001 second)">
+<attr obj="femtosecond [Entity] (time unit equal to 0.000000000000001 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="ps [Entity] (time unit equal to 0.000000000001 second)">
+<attr obj="picosecond [Entity] (time unit equal to 0.000000000001 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="ns [Entity] (time unit equal to 0.000000001 second)">
+<attr obj="nanosecond [Entity] (time unit equal to 0.000000001 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µs [Entity] (time unit equal to 0.000001 second)">
+<attr obj="microsecond [Entity] (time unit equal to 0.000001 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="ms [Entity] (time unit equal to 0.001 second)">
+<attr obj="millisecond [Entity] (time unit equal to 0.001 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cs [Entity] (time unit equal to 0.01 second)">
+<attr obj="centisecond [Entity] (time unit equal to 0.01 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="ds [Entity] (time unit equal to 0.1 second)">
+<attr obj="decisecond [Entity] (time unit equal to 0.1 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="das [Entity] (time unit equal to 10 second)">
+<attr obj="decasecond [Entity] (time unit equal to 10 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hs [Entity] (time unit equal to 100 second)">
+<attr obj="hectosecond [Entity] (time unit equal to 100 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="ks [Entity] (time unit equal to 1000 second)">
+<attr obj="kilosecond [Entity] (time unit equal to 1000 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="Ms [Entity] (time unit equal to 1000000 second)">
+<attr obj="megasecond [Entity] (time unit equal to 1000000 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="Gs [Entity] (time unit equal to 1000000000 second)">
+<attr obj="gigasecond [Entity] (time unit equal to 1000000000 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="Ts [Entity] (time unit equal to 1000000000000 second)">
+<attr obj="terasecond [Entity] (time unit equal to 1000000000000 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="Ps [Entity] (time unit equal to 1000000000000000 second)">
+<attr obj="petasecond [Entity] (time unit equal to 1000000000000000 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="Es [Entity] (time unit equal to 1000000000000000000 second)">
+<attr obj="exasecond [Entity] (time unit equal to 1000000000000000000 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="Zs [Entity] (time unit equal to 1000000000000000000000 second)">
+<attr obj="zettasecond [Entity] (time unit equal to 1000000000000000000000 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="Ys [Entity] (time unit equal to 1000000000000000000000000 second)">
+<attr obj="yottasecond [Entity] (time unit equal to 1000000000000000000000000 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+

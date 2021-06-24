@@ -1,0 +1,169 @@
+<!--atoms of units of plane angle.-->
+<concept name="radian [Entity]">
+<attr obj="radian [Entity] (base plane angle unit)" rel="Coding"/>
+</concept>
+
+<concept name="rad [Entity]">
+<attr obj="rad [Entity] (base plane angle unit)" rel="Coding"/>
+</concept>
+
+<concept name="yoctoradian [Entity]">
+<attr obj="yoctoradian [Entity] (plane angle unit equal to 0.000000000000000000000001 radian)" rel="Coding"/>
+</concept>
+
+<concept name="zeptoradian [Entity]">
+<attr obj="zeptoradian [Entity] (plane angle unit equal to 0.000000000000000000001 radian)" rel="Coding"/>
+</concept>
+
+<concept name="attoradian [Entity]">
+<attr obj="attoradian [Entity] (plane angle unit equal to 0.000000000000000001 radian)" rel="Coding"/>
+</concept>
+
+<concept name="femtoradian [Entity]">
+<attr obj="femtoradian [Entity] (plane angle unit equal to 0.000000000000001 radian)" rel="Coding"/>
+</concept>
+
+<concept name="picoradian [Entity]">
+<attr obj="picoradian [Entity] (plane angle unit equal to 0.000000000001 radian)" rel="Coding"/>
+</concept>
+
+<concept name="nanoradian [Entity]">
+<attr obj="nanoradian [Entity] (plane angle unit equal to 0.000000001 radian)" rel="Coding"/>
+</concept>
+
+<concept name="microradian [Entity]">
+<attr obj="microradian [Entity] (plane angle unit equal to 0.000001 radian)" rel="Coding"/>
+</concept>
+
+<concept name="milliradian [Entity]">
+<attr obj="milliradian [Entity] (plane angle unit equal to 0.001 radian)" rel="Coding"/>
+</concept>
+
+<concept name="centiradian [Entity]">
+<attr obj="centiradian [Entity] (plane angle unit equal to 0.01 radian)" rel="Coding"/>
+</concept>
+
+<concept name="deciradian [Entity]">
+<attr obj="deciradian [Entity] (plane angle unit equal to 0.1 radian)" rel="Coding"/>
+</concept>
+
+<concept name="decaradian [Entity]">
+<attr obj="decaradian [Entity] (plane angle unit equal to 10 radian)" rel="Coding"/>
+</concept>
+
+<concept name="hectoradian [Entity]">
+<attr obj="hectoradian [Entity] (plane angle unit equal to 100 radian)" rel="Coding"/>
+</concept>
+
+<concept name="kiloradian [Entity]">
+<attr obj="kiloradian [Entity] (plane angle unit equal to 1000 radian)" rel="Coding"/>
+</concept>
+
+<concept name="megaradian [Entity]">
+<attr obj="megaradian [Entity] (plane angle unit equal to 1000000 radian)" rel="Coding"/>
+</concept>
+
+<concept name="gigaradian [Entity]">
+<attr obj="gigaradian [Entity] (plane angle unit equal to 1000000000 radian)" rel="Coding"/>
+</concept>
+
+<concept name="teraradian [Entity]">
+<attr obj="teraradian [Entity] (plane angle unit equal to 1000000000000 radian)" rel="Coding"/>
+</concept>
+
+<concept name="petaradian [Entity]">
+<attr obj="petaradian [Entity] (plane angle unit equal to 1000000000000000 radian)" rel="Coding"/>
+</concept>
+
+<concept name="exaradian [Entity]">
+<attr obj="exaradian [Entity] (plane angle unit equal to 1000000000000000000 radian)" rel="Coding"/>
+</concept>
+
+<concept name="zettaradian [Entity]">
+<attr obj="zettaradian [Entity] (plane angle unit equal to 1000000000000000000000 radian)" rel="Coding"/>
+</concept>
+
+<concept name="yottaradian [Entity]">
+<attr obj="yottaradian [Entity] (plane angle unit equal to 1000000000000000000000000 radian)" rel="Coding"/>
+</concept>
+
+<concept name="yrad [Entity]">
+<attr obj="yrad [Entity] (plane angle unit equal to 0.000000000000000000000001 radian)" rel="Coding"/>
+</concept>
+
+<concept name="zrad [Entity]">
+<attr obj="zrad [Entity] (plane angle unit equal to 0.000000000000000000001 radian)" rel="Coding"/>
+</concept>
+
+<concept name="arad [Entity]">
+<attr obj="arad [Entity] (plane angle unit equal to 0.000000000000000001 radian)" rel="Coding"/>
+</concept>
+
+<concept name="frad [Entity]">
+<attr obj="frad [Entity] (plane angle unit equal to 0.000000000000001 radian)" rel="Coding"/>
+</concept>
+
+<concept name="prad [Entity]">
+<attr obj="prad [Entity] (plane angle unit equal to 0.000000000001 radian)" rel="Coding"/>
+</concept>
+
+<concept name="nrad [Entity]">
+<attr obj="nrad [Entity] (plane angle unit equal to 0.000000001 radian)" rel="Coding"/>
+</concept>
+
+<concept name="µrad [Entity]">
+<attr obj="µrad [Entity] (plane angle unit equal to 0.000001 radian)" rel="Coding"/>
+</concept>
+
+<concept name="mrad [Entity]">
+<attr obj="mrad [Entity] (plane angle unit equal to 0.001 radian)" rel="Coding"/>
+</concept>
+
+<concept name="crad [Entity]">
+<attr obj="crad [Entity] (plane angle unit equal to 0.01 radian)" rel="Coding"/>
+</concept>
+
+<concept name="drad [Entity]">
+<attr obj="drad [Entity] (plane angle unit equal to 0.1 radian)" rel="Coding"/>
+</concept>
+
+<concept name="darad [Entity]">
+<attr obj="darad [Entity] (plane angle unit equal to 10 radian)" rel="Coding"/>
+</concept>
+
+<concept name="hrad [Entity]">
+<attr obj="hrad [Entity] (plane angle unit equal to 100 radian)" rel="Coding"/>
+</concept>
+
+<concept name="krad [Entity]">
+<attr obj="krad [Entity] (plane angle unit equal to 1000 radian)" rel="Coding"/>
+</concept>
+
+<concept name="Mrad [Entity]">
+<attr obj="Mrad [Entity] (plane angle unit equal to 1000000 radian)" rel="Coding"/>
+</concept>
+
+<concept name="Grad [Entity]">
+<attr obj="Grad [Entity] (plane angle unit equal to 1000000000 radian)" rel="Coding"/>
+</concept>
+
+<concept name="Trad [Entity]">
+<attr obj="Trad [Entity] (plane angle unit equal to 1000000000000 radian)" rel="Coding"/>
+</concept>
+
+<concept name="Prad [Entity]">
+<attr obj="Prad [Entity] (plane angle unit equal to 1000000000000000 radian)" rel="Coding"/>
+</concept>
+
+<concept name="Erad [Entity]">
+<attr obj="Erad [Entity] (plane angle unit equal to 1000000000000000000 radian)" rel="Coding"/>
+</concept>
+
+<concept name="Zrad [Entity]">
+<attr obj="Zrad [Entity] (plane angle unit equal to 1000000000000000000000 radian)" rel="Coding"/>
+</concept>
+
+<concept name="Yrad [Entity]">
+<attr obj="Yrad [Entity] (plane angle unit equal to 1000000000000000000000000 radian)" rel="Coding"/>
+</concept>
+

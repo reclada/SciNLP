@@ -1,0 +1,272 @@
+<!--Units of solid angle.-->
+<concept name="steradian [Entity] (base solid angle unit)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+</concept>
+
+<concept name="sr [Entity] (base solid angle unit)">
+<attr obj="steradian [Entity] (base solid angle unit)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctosteradian [Entity] (solid angle unit equal to 0.000000000000000000000001 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptosteradian [Entity] (solid angle unit equal to 0.000000000000000000001 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attosteradian [Entity] (solid angle unit equal to 0.000000000000000001 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtosteradian [Entity] (solid angle unit equal to 0.000000000000001 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picosteradian [Entity] (solid angle unit equal to 0.000000000001 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanosteradian [Entity] (solid angle unit equal to 0.000000001 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microsteradian [Entity] (solid angle unit equal to 0.000001 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millisteradian [Entity] (solid angle unit equal to 0.001 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centisteradian [Entity] (solid angle unit equal to 0.01 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decisteradian [Entity] (solid angle unit equal to 0.1 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decasteradian [Entity] (solid angle unit equal to 10 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectosteradian [Entity] (solid angle unit equal to 100 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilosteradian [Entity] (solid angle unit equal to 1000 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megasteradian [Entity] (solid angle unit equal to 1000000 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigasteradian [Entity] (solid angle unit equal to 1000000000 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="terasteradian [Entity] (solid angle unit equal to 1000000000000 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petasteradian [Entity] (solid angle unit equal to 1000000000000000 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exasteradian [Entity] (solid angle unit equal to 1000000000000000000 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettasteradian [Entity] (solid angle unit equal to 1000000000000000000000 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottasteradian [Entity] (solid angle unit equal to 1000000000000000000000000 steradian)">
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="ysr [Entity] (solid angle unit equal to 0.000000000000000000000001 steradian)">
+<attr obj="yoctosteradian [Entity] (solid angle unit equal to 0.000000000000000000000001 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zsr [Entity] (solid angle unit equal to 0.000000000000000000001 steradian)">
+<attr obj="zeptosteradian [Entity] (solid angle unit equal to 0.000000000000000000001 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="asr [Entity] (solid angle unit equal to 0.000000000000000001 steradian)">
+<attr obj="attosteradian [Entity] (solid angle unit equal to 0.000000000000000001 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fsr [Entity] (solid angle unit equal to 0.000000000000001 steradian)">
+<attr obj="femtosteradian [Entity] (solid angle unit equal to 0.000000000000001 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="psr [Entity] (solid angle unit equal to 0.000000000001 steradian)">
+<attr obj="picosteradian [Entity] (solid angle unit equal to 0.000000000001 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nsr [Entity] (solid angle unit equal to 0.000000001 steradian)">
+<attr obj="nanosteradian [Entity] (solid angle unit equal to 0.000000001 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µsr [Entity] (solid angle unit equal to 0.000001 steradian)">
+<attr obj="microsteradian [Entity] (solid angle unit equal to 0.000001 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="msr [Entity] (solid angle unit equal to 0.001 steradian)">
+<attr obj="millisteradian [Entity] (solid angle unit equal to 0.001 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="csr [Entity] (solid angle unit equal to 0.01 steradian)">
+<attr obj="centisteradian [Entity] (solid angle unit equal to 0.01 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dsr [Entity] (solid angle unit equal to 0.1 steradian)">
+<attr obj="decisteradian [Entity] (solid angle unit equal to 0.1 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="dasr [Entity] (solid angle unit equal to 10 steradian)">
+<attr obj="decasteradian [Entity] (solid angle unit equal to 10 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hsr [Entity] (solid angle unit equal to 100 steradian)">
+<attr obj="hectosteradian [Entity] (solid angle unit equal to 100 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="ksr [Entity] (solid angle unit equal to 1000 steradian)">
+<attr obj="kilosteradian [Entity] (solid angle unit equal to 1000 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="Msr [Entity] (solid angle unit equal to 1000000 steradian)">
+<attr obj="megasteradian [Entity] (solid angle unit equal to 1000000 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="Gsr [Entity] (solid angle unit equal to 1000000000 steradian)">
+<attr obj="gigasteradian [Entity] (solid angle unit equal to 1000000000 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="Tsr [Entity] (solid angle unit equal to 1000000000000 steradian)">
+<attr obj="terasteradian [Entity] (solid angle unit equal to 1000000000000 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="Psr [Entity] (solid angle unit equal to 1000000000000000 steradian)">
+<attr obj="petasteradian [Entity] (solid angle unit equal to 1000000000000000 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="Esr [Entity] (solid angle unit equal to 1000000000000000000 steradian)">
+<attr obj="exasteradian [Entity] (solid angle unit equal to 1000000000000000000 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="Zsr [Entity] (solid angle unit equal to 1000000000000000000000 steradian)">
+<attr obj="zettasteradian [Entity] (solid angle unit equal to 1000000000000000000000 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="Ysr [Entity] (solid angle unit equal to 1000000000000000000000000 steradian)">
+<attr obj="yottasteradian [Entity] (solid angle unit equal to 1000000000000000000000000 steradian)" rel="equivalence of concepts"/>
+<attr obj="unit of solid angle (Every instance of this class is a unit of measure that can be used to form instances of solid angle measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="steradian [Entity] (base solid angle unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+

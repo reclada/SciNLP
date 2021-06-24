@@ -1,0 +1,173 @@
+<!--atoms of units of time.-->
+<concept name="second [Entity]">
+<attr obj="second [Entity] (base time unit)" rel="Coding"/>
+</concept>
+
+<concept name="s [Entity]">
+<attr obj="s [Entity] (base time unit)" rel="Coding"/>
+</concept>
+
+<concept name="sec [Entity]">
+<attr obj="sec [Entity] (base time unit)" rel="Coding"/>
+</concept>
+
+<concept name="yoctosecond [Entity]">
+<attr obj="yoctosecond [Entity] (time unit equal to 0.000000000000000000000001 second)" rel="Coding"/>
+</concept>
+
+<concept name="zeptosecond [Entity]">
+<attr obj="zeptosecond [Entity] (time unit equal to 0.000000000000000000001 second)" rel="Coding"/>
+</concept>
+
+<concept name="attosecond [Entity]">
+<attr obj="attosecond [Entity] (time unit equal to 0.000000000000000001 second)" rel="Coding"/>
+</concept>
+
+<concept name="femtosecond [Entity]">
+<attr obj="femtosecond [Entity] (time unit equal to 0.000000000000001 second)" rel="Coding"/>
+</concept>
+
+<concept name="picosecond [Entity]">
+<attr obj="picosecond [Entity] (time unit equal to 0.000000000001 second)" rel="Coding"/>
+</concept>
+
+<concept name="nanosecond [Entity]">
+<attr obj="nanosecond [Entity] (time unit equal to 0.000000001 second)" rel="Coding"/>
+</concept>
+
+<concept name="microsecond [Entity]">
+<attr obj="microsecond [Entity] (time unit equal to 0.000001 second)" rel="Coding"/>
+</concept>
+
+<concept name="millisecond [Entity]">
+<attr obj="millisecond [Entity] (time unit equal to 0.001 second)" rel="Coding"/>
+</concept>
+
+<concept name="centisecond [Entity]">
+<attr obj="centisecond [Entity] (time unit equal to 0.01 second)" rel="Coding"/>
+</concept>
+
+<concept name="decisecond [Entity]">
+<attr obj="decisecond [Entity] (time unit equal to 0.1 second)" rel="Coding"/>
+</concept>
+
+<concept name="decasecond [Entity]">
+<attr obj="decasecond [Entity] (time unit equal to 10 second)" rel="Coding"/>
+</concept>
+
+<concept name="hectosecond [Entity]">
+<attr obj="hectosecond [Entity] (time unit equal to 100 second)" rel="Coding"/>
+</concept>
+
+<concept name="kilosecond [Entity]">
+<attr obj="kilosecond [Entity] (time unit equal to 1000 second)" rel="Coding"/>
+</concept>
+
+<concept name="megasecond [Entity]">
+<attr obj="megasecond [Entity] (time unit equal to 1000000 second)" rel="Coding"/>
+</concept>
+
+<concept name="gigasecond [Entity]">
+<attr obj="gigasecond [Entity] (time unit equal to 1000000000 second)" rel="Coding"/>
+</concept>
+
+<concept name="terasecond [Entity]">
+<attr obj="terasecond [Entity] (time unit equal to 1000000000000 second)" rel="Coding"/>
+</concept>
+
+<concept name="petasecond [Entity]">
+<attr obj="petasecond [Entity] (time unit equal to 1000000000000000 second)" rel="Coding"/>
+</concept>
+
+<concept name="exasecond [Entity]">
+<attr obj="exasecond [Entity] (time unit equal to 1000000000000000000 second)" rel="Coding"/>
+</concept>
+
+<concept name="zettasecond [Entity]">
+<attr obj="zettasecond [Entity] (time unit equal to 1000000000000000000000 second)" rel="Coding"/>
+</concept>
+
+<concept name="yottasecond [Entity]">
+<attr obj="yottasecond [Entity] (time unit equal to 1000000000000000000000000 second)" rel="Coding"/>
+</concept>
+
+<concept name="ys [Entity]">
+<attr obj="ys [Entity] (time unit equal to 0.000000000000000000000001 second)" rel="Coding"/>
+</concept>
+
+<concept name="zs [Entity]">
+<attr obj="zs [Entity] (time unit equal to 0.000000000000000000001 second)" rel="Coding"/>
+</concept>
+
+<concept name="as [Entity]">
+<attr obj="as [Entity] (time unit equal to 0.000000000000000001 second)" rel="Coding"/>
+</concept>
+
+<concept name="fs [Entity]">
+<attr obj="fs [Entity] (time unit equal to 0.000000000000001 second)" rel="Coding"/>
+</concept>
+
+<concept name="ps [Entity]">
+<attr obj="ps [Entity] (time unit equal to 0.000000000001 second)" rel="Coding"/>
+</concept>
+
+<concept name="ns [Entity]">
+<attr obj="ns [Entity] (time unit equal to 0.000000001 second)" rel="Coding"/>
+</concept>
+
+<concept name="µs [Entity]">
+<attr obj="µs [Entity] (time unit equal to 0.000001 second)" rel="Coding"/>
+</concept>
+
+<concept name="ms [Entity]">
+<attr obj="ms [Entity] (time unit equal to 0.001 second)" rel="Coding"/>
+</concept>
+
+<concept name="cs [Entity]">
+<attr obj="cs [Entity] (time unit equal to 0.01 second)" rel="Coding"/>
+</concept>
+
+<concept name="ds [Entity]">
+<attr obj="ds [Entity] (time unit equal to 0.1 second)" rel="Coding"/>
+</concept>
+
+<concept name="das [Entity]">
+<attr obj="das [Entity] (time unit equal to 10 second)" rel="Coding"/>
+</concept>
+
+<concept name="hs [Entity]">
+<attr obj="hs [Entity] (time unit equal to 100 second)" rel="Coding"/>
+</concept>
+
+<concept name="ks [Entity]">
+<attr obj="ks [Entity] (time unit equal to 1000 second)" rel="Coding"/>
+</concept>
+
+<concept name="Ms [Entity]">
+<attr obj="Ms [Entity] (time unit equal to 1000000 second)" rel="Coding"/>
+</concept>
+
+<concept name="Gs [Entity]">
+<attr obj="Gs [Entity] (time unit equal to 1000000000 second)" rel="Coding"/>
+</concept>
+
+<concept name="Ts [Entity]">
+<attr obj="Ts [Entity] (time unit equal to 1000000000000 second)" rel="Coding"/>
+</concept>
+
+<concept name="Ps [Entity]">
+<attr obj="Ps [Entity] (time unit equal to 1000000000000000 second)" rel="Coding"/>
+</concept>
+
+<concept name="Es [Entity]">
+<attr obj="Es [Entity] (time unit equal to 1000000000000000000 second)" rel="Coding"/>
+</concept>
+
+<concept name="Zs [Entity]">
+<attr obj="Zs [Entity] (time unit equal to 1000000000000000000000 second)" rel="Coding"/>
+</concept>
+
+<concept name="Ys [Entity]">
+<attr obj="Ys [Entity] (time unit equal to 1000000000000000000000000 second)" rel="Coding"/>
+</concept>
+
