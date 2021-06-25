@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Another time units.-->
+
+<!-- atoms -->
+<concept name="angstrom [Entity]">
+<attr obj="angstrom [Entity] (length unit equal to 0.0000000001 meters)" rel="Coding"/>
+</concept>
+
+<concept name="ångström [Entity]">
+<attr obj="ångström [Entity] (length unit equal to 0.0000000001 meters)" rel="Coding"/>
+</concept>
+
+<concept name="Å [Entity]">
+<attr obj="Å [Entity] (length unit equal to 0.0000000001 meters)" rel="Coding"/>
+</concept>
+
+<concept name="Å [Entity]">
+<attr obj="Å [Entity] (length unit equal to 0.0000000001 meters)" rel="Coding"/>
+</concept>
+
+<concept name="astronomical unit [Entity]">
+<attr obj="astronomical unit [Entity] (length unit equal to 149597870700 meters)" rel="Coding"/>
+</concept>
+
+<concept name="au [Entity]">
+<attr obj="au [Entity] (length unit equal to 149597870700 meters)" rel="Coding"/>
+</concept>
+
+<concept name="nautical mile [Entity]">
+<attr obj="nautical mile [Entity] (length unit equal to 1852 meters)" rel="Coding"/>
+</concept>
+
+<concept name="nmi [Entity]">
+<attr obj="nmi [Entity] (length unit equal to 1852 meters)" rel="Coding"/>
+</concept>
+
+<concept name="foot [Entity]">
+<attr obj="foot [Entity] (length unit equal to 0.3048 meters)" rel="Coding"/>
+</concept>
+
+<concept name="ft [Entity]">
+<attr obj="ft [Entity] (length unit equal to 0.3048 meters)" rel="Coding"/>
+</concept>
+
+<concept name="inch [Entity]">
+<attr obj="inch [Entity] (length unit equal to 0.0254 meters)" rel="Coding"/>
+</concept>
+
+<concept name="in [Entity]">
+<attr obj="in [Entity] (length unit equal to 0.0254 meters)" rel="Coding"/>
+</concept>
+
+<concept name="mile [Entity]">
+<attr obj="mile [Entity] (length unit equal to 1609.344 meters)" rel="Coding"/>
+</concept>
+
+<concept name="ml [Entity]">
+<attr obj="mile [Entity] (length unit equal to 1609.344 meters)" rel="Coding"/>
+</concept>
+
+<!-- units -->
+
+<concept name="angstrom [Entity] (length unit equal to 0.0000000001 meters)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10000000000 [Number] (ten billion)"/>
+</concept>
+
+<concept name="ångström [Entity] (length unit equal to 0.0000000001 meters)">
+<attr obj="angstrom [Entity] (length unit equal to 0.0000000001 meters)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10000000000 [Number] (ten billion)"/>
+</concept>
+
+<concept name="Å [Entity] (length unit equal to 0.0000000001 meters)">
+<attr obj="angstrom [Entity] (length unit equal to 0.0000000001 meters)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10000000000 [Number] (ten billion)"/>
+</concept>
+
+<concept name="Å [Entity] (length unit equal to 0.0000000001 meters)">
+<attr obj="angstrom [Entity] (length unit equal to 0.0000000001 meters)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10000000000 [Number] (ten billion)"/>
+</concept>
+
+<concept name="astronomical unit [Entity] (length unit equal to 149597870700 meters)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (length unit equal to ??? ???)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="149597870700 [Number] (149597870700)"/>
+</concept>
+
+<concept name="au [Entity] (length unit equal to 149597870700 meters)">
+<attr obj="astronomical unit [Entity] (length unit equal to 149597870700 meters)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (length unit equal to ??? ???)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="149597870700 [Number] (149597870700)"/>
+</concept>
+
+<concept name="nautical mile [Entity] (length unit equal to 1852 meters)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (length unit equal to ??? ???)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1852 [Number] (1852)"/>
+</concept>
+
+<concept name="nmi [Entity] (length unit equal to 1852 meters)">
+<attr obj="nautical mile [Entity] (length unit equal to 1852 meters)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (length unit equal to ??? ???)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1852 [Number] (1852)"/>
+</concept>
+
+<concept name="foot [Entity] (length unit equal to 0.3048 meters)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (length unit equal to ??? ???)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.3048 [Number] (0.3048)"/>
+</concept>
+
+<concept name="ft [Entity] (length unit equal to 0.3048 meters)">
+<attr obj="foot [Entity] (length unit equal to 0.3048 meters)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (length unit equal to ??? ???)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.3048 [Number] (0.3048)"/>
+</concept>
+
+<concept name="inch [Entity] (length unit equal to 0.0254 meters)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (length unit equal to ??? ???)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.0254 [Number] (0.0254)"/>
+</concept>
+
+<concept name="in [Entity] (length unit equal to 0.0254 meters)">
+<attr obj="inch [Entity] (length unit equal to 0.0254 meters)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (length unit equal to ??? ???)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.0254 [Number] (0.0254)"/>
+</concept>
+
+<concept name="mile [Entity] (length unit equal to 1609.344 meters)">
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (length unit equal to ??? ???)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1609.344 [Number] (1609.344)"/>
+</concept>
+
+<concept name="mile [Entity] (length unit equal to 1609.344 meters)">
+<attr obj="mile [Entity] (length unit equal to 1609.344 meters)" rel="equivalence of concepts"/>
+<attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="meter [Entity] (length unit equal to ??? ???)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1609.344 [Number] (1609.344)"/>
+</concept>
+
+</ontology>

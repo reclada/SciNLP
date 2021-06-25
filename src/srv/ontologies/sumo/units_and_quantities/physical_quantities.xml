@@ -33,33 +33,109 @@
     <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)"/>
 </concept>
 
-<concept name="area [Entity] (area)">
-<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of area (Every instance of this class is a unit of measure that can be used to form instances of area measure)"/>
+<concept name="area [Entity] (Area is the quantity that expresses the extent of a two-dimensional region, shape, or planar lamina, in the plane.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of area (Every instance of this class is a unit of measure that can be used to form instances of area measure)"/>
 </concept>
 
-<concept name="volume [Entity] (volume)">
-<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)"/>
+<concept name="volume [Entity] (Volume is the quantity of three-dimensional space enclosed by a closed surface, for example, the space that a substance or 3D shape occupies or contains.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)"/>
 </concept>
 
-<concept name="frequency [Entity] (frequency)">
-<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of frequency (Every instance of this class is a unit of measure that can be used to form instances of frequency measure)"/>
+<concept name="frequency [Entity] (Frequency is the measurement of the number of times that a repeated event occurs per unit of time.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of frequency (Every instance of this class is a unit of measure that can be used to form instances of frequency measure)"/>
 </concept>
 
 <concept name="pressure [Entity] (pressure)">
-<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of atmospheric pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)"/>
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of atmospheric pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)"/>
 </concept>
 
 <concept name="electric current [Entity] (electric current)">
-<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of electric current (Every instance of this class is a unit of measure that can be used to form instances of electric current measure)"/>
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of electric current (Every instance of this class is a unit of measure that can be used to form instances of electric current measure)"/>
 </concept>
 
 <concept name="luminosity intensity [Entity] (luminosity intensity)">
-<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)"/>
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)"/>
 </concept>
 
 <concept name="amount of substance [Entity] (amount of substance)">
-<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)"/>
-<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)"/>
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)"/>
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)"/>
+</concept>
+
+<concept name="force [Entity] (A force is any influence that, when unopposed, will change the motion of an object.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)"/>
+</concept>
+
+<concept name="pressure [Entity] (Pressure is the force applied perpendicular to the surface of an object per unit area over which that force is distributed.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)"/>
+</concept>
+
+<concept name="energy [Entity] (Energy is the quantitative property that must be transferred to a body or physical system to perform work on the body, or to heat it.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)"/>
+</concept>
+
+<concept name="power [Entity] (Power is the amount of energy transferred or converted per unit time.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of power (Every instance of this class is a unit of measure that can be used to form instances of power measure)"/>
+</concept>
+
+<concept name="inductance [Entity] (Inductance is the tendency of an electrical conductor to oppose a change in the electric current flowing through it. )">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)"/>
+</concept>
+
+<concept name="illuminance [Entity] (In photometry, illuminance is the total luminous flux incident on a surface, per unit area.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)"/>
+</concept>
+
+<concept name="height [Entity] (The height of an object is the distance between its top and its bottom.)">
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)"/>
+</concept>
+
+<concept name="width [Entity] (The width of an object is the measurement or extent of something from side to side)">
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)"/>
+</concept>
+
+<concept name="electric charge [Entity] (Electric charge is the physical property of matter that causes it to experience a force when placed in an electromagnetic field.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)"/>
+</concept>
+
+<concept name="electric potential [Entity] (The electric potential is the amount of work energy needed to move a unit of electric charge from a reference point to the specific point in an electric field with negligible acceleration of the test charge to avoid producing kinetic energy or radiation by test charge.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)"/>
+</concept>
+
+<concept name="capacitance [Entity] (Capacitance is the ratio of the amount of electric charge stored on a conductor to a difference in electric potential)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)"/>
+</concept>
+
+<concept name="electric conductance [Entity] (Electrical conductance measures how easily electricity flows through electrical components for a given voltage difference.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)"/>
+</concept>
+
+<concept name="magnetic flux [Entity] (Magnetic flux is a measurement of the total magnetic field which passes through a given area.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)"/>
+</concept>
+
+<concept name="magnetic flux density [Entity] (The magnetic flux density or magnetic induction is the number of lines of force passing through a unit area of material/.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)"/>
+</concept>
+
+<concept name="inductance [Entity] (Inductance is the tendency of an electrical conductor to oppose a change in the electric current flowing through it.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)"/>
+</concept>
+
+<concept name="celsius temperature [Entity] (The degree Celsius is a unit of temperature on the Celsius scale, a temperature scale originally known as the centigrade scale.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of celsius temperature (Every instance of this class is a unit of measure that can be used to form instances of celsius temperature measure)"/>
+</concept>
+
+<concept name="luminous flux [Entity] (Luminous flux is the measure of brightness of a light source in terms of energy being emitted.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)"/>
+</concept>
+
+<concept name="absorbed dose [Entity] (Absorbed dose is a dose quantity which is the measure of the energy deposited in matter by ionizing radiation per unit mass.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)"/>
+</concept>
+
+<concept name="dose equivalent [Entity] (Equivalent dose is a dose quantity H representing the stochastic health effects of low levels of ionizing radiation on the human body which represents the probability of radiation-induced cancer and genetic damage.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)"/>
 </concept>
 
 </ontology>
