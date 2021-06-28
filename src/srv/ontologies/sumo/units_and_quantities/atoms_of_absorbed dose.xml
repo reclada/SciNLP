@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of absorbed dose.-->
+<concept name="gray [Entity]">
+<attr obj="gray [Entity]  (SI base absorbed dose unit. It measures the dose of radiation absorbed in living tissue.)" rel="Coding"/>
+</concept>
+
+<concept name="yoctogray [Entity]">
+<attr obj="yoctogray [Entity] (absorbed dose unit equal to 0.000000000000000000000001 gray)" rel="Coding"/>
+</concept>
+
+<concept name="zeptogray [Entity]">
+<attr obj="zeptogray [Entity] (absorbed dose unit equal to 0.000000000000000000001 gray)" rel="Coding"/>
+</concept>
+
+<concept name="attogray [Entity]">
+<attr obj="attogray [Entity] (absorbed dose unit equal to 0.000000000000000001 gray)" rel="Coding"/>
+</concept>
+
+<concept name="femtogray [Entity]">
+<attr obj="femtogray [Entity] (absorbed dose unit equal to 0.000000000000001 gray)" rel="Coding"/>
+</concept>
+
+<concept name="picogray [Entity]">
+<attr obj="picogray [Entity] (absorbed dose unit equal to 0.000000000001 gray)" rel="Coding"/>
+</concept>
+
+<concept name="nanogray [Entity]">
+<attr obj="nanogray [Entity] (absorbed dose unit equal to 0.000000001 gray)" rel="Coding"/>
+</concept>
+
+<concept name="microgray [Entity]">
+<attr obj="microgray [Entity] (absorbed dose unit equal to 0.000001 gray)" rel="Coding"/>
+</concept>
+
+<concept name="milligray [Entity]">
+<attr obj="milligray [Entity] (absorbed dose unit equal to 0.001 gray)" rel="Coding"/>
+</concept>
+
+<concept name="centigray [Entity]">
+<attr obj="centigray [Entity] (absorbed dose unit equal to 0.01 gray)" rel="Coding"/>
+</concept>
+
+<concept name="decigray [Entity]">
+<attr obj="decigray [Entity] (absorbed dose unit equal to 0.1 gray)" rel="Coding"/>
+</concept>
+
+<concept name="decagray [Entity]">
+<attr obj="decagray [Entity] (absorbed dose unit equal to 10 gray)" rel="Coding"/>
+</concept>
+
+<concept name="hectogray [Entity]">
+<attr obj="hectogray [Entity] (absorbed dose unit equal to 100 gray)" rel="Coding"/>
+</concept>
+
+<concept name="kilogray [Entity]">
+<attr obj="kilogray [Entity] (absorbed dose unit equal to 1000 gray)" rel="Coding"/>
+</concept>
+
+<concept name="megagray [Entity]">
+<attr obj="megagray [Entity] (absorbed dose unit equal to 1000000 gray)" rel="Coding"/>
+</concept>
+
+<concept name="gigagray [Entity]">
+<attr obj="gigagray [Entity] (absorbed dose unit equal to 1000000000 gray)" rel="Coding"/>
+</concept>
+
+<concept name="teragray [Entity]">
+<attr obj="teragray [Entity] (absorbed dose unit equal to 1000000000000 gray)" rel="Coding"/>
+</concept>
+
+<concept name="petagray [Entity]">
+<attr obj="petagray [Entity] (absorbed dose unit equal to 1000000000000000 gray)" rel="Coding"/>
+</concept>
+
+<concept name="exagray [Entity]">
+<attr obj="exagray [Entity] (absorbed dose unit equal to 1000000000000000000 gray)" rel="Coding"/>
+</concept>
+
+<concept name="zettagray [Entity]">
+<attr obj="zettagray [Entity] (absorbed dose unit equal to 1000000000000000000000 gray)" rel="Coding"/>
+</concept>
+
+<concept name="yottagray [Entity]">
+<attr obj="yottagray [Entity] (absorbed dose unit equal to 1000000000000000000000000 gray)" rel="Coding"/>
+</concept>
+
+<!--atoms of units of absorbed dose.-->
+<concept name="Gy [Entity]">
+<attr obj="Gy [Entity]  (SI base absorbed dose unit. It measures the dose of radiation absorbed in living tissue.)" rel="Coding"/>
+</concept>
+
+<concept name="yGy [Entity]">
+<attr obj="yGy [Entity] (absorbed dose unit equal to 0.000000000000000000000001 gray)" rel="Coding"/>
+</concept>
+
+<concept name="zGy [Entity]">
+<attr obj="zGy [Entity] (absorbed dose unit equal to 0.000000000000000000001 gray)" rel="Coding"/>
+</concept>
+
+<concept name="aGy [Entity]">
+<attr obj="aGy [Entity] (absorbed dose unit equal to 0.000000000000000001 gray)" rel="Coding"/>
+</concept>
+
+<concept name="fGy [Entity]">
+<attr obj="fGy [Entity] (absorbed dose unit equal to 0.000000000000001 gray)" rel="Coding"/>
+</concept>
+
+<concept name="pGy [Entity]">
+<attr obj="pGy [Entity] (absorbed dose unit equal to 0.000000000001 gray)" rel="Coding"/>
+</concept>
+
+<concept name="nGy [Entity]">
+<attr obj="nGy [Entity] (absorbed dose unit equal to 0.000000001 gray)" rel="Coding"/>
+</concept>
+
+<concept name="µGy [Entity]">
+<attr obj="µGy [Entity] (absorbed dose unit equal to 0.000001 gray)" rel="Coding"/>
+</concept>
+
+<concept name="mGy [Entity]">
+<attr obj="mGy [Entity] (absorbed dose unit equal to 0.001 gray)" rel="Coding"/>
+</concept>
+
+<concept name="cGy [Entity]">
+<attr obj="cGy [Entity] (absorbed dose unit equal to 0.01 gray)" rel="Coding"/>
+</concept>
+
+<concept name="dGy [Entity]">
+<attr obj="dGy [Entity] (absorbed dose unit equal to 0.1 gray)" rel="Coding"/>
+</concept>
+
+<concept name="daGy [Entity]">
+<attr obj="daGy [Entity] (absorbed dose unit equal to 10 gray)" rel="Coding"/>
+</concept>
+
+<concept name="hGy [Entity]">
+<attr obj="hGy [Entity] (absorbed dose unit equal to 100 gray)" rel="Coding"/>
+</concept>
+
+<concept name="kGy [Entity]">
+<attr obj="kGy [Entity] (absorbed dose unit equal to 1000 gray)" rel="Coding"/>
+</concept>
+
+<concept name="MGy [Entity]">
+<attr obj="MGy [Entity] (absorbed dose unit equal to 1000000 gray)" rel="Coding"/>
+</concept>
+
+<concept name="GGy [Entity]">
+<attr obj="GGy [Entity] (absorbed dose unit equal to 1000000000 gray)" rel="Coding"/>
+</concept>
+
+<concept name="TGy [Entity]">
+<attr obj="TGy [Entity] (absorbed dose unit equal to 1000000000000 gray)" rel="Coding"/>
+</concept>
+
+<concept name="PGy [Entity]">
+<attr obj="PGy [Entity] (absorbed dose unit equal to 1000000000000000 gray)" rel="Coding"/>
+</concept>
+
+<concept name="EGy [Entity]">
+<attr obj="EGy [Entity] (absorbed dose unit equal to 1000000000000000000 gray)" rel="Coding"/>
+</concept>
+
+<concept name="ZGy [Entity]">
+<attr obj="ZGy [Entity] (absorbed dose unit equal to 1000000000000000000000 gray)" rel="Coding"/>
+</concept>
+
+<concept name="YGy [Entity]">
+<attr obj="YGy [Entity] (absorbed dose unit equal to 1000000000000000000000000 gray)" rel="Coding"/>
+</concept>
+
+</ontology>

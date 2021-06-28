@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of magnetic flux density.-->
+<concept name="tesla [Entity]">
+<attr obj="tesla [Entity]  (SI base magnetic flux density unit. One Tesla equals one Weber per square Meter.)" rel="Coding"/>
+</concept>
+
+<concept name="yoctotesla [Entity]">
+<attr obj="yoctotesla [Entity] (magnetic flux density unit equal to 0.000000000000000000000001 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="zeptotesla [Entity]">
+<attr obj="zeptotesla [Entity] (magnetic flux density unit equal to 0.000000000000000000001 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="attotesla [Entity]">
+<attr obj="attotesla [Entity] (magnetic flux density unit equal to 0.000000000000000001 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="femtotesla [Entity]">
+<attr obj="femtotesla [Entity] (magnetic flux density unit equal to 0.000000000000001 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="picotesla [Entity]">
+<attr obj="picotesla [Entity] (magnetic flux density unit equal to 0.000000000001 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="nanotesla [Entity]">
+<attr obj="nanotesla [Entity] (magnetic flux density unit equal to 0.000000001 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="microtesla [Entity]">
+<attr obj="microtesla [Entity] (magnetic flux density unit equal to 0.000001 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="millitesla [Entity]">
+<attr obj="millitesla [Entity] (magnetic flux density unit equal to 0.001 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="centitesla [Entity]">
+<attr obj="centitesla [Entity] (magnetic flux density unit equal to 0.01 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="decitesla [Entity]">
+<attr obj="decitesla [Entity] (magnetic flux density unit equal to 0.1 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="decatesla [Entity]">
+<attr obj="decatesla [Entity] (magnetic flux density unit equal to 10 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="hectotesla [Entity]">
+<attr obj="hectotesla [Entity] (magnetic flux density unit equal to 100 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="kilotesla [Entity]">
+<attr obj="kilotesla [Entity] (magnetic flux density unit equal to 1000 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="megatesla [Entity]">
+<attr obj="megatesla [Entity] (magnetic flux density unit equal to 1000000 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="gigatesla [Entity]">
+<attr obj="gigatesla [Entity] (magnetic flux density unit equal to 1000000000 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="teratesla [Entity]">
+<attr obj="teratesla [Entity] (magnetic flux density unit equal to 1000000000000 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="petatesla [Entity]">
+<attr obj="petatesla [Entity] (magnetic flux density unit equal to 1000000000000000 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="exatesla [Entity]">
+<attr obj="exatesla [Entity] (magnetic flux density unit equal to 1000000000000000000 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="zettatesla [Entity]">
+<attr obj="zettatesla [Entity] (magnetic flux density unit equal to 1000000000000000000000 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="yottatesla [Entity]">
+<attr obj="yottatesla [Entity] (magnetic flux density unit equal to 1000000000000000000000000 tesla)" rel="Coding"/>
+</concept>
+
+<!--atoms of units of magnetic flux density.-->
+<concept name="T [Entity]">
+<attr obj="T [Entity]  (SI base magnetic flux density unit. One Tesla equals one Weber per square Meter.)" rel="Coding"/>
+</concept>
+
+<concept name="yT [Entity]">
+<attr obj="yT [Entity] (magnetic flux density unit equal to 0.000000000000000000000001 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="zT [Entity]">
+<attr obj="zT [Entity] (magnetic flux density unit equal to 0.000000000000000000001 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="aT [Entity]">
+<attr obj="aT [Entity] (magnetic flux density unit equal to 0.000000000000000001 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="fT [Entity]">
+<attr obj="fT [Entity] (magnetic flux density unit equal to 0.000000000000001 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="pT [Entity]">
+<attr obj="pT [Entity] (magnetic flux density unit equal to 0.000000000001 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="nT [Entity]">
+<attr obj="nT [Entity] (magnetic flux density unit equal to 0.000000001 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="µT [Entity]">
+<attr obj="µT [Entity] (magnetic flux density unit equal to 0.000001 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="mT [Entity]">
+<attr obj="mT [Entity] (magnetic flux density unit equal to 0.001 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="cT [Entity]">
+<attr obj="cT [Entity] (magnetic flux density unit equal to 0.01 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="dT [Entity]">
+<attr obj="dT [Entity] (magnetic flux density unit equal to 0.1 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="daT [Entity]">
+<attr obj="daT [Entity] (magnetic flux density unit equal to 10 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="hT [Entity]">
+<attr obj="hT [Entity] (magnetic flux density unit equal to 100 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="kT [Entity]">
+<attr obj="kT [Entity] (magnetic flux density unit equal to 1000 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="MT [Entity]">
+<attr obj="MT [Entity] (magnetic flux density unit equal to 1000000 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="GT [Entity]">
+<attr obj="GT [Entity] (magnetic flux density unit equal to 1000000000 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="TT [Entity]">
+<attr obj="TT [Entity] (magnetic flux density unit equal to 1000000000000 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="PT [Entity]">
+<attr obj="PT [Entity] (magnetic flux density unit equal to 1000000000000000 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="ET [Entity]">
+<attr obj="ET [Entity] (magnetic flux density unit equal to 1000000000000000000 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="ZT [Entity]">
+<attr obj="ZT [Entity] (magnetic flux density unit equal to 1000000000000000000000 tesla)" rel="Coding"/>
+</concept>
+
+<concept name="YT [Entity]">
+<attr obj="YT [Entity] (magnetic flux density unit equal to 1000000000000000000000000 tesla)" rel="Coding"/>
+</concept>
+
+</ontology>

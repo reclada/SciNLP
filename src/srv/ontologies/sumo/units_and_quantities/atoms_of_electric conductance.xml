@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of electric conductance.-->
+<concept name="siemens [Entity]">
+<attr obj="siemens [Entity]  (SI base electric conductance unit. In the case of direct current, the conductance in Siemens is the reciprocal of the resistance in Ohms, in the case of alternating current, it is the reciprocal of the impedance in ohms.)" rel="Coding"/>
+</concept>
+
+<concept name="yoctosiemens [Entity]">
+<attr obj="yoctosiemens [Entity] (electric conductance unit equal to 0.000000000000000000000001 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="zeptosiemens [Entity]">
+<attr obj="zeptosiemens [Entity] (electric conductance unit equal to 0.000000000000000000001 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="attosiemens [Entity]">
+<attr obj="attosiemens [Entity] (electric conductance unit equal to 0.000000000000000001 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="femtosiemens [Entity]">
+<attr obj="femtosiemens [Entity] (electric conductance unit equal to 0.000000000000001 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="picosiemens [Entity]">
+<attr obj="picosiemens [Entity] (electric conductance unit equal to 0.000000000001 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="nanosiemens [Entity]">
+<attr obj="nanosiemens [Entity] (electric conductance unit equal to 0.000000001 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="microsiemens [Entity]">
+<attr obj="microsiemens [Entity] (electric conductance unit equal to 0.000001 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="millisiemens [Entity]">
+<attr obj="millisiemens [Entity] (electric conductance unit equal to 0.001 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="centisiemens [Entity]">
+<attr obj="centisiemens [Entity] (electric conductance unit equal to 0.01 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="decisiemens [Entity]">
+<attr obj="decisiemens [Entity] (electric conductance unit equal to 0.1 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="decasiemens [Entity]">
+<attr obj="decasiemens [Entity] (electric conductance unit equal to 10 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="hectosiemens [Entity]">
+<attr obj="hectosiemens [Entity] (electric conductance unit equal to 100 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="kilosiemens [Entity]">
+<attr obj="kilosiemens [Entity] (electric conductance unit equal to 1000 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="megasiemens [Entity]">
+<attr obj="megasiemens [Entity] (electric conductance unit equal to 1000000 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="gigasiemens [Entity]">
+<attr obj="gigasiemens [Entity] (electric conductance unit equal to 1000000000 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="terasiemens [Entity]">
+<attr obj="terasiemens [Entity] (electric conductance unit equal to 1000000000000 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="petasiemens [Entity]">
+<attr obj="petasiemens [Entity] (electric conductance unit equal to 1000000000000000 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="exasiemens [Entity]">
+<attr obj="exasiemens [Entity] (electric conductance unit equal to 1000000000000000000 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="zettasiemens [Entity]">
+<attr obj="zettasiemens [Entity] (electric conductance unit equal to 1000000000000000000000 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="yottasiemens [Entity]">
+<attr obj="yottasiemens [Entity] (electric conductance unit equal to 1000000000000000000000000 siemens)" rel="Coding"/>
+</concept>
+
+<!--atoms of units of electric conductance.-->
+<concept name="S [Entity]">
+<attr obj="S [Entity]  (SI base electric conductance unit. In the case of direct current, the conductance in Siemens is the reciprocal of the resistance in Ohms, in the case of alternating current, it is the reciprocal of the impedance in ohms.)" rel="Coding"/>
+</concept>
+
+<concept name="yS [Entity]">
+<attr obj="yS [Entity] (electric conductance unit equal to 0.000000000000000000000001 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="zS [Entity]">
+<attr obj="zS [Entity] (electric conductance unit equal to 0.000000000000000000001 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="aS [Entity]">
+<attr obj="aS [Entity] (electric conductance unit equal to 0.000000000000000001 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="fS [Entity]">
+<attr obj="fS [Entity] (electric conductance unit equal to 0.000000000000001 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="pS [Entity]">
+<attr obj="pS [Entity] (electric conductance unit equal to 0.000000000001 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="nS [Entity]">
+<attr obj="nS [Entity] (electric conductance unit equal to 0.000000001 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="µS [Entity]">
+<attr obj="µS [Entity] (electric conductance unit equal to 0.000001 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="mS [Entity]">
+<attr obj="mS [Entity] (electric conductance unit equal to 0.001 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="cS [Entity]">
+<attr obj="cS [Entity] (electric conductance unit equal to 0.01 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="dS [Entity]">
+<attr obj="dS [Entity] (electric conductance unit equal to 0.1 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="daS [Entity]">
+<attr obj="daS [Entity] (electric conductance unit equal to 10 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="hS [Entity]">
+<attr obj="hS [Entity] (electric conductance unit equal to 100 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="kS [Entity]">
+<attr obj="kS [Entity] (electric conductance unit equal to 1000 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="MS [Entity]">
+<attr obj="MS [Entity] (electric conductance unit equal to 1000000 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="GS [Entity]">
+<attr obj="GS [Entity] (electric conductance unit equal to 1000000000 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="TS [Entity]">
+<attr obj="TS [Entity] (electric conductance unit equal to 1000000000000 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="PS [Entity]">
+<attr obj="PS [Entity] (electric conductance unit equal to 1000000000000000 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="ES [Entity]">
+<attr obj="ES [Entity] (electric conductance unit equal to 1000000000000000000 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="ZS [Entity]">
+<attr obj="ZS [Entity] (electric conductance unit equal to 1000000000000000000000 siemens)" rel="Coding"/>
+</concept>
+
+<concept name="YS [Entity]">
+<attr obj="YS [Entity] (electric conductance unit equal to 1000000000000000000000000 siemens)" rel="Coding"/>
+</concept>
+
+</ontology>

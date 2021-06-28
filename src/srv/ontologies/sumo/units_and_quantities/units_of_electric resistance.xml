@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of electric resistance.-->
+<concept name="ohm [Entity] (SI base electric resistance unit. Ohm = V/A = m^2*kg*s^(-3.)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctoohm [Entity] (electric resistance unit equal to 0.000000000000000000000001 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptoohm [Entity] (electric resistance unit equal to 0.000000000000000000001 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attoohm [Entity] (electric resistance unit equal to 0.000000000000000001 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtoohm [Entity] (electric resistance unit equal to 0.000000000000001 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picoohm [Entity] (electric resistance unit equal to 0.000000000001 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanoohm [Entity] (electric resistance unit equal to 0.000000001 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microohm [Entity] (electric resistance unit equal to 0.000001 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="milliohm [Entity] (electric resistance unit equal to 0.001 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centiohm [Entity] (electric resistance unit equal to 0.01 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="deciohm [Entity] (electric resistance unit equal to 0.1 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decaohm [Entity] (electric resistance unit equal to 10 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectoohm [Entity] (electric resistance unit equal to 100 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kiloohm [Entity] (electric resistance unit equal to 1000 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megaohm [Entity] (electric resistance unit equal to 1000000 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigaohm [Entity] (electric resistance unit equal to 1000000000 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="teraohm [Entity] (electric resistance unit equal to 1000000000000 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petaohm [Entity] (electric resistance unit equal to 1000000000000000 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exaohm [Entity] (electric resistance unit equal to 1000000000000000000 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettaohm [Entity] (electric resistance unit equal to 1000000000000000000000 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottaohm [Entity] (electric resistance unit equal to 1000000000000000000000000 ohm)">
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<!--Units of electric resistance.-->
+<concept name="Ω [Entity] (SI base electric resistance unit. Ohm = V/A = m^2*kg*s^(-3.)">
+<attr obj="ohm [Entity] (SI base electric resistance unit. Ohm = V/A = m^2*kg*s^(-3.)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yΩ [Entity] (electric resistance unit equal to 0.000000000000000000000001 ohm)">
+<attr obj="yoctoohm [Entity] (electric resistance unit equal to 0.000000000000000000000001 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zΩ [Entity] (electric resistance unit equal to 0.000000000000000000001 ohm)">
+<attr obj="zeptoohm [Entity] (electric resistance unit equal to 0.000000000000000000001 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="aΩ [Entity] (electric resistance unit equal to 0.000000000000000001 ohm)">
+<attr obj="attoohm [Entity] (electric resistance unit equal to 0.000000000000000001 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fΩ [Entity] (electric resistance unit equal to 0.000000000000001 ohm)">
+<attr obj="femtoohm [Entity] (electric resistance unit equal to 0.000000000000001 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pΩ [Entity] (electric resistance unit equal to 0.000000000001 ohm)">
+<attr obj="picoohm [Entity] (electric resistance unit equal to 0.000000000001 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nΩ [Entity] (electric resistance unit equal to 0.000000001 ohm)">
+<attr obj="nanoohm [Entity] (electric resistance unit equal to 0.000000001 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µΩ [Entity] (electric resistance unit equal to 0.000001 ohm)">
+<attr obj="microohm [Entity] (electric resistance unit equal to 0.000001 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mΩ [Entity] (electric resistance unit equal to 0.001 ohm)">
+<attr obj="milliohm [Entity] (electric resistance unit equal to 0.001 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cΩ [Entity] (electric resistance unit equal to 0.01 ohm)">
+<attr obj="centiohm [Entity] (electric resistance unit equal to 0.01 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dΩ [Entity] (electric resistance unit equal to 0.1 ohm)">
+<attr obj="deciohm [Entity] (electric resistance unit equal to 0.1 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="daΩ [Entity] (electric resistance unit equal to 10 ohm)">
+<attr obj="decaohm [Entity] (electric resistance unit equal to 10 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hΩ [Entity] (electric resistance unit equal to 100 ohm)">
+<attr obj="hectoohm [Entity] (electric resistance unit equal to 100 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kΩ [Entity] (electric resistance unit equal to 1000 ohm)">
+<attr obj="kiloohm [Entity] (electric resistance unit equal to 1000 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="MΩ [Entity] (electric resistance unit equal to 1000000 ohm)">
+<attr obj="megaohm [Entity] (electric resistance unit equal to 1000000 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="GΩ [Entity] (electric resistance unit equal to 1000000000 ohm)">
+<attr obj="gigaohm [Entity] (electric resistance unit equal to 1000000000 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="TΩ [Entity] (electric resistance unit equal to 1000000000000 ohm)">
+<attr obj="teraohm [Entity] (electric resistance unit equal to 1000000000000 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="PΩ [Entity] (electric resistance unit equal to 1000000000000000 ohm)">
+<attr obj="petaohm [Entity] (electric resistance unit equal to 1000000000000000 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="EΩ [Entity] (electric resistance unit equal to 1000000000000000000 ohm)">
+<attr obj="exaohm [Entity] (electric resistance unit equal to 1000000000000000000 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="ZΩ [Entity] (electric resistance unit equal to 1000000000000000000000 ohm)">
+<attr obj="zettaohm [Entity] (electric resistance unit equal to 1000000000000000000000 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="YΩ [Entity] (electric resistance unit equal to 1000000000000000000000000 ohm)">
+<attr obj="yottaohm [Entity] (electric resistance unit equal to 1000000000000000000000000 ohm)" rel="equivalence of concepts"/>
+<attr obj="unit of electric resistance (Every instance of this class is a unit of measure that can be used to form instances of electric resistance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="ohm [Entity] (base electric resistance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>

@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of absorbed dose.-->
+<concept name="gray [Entity] (SI base absorbed dose unit. It measures the dose of radiation absorbed in living tissue.)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctogray [Entity] (absorbed dose unit equal to 0.000000000000000000000001 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptogray [Entity] (absorbed dose unit equal to 0.000000000000000000001 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attogray [Entity] (absorbed dose unit equal to 0.000000000000000001 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtogray [Entity] (absorbed dose unit equal to 0.000000000000001 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picogray [Entity] (absorbed dose unit equal to 0.000000000001 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanogray [Entity] (absorbed dose unit equal to 0.000000001 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microgray [Entity] (absorbed dose unit equal to 0.000001 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="milligray [Entity] (absorbed dose unit equal to 0.001 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centigray [Entity] (absorbed dose unit equal to 0.01 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decigray [Entity] (absorbed dose unit equal to 0.1 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decagray [Entity] (absorbed dose unit equal to 10 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectogray [Entity] (absorbed dose unit equal to 100 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilogray [Entity] (absorbed dose unit equal to 1000 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megagray [Entity] (absorbed dose unit equal to 1000000 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigagray [Entity] (absorbed dose unit equal to 1000000000 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="teragray [Entity] (absorbed dose unit equal to 1000000000000 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petagray [Entity] (absorbed dose unit equal to 1000000000000000 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exagray [Entity] (absorbed dose unit equal to 1000000000000000000 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettagray [Entity] (absorbed dose unit equal to 1000000000000000000000 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottagray [Entity] (absorbed dose unit equal to 1000000000000000000000000 gray)">
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<!--Units of absorbed dose.-->
+<concept name="Gy [Entity] (SI base absorbed dose unit. It measures the dose of radiation absorbed in living tissue.)">
+<attr obj="gray [Entity] (SI base absorbed dose unit. It measures the dose of radiation absorbed in living tissue.)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yGy [Entity] (absorbed dose unit equal to 0.000000000000000000000001 gray)">
+<attr obj="yoctogray [Entity] (absorbed dose unit equal to 0.000000000000000000000001 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zGy [Entity] (absorbed dose unit equal to 0.000000000000000000001 gray)">
+<attr obj="zeptogray [Entity] (absorbed dose unit equal to 0.000000000000000000001 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="aGy [Entity] (absorbed dose unit equal to 0.000000000000000001 gray)">
+<attr obj="attogray [Entity] (absorbed dose unit equal to 0.000000000000000001 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fGy [Entity] (absorbed dose unit equal to 0.000000000000001 gray)">
+<attr obj="femtogray [Entity] (absorbed dose unit equal to 0.000000000000001 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pGy [Entity] (absorbed dose unit equal to 0.000000000001 gray)">
+<attr obj="picogray [Entity] (absorbed dose unit equal to 0.000000000001 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nGy [Entity] (absorbed dose unit equal to 0.000000001 gray)">
+<attr obj="nanogray [Entity] (absorbed dose unit equal to 0.000000001 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µGy [Entity] (absorbed dose unit equal to 0.000001 gray)">
+<attr obj="microgray [Entity] (absorbed dose unit equal to 0.000001 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mGy [Entity] (absorbed dose unit equal to 0.001 gray)">
+<attr obj="milligray [Entity] (absorbed dose unit equal to 0.001 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cGy [Entity] (absorbed dose unit equal to 0.01 gray)">
+<attr obj="centigray [Entity] (absorbed dose unit equal to 0.01 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dGy [Entity] (absorbed dose unit equal to 0.1 gray)">
+<attr obj="decigray [Entity] (absorbed dose unit equal to 0.1 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="daGy [Entity] (absorbed dose unit equal to 10 gray)">
+<attr obj="decagray [Entity] (absorbed dose unit equal to 10 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hGy [Entity] (absorbed dose unit equal to 100 gray)">
+<attr obj="hectogray [Entity] (absorbed dose unit equal to 100 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kGy [Entity] (absorbed dose unit equal to 1000 gray)">
+<attr obj="kilogray [Entity] (absorbed dose unit equal to 1000 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="MGy [Entity] (absorbed dose unit equal to 1000000 gray)">
+<attr obj="megagray [Entity] (absorbed dose unit equal to 1000000 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="GGy [Entity] (absorbed dose unit equal to 1000000000 gray)">
+<attr obj="gigagray [Entity] (absorbed dose unit equal to 1000000000 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="TGy [Entity] (absorbed dose unit equal to 1000000000000 gray)">
+<attr obj="teragray [Entity] (absorbed dose unit equal to 1000000000000 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="PGy [Entity] (absorbed dose unit equal to 1000000000000000 gray)">
+<attr obj="petagray [Entity] (absorbed dose unit equal to 1000000000000000 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="EGy [Entity] (absorbed dose unit equal to 1000000000000000000 gray)">
+<attr obj="exagray [Entity] (absorbed dose unit equal to 1000000000000000000 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="ZGy [Entity] (absorbed dose unit equal to 1000000000000000000000 gray)">
+<attr obj="zettagray [Entity] (absorbed dose unit equal to 1000000000000000000000 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="YGy [Entity] (absorbed dose unit equal to 1000000000000000000000000 gray)">
+<attr obj="yottagray [Entity] (absorbed dose unit equal to 1000000000000000000000000 gray)" rel="equivalence of concepts"/>
+<attr obj="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gray [Entity] (base absorbed dose unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>

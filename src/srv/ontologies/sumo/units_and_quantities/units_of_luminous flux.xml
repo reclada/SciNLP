@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of luminous flux.-->
+<concept name="lumen [Entity] (SI base luminous flux unit. It is the amount streaming outward through one solid angle of 1 Steradian from a uniform point source having an intensity of one Candela.)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctolumen [Entity] (luminous flux unit equal to 0.000000000000000000000001 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptolumen [Entity] (luminous flux unit equal to 0.000000000000000000001 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attolumen [Entity] (luminous flux unit equal to 0.000000000000000001 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtolumen [Entity] (luminous flux unit equal to 0.000000000000001 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picolumen [Entity] (luminous flux unit equal to 0.000000000001 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanolumen [Entity] (luminous flux unit equal to 0.000000001 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microlumen [Entity] (luminous flux unit equal to 0.000001 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millilumen [Entity] (luminous flux unit equal to 0.001 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centilumen [Entity] (luminous flux unit equal to 0.01 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decilumen [Entity] (luminous flux unit equal to 0.1 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decalumen [Entity] (luminous flux unit equal to 10 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectolumen [Entity] (luminous flux unit equal to 100 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilolumen [Entity] (luminous flux unit equal to 1000 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megalumen [Entity] (luminous flux unit equal to 1000000 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigalumen [Entity] (luminous flux unit equal to 1000000000 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="teralumen [Entity] (luminous flux unit equal to 1000000000000 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petalumen [Entity] (luminous flux unit equal to 1000000000000000 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exalumen [Entity] (luminous flux unit equal to 1000000000000000000 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettalumen [Entity] (luminous flux unit equal to 1000000000000000000000 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottalumen [Entity] (luminous flux unit equal to 1000000000000000000000000 lumen)">
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<!--Units of luminous flux.-->
+<concept name="lm [Entity] (SI base luminous flux unit. It is the amount streaming outward through one solid angle of 1 Steradian from a uniform point source having an intensity of one Candela.)">
+<attr obj="lumen [Entity] (SI base luminous flux unit. It is the amount streaming outward through one solid angle of 1 Steradian from a uniform point source having an intensity of one Candela.)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+</concept>
+
+<concept name="ylm [Entity] (luminous flux unit equal to 0.000000000000000000000001 lumen)">
+<attr obj="yoctolumen [Entity] (luminous flux unit equal to 0.000000000000000000000001 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zlm [Entity] (luminous flux unit equal to 0.000000000000000000001 lumen)">
+<attr obj="zeptolumen [Entity] (luminous flux unit equal to 0.000000000000000000001 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="alm [Entity] (luminous flux unit equal to 0.000000000000000001 lumen)">
+<attr obj="attolumen [Entity] (luminous flux unit equal to 0.000000000000000001 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="flm [Entity] (luminous flux unit equal to 0.000000000000001 lumen)">
+<attr obj="femtolumen [Entity] (luminous flux unit equal to 0.000000000000001 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="plm [Entity] (luminous flux unit equal to 0.000000000001 lumen)">
+<attr obj="picolumen [Entity] (luminous flux unit equal to 0.000000000001 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nlm [Entity] (luminous flux unit equal to 0.000000001 lumen)">
+<attr obj="nanolumen [Entity] (luminous flux unit equal to 0.000000001 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µlm [Entity] (luminous flux unit equal to 0.000001 lumen)">
+<attr obj="microlumen [Entity] (luminous flux unit equal to 0.000001 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mlm [Entity] (luminous flux unit equal to 0.001 lumen)">
+<attr obj="millilumen [Entity] (luminous flux unit equal to 0.001 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="clm [Entity] (luminous flux unit equal to 0.01 lumen)">
+<attr obj="centilumen [Entity] (luminous flux unit equal to 0.01 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dlm [Entity] (luminous flux unit equal to 0.1 lumen)">
+<attr obj="decilumen [Entity] (luminous flux unit equal to 0.1 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="dalm [Entity] (luminous flux unit equal to 10 lumen)">
+<attr obj="decalumen [Entity] (luminous flux unit equal to 10 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hlm [Entity] (luminous flux unit equal to 100 lumen)">
+<attr obj="hectolumen [Entity] (luminous flux unit equal to 100 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="klm [Entity] (luminous flux unit equal to 1000 lumen)">
+<attr obj="kilolumen [Entity] (luminous flux unit equal to 1000 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="Mlm [Entity] (luminous flux unit equal to 1000000 lumen)">
+<attr obj="megalumen [Entity] (luminous flux unit equal to 1000000 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="Glm [Entity] (luminous flux unit equal to 1000000000 lumen)">
+<attr obj="gigalumen [Entity] (luminous flux unit equal to 1000000000 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="Tlm [Entity] (luminous flux unit equal to 1000000000000 lumen)">
+<attr obj="teralumen [Entity] (luminous flux unit equal to 1000000000000 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="Plm [Entity] (luminous flux unit equal to 1000000000000000 lumen)">
+<attr obj="petalumen [Entity] (luminous flux unit equal to 1000000000000000 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="Elm [Entity] (luminous flux unit equal to 1000000000000000000 lumen)">
+<attr obj="exalumen [Entity] (luminous flux unit equal to 1000000000000000000 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="Zlm [Entity] (luminous flux unit equal to 1000000000000000000000 lumen)">
+<attr obj="zettalumen [Entity] (luminous flux unit equal to 1000000000000000000000 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="Ylm [Entity] (luminous flux unit equal to 1000000000000000000000000 lumen)">
+<attr obj="yottalumen [Entity] (luminous flux unit equal to 1000000000000000000000000 lumen)" rel="equivalence of concepts"/>
+<attr obj="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lumen [Entity] (base luminous flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>

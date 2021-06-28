@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of force.-->
+<concept name="newton [Entity] (SI base force unit. It is that force which gives to a mass of 1 kilogram an acceleration of 1 Meter per SecondDuration.)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctonewton [Entity] (force unit equal to 0.000000000000000000000001 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptonewton [Entity] (force unit equal to 0.000000000000000000001 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attonewton [Entity] (force unit equal to 0.000000000000000001 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtonewton [Entity] (force unit equal to 0.000000000000001 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="piconewton [Entity] (force unit equal to 0.000000000001 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanonewton [Entity] (force unit equal to 0.000000001 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="micronewton [Entity] (force unit equal to 0.000001 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millinewton [Entity] (force unit equal to 0.001 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centinewton [Entity] (force unit equal to 0.01 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decinewton [Entity] (force unit equal to 0.1 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decanewton [Entity] (force unit equal to 10 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectonewton [Entity] (force unit equal to 100 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilonewton [Entity] (force unit equal to 1000 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="meganewton [Entity] (force unit equal to 1000000 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="giganewton [Entity] (force unit equal to 1000000000 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="teranewton [Entity] (force unit equal to 1000000000000 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petanewton [Entity] (force unit equal to 1000000000000000 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exanewton [Entity] (force unit equal to 1000000000000000000 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettanewton [Entity] (force unit equal to 1000000000000000000000 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottanewton [Entity] (force unit equal to 1000000000000000000000000 newton)">
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<!--Units of force.-->
+<concept name="N [Entity] (SI base force unit. It is that force which gives to a mass of 1 kilogram an acceleration of 1 Meter per SecondDuration.)">
+<attr obj="newton [Entity] (SI base force unit. It is that force which gives to a mass of 1 kilogram an acceleration of 1 Meter per SecondDuration.)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yN [Entity] (force unit equal to 0.000000000000000000000001 newton)">
+<attr obj="yoctonewton [Entity] (force unit equal to 0.000000000000000000000001 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zN [Entity] (force unit equal to 0.000000000000000000001 newton)">
+<attr obj="zeptonewton [Entity] (force unit equal to 0.000000000000000000001 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="aN [Entity] (force unit equal to 0.000000000000000001 newton)">
+<attr obj="attonewton [Entity] (force unit equal to 0.000000000000000001 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fN [Entity] (force unit equal to 0.000000000000001 newton)">
+<attr obj="femtonewton [Entity] (force unit equal to 0.000000000000001 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pN [Entity] (force unit equal to 0.000000000001 newton)">
+<attr obj="piconewton [Entity] (force unit equal to 0.000000000001 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nN [Entity] (force unit equal to 0.000000001 newton)">
+<attr obj="nanonewton [Entity] (force unit equal to 0.000000001 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µN [Entity] (force unit equal to 0.000001 newton)">
+<attr obj="micronewton [Entity] (force unit equal to 0.000001 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mN [Entity] (force unit equal to 0.001 newton)">
+<attr obj="millinewton [Entity] (force unit equal to 0.001 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cN [Entity] (force unit equal to 0.01 newton)">
+<attr obj="centinewton [Entity] (force unit equal to 0.01 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dN [Entity] (force unit equal to 0.1 newton)">
+<attr obj="decinewton [Entity] (force unit equal to 0.1 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="daN [Entity] (force unit equal to 10 newton)">
+<attr obj="decanewton [Entity] (force unit equal to 10 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hN [Entity] (force unit equal to 100 newton)">
+<attr obj="hectonewton [Entity] (force unit equal to 100 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kN [Entity] (force unit equal to 1000 newton)">
+<attr obj="kilonewton [Entity] (force unit equal to 1000 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="MN [Entity] (force unit equal to 1000000 newton)">
+<attr obj="meganewton [Entity] (force unit equal to 1000000 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="GN [Entity] (force unit equal to 1000000000 newton)">
+<attr obj="giganewton [Entity] (force unit equal to 1000000000 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="TN [Entity] (force unit equal to 1000000000000 newton)">
+<attr obj="teranewton [Entity] (force unit equal to 1000000000000 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="PN [Entity] (force unit equal to 1000000000000000 newton)">
+<attr obj="petanewton [Entity] (force unit equal to 1000000000000000 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="EN [Entity] (force unit equal to 1000000000000000000 newton)">
+<attr obj="exanewton [Entity] (force unit equal to 1000000000000000000 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="ZN [Entity] (force unit equal to 1000000000000000000000 newton)">
+<attr obj="zettanewton [Entity] (force unit equal to 1000000000000000000000 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="YN [Entity] (force unit equal to 1000000000000000000000000 newton)">
+<attr obj="yottanewton [Entity] (force unit equal to 1000000000000000000000000 newton)" rel="equivalence of concepts"/>
+<attr obj="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="newton [Entity] (base force unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>

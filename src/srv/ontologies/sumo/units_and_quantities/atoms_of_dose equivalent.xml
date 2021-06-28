@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of dose equivalent.-->
+<concept name="sievert [Entity]">
+<attr obj="sievert [Entity]  (SI base dose equivalent unit. It is a unit of biologic dose of ionizing radiation.)" rel="Coding"/>
+</concept>
+
+<concept name="yoctosievert [Entity]">
+<attr obj="yoctosievert [Entity] (dose equivalent unit equal to 0.000000000000000000000001 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="zeptosievert [Entity]">
+<attr obj="zeptosievert [Entity] (dose equivalent unit equal to 0.000000000000000000001 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="attosievert [Entity]">
+<attr obj="attosievert [Entity] (dose equivalent unit equal to 0.000000000000000001 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="femtosievert [Entity]">
+<attr obj="femtosievert [Entity] (dose equivalent unit equal to 0.000000000000001 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="picosievert [Entity]">
+<attr obj="picosievert [Entity] (dose equivalent unit equal to 0.000000000001 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="nanosievert [Entity]">
+<attr obj="nanosievert [Entity] (dose equivalent unit equal to 0.000000001 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="microsievert [Entity]">
+<attr obj="microsievert [Entity] (dose equivalent unit equal to 0.000001 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="millisievert [Entity]">
+<attr obj="millisievert [Entity] (dose equivalent unit equal to 0.001 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="centisievert [Entity]">
+<attr obj="centisievert [Entity] (dose equivalent unit equal to 0.01 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="decisievert [Entity]">
+<attr obj="decisievert [Entity] (dose equivalent unit equal to 0.1 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="decasievert [Entity]">
+<attr obj="decasievert [Entity] (dose equivalent unit equal to 10 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="hectosievert [Entity]">
+<attr obj="hectosievert [Entity] (dose equivalent unit equal to 100 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="kilosievert [Entity]">
+<attr obj="kilosievert [Entity] (dose equivalent unit equal to 1000 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="megasievert [Entity]">
+<attr obj="megasievert [Entity] (dose equivalent unit equal to 1000000 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="gigasievert [Entity]">
+<attr obj="gigasievert [Entity] (dose equivalent unit equal to 1000000000 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="terasievert [Entity]">
+<attr obj="terasievert [Entity] (dose equivalent unit equal to 1000000000000 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="petasievert [Entity]">
+<attr obj="petasievert [Entity] (dose equivalent unit equal to 1000000000000000 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="exasievert [Entity]">
+<attr obj="exasievert [Entity] (dose equivalent unit equal to 1000000000000000000 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="zettasievert [Entity]">
+<attr obj="zettasievert [Entity] (dose equivalent unit equal to 1000000000000000000000 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="yottasievert [Entity]">
+<attr obj="yottasievert [Entity] (dose equivalent unit equal to 1000000000000000000000000 sievert)" rel="Coding"/>
+</concept>
+
+<!--atoms of units of dose equivalent.-->
+<concept name="Sv [Entity]">
+<attr obj="Sv [Entity]  (SI base dose equivalent unit. It is a unit of biologic dose of ionizing radiation.)" rel="Coding"/>
+</concept>
+
+<concept name="ySv [Entity]">
+<attr obj="ySv [Entity] (dose equivalent unit equal to 0.000000000000000000000001 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="zSv [Entity]">
+<attr obj="zSv [Entity] (dose equivalent unit equal to 0.000000000000000000001 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="aSv [Entity]">
+<attr obj="aSv [Entity] (dose equivalent unit equal to 0.000000000000000001 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="fSv [Entity]">
+<attr obj="fSv [Entity] (dose equivalent unit equal to 0.000000000000001 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="pSv [Entity]">
+<attr obj="pSv [Entity] (dose equivalent unit equal to 0.000000000001 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="nSv [Entity]">
+<attr obj="nSv [Entity] (dose equivalent unit equal to 0.000000001 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="µSv [Entity]">
+<attr obj="µSv [Entity] (dose equivalent unit equal to 0.000001 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="mSv [Entity]">
+<attr obj="mSv [Entity] (dose equivalent unit equal to 0.001 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="cSv [Entity]">
+<attr obj="cSv [Entity] (dose equivalent unit equal to 0.01 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="dSv [Entity]">
+<attr obj="dSv [Entity] (dose equivalent unit equal to 0.1 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="daSv [Entity]">
+<attr obj="daSv [Entity] (dose equivalent unit equal to 10 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="hSv [Entity]">
+<attr obj="hSv [Entity] (dose equivalent unit equal to 100 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="kSv [Entity]">
+<attr obj="kSv [Entity] (dose equivalent unit equal to 1000 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="MSv [Entity]">
+<attr obj="MSv [Entity] (dose equivalent unit equal to 1000000 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="GSv [Entity]">
+<attr obj="GSv [Entity] (dose equivalent unit equal to 1000000000 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="TSv [Entity]">
+<attr obj="TSv [Entity] (dose equivalent unit equal to 1000000000000 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="PSv [Entity]">
+<attr obj="PSv [Entity] (dose equivalent unit equal to 1000000000000000 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="ESv [Entity]">
+<attr obj="ESv [Entity] (dose equivalent unit equal to 1000000000000000000 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="ZSv [Entity]">
+<attr obj="ZSv [Entity] (dose equivalent unit equal to 1000000000000000000000 sievert)" rel="Coding"/>
+</concept>
+
+<concept name="YSv [Entity]">
+<attr obj="YSv [Entity] (dose equivalent unit equal to 1000000000000000000000000 sievert)" rel="Coding"/>
+</concept>
+
+</ontology>

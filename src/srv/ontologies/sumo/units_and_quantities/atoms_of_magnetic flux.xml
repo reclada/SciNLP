@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of magnetic flux.-->
+<concept name="weber [Entity]">
+<attr obj="weber [Entity]  (SI base magnetic flux unit. It is the magnetic flux which, linking a circuit of one turn, produces in it an electromotive force of 1 Volt as it is reduced to zero at a uniform rate in 1 SecondDuration.)" rel="Coding"/>
+</concept>
+
+<concept name="yoctoweber [Entity]">
+<attr obj="yoctoweber [Entity] (magnetic flux unit equal to 0.000000000000000000000001 weber)" rel="Coding"/>
+</concept>
+
+<concept name="zeptoweber [Entity]">
+<attr obj="zeptoweber [Entity] (magnetic flux unit equal to 0.000000000000000000001 weber)" rel="Coding"/>
+</concept>
+
+<concept name="attoweber [Entity]">
+<attr obj="attoweber [Entity] (magnetic flux unit equal to 0.000000000000000001 weber)" rel="Coding"/>
+</concept>
+
+<concept name="femtoweber [Entity]">
+<attr obj="femtoweber [Entity] (magnetic flux unit equal to 0.000000000000001 weber)" rel="Coding"/>
+</concept>
+
+<concept name="picoweber [Entity]">
+<attr obj="picoweber [Entity] (magnetic flux unit equal to 0.000000000001 weber)" rel="Coding"/>
+</concept>
+
+<concept name="nanoweber [Entity]">
+<attr obj="nanoweber [Entity] (magnetic flux unit equal to 0.000000001 weber)" rel="Coding"/>
+</concept>
+
+<concept name="microweber [Entity]">
+<attr obj="microweber [Entity] (magnetic flux unit equal to 0.000001 weber)" rel="Coding"/>
+</concept>
+
+<concept name="milliweber [Entity]">
+<attr obj="milliweber [Entity] (magnetic flux unit equal to 0.001 weber)" rel="Coding"/>
+</concept>
+
+<concept name="centiweber [Entity]">
+<attr obj="centiweber [Entity] (magnetic flux unit equal to 0.01 weber)" rel="Coding"/>
+</concept>
+
+<concept name="deciweber [Entity]">
+<attr obj="deciweber [Entity] (magnetic flux unit equal to 0.1 weber)" rel="Coding"/>
+</concept>
+
+<concept name="decaweber [Entity]">
+<attr obj="decaweber [Entity] (magnetic flux unit equal to 10 weber)" rel="Coding"/>
+</concept>
+
+<concept name="hectoweber [Entity]">
+<attr obj="hectoweber [Entity] (magnetic flux unit equal to 100 weber)" rel="Coding"/>
+</concept>
+
+<concept name="kiloweber [Entity]">
+<attr obj="kiloweber [Entity] (magnetic flux unit equal to 1000 weber)" rel="Coding"/>
+</concept>
+
+<concept name="megaweber [Entity]">
+<attr obj="megaweber [Entity] (magnetic flux unit equal to 1000000 weber)" rel="Coding"/>
+</concept>
+
+<concept name="gigaweber [Entity]">
+<attr obj="gigaweber [Entity] (magnetic flux unit equal to 1000000000 weber)" rel="Coding"/>
+</concept>
+
+<concept name="teraweber [Entity]">
+<attr obj="teraweber [Entity] (magnetic flux unit equal to 1000000000000 weber)" rel="Coding"/>
+</concept>
+
+<concept name="petaweber [Entity]">
+<attr obj="petaweber [Entity] (magnetic flux unit equal to 1000000000000000 weber)" rel="Coding"/>
+</concept>
+
+<concept name="exaweber [Entity]">
+<attr obj="exaweber [Entity] (magnetic flux unit equal to 1000000000000000000 weber)" rel="Coding"/>
+</concept>
+
+<concept name="zettaweber [Entity]">
+<attr obj="zettaweber [Entity] (magnetic flux unit equal to 1000000000000000000000 weber)" rel="Coding"/>
+</concept>
+
+<concept name="yottaweber [Entity]">
+<attr obj="yottaweber [Entity] (magnetic flux unit equal to 1000000000000000000000000 weber)" rel="Coding"/>
+</concept>
+
+<!--atoms of units of magnetic flux.-->
+<concept name="Wb [Entity]">
+<attr obj="Wb [Entity]  (SI base magnetic flux unit. It is the magnetic flux which, linking a circuit of one turn, produces in it an electromotive force of 1 Volt as it is reduced to zero at a uniform rate in 1 SecondDuration.)" rel="Coding"/>
+</concept>
+
+<concept name="yWb [Entity]">
+<attr obj="yWb [Entity] (magnetic flux unit equal to 0.000000000000000000000001 weber)" rel="Coding"/>
+</concept>
+
+<concept name="zWb [Entity]">
+<attr obj="zWb [Entity] (magnetic flux unit equal to 0.000000000000000000001 weber)" rel="Coding"/>
+</concept>
+
+<concept name="aWb [Entity]">
+<attr obj="aWb [Entity] (magnetic flux unit equal to 0.000000000000000001 weber)" rel="Coding"/>
+</concept>
+
+<concept name="fWb [Entity]">
+<attr obj="fWb [Entity] (magnetic flux unit equal to 0.000000000000001 weber)" rel="Coding"/>
+</concept>
+
+<concept name="pWb [Entity]">
+<attr obj="pWb [Entity] (magnetic flux unit equal to 0.000000000001 weber)" rel="Coding"/>
+</concept>
+
+<concept name="nWb [Entity]">
+<attr obj="nWb [Entity] (magnetic flux unit equal to 0.000000001 weber)" rel="Coding"/>
+</concept>
+
+<concept name="µWb [Entity]">
+<attr obj="µWb [Entity] (magnetic flux unit equal to 0.000001 weber)" rel="Coding"/>
+</concept>
+
+<concept name="mWb [Entity]">
+<attr obj="mWb [Entity] (magnetic flux unit equal to 0.001 weber)" rel="Coding"/>
+</concept>
+
+<concept name="cWb [Entity]">
+<attr obj="cWb [Entity] (magnetic flux unit equal to 0.01 weber)" rel="Coding"/>
+</concept>
+
+<concept name="dWb [Entity]">
+<attr obj="dWb [Entity] (magnetic flux unit equal to 0.1 weber)" rel="Coding"/>
+</concept>
+
+<concept name="daWb [Entity]">
+<attr obj="daWb [Entity] (magnetic flux unit equal to 10 weber)" rel="Coding"/>
+</concept>
+
+<concept name="hWb [Entity]">
+<attr obj="hWb [Entity] (magnetic flux unit equal to 100 weber)" rel="Coding"/>
+</concept>
+
+<concept name="kWb [Entity]">
+<attr obj="kWb [Entity] (magnetic flux unit equal to 1000 weber)" rel="Coding"/>
+</concept>
+
+<concept name="MWb [Entity]">
+<attr obj="MWb [Entity] (magnetic flux unit equal to 1000000 weber)" rel="Coding"/>
+</concept>
+
+<concept name="GWb [Entity]">
+<attr obj="GWb [Entity] (magnetic flux unit equal to 1000000000 weber)" rel="Coding"/>
+</concept>
+
+<concept name="TWb [Entity]">
+<attr obj="TWb [Entity] (magnetic flux unit equal to 1000000000000 weber)" rel="Coding"/>
+</concept>
+
+<concept name="PWb [Entity]">
+<attr obj="PWb [Entity] (magnetic flux unit equal to 1000000000000000 weber)" rel="Coding"/>
+</concept>
+
+<concept name="EWb [Entity]">
+<attr obj="EWb [Entity] (magnetic flux unit equal to 1000000000000000000 weber)" rel="Coding"/>
+</concept>
+
+<concept name="ZWb [Entity]">
+<attr obj="ZWb [Entity] (magnetic flux unit equal to 1000000000000000000000 weber)" rel="Coding"/>
+</concept>
+
+<concept name="YWb [Entity]">
+<attr obj="YWb [Entity] (magnetic flux unit equal to 1000000000000000000000000 weber)" rel="Coding"/>
+</concept>
+
+</ontology>
