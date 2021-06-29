@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of volume.-->
+<concept name="liter [Entity] (volume unit equal 0.001 cubic meter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+</concept>
+
+<concept name="l [Entity] (volume unit equal 0.001 cubic meter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+</concept>
+
+<concept name="L [Entity] (volume unit equal 0.001 cubic meter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctoliter [Entity] (volume unit equal to 0.000000000000000000000001 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptoliter [Entity] (volume unit equal to 0.000000000000000000001 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attoliter [Entity] (volume unit equal to 0.000000000000000001 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtoliter [Entity] (volume unit equal to 0.000000000000001 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picoliter [Entity] (volume unit equal to 0.000000000001 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanoliter [Entity] (volume unit equal to 0.000000001 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microliter [Entity] (volume unit equal to 0.000001 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="milliliter [Entity] (volume unit equal to 0.001 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centiliter [Entity] (volume unit equal to 0.01 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="deciliter [Entity] (volume unit equal to 0.1 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decaliter [Entity] (volume unit equal to 10 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectoliter [Entity] (volume unit equal to 100 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kiloliter [Entity] (volume unit equal to 1000 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megaliter [Entity] (volume unit equal to 1000000 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigaliter [Entity] (volume unit equal to 1000000000 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="teraliter [Entity] (volume unit equal to 1000000000000 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petaliter [Entity] (volume unit equal to 1000000000000000 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exaliter [Entity] (volume unit equal to 1000000000000000000 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettaliter [Entity] (volume unit equal to 1000000000000000000000 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottaliter [Entity] (volume unit equal to 1000000000000000000000000 liter)">
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="yl [Entity] (volume unit equal to 0.000000000000000000000001 liter)">
+<attr obj="yoctoliter [Entity] (volume unit equal to 0.000000000000000000000001 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zl [Entity] (volume unit equal to 0.000000000000000000001 liter)">
+<attr obj="zeptoliter [Entity] (volume unit equal to 0.000000000000000000001 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="al [Entity] (volume unit equal to 0.000000000000000001 liter)">
+<attr obj="attoliter [Entity] (volume unit equal to 0.000000000000000001 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fl [Entity] (volume unit equal to 0.000000000000001 liter)">
+<attr obj="femtoliter [Entity] (volume unit equal to 0.000000000000001 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pl [Entity] (volume unit equal to 0.000000000001 liter)">
+<attr obj="picoliter [Entity] (volume unit equal to 0.000000000001 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nl [Entity] (volume unit equal to 0.000000001 liter)">
+<attr obj="nanoliter [Entity] (volume unit equal to 0.000000001 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µl [Entity] (volume unit equal to 0.000001 liter)">
+<attr obj="microliter [Entity] (volume unit equal to 0.000001 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="ml [Entity] (volume unit equal to 0.001 liter)">
+<attr obj="milliliter [Entity] (volume unit equal to 0.001 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cl [Entity] (volume unit equal to 0.01 liter)">
+<attr obj="centiliter [Entity] (volume unit equal to 0.01 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dl [Entity] (volume unit equal to 0.1 liter)">
+<attr obj="deciliter [Entity] (volume unit equal to 0.1 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="dal [Entity] (volume unit equal to 10 liter)">
+<attr obj="decaliter [Entity] (volume unit equal to 10 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hl [Entity] (volume unit equal to 100 liter)">
+<attr obj="hectoliter [Entity] (volume unit equal to 100 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kl [Entity] (volume unit equal to 1000 liter)">
+<attr obj="kiloliter [Entity] (volume unit equal to 1000 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="Ml [Entity] (volume unit equal to 1000000 liter)">
+<attr obj="megaliter [Entity] (volume unit equal to 1000000 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="Gl [Entity] (volume unit equal to 1000000000 liter)">
+<attr obj="gigaliter [Entity] (volume unit equal to 1000000000 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="Tl [Entity] (volume unit equal to 1000000000000 liter)">
+<attr obj="teraliter [Entity] (volume unit equal to 1000000000000 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="Pl [Entity] (volume unit equal to 1000000000000000 liter)">
+<attr obj="petaliter [Entity] (volume unit equal to 1000000000000000 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="El [Entity] (volume unit equal to 1000000000000000000 liter)">
+<attr obj="exaliter [Entity] (volume unit equal to 1000000000000000000 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="Zl [Entity] (volume unit equal to 1000000000000000000000 liter)">
+<attr obj="zettaliter [Entity] (volume unit equal to 1000000000000000000000 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="Yl [Entity] (volume unit equal to 1000000000000000000000000 liter)">
+<attr obj="yottaliter [Entity] (volume unit equal to 1000000000000000000000000 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="yL [Entity] (volume unit equal to 0.000000000000000000000001 liter)">
+<attr obj="yoctoliter [Entity] (volume unit equal to 0.000000000000000000000001 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zL [Entity] (volume unit equal to 0.000000000000000000001 liter)">
+<attr obj="zeptoliter [Entity] (volume unit equal to 0.000000000000000000001 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="aL [Entity] (volume unit equal to 0.000000000000000001 liter)">
+<attr obj="attoliter [Entity] (volume unit equal to 0.000000000000000001 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fL [Entity] (volume unit equal to 0.000000000000001 liter)">
+<attr obj="femtoliter [Entity] (volume unit equal to 0.000000000000001 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pL [Entity] (volume unit equal to 0.000000000001 liter)">
+<attr obj="picoliter [Entity] (volume unit equal to 0.000000000001 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nL [Entity] (volume unit equal to 0.000000001 liter)">
+<attr obj="nanoliter [Entity] (volume unit equal to 0.000000001 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µL [Entity] (volume unit equal to 0.000001 liter)">
+<attr obj="microliter [Entity] (volume unit equal to 0.000001 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mL [Entity] (volume unit equal to 0.001 liter)">
+<attr obj="milliliter [Entity] (volume unit equal to 0.001 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cL [Entity] (volume unit equal to 0.01 liter)">
+<attr obj="centiliter [Entity] (volume unit equal to 0.01 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dL [Entity] (volume unit equal to 0.1 liter)">
+<attr obj="deciliter [Entity] (volume unit equal to 0.1 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="daL [Entity] (volume unit equal to 10 liter)">
+<attr obj="decaliter [Entity] (volume unit equal to 10 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hL [Entity] (volume unit equal to 100 liter)">
+<attr obj="hectoliter [Entity] (volume unit equal to 100 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kL [Entity] (volume unit equal to 1000 liter)">
+<attr obj="kiloliter [Entity] (volume unit equal to 1000 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="ML [Entity] (volume unit equal to 1000000 liter)">
+<attr obj="megaliter [Entity] (volume unit equal to 1000000 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="GL [Entity] (volume unit equal to 1000000000 liter)">
+<attr obj="gigaliter [Entity] (volume unit equal to 1000000000 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="TL [Entity] (volume unit equal to 1000000000000 liter)">
+<attr obj="teraliter [Entity] (volume unit equal to 1000000000000 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="PL [Entity] (volume unit equal to 1000000000000000 liter)">
+<attr obj="petaliter [Entity] (volume unit equal to 1000000000000000 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="EL [Entity] (volume unit equal to 1000000000000000000 liter)">
+<attr obj="exaliter [Entity] (volume unit equal to 1000000000000000000 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="ZL [Entity] (volume unit equal to 1000000000000000000000 liter)">
+<attr obj="zettaliter [Entity] (volume unit equal to 1000000000000000000000 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="YL [Entity] (volume unit equal to 1000000000000000000000000 liter)">
+<attr obj="yottaliter [Entity] (volume unit equal to 1000000000000000000000000 liter)" rel="equivalence of concepts"/>
+	<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+	<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+	<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>
