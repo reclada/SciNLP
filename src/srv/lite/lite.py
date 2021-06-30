@@ -2,20 +2,12 @@ import csv
 import json
 import sys
 import pickle
-import ahocorasick as ac
 import re
 import uuid
 
 
 with open('onto.pickle', 'rb') as f:
     onto = pickle.load(f)
-
-acautom = ac.Automaton()
-for word, concs in onto['byword'].items():
-    acautom.add_word(word, (word, concs))
-for i in range(10):
-    acautom.add_word(str(i), (str(i), [i]))
-acautom.make_automaton()
 
 res = [
     (re.compile('onset ?#(?P<no>\d+) for (?P<target>\w+)'), {'concept': lambda match: 'Tonset [Entity] (protein unfolding onset temperature)', 'number': lambda match: int(match.group('no')), 'target': lambda match: match.group('target')}),
@@ -108,15 +100,6 @@ class Table(object):
             for colnum in sorted(row):
                 value = row[colnum]
                 header_text = self.header.get(colnum, '?')
-                """
-                for lim, (word, concs) in acautom.iter(header_text):
-                    pos = lim - len(word)
-                    if isinstance(concs[0], int):
-                        continue
-                    for conc in get_meanings(concs):
-                        if concept_inherits(conc, {'quantity (Any specification of how many or how much of something there is.)', 'unit of measure (A standard of measurement for some dimension.)'}):
-                            print(':::', pos, lim, word, conc)
-                """
                 entities = []
                 for mobj in search(header_text):
                     entities.append(mobj)
