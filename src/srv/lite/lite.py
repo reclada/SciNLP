@@ -4,9 +4,11 @@ import sys
 import pickle
 import re
 import uuid
+import os
+import __main__
 
 
-with open('onto.pickle', 'rb') as f:
+with open(os.path.dirname(__main__.__file__) + os.sep + 'onto.pickle', 'rb') as f:
     onto = pickle.load(f)
 
 res = [
