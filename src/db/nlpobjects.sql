@@ -1,3 +1,4 @@
+/*
 SELECT reclada_object.create_subclass('{
     "class": "RecladaObject",
     "attrs": {
@@ -21,5 +22,16 @@ SELECT reclada_object.create_subclass('{
             "object": {"type": "string"}
         },
         "required": ["attribute", "value", "attributeEntities", "valueEntities", "object"]
+    }
+}'::jsonb);*/
+SELECT reclada_object.create_subclass('{
+    "class": "RecladaObject",
+    "attrs": {
+        "newClass": "DataRow",
+        "properties": {
+            "table": {"type": "string"},
+            "row": {"type": "number"}
+        },
+        "required": ["table", "row"]
     }
 }'::jsonb);

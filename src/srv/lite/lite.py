@@ -19,7 +19,7 @@ res = [
     (re.compile('^(?P<value>\d+,[\d+, ]+)$'), {'value': lambda match: map(int, match.group('value').split(','))}),
     (re.compile('(?P<amount>\d+) +\((?P<percamount>\d\.\d+) *%\)'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)', 'percents': lambda match: float(match.group('percamount'))}),
     (re.compile('(?P<amount>\d+) +%'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'percent [Entity] (one hundredth part)'}),
-    (re.compile('(?P<amount>\d+) *(?P<unit>\w+)'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit'), '')))}),
+    (re.compile('^(?P<amount>\d+) *(?P<unit>\w+)$'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit'), ''))) or [match.group('unit')]}),
     (re.compile('(?P<name>\w+) +\(*(?P<unit>\w+)\)'), {'feature': lambda match: list(get_meanings(onto['byword'].get(match.group('name'), ''))), 'unit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit'), '')))}),
     (re.compile('\(*(?P<unit1>\w+)\/(?P<unit2>\w+)\)'), {'baseUnit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit1'), ''))) or match.group('unit1'), 'dividedByUnit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit2'), ''))) or match.group('unit2')}),
     (re.compile('annotations -> sample id'), {'concept': lambda match: 'protein id (protein or sample identifier)'}),
@@ -141,7 +141,29 @@ with open(sys.argv[2], 'w') as outfile:
             obj['table'] = tableid
             obj['row'] = i
             objid = str(uuid.uuid4())
-            writer.writerow([json.dumps({'class': 'Data', 'attrs': obj, 'id': objid}, indent=4)])
+            # writer.writerow([json.dumps({'class': 'Data', 'attrs': obj, 'id': objid}, indent=4)])
+            datarow = {}
+            datarow['table'] = tableid
+            datarow['row'] = i
             for attr in dd:
-                attr['object'] = objid
-                writer.writerow([json.dumps({'class': 'Attribute', 'id': str(uuid.uuid4()), 'attrs': attr}, indent=4, ensure_ascii=False)])
+                key = attr['attributeEntities']
+                if not key:
+                    key = [{'name': attr['attribute']}]
+                key = key[0]
+                if 'concept' in key:
+                    key = key['concept']
+                elif 'name' in key:
+                    key = key['name']
+                else:
+                    continue
+                value = attr['valueEntities']
+                if not value:
+                    value = [{'text': attr['value']}]
+                value = value[0]
+                if 'unit' in value and not value['unit'] and 'amount' in value:
+                    value = {'number': value['amount']}
+                datarow[key.strip()] = value
+                # attr['object'] = objid
+                # writer.writerow([json.dumps({'class': 'Attribute', 'id': str(uuid.uuid4()), 'attrs': attr}, indent=4, ensure_ascii=False)])
+            writer.writerow([json.dumps({'class': 'DataRow', 'attrs': datarow, 'id': str(uuid.uuid4())}, indent=4, ensure_ascii=False)])
+
