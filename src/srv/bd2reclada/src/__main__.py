@@ -50,5 +50,7 @@ while queue:
             robj[_(k)] = v
 with open(sys.argv[2], 'w') as outfile:
     writer = csv.writer(outfile, quotechar='\'')
+    if len(sys.argv) > 3:
+        objects[0]['fileId'] = sys.argv[3]
     for obj in objects:
         writer.writerow([json.dumps(obj, indent=4)])
