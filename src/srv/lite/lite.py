@@ -25,7 +25,7 @@ res = [
     (re.compile('annotations -> sample id'), {'concept': lambda match: 'protein id (protein or sample identifier)'}),
     (re.compile('capillary'), {'concept': lambda match: 'capillary [Entity] (capillary)'}),
     (re.compile('capillaries'), {'concept': lambda match: 'capillary [Entity] (capillary)'}),
-    (re.compile('(?P<protein>\w\w\w\w\w\d\.\d\d\d)'), {'protein': lambda match: match.group('protein').upper()}),
+    (re.compile('^(?P<protein>\w\w\w\w\w*\d+\.\d\d\d)$'), {'protein': lambda match: match.group('protein').upper()}),
     (re.compile('ratio ↗ -> ip #(?P<no>\d) -> ⌀'), {'concept': lambda match: 'Tm%(no)s [Entity] (value of Tm%(no)s)' % match.groupdict()}),
     (re.compile('ratio ↗ -> ip #(?P<no>\d) -> σ'), {'concept': lambda match: 'Tm%(no)s σ (deviation of Tm%(no)s)' % match.groupdict()}),
     (re.compile('ratio ↗ -> on -> ⌀'), {'concept': lambda match: 'Tonset [Entity] (protein unfolding onset temperature)' % match.groupdict()}),
