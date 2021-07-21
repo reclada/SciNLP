@@ -83,16 +83,16 @@ class Table(object):
         colspan = cell['colspan']
         for i in range(col, col + colspan):
             if i not in self.header:
-                self.header[i] = cell['text']
+                self.header[i] = cell['text'].strip()
             else:
                 if self.header[i].strip():
-                    self.header[i] += ' -> ' + cell['text']
+                    self.header[i] += ' -> ' + cell['text'].strip()
                 else:
-                    self.header[i] = cell['text']
+                    self.header[i] = cell['text'].strip()
 
     def add_data(self, cell):
         row = self.data.setdefault(cell['row'], {})
-        row[cell['column']] = cell['text']
+        row[cell['column']] = cell['text'].strip()
 
     def iter_data_dicts(self):
         for rownum in sorted(self.data):
@@ -115,6 +115,28 @@ tables = {}
 taborder = []
 data2headers = {
     'Sample ID',
+    'Analyzed Entity Name',
+    'Grouping Criterion',
+    'Stress Protocol',
+    'Retention Time',
+    'Peak Width',
+    'PeakRT',
+    'PctMain',
+    'PctAggregate',
+    'PctFragment',
+    'Ratio',
+    'Risk',
+    'StdFile',
+    'Signal',
+    'Width',
+    'PeakHeight',
+    'Matrix',
+    'SampName',
+    'Sample',
+    'DataFile',
+    'DataPath',
+    'ShortSignal',
+    'ResulTable',
     u'\u26a0',
     u'\u2300',
     u'\u03c3',
@@ -127,7 +149,7 @@ for row in csv.reader(open(sys.argv[1]), quotechar='\''):
         tables[obj['id']] = Table()
         taborder.append(obj['id'])
     elif obj['class'] == 'Cell':
-        if obj['attrs']['text'] in data2headers:
+        if obj['attrs']['text'].strip() in data2headers:
             obj['attrs']['cellType'] = 'header'
         tables[obj['attrs']['table']].add_cell(obj['attrs'])
 
