@@ -149,7 +149,7 @@ for row in csv.reader(open(sys.argv[1]), quotechar='\''):
         tables[obj['id']] = Table()
         taborder.append(obj['id'])
     elif obj['class'] == 'Cell':
-        if obj['attrs']['text'].strip() in data2headers:
+        if obj['attrs']['text'].strip() in data2headers and obj['attrs']['row'] == 0:
             obj['attrs']['cellType'] = 'header'
         tables[obj['attrs']['table']].add_cell(obj['attrs'])
 
