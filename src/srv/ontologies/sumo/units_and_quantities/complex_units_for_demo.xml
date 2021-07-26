@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+
+<!--Another time units.-->
+<concept name="concentration [Entity]">
+    <attr obj="concentration [Entity] (The concentration of a substance is the quantity of solute present in a given quantity of solution.)" rel="Coding"/>
+</concept>
+
+<concept name="concentration [Entity] (The concentration of a substance is the quantity of solute present in a given quantity of solution.)">
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of concentration (Every instance of this class is a unit of measure that can be used to form instances of concentration measure)"/>
+</concept>
+
+<concept name="unit of concentration (Every instance of this class is a unit of measure that can be used to form instances of information measure)">
+    <attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="cubic meter [Entity]">
+    <attr obj="cubic meter [Entity] (base volume unit)" rel="Coding"/>
+</concept>
+
+<concept name="liter [Entity]">
+    <attr obj="liter [Entity] (volume unit equal 0.001 cubic meter)" rel="Coding"/>
+</concept>
+
+<concept name="L [Entity]">
+    <attr obj="L [Entity] (volume unit equal 0.001 cubic meter)" rel="Coding"/>
+</concept>
+
+<concept name="l [Entity]">
+    <attr obj="l [Entity] (volume unit equal 0.001 cubic meter)" rel="Coding"/>
+</concept>
+
+<concept name="milligram per milliliter [Entity]">
+    <attr obj="milligram per milliliter [Entity] (0.001 fold of the gram divided by 0.001 fold of the litre)" rel="Coding"/>
+</concept>
+
+<concept name="mg/ml [Entity]">
+    <attr obj="mg/ml [Entity] (0.001 fold of the gram divided by 0.001 fold of the litre)" rel="Coding"/>
+</concept>
+
+<concept name="mg/mL [Entity]">
+    <attr obj="mg/mL [Entity] (0.001 fold of the gram divided by 0.001 fold of the litre)" rel="Coding"/>
+</concept>
+
+<concept name="celsius [Entity]">
+    <attr obj="celsius [Entity] (The degree Celsius is a unit of temperature on the Celsius scale.)" rel="Coding"/>
+</concept>
+
+<concept name="℃ [Entity]">
+    <attr obj="℃ [Entity] (The degree Celsius is a unit of temperature on the Celsius scale.)" rel="Coding"/>
+</concept>
+
+<concept name="celsius [Entity] (The degree Celsius is a unit of temperature on the Celsius scale.)">
+    <attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+</concept>
+
+<concept name="℃ [Entity] (The degree Celsius is a unit of temperature on the Celsius scale.)">
+    <attr obj="celsius [Entity] (The degree Celsius is a unit of temperature on the Celsius scale.)" rel="equivalence of concepts"/>
+    <attr obj="unit of temperature (Every instance of this class is a unit of measure that can be used to form instances of temperature measure)" rel="inheritance"/>
+</concept>
+
+<concept name="cubic meter [Entity] (base volume unit)">
+    <attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+    <attr rel="be derived from base unit ((about derived unit) to be derived, by exponentiation, from base unit)" obj="meter [Entity] (base length unit)"/>
+    <attr rel="be derived from base unit by exponentiation by number ((about derived unit) to be derived from base unit by exponentiation by number)" obj="3 [Number] (three)"/>
+</concept>
+
+<concept name="liter [Entity]">
+    <attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+    <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="cubic meter [Entity] (base volume unit)"/>
+    <attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="L [Entity] (volume unit equal 0.001 cubic meter)">
+    <attr obj="liter [Entity] (volume unit equal 0.001 cubic meter)" rel="equivalence of concepts"/>
+    <attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+    <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="cubic meter [Entity] (base volume unit)"/>
+    <attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="l [Entity] (volume unit equal 0.001 cubic meter)">
+    <attr obj="liter [Entity] (volume unit equal 0.001 cubic meter)" rel="equivalence of concepts"/>
+    <attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+    <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="cubic meter [Entity] (base volume unit)"/>
+    <attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="milliliter [Entity] (mass unit equal to 0.001 liter)">
+    <attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+    <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="gram [Entity] (base mass unit)"/>
+    <attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="ml [Entity] (mass unit equal to 0.001 liter)">
+    <attr obj="milliliter [Entity] (mass unit equal to 0.001 liter)" rel="equivalence of concepts"/>
+    <attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+    <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+    <attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="mL [Entity] (mass unit equal to 0.001 liter)">
+    <attr obj="milliliter [Entity] (mass unit equal to 0.001 liter)" rel="equivalence of concepts"/>
+    <attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
+    <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="liter [Entity] (volume unit equal 0.001 cubic meter)"/>
+    <attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="milligram per milliliter [Entity] (0.001 fold of the gram divided by 0.001 fold of the litre)">
+    <attr obj="unit of concentration (Every instance of this class is a unit of measure that can be used to form instances of concentration measure)" rel="inheritance"/>
+    <attr rel="be composed from base unit ((about composed unit) to be composed, by division or multiplication by another unit, from base unit)" obj="milligram [Entity] (mass unit equal to 0.001 gram)"/>
+    <attr rel="be composed from base unit by division by unit ((about composed unit) to be composed from base unit by division by unit)" obj="milliliter [Entity] (mass unit equal to 0.001 liter)"/>
+</concept>
+
+<concept name="mg/ml [Entity] (0.001 fold of the gram divided by 0.001 fold of the litre)">
+    <attr obj="milliliter [Entity] (mass unit equal to 0.001 liter)" rel="equivalence of concepts"/>
+    <attr obj="unit of concentration (Every instance of this class is a unit of measure that can be used to form instances of concentration measure)" rel="inheritance"/>
+    <attr rel="be composed from base unit ((about composed unit) to be composed, by division or multiplication by another unit, from base unit)" obj="milligram [Entity] (mass unit equal to 0.001 gram)"/>
+    <attr rel="be composed from base unit by division by unit ((about composed unit) to be composed from base unit by division by unit)" obj="milliliter [Entity] (mass unit equal to 0.001 liter)"/>
+</concept>
+
+<concept name="mg/mL [Entity] (0.001 fold of the gram divided by 0.001 fold of the litre)">
+    <attr obj="milliliter [Entity] (mass unit equal to 0.001 liter)" rel="equivalence of concepts"/>
+    <attr obj="unit of concentration (Every instance of this class is a unit of measure that can be used to form instances of concentration measure)" rel="inheritance"/>
+    <attr rel="be composed from base unit ((about composed unit) to be composed, by division or multiplication by another unit, from base unit)" obj="milligram [Entity] (mass unit equal to 0.001 gram)"/>
+    <attr rel="be composed from base unit by division by unit ((about composed unit) to be composed from base unit by division by unit)" obj="milliliter [Entity] (mass unit equal to 0.001 liter)"/>
+</concept>
+
+</ontology>

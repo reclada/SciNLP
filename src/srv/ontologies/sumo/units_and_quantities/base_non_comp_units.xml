@@ -38,34 +38,110 @@
 
 <!--Base composite units.-->
 
-<concept name="unit of area (Every instance of this class is a unit of measure that can be used to form instances of area measure)">
-<attr obj="composite unit of measure (Instances of this class are units of measure that are applied to a single dimension, and so are not intrinsically defined by the functional composition of other units.)" rel="inheritance"/>
-<attr rel="be unit of measure of physical quantity ((about unit of measure) to be unit of measure of physical quantity)" obj="area [Entity] (area)"/>
+<concept name="unit of area [Entity] (Every instance of this class is a unit of measure that can be used to form instances of area measure)">
+    <attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+	<attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of area (Every instance of this class is a unit of measure that can be used to form instances of area measure)"/>
 </concept>
 
-<concept name="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)">
-<attr obj="composite unit of measure (Instances of this class are units of measure that are applied to a single dimension, and so are not intrinsically defined by the functional composition of other units.)" rel="inheritance"/>
-<attr rel="be unit of measure of physical quantity ((about unit of measure) to be unit of measure of physical quantity)" obj="volume [Entity] (volume)"/>
+<concept name="unit of volume [Entity] (Every instance of this class is a unit of measure that can be used to form instances of volume measure)">
+    <attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)"/>
 </concept>
 
-<concept name="unit of frequency (Every instance of this class is a unit of measure that can be used to form instances of frequency measure)">
-<attr obj="composite unit of measure (Instances of this class are units of measure that are applied to a single dimension, and so are not intrinsically defined by the functional composition of other units.)" rel="inheritance"/>
-<attr rel="be unit of measure of physical quantity ((about unit of measure) to be unit of measure of physical quantity)" obj="frequency [Entity] (frequency)"/>
+<concept name="unit of frequency [Entity] (Every instance of this class is a unit of measure that can be used to form instances of frequency measure)">
+    <attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+    <attr rel="be measured by unit ((about physical quantity) to be measured by unit of measure)" obj="unit of frequency (Every instance of this class is a unit of measure that can be used to form instances of frequency measure)"/>
 </concept>
 
 <concept name="unit of atmospheric pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)">
-<attr obj="composite unit of measure (Instances of this class are units of measure that are applied to a single dimension, and so are not intrinsically defined by the functional composition of other units.)" rel="inheritance"/>
-<attr rel="be unit of measure of physical quantity ((about unit of measure) to be unit of measure of physical quantity)" obj="pressure [Entity] (pressure)"/>
+    <attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+    <attr rel="be unit of measure of physical quantity ((about unit of measure) to be unit of measure of physical quantity)" obj="pressure [Entity] (pressure)"/>
 </concept>
 
 <concept name="unit of electric current (Every instance of this class is a unit of measure that can be used to form instances of electric current measure)">
-    <attr obj="composite unit of measure (Instances of this class are units of measure that are applied to a single dimension, and so are not intrinsically defined by the functional composition of other units.)" rel="inheritance"/>
+    <attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
     <attr rel="be unit of measure of physical quantity ((about unit of measure) to be unit of measure of physical quantity)" obj="electric current [Entity] (electric current)"/>
 </concept>
 
 <concept name="unit of luminosity intensity (Every instance of this class is a unit of measure that can be used to form instances of luminosity intensity measure)">
-    <attr obj="composite unit of measure (Instances of this class are units of measure that are applied to a single dimension, and so are not intrinsically defined by the functional composition of other units.)" rel="inheritance"/>
+    <attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
     <attr rel="be unit of measure of physical quantity ((about unit of measure) to be unit of measure of physical quantity)" obj="luminosity intensity [Entity] (luminosity intensity)"/>
+</concept>
+
+<concept name="unit of force (Every instance of this class is a unit of measure that can be used to form instances of force measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of power (Every instance of this class is a unit of measure that can be used to form instances of power measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of celsius temperature (Every instance of this class is a unit of measure that can be used to form instances of celsius temperature measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of luminous flux (Every instance of this class is a unit of measure that can be used to form instances of luminous flux measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of absorbed dose (Every instance of this class is a unit of measure that can be used to form instances of absorbed dose measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
+</concept>
+
+<concept name="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)">
+	<attr obj="composite unit of measure (Instances of this class are units of measure defined by the functional composition of other units, each of which might be a composite unit of measure or a non composite unit of measure.)" rel="inheritance"/>
 </concept>
 
 </ontology>

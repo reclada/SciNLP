@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of magnetic flux density.-->
+<concept name="tesla [Entity] (SI base magnetic flux density unit. One Tesla equals one Weber per square Meter.)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctotesla [Entity] (magnetic flux density unit equal to 0.000000000000000000000001 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptotesla [Entity] (magnetic flux density unit equal to 0.000000000000000000001 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attotesla [Entity] (magnetic flux density unit equal to 0.000000000000000001 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtotesla [Entity] (magnetic flux density unit equal to 0.000000000000001 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picotesla [Entity] (magnetic flux density unit equal to 0.000000000001 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanotesla [Entity] (magnetic flux density unit equal to 0.000000001 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microtesla [Entity] (magnetic flux density unit equal to 0.000001 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millitesla [Entity] (magnetic flux density unit equal to 0.001 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centitesla [Entity] (magnetic flux density unit equal to 0.01 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decitesla [Entity] (magnetic flux density unit equal to 0.1 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decatesla [Entity] (magnetic flux density unit equal to 10 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectotesla [Entity] (magnetic flux density unit equal to 100 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilotesla [Entity] (magnetic flux density unit equal to 1000 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megatesla [Entity] (magnetic flux density unit equal to 1000000 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigatesla [Entity] (magnetic flux density unit equal to 1000000000 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="teratesla [Entity] (magnetic flux density unit equal to 1000000000000 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petatesla [Entity] (magnetic flux density unit equal to 1000000000000000 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exatesla [Entity] (magnetic flux density unit equal to 1000000000000000000 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettatesla [Entity] (magnetic flux density unit equal to 1000000000000000000000 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottatesla [Entity] (magnetic flux density unit equal to 1000000000000000000000000 tesla)">
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<!--Units of magnetic flux density.-->
+<concept name="T [Entity] (SI base magnetic flux density unit. One Tesla equals one Weber per square Meter.)">
+<attr obj="tesla [Entity] (SI base magnetic flux density unit. One Tesla equals one Weber per square Meter.)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yT [Entity] (magnetic flux density unit equal to 0.000000000000000000000001 tesla)">
+<attr obj="yoctotesla [Entity] (magnetic flux density unit equal to 0.000000000000000000000001 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zT [Entity] (magnetic flux density unit equal to 0.000000000000000000001 tesla)">
+<attr obj="zeptotesla [Entity] (magnetic flux density unit equal to 0.000000000000000000001 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="aT [Entity] (magnetic flux density unit equal to 0.000000000000000001 tesla)">
+<attr obj="attotesla [Entity] (magnetic flux density unit equal to 0.000000000000000001 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fT [Entity] (magnetic flux density unit equal to 0.000000000000001 tesla)">
+<attr obj="femtotesla [Entity] (magnetic flux density unit equal to 0.000000000000001 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pT [Entity] (magnetic flux density unit equal to 0.000000000001 tesla)">
+<attr obj="picotesla [Entity] (magnetic flux density unit equal to 0.000000000001 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nT [Entity] (magnetic flux density unit equal to 0.000000001 tesla)">
+<attr obj="nanotesla [Entity] (magnetic flux density unit equal to 0.000000001 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µT [Entity] (magnetic flux density unit equal to 0.000001 tesla)">
+<attr obj="microtesla [Entity] (magnetic flux density unit equal to 0.000001 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mT [Entity] (magnetic flux density unit equal to 0.001 tesla)">
+<attr obj="millitesla [Entity] (magnetic flux density unit equal to 0.001 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cT [Entity] (magnetic flux density unit equal to 0.01 tesla)">
+<attr obj="centitesla [Entity] (magnetic flux density unit equal to 0.01 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dT [Entity] (magnetic flux density unit equal to 0.1 tesla)">
+<attr obj="decitesla [Entity] (magnetic flux density unit equal to 0.1 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="daT [Entity] (magnetic flux density unit equal to 10 tesla)">
+<attr obj="decatesla [Entity] (magnetic flux density unit equal to 10 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hT [Entity] (magnetic flux density unit equal to 100 tesla)">
+<attr obj="hectotesla [Entity] (magnetic flux density unit equal to 100 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kT [Entity] (magnetic flux density unit equal to 1000 tesla)">
+<attr obj="kilotesla [Entity] (magnetic flux density unit equal to 1000 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="MT [Entity] (magnetic flux density unit equal to 1000000 tesla)">
+<attr obj="megatesla [Entity] (magnetic flux density unit equal to 1000000 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="GT [Entity] (magnetic flux density unit equal to 1000000000 tesla)">
+<attr obj="gigatesla [Entity] (magnetic flux density unit equal to 1000000000 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="TT [Entity] (magnetic flux density unit equal to 1000000000000 tesla)">
+<attr obj="teratesla [Entity] (magnetic flux density unit equal to 1000000000000 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="PT [Entity] (magnetic flux density unit equal to 1000000000000000 tesla)">
+<attr obj="petatesla [Entity] (magnetic flux density unit equal to 1000000000000000 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="ET [Entity] (magnetic flux density unit equal to 1000000000000000000 tesla)">
+<attr obj="exatesla [Entity] (magnetic flux density unit equal to 1000000000000000000 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="ZT [Entity] (magnetic flux density unit equal to 1000000000000000000000 tesla)">
+<attr obj="zettatesla [Entity] (magnetic flux density unit equal to 1000000000000000000000 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="YT [Entity] (magnetic flux density unit equal to 1000000000000000000000000 tesla)">
+<attr obj="yottatesla [Entity] (magnetic flux density unit equal to 1000000000000000000000000 tesla)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux density (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux density measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="tesla [Entity] (base magnetic flux density unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>

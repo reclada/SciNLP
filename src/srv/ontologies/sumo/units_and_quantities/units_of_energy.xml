@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of energy.-->
+<concept name="joule [Entity] (SI base energy unit. It is the work done when the point of application of 1 Newton is displaced a distance of 1 Meter in the direction of the force.)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctojoule [Entity] (energy unit equal to 0.000000000000000000000001 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptojoule [Entity] (energy unit equal to 0.000000000000000000001 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attojoule [Entity] (energy unit equal to 0.000000000000000001 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtojoule [Entity] (energy unit equal to 0.000000000000001 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picojoule [Entity] (energy unit equal to 0.000000000001 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanojoule [Entity] (energy unit equal to 0.000000001 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microjoule [Entity] (energy unit equal to 0.000001 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millijoule [Entity] (energy unit equal to 0.001 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centijoule [Entity] (energy unit equal to 0.01 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decijoule [Entity] (energy unit equal to 0.1 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decajoule [Entity] (energy unit equal to 10 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectojoule [Entity] (energy unit equal to 100 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilojoule [Entity] (energy unit equal to 1000 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megajoule [Entity] (energy unit equal to 1000000 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigajoule [Entity] (energy unit equal to 1000000000 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="terajoule [Entity] (energy unit equal to 1000000000000 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petajoule [Entity] (energy unit equal to 1000000000000000 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exajoule [Entity] (energy unit equal to 1000000000000000000 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettajoule [Entity] (energy unit equal to 1000000000000000000000 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottajoule [Entity] (energy unit equal to 1000000000000000000000000 joule)">
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<!--Units of energy.-->
+<concept name="J [Entity] (SI base energy unit. It is the work done when the point of application of 1 Newton is displaced a distance of 1 Meter in the direction of the force.)">
+<attr obj="joule [Entity] (SI base energy unit. It is the work done when the point of application of 1 Newton is displaced a distance of 1 Meter in the direction of the force.)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yJ [Entity] (energy unit equal to 0.000000000000000000000001 joule)">
+<attr obj="yoctojoule [Entity] (energy unit equal to 0.000000000000000000000001 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zJ [Entity] (energy unit equal to 0.000000000000000000001 joule)">
+<attr obj="zeptojoule [Entity] (energy unit equal to 0.000000000000000000001 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="aJ [Entity] (energy unit equal to 0.000000000000000001 joule)">
+<attr obj="attojoule [Entity] (energy unit equal to 0.000000000000000001 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fJ [Entity] (energy unit equal to 0.000000000000001 joule)">
+<attr obj="femtojoule [Entity] (energy unit equal to 0.000000000000001 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pJ [Entity] (energy unit equal to 0.000000000001 joule)">
+<attr obj="picojoule [Entity] (energy unit equal to 0.000000000001 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nJ [Entity] (energy unit equal to 0.000000001 joule)">
+<attr obj="nanojoule [Entity] (energy unit equal to 0.000000001 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µJ [Entity] (energy unit equal to 0.000001 joule)">
+<attr obj="microjoule [Entity] (energy unit equal to 0.000001 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mJ [Entity] (energy unit equal to 0.001 joule)">
+<attr obj="millijoule [Entity] (energy unit equal to 0.001 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cJ [Entity] (energy unit equal to 0.01 joule)">
+<attr obj="centijoule [Entity] (energy unit equal to 0.01 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dJ [Entity] (energy unit equal to 0.1 joule)">
+<attr obj="decijoule [Entity] (energy unit equal to 0.1 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="daJ [Entity] (energy unit equal to 10 joule)">
+<attr obj="decajoule [Entity] (energy unit equal to 10 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hJ [Entity] (energy unit equal to 100 joule)">
+<attr obj="hectojoule [Entity] (energy unit equal to 100 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kJ [Entity] (energy unit equal to 1000 joule)">
+<attr obj="kilojoule [Entity] (energy unit equal to 1000 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="MJ [Entity] (energy unit equal to 1000000 joule)">
+<attr obj="megajoule [Entity] (energy unit equal to 1000000 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="GJ [Entity] (energy unit equal to 1000000000 joule)">
+<attr obj="gigajoule [Entity] (energy unit equal to 1000000000 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="TJ [Entity] (energy unit equal to 1000000000000 joule)">
+<attr obj="terajoule [Entity] (energy unit equal to 1000000000000 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="PJ [Entity] (energy unit equal to 1000000000000000 joule)">
+<attr obj="petajoule [Entity] (energy unit equal to 1000000000000000 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="EJ [Entity] (energy unit equal to 1000000000000000000 joule)">
+<attr obj="exajoule [Entity] (energy unit equal to 1000000000000000000 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="ZJ [Entity] (energy unit equal to 1000000000000000000000 joule)">
+<attr obj="zettajoule [Entity] (energy unit equal to 1000000000000000000000 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="YJ [Entity] (energy unit equal to 1000000000000000000000000 joule)">
+<attr obj="yottajoule [Entity] (energy unit equal to 1000000000000000000000000 joule)" rel="equivalence of concepts"/>
+<attr obj="unit of energy (Every instance of this class is a unit of measure that can be used to form instances of energy measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="joule [Entity] (base energy unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>

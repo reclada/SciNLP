@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of magnetic flux.-->
+<concept name="weber [Entity] (SI base magnetic flux unit. It is the magnetic flux which, linking a circuit of one turn, produces in it an electromotive force of 1 Volt as it is reduced to zero at a uniform rate in 1 SecondDuration.)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctoweber [Entity] (magnetic flux unit equal to 0.000000000000000000000001 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptoweber [Entity] (magnetic flux unit equal to 0.000000000000000000001 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attoweber [Entity] (magnetic flux unit equal to 0.000000000000000001 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtoweber [Entity] (magnetic flux unit equal to 0.000000000000001 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picoweber [Entity] (magnetic flux unit equal to 0.000000000001 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanoweber [Entity] (magnetic flux unit equal to 0.000000001 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microweber [Entity] (magnetic flux unit equal to 0.000001 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="milliweber [Entity] (magnetic flux unit equal to 0.001 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centiweber [Entity] (magnetic flux unit equal to 0.01 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="deciweber [Entity] (magnetic flux unit equal to 0.1 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decaweber [Entity] (magnetic flux unit equal to 10 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectoweber [Entity] (magnetic flux unit equal to 100 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kiloweber [Entity] (magnetic flux unit equal to 1000 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megaweber [Entity] (magnetic flux unit equal to 1000000 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigaweber [Entity] (magnetic flux unit equal to 1000000000 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="teraweber [Entity] (magnetic flux unit equal to 1000000000000 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petaweber [Entity] (magnetic flux unit equal to 1000000000000000 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exaweber [Entity] (magnetic flux unit equal to 1000000000000000000 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettaweber [Entity] (magnetic flux unit equal to 1000000000000000000000 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottaweber [Entity] (magnetic flux unit equal to 1000000000000000000000000 weber)">
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<!--Units of magnetic flux.-->
+<concept name="Wb [Entity] (SI base magnetic flux unit. It is the magnetic flux which, linking a circuit of one turn, produces in it an electromotive force of 1 Volt as it is reduced to zero at a uniform rate in 1 SecondDuration.)">
+<attr obj="weber [Entity] (SI base magnetic flux unit. It is the magnetic flux which, linking a circuit of one turn, produces in it an electromotive force of 1 Volt as it is reduced to zero at a uniform rate in 1 SecondDuration.)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yWb [Entity] (magnetic flux unit equal to 0.000000000000000000000001 weber)">
+<attr obj="yoctoweber [Entity] (magnetic flux unit equal to 0.000000000000000000000001 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zWb [Entity] (magnetic flux unit equal to 0.000000000000000000001 weber)">
+<attr obj="zeptoweber [Entity] (magnetic flux unit equal to 0.000000000000000000001 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="aWb [Entity] (magnetic flux unit equal to 0.000000000000000001 weber)">
+<attr obj="attoweber [Entity] (magnetic flux unit equal to 0.000000000000000001 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fWb [Entity] (magnetic flux unit equal to 0.000000000000001 weber)">
+<attr obj="femtoweber [Entity] (magnetic flux unit equal to 0.000000000000001 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pWb [Entity] (magnetic flux unit equal to 0.000000000001 weber)">
+<attr obj="picoweber [Entity] (magnetic flux unit equal to 0.000000000001 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nWb [Entity] (magnetic flux unit equal to 0.000000001 weber)">
+<attr obj="nanoweber [Entity] (magnetic flux unit equal to 0.000000001 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µWb [Entity] (magnetic flux unit equal to 0.000001 weber)">
+<attr obj="microweber [Entity] (magnetic flux unit equal to 0.000001 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mWb [Entity] (magnetic flux unit equal to 0.001 weber)">
+<attr obj="milliweber [Entity] (magnetic flux unit equal to 0.001 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cWb [Entity] (magnetic flux unit equal to 0.01 weber)">
+<attr obj="centiweber [Entity] (magnetic flux unit equal to 0.01 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dWb [Entity] (magnetic flux unit equal to 0.1 weber)">
+<attr obj="deciweber [Entity] (magnetic flux unit equal to 0.1 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="daWb [Entity] (magnetic flux unit equal to 10 weber)">
+<attr obj="decaweber [Entity] (magnetic flux unit equal to 10 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hWb [Entity] (magnetic flux unit equal to 100 weber)">
+<attr obj="hectoweber [Entity] (magnetic flux unit equal to 100 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kWb [Entity] (magnetic flux unit equal to 1000 weber)">
+<attr obj="kiloweber [Entity] (magnetic flux unit equal to 1000 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="MWb [Entity] (magnetic flux unit equal to 1000000 weber)">
+<attr obj="megaweber [Entity] (magnetic flux unit equal to 1000000 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="GWb [Entity] (magnetic flux unit equal to 1000000000 weber)">
+<attr obj="gigaweber [Entity] (magnetic flux unit equal to 1000000000 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="TWb [Entity] (magnetic flux unit equal to 1000000000000 weber)">
+<attr obj="teraweber [Entity] (magnetic flux unit equal to 1000000000000 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="PWb [Entity] (magnetic flux unit equal to 1000000000000000 weber)">
+<attr obj="petaweber [Entity] (magnetic flux unit equal to 1000000000000000 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="EWb [Entity] (magnetic flux unit equal to 1000000000000000000 weber)">
+<attr obj="exaweber [Entity] (magnetic flux unit equal to 1000000000000000000 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="ZWb [Entity] (magnetic flux unit equal to 1000000000000000000000 weber)">
+<attr obj="zettaweber [Entity] (magnetic flux unit equal to 1000000000000000000000 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="YWb [Entity] (magnetic flux unit equal to 1000000000000000000000000 weber)">
+<attr obj="yottaweber [Entity] (magnetic flux unit equal to 1000000000000000000000000 weber)" rel="equivalence of concepts"/>
+<attr obj="unit of magnetic flux (Every instance of this class is a unit of measure that can be used to form instances of magnetic flux measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="weber [Entity] (base magnetic flux unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>

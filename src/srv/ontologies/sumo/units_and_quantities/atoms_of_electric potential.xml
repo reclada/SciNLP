@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of electric potential.-->
+<concept name="volt [Entity]">
+<attr obj="volt [Entity]  (SI base electric potential unit. It is the difference of electric potential between two points of a conducting wire carrying a constant current of 1 Ampere, when the power dissipated between these points is equal to 1 Watt.)" rel="Coding"/>
+</concept>
+
+<concept name="yoctovolt [Entity]">
+<attr obj="yoctovolt [Entity] (electric potential unit equal to 0.000000000000000000000001 volt)" rel="Coding"/>
+</concept>
+
+<concept name="zeptovolt [Entity]">
+<attr obj="zeptovolt [Entity] (electric potential unit equal to 0.000000000000000000001 volt)" rel="Coding"/>
+</concept>
+
+<concept name="attovolt [Entity]">
+<attr obj="attovolt [Entity] (electric potential unit equal to 0.000000000000000001 volt)" rel="Coding"/>
+</concept>
+
+<concept name="femtovolt [Entity]">
+<attr obj="femtovolt [Entity] (electric potential unit equal to 0.000000000000001 volt)" rel="Coding"/>
+</concept>
+
+<concept name="picovolt [Entity]">
+<attr obj="picovolt [Entity] (electric potential unit equal to 0.000000000001 volt)" rel="Coding"/>
+</concept>
+
+<concept name="nanovolt [Entity]">
+<attr obj="nanovolt [Entity] (electric potential unit equal to 0.000000001 volt)" rel="Coding"/>
+</concept>
+
+<concept name="microvolt [Entity]">
+<attr obj="microvolt [Entity] (electric potential unit equal to 0.000001 volt)" rel="Coding"/>
+</concept>
+
+<concept name="millivolt [Entity]">
+<attr obj="millivolt [Entity] (electric potential unit equal to 0.001 volt)" rel="Coding"/>
+</concept>
+
+<concept name="centivolt [Entity]">
+<attr obj="centivolt [Entity] (electric potential unit equal to 0.01 volt)" rel="Coding"/>
+</concept>
+
+<concept name="decivolt [Entity]">
+<attr obj="decivolt [Entity] (electric potential unit equal to 0.1 volt)" rel="Coding"/>
+</concept>
+
+<concept name="decavolt [Entity]">
+<attr obj="decavolt [Entity] (electric potential unit equal to 10 volt)" rel="Coding"/>
+</concept>
+
+<concept name="hectovolt [Entity]">
+<attr obj="hectovolt [Entity] (electric potential unit equal to 100 volt)" rel="Coding"/>
+</concept>
+
+<concept name="kilovolt [Entity]">
+<attr obj="kilovolt [Entity] (electric potential unit equal to 1000 volt)" rel="Coding"/>
+</concept>
+
+<concept name="megavolt [Entity]">
+<attr obj="megavolt [Entity] (electric potential unit equal to 1000000 volt)" rel="Coding"/>
+</concept>
+
+<concept name="gigavolt [Entity]">
+<attr obj="gigavolt [Entity] (electric potential unit equal to 1000000000 volt)" rel="Coding"/>
+</concept>
+
+<concept name="teravolt [Entity]">
+<attr obj="teravolt [Entity] (electric potential unit equal to 1000000000000 volt)" rel="Coding"/>
+</concept>
+
+<concept name="petavolt [Entity]">
+<attr obj="petavolt [Entity] (electric potential unit equal to 1000000000000000 volt)" rel="Coding"/>
+</concept>
+
+<concept name="exavolt [Entity]">
+<attr obj="exavolt [Entity] (electric potential unit equal to 1000000000000000000 volt)" rel="Coding"/>
+</concept>
+
+<concept name="zettavolt [Entity]">
+<attr obj="zettavolt [Entity] (electric potential unit equal to 1000000000000000000000 volt)" rel="Coding"/>
+</concept>
+
+<concept name="yottavolt [Entity]">
+<attr obj="yottavolt [Entity] (electric potential unit equal to 1000000000000000000000000 volt)" rel="Coding"/>
+</concept>
+
+<!--atoms of units of electric potential.-->
+<concept name="V [Entity]">
+<attr obj="V [Entity]  (SI base electric potential unit. It is the difference of electric potential between two points of a conducting wire carrying a constant current of 1 Ampere, when the power dissipated between these points is equal to 1 Watt.)" rel="Coding"/>
+</concept>
+
+<concept name="yV [Entity]">
+<attr obj="yV [Entity] (electric potential unit equal to 0.000000000000000000000001 volt)" rel="Coding"/>
+</concept>
+
+<concept name="zV [Entity]">
+<attr obj="zV [Entity] (electric potential unit equal to 0.000000000000000000001 volt)" rel="Coding"/>
+</concept>
+
+<concept name="aV [Entity]">
+<attr obj="aV [Entity] (electric potential unit equal to 0.000000000000000001 volt)" rel="Coding"/>
+</concept>
+
+<concept name="fV [Entity]">
+<attr obj="fV [Entity] (electric potential unit equal to 0.000000000000001 volt)" rel="Coding"/>
+</concept>
+
+<concept name="pV [Entity]">
+<attr obj="pV [Entity] (electric potential unit equal to 0.000000000001 volt)" rel="Coding"/>
+</concept>
+
+<concept name="nV [Entity]">
+<attr obj="nV [Entity] (electric potential unit equal to 0.000000001 volt)" rel="Coding"/>
+</concept>
+
+<concept name="µV [Entity]">
+<attr obj="µV [Entity] (electric potential unit equal to 0.000001 volt)" rel="Coding"/>
+</concept>
+
+<concept name="mV [Entity]">
+<attr obj="mV [Entity] (electric potential unit equal to 0.001 volt)" rel="Coding"/>
+</concept>
+
+<concept name="cV [Entity]">
+<attr obj="cV [Entity] (electric potential unit equal to 0.01 volt)" rel="Coding"/>
+</concept>
+
+<concept name="dV [Entity]">
+<attr obj="dV [Entity] (electric potential unit equal to 0.1 volt)" rel="Coding"/>
+</concept>
+
+<concept name="daV [Entity]">
+<attr obj="daV [Entity] (electric potential unit equal to 10 volt)" rel="Coding"/>
+</concept>
+
+<concept name="hV [Entity]">
+<attr obj="hV [Entity] (electric potential unit equal to 100 volt)" rel="Coding"/>
+</concept>
+
+<concept name="kV [Entity]">
+<attr obj="kV [Entity] (electric potential unit equal to 1000 volt)" rel="Coding"/>
+</concept>
+
+<concept name="MV [Entity]">
+<attr obj="MV [Entity] (electric potential unit equal to 1000000 volt)" rel="Coding"/>
+</concept>
+
+<concept name="GV [Entity]">
+<attr obj="GV [Entity] (electric potential unit equal to 1000000000 volt)" rel="Coding"/>
+</concept>
+
+<concept name="TV [Entity]">
+<attr obj="TV [Entity] (electric potential unit equal to 1000000000000 volt)" rel="Coding"/>
+</concept>
+
+<concept name="PV [Entity]">
+<attr obj="PV [Entity] (electric potential unit equal to 1000000000000000 volt)" rel="Coding"/>
+</concept>
+
+<concept name="EV [Entity]">
+<attr obj="EV [Entity] (electric potential unit equal to 1000000000000000000 volt)" rel="Coding"/>
+</concept>
+
+<concept name="ZV [Entity]">
+<attr obj="ZV [Entity] (electric potential unit equal to 1000000000000000000000 volt)" rel="Coding"/>
+</concept>
+
+<concept name="YV [Entity]">
+<attr obj="YV [Entity] (electric potential unit equal to 1000000000000000000000000 volt)" rel="Coding"/>
+</concept>
+
+</ontology>

@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Another time units.-->
+<!--atoms-->
+<concept name="minute [Entity]">
+<attr obj="minute [Entity] (time unit equal to 60 seconds)" rel="Coding"/>
+</concept>
+
+<concept name="min [Entity]">
+<attr obj="min [Entity] (time unit equal to 60 seconds)" rel="Coding"/>
+</concept>
+
+<concept name="hour [Entity]">
+<attr obj="hour [Entity] (time unit equal to 60 minutes)" rel="Coding"/>
+</concept>
+
+<concept name="h [Entity]">
+<attr obj="h [Entity] (time unit equal to 60 minutes)" rel="Coding"/>
+</concept>
+
+<concept name="day [Entity]">
+<attr obj="day [Entity] (time unit equal to 24 hours)" rel="Coding"/>
+</concept>
+
+<concept name="week [Entity]">
+<attr obj="week [Entity] (time unit equal to 7 days)" rel="Coding"/>
+</concept>
+
+<concept name="month [Entity]">
+<attr obj="month [Entity] (time unit equal to 30 weeks)" rel="Coding"/>
+</concept>
+
+<concept name="year [Entity]">
+<attr obj="year [Entity] (time unit equal to 12 months)" rel="Coding"/>
+</concept>
+
+<concept name="fortnight [Entity]">
+<attr obj="fortnight [Entity] (time unit equal to 2 weeks)" rel="Coding"/>
+</concept>
+
+<concept name="decade [Entity]">
+<attr obj="decade [Entity] (time unit equal to 10 years)" rel="Coding"/>
+</concept>
+
+<concept name="century [Entity]">
+<attr obj="century [Entity] (time unit equal to 100 years)" rel="Coding"/>
+</concept>
+
+<concept name="millennium [Entity]">
+<attr obj="millennium [Entity] (time unit equal to 1000 years)" rel="Coding"/>
+</concept>
+
+<concept name="eon [Entity]">
+<attr obj="eon [Entity] (time unit equal to 1000000000 years)" rel="Coding"/>
+</concept>
+
+<concept name="gregorian year [Entity]">
+<attr obj="gregorian year [Entity] (time unit equal to 365.2425 days)" rel="Coding"/>
+</concept>
+
+<concept name="sidereal year [Entity]">
+<attr obj="sidereal year [Entity] (time unit equal to 365.256363004 days)" rel="Coding"/>
+</concept>
+
+<concept name="tropical year [Entity]">
+<attr obj="tropical year [Entity] (time unit equal to 365.242190402 days)" rel="Coding"/>
+</concept>
+
+<concept name="common year [Entity]">
+<attr obj="common year [Entity] (time unit equal to 365 days)" rel="Coding"/>
+</concept>
+
+<concept name="leap year [Entity]">
+<attr obj="leap year [Entity] (time unit equal to 366 days)" rel="Coding"/>
+</concept>
+
+<concept name="sidereal month [Entity]">
+<attr obj="sidereal month [Entity] (time unit equal to 27.32166155 days)" rel="Coding"/>
+</concept>
+
+<concept name="tropical month [Entity]">
+<attr obj="tropical month [Entity] (time unit equal to 27.321582 days)" rel="Coding"/>
+</concept>
+
+<concept name="synodic month [Entity]">
+<attr obj="synodic month [Entity] (time unit equal to 29.530589 days)" rel="Coding"/>
+</concept>
+
+<concept name="julian year [Entity]">
+<attr obj="julian year [Entity] (time unit equal to 365.25 days)" rel="Coding"/>
+</concept>
+
+<!--units-->
+<concept name="minute [Entity] (time unit equal to 60 seconds)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="60 [Number] (sixty)"/>
+</concept>
+
+<concept name="min [Entity] (time unit equal to 60 seconds)">
+<attr obj="minute [Entity] (time unit equal to 60 second)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="second [Entity] (base time unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="60 [Number] (sixty)"/>
+</concept>
+
+<concept name="hour [Entity] (time unit equal to 60 minutes)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="minute [Entity] (time unit equal to 60 second)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="60 [Number] (sixty)"/>
+</concept>
+
+<concept name="h [Entity] (time unit equal to 60 minutes)">
+<attr obj="hour [Entity] (time unit equal to 60 minutes)" rel="equivalence of concepts"/>
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="minute [Entity] (time unit equal to 60 second)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="60 [Number] (sixty)"/>
+</concept>
+
+<concept name="day [Entity] (time unit equal to 24 hours)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="hour [Entity] (time unit equal to 60 minute)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="24 [Number] (twenty-four)"/>
+</concept>
+
+<concept name="week [Entity] (time unit equal to 7 days)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="day [Entity] (day [Entity] (time unit equal to 24 hour))"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="7 [Number] (seven)"/>
+</concept>
+
+<concept name="month [Entity] (time unit equal to 28-30 days)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="day [Entity] (time unit equal to 24 hour)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="30 [Number] (thirty)"/>
+</concept>
+
+<concept name="year [Entity] (time unit equal to 12 months)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="month [Entity] (time unit equal to 28-30 days)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="12 [Number] (twelve)"/>
+</concept>
+
+<concept name="fortnight [Entity] (time unit equal to 2 weeks)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="week [Entity] (time unit equal to 7 days)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="2 [Number] (two)"/>
+</concept>
+
+<concept name="decade [Entity] (time unit equal to 10 years)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="year [Entity] (time unit equal to 12 months)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="century [Entity] (time unit equal to 100 years)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="year [Entity] (time unit equal to 12 months)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="millennium [Entity] (time unit equal to 1000 years)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="year [Entity] (time unit equal to 12 months)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="eon [Entity] (time unit equal to 1000000000 years)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="year [Entity] (time unit equal to 12 months)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (ten billions)"/>
+</concept>
+
+<concept name="gregorian year [Entity] (time unit equal to 365.2425 days)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="day [Entity] (time unit equal to 24 hours)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="365.2425 [Number] (365.2425)"/>
+</concept>
+
+<concept name="sidereal year [Entity] (time unit equal to 365.256363004 days)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="day [Entity] (time unit equal to 24 hours)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="365.256363004 [Number] (365.256363004)"/>
+</concept>
+
+<concept name="tropical year [Entity] (time unit equal to 365.242190402 days)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="day [Entity] (time unit equal to 24 hours)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="365.242190402 [Number] (365.242190402)"/>
+</concept>
+
+<concept name="common year [Entity] (time unit equal to 365 days)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="day [Entity] (time unit equal to 24 hours)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="365 [Number] (three hundred sixty five)"/>
+</concept>
+
+<concept name="leap year [Entity] (time unit equal to 366 days)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="day [Entity] (time unit equal to 24 hours)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="366 [Number] (three hundred sixty six)"/>
+</concept>
+
+<concept name="sidereal month [Entity] (time unit equal to 27.32166155 days)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="day [Entity] (time unit equal to 24 hours)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="27.32166155 [Number] (27.32166155)"/>
+</concept>
+
+<concept name="tropical month [Entity] (time unit equal to 27.321582 days)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="day [Entity] (time unit equal to 24 hours)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="27.321582 [Number] (27.321582)"/>
+</concept>
+
+<concept name="synodic month [Entity] (time unit equal to 29.530589 days)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="day [Entity] (time unit equal to 24 hours)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="29.530589 [Number] (29.530589)"/>
+</concept>
+
+<concept name="julian year [Entity] (time unit equal to 365.25 days)">
+<attr obj="unit of time (Every instance of this class is a unit of measure that can be used to form instances of time measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="day [Entity] (time unit equal to 24 hours)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="365.25 [Number] (365.25)"/>
+</concept>
+
+</ontology>
