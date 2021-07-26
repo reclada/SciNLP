@@ -7,13 +7,13 @@
 </concept>
 
 <concept name="m [Entity] (base length unit)">
-<attr obj="meter [Entity] (base length unit)"/>
+<attr obj="meter [Entity] (base length unit) "  rel="equivalence of concepts" />
 <attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
 <attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
 </concept>
 
 <concept name="metre [Entity] (base length unit)">
-<attr obj="meter [Entity] (base length unit)"/>
+<attr obj="meter [Entity] (base length unit)"  rel="equivalence of concepts"/>
 <attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
 <attr obj="unit of length (Every instance of this class is a unit of measure that can be used to form instances of length measure)" rel="inheritance"/>
 </concept>
