@@ -172,85 +172,65 @@
 <concept name="M [Entity]">
 <attr obj="M [Entity] (amount of substance unit)" rel="Coding" />
 </concept>
-
 <concept name="yM [Entity]">
-<attr obj="yM [Entity] (amount of substance unit equal to 1000000000000000000000000 mole)" rel="Coding" />
+<attr obj="yM [Entity] (amount of substance unit equal to 0.000000000000000000000001 mole)" rel="Coding" />
 </concept>
-
 <concept name="zM [Entity]">
-<attr obj="zM [Entity] (amount of substance unit equal to 1000000000000000000000 mole)" rel="Coding" />
+<attr obj="zM [Entity] (amount of substance unit equal to 0.000000000000000000001 mole)" rel="Coding" />
 </concept>
-
 <concept name="aM [Entity]">
-<attr obj="aM [Entity] (amount of substance unit equal to 1000000000000000000 mole)" rel="Coding" />
+<attr obj="aM [Entity] (amount of substance unit equal to 0.000000000000000001 mole)" rel="Coding" />
 </concept>
-
 <concept name="fM [Entity]">
-<attr obj="fM [Entity] (amount of substance unit equal to 1000000000000000 mole)" rel="Coding" />
+<attr obj="fM [Entity] (amount of substance unit equal to 0.000000000000001 mole)" rel="Coding" />
 </concept>
-
 <concept name="pM [Entity]">
-<attr obj="pM [Entity] (amount of substance unit equal to 1000000000000 mole)" rel="Coding" />
+<attr obj="pM [Entity] (amount of substance unit equal to 0.000000000001 mole)" rel="Coding" />
 </concept>
-
 <concept name="nM [Entity]">
-<attr obj="nM [Entity] (amount of substance unit equal to 1000000000 mole)" rel="Coding" />
+<attr obj="nM [Entity] (amount of substance unit equal to 0.000000001 mole)" rel="Coding" />
 </concept>
-
 <concept name="µM [Entity]">
-<attr obj="µM [Entity] (amount of substance unit equal to 1000000 mole)" rel="Coding" />
+<attr obj="µM [Entity] (amount of substance unit equal to 0.000001 mole)" rel="Coding" />
 </concept>
-
 <concept name="mM [Entity]">
-<attr obj="mM [Entity] (amount of substance unit equal to 1000 mole)" rel="Coding" />
+<attr obj="mM [Entity] (amount of substance unit equal to 0.001 mole)" rel="Coding" />
 </concept>
-
 <concept name="cM [Entity]">
-<attr obj="cM [Entity] (amount of substance unit equal to 100 mole)" rel="Coding" />
+<attr obj="cM [Entity] (amount of substance unit equal to 0.01 mole)" rel="Coding" />
 </concept>
-
 <concept name="dM [Entity]">
-<attr obj="dM [Entity] (amount of substance unit equal to 10 mole)" rel="Coding" />
+<attr obj="dM [Entity] (amount of substance unit equal to 0.1 mole)" rel="Coding" />
 </concept>
-
 <concept name="daM [Entity]">
 <attr obj="daM [Entity] (amount of substance unit equal to 10 mole)" rel="Coding" />
 </concept>
-
 <concept name="hM [Entity]">
 <attr obj="hM [Entity] (amount of substance unit equal to 100 mole)" rel="Coding" />
 </concept>
-
 <concept name="kM [Entity]">
 <attr obj="kM [Entity] (amount of substance unit equal to 1000 mole)" rel="Coding" />
 </concept>
-
 <concept name="MM [Entity]">
 <attr obj="MM [Entity] (amount of substance unit equal to 1000000 mole)" rel="Coding" />
 </concept>
-
 <concept name="GM [Entity]">
 <attr obj="GM [Entity] (amount of substance unit equal to 1000000000 mole)" rel="Coding" />
 </concept>
-
 <concept name="TM [Entity]">
 <attr obj="TM [Entity] (amount of substance unit equal to 1000000000000 mole)" rel="Coding" />
 </concept>
-
 <concept name="PM [Entity]">
 <attr obj="PM [Entity] (amount of substance unit equal to 1000000000000000 mole)" rel="Coding" />
 </concept>
-
 <concept name="EM [Entity]">
 <attr obj="EM [Entity] (amount of substance unit equal to 1000000000000000000 mole)" rel="Coding" />
 </concept>
-
 <concept name="ZM [Entity]">
 <attr obj="ZM [Entity] (amount of substance unit equal to 1000000000000000000000 mole)" rel="Coding" />
 </concept>
-
 <concept name="YM [Entity]">
 <attr obj="YM [Entity] (amount of substance unit equal to 1000000000000000000000000 mole)" rel="Coding" />
-</concept>
+</concept>>
 
 </ontology>
