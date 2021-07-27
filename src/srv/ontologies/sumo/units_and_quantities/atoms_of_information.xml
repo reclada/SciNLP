@@ -46,27 +46,35 @@
 </concept>
 
 <concept name="kibibyte [Entity]">
-<attr obj="kibibyte [Entity] (information unit equal to 1024 byte)" rel="Coding"/>
+<attr obj="kibibyte [Entity] (information unit equal to 1024 byte)" rel="Coding" />
 </concept>
 
 <concept name="mebibyte [Entity]">
-<attr obj="mebibyte [Entity] (information unit equal to 1048576 byte)" rel="Coding"/>
+<attr obj="mebibyte [Entity] (information unit equal to 1048576 byte)" rel="Coding" />
 </concept>
 
 <concept name="gibibyte [Entity]">
-<attr obj="gibibyte [Entity] (information unit equal to 1073741824 byte)" rel="Coding"/>
+<attr obj="gibibyte [Entity] (information unit equal to 1073741824 byte)" rel="Coding" />
 </concept>
 
-<concept name="febibyte [Entity]">
-<attr obj="febibyte [Entity] (information unit equal to 1099511627776 byte)" rel="Coding"/>
+<concept name="tebibyte [Entity]">
+<attr obj="tebibyte [Entity] (information unit equal to 1099511627776 byte)" rel="Coding" />
 </concept>
 
 <concept name="pebibyte [Entity]">
-<attr obj="pebibyte [Entity] (information unit equal to 1125899906842624 byte)" rel="Coding"/>
+<attr obj="pebibyte [Entity] (information unit equal to 1125899906842624 byte)" rel="Coding" />
 </concept>
 
 <concept name="exbibyte [Entity]">
-<attr obj="exbibyte [Entity] (information unit equal to 1152921504606847000 byte)" rel="Coding"/>
+<attr obj="exbibyte [Entity] (information unit equal to 1152921504606847000 byte)" rel="Coding" />
+</concept>
+
+<concept name="zebibyte [Entity]">
+<attr obj="zebibyte [Entity] (information unit equal to 1180591620717411303424 byte)" rel="Coding" />
+</concept>
+
+<concept name="yobibyte [Entity]">
+<attr obj="yobibyte [Entity] (information unit equal to 1208925819614629174706176 byte)" rel="Coding" />
 </concept>
 
 <concept name="kilobit [Entity]">
@@ -113,16 +121,24 @@
 <attr obj="gibibit [Entity] (information unit equal to 1073741824 bit)" rel="Coding"/>
 </concept>
 
-<concept name="febibit [Entity]">
-<attr obj="febibit [Entity] (information unit equal to 1099511627776 bit)" rel="Coding"/>
+<concept name="tebibit [Entity]">
+<attr obj="tebibit [Entity] (information unit equal to 1099511627776 bit)" rel="Coding" />
 </concept>
 
 <concept name="pebibit [Entity]">
-<attr obj="pebibit [Entity] (information unit equal to 1125899906842624 bit)" rel="Coding"/>
+<attr obj="pebibit [Entity] (information unit equal to 1125899906842624 bit)" rel="Coding" />
 </concept>
 
 <concept name="exbibit [Entity]">
-<attr obj="exbibit [Entity] (information unit equal to 1152921504606847000 bit)" rel="Coding"/>
+<attr obj="exbibit [Entity] (information unit equal to 1152921504606847000 bit)" rel="Coding" />
+</concept>
+
+<concept name="zebibit [Entity]">
+<attr obj="zebibit [Entity] (information unit equal to 1180591620717411303424 bit)" rel="Coding" />
+</concept>
+
+<concept name="yobibit [Entity]">
+<attr obj="yobibit [Entity] (information unit equal to 1208925819614629174706176 bit)" rel="Coding" />
 </concept>
 
 <concept name="kb [Entity]">
@@ -169,16 +185,24 @@
 <attr obj="Gib [Entity] (information unit equal to 1073741824 byte)" rel="Coding"/>
 </concept>
 
-<concept name="Fib [Entity]">
-<attr obj="Fib [Entity] (information unit equal to 1099511627776 byte)" rel="Coding"/>
+<concept name="Tib [Entity]">
+<attr obj="Tib [Entity] (information unit equal to 1099511627776 byte)" rel="Coding" />
 </concept>
 
 <concept name="Pib [Entity]">
-<attr obj="Pib [Entity] (information unit equal to 1125899906842624 byte)" rel="Coding"/>
+<attr obj="Pib [Entity] (information unit equal to 1125899906842624 byte)" rel="Coding" />
 </concept>
 
 <concept name="Eib [Entity]">
-<attr obj="Eib [Entity] (information unit equal to 1152921504606847000 byte)" rel="Coding"/>
+<attr obj="Eib [Entity] (information unit equal to 1152921504606847000 byte)" rel="Coding" />
+</concept>
+
+<concept name="Zib [Entity]">
+<attr obj="Zib [Entity] (information unit equal to 1180591620717411303424 byte)" rel="Coding" />
+</concept>
+
+<concept name="Yib [Entity]">
+<attr obj="Yib [Entity] (information unit equal to 1208925819614629174706176 byte)" rel="Coding" />
 </concept>
 
 </ontology>

@@ -314,130 +314,143 @@
 <attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
 </concept>
 
-<concept name="M [Entity] (amount of substance unit)">
-<attr obj="mole [Entity] (amount of substance unit.)" rel="equivalence of concepts" />
-<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance" />
-<attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure) " rel="inheritance" />
-</concept>
 <concept name="yM [Entity] (amount of substance unit equal to 0.000000000000000000000001 mole)">
 <attr obj="yoctomole [Entity] (amount of substance unit equal to 0.000000000000000000000001 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.000000000000000000000001 [Number] (septillion)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.000000000000000000000001 [Number] (0.000000000000000000000001)" />
 </concept>
+
 <concept name="zM [Entity] (amount of substance unit equal to 0.000000000000000000001 mole)">
 <attr obj="zeptomole [Entity] (amount of substance unit equal to 0.000000000000000000001 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.000000000000000000001 [Number] (sextillion)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.000000000000000000001 [Number] (0.000000000000000000001)" />
 </concept>
+
 <concept name="aM [Entity] (amount of substance unit equal to 0.000000000000000001 mole)">
 <attr obj="attomole [Entity] (amount of substance unit equal to 0.000000000000000001 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.000000000000000001 [Number] (quintillion)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.000000000000000001 [Number] (0.000000000000000001)" />
 </concept>
+
 <concept name="fM [Entity] (amount of substance unit equal to 0.000000000000001 mole)">
 <attr obj="femtomole [Entity] (amount of substance unit equal to 0.000000000000001 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.000000000000001 [Number] (quadrillion)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.000000000000001 [Number] (0.000000000000001)" />
 </concept>
+
 <concept name="pM [Entity] (amount of substance unit equal to 0.000000000001 mole)">
 <attr obj="picomole [Entity] (amount of substance unit equal to 0.000000000001 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.000000000001 [Number] (trillion)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.000000000001 [Number] (0.000000000001)" />
 </concept>
+
 <concept name="nM [Entity] (amount of substance unit equal to 0.000000001 mole)">
 <attr obj="nanomole [Entity] (amount of substance unit equal to 0.000000001 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.000000001 [Number] (billion)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.000000001 [Number] (0.000000001)" />
 </concept>
+
 <concept name="µM [Entity] (amount of substance unit equal to 0.000001 mole)">
 <attr obj="micromole [Entity] (amount of substance unit equal to 0.000001 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.000001 [Number] (million)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.000001 [Number] (0.000001)" />
 </concept>
+
 <concept name="mM [Entity] (amount of substance unit equal to 0.001 mole)">
 <attr obj="millimole [Entity] (amount of substance unit equal to 0.001 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.001 [Number] (thousand)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.001 [Number] (0.001)" />
 </concept>
+
 <concept name="cM [Entity] (amount of substance unit equal to 0.01 mole)">
 <attr obj="centimole [Entity] (amount of substance unit equal to 0.01 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.01 [Number] (hundred)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.01 [Number] (0.01)" />
 </concept>
 <concept name="dM [Entity] (amount of substance unit equal to 0.1 mole)">
 <attr obj="decimole [Entity] (amount of substance unit equal to 0.1 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.1 [Number] (ten)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="0.1 [Number] (0.1)" />
 </concept>
+
 <concept name="daM [Entity] (amount of substance unit equal to 10 mole)">
 <attr obj="decamole [Entity] (amount of substance unit equal to 10 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (10)" />
 </concept>
+
 <concept name="hM [Entity] (amount of substance unit equal to 100 mole)">
 <attr obj="hectomole [Entity] (amount of substance unit equal to 100 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (100)" />
 </concept>
+
 <concept name="kM [Entity] (amount of substance unit equal to 1000 mole)">
 <attr obj="kilomole [Entity] (amount of substance unit equal to 1000 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (1000)" />
 </concept>
+
 <concept name="MM [Entity] (amount of substance unit equal to 1000000 mole)">
 <attr obj="megamole [Entity] (amount of substance unit equal to 1000000 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (1000000)" />
 </concept>
+
 <concept name="GM [Entity] (amount of substance unit equal to 1000000000 mole)">
 <attr obj="gigamole [Entity] (amount of substance unit equal to 1000000000 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (1000000000)" />
 </concept>
+
 <concept name="TM [Entity] (amount of substance unit equal to 1000000000000 mole)">
 <attr obj="teramole [Entity] (amount of substance unit equal to 1000000000000 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (1000000000000)" />
 </concept>
+
 <concept name="PM [Entity] (amount of substance unit equal to 1000000000000000 mole)">
 <attr obj="petamole [Entity] (amount of substance unit equal to 1000000000000000 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (1000000000000000)" />
 </concept>
+
 <concept name="EM [Entity] (amount of substance unit equal to 1000000000000000000 mole)">
 <attr obj="examole [Entity] (amount of substance unit equal to 1000000000000000000 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (1000000000000000000)" />
 </concept>
+
 <concept name="ZM [Entity] (amount of substance unit equal to 1000000000000000000000 mole)">
 <attr obj="zettamole [Entity] (amount of substance unit equal to 1000000000000000000000 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (1000000000000000000000)" />
 </concept>
+
 <concept name="YM [Entity] (amount of substance unit equal to 1000000000000000000000000 mole)">
 <attr obj="yottamole [Entity] (amount of substance unit equal to 1000000000000000000000000 mole)" rel="equivalence of concepts" />
 <attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure)" rel="inheritance" />
 <attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="mole [Entity] (base amount of substance unit)" />
-<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (1000000000000000000000000)" />
 </concept>
 
 </ontology>
