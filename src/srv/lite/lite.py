@@ -15,12 +15,12 @@ res = [
     (re.compile('(?P<amount>\d+\.*\d+) *°c'), {'amount': lambda match: float(match.group('amount')), 'unit': lambda match: 'celsius [Entity] (The degree Celsius is a unit of temperature on the Celsius scale.)'}),
     (re.compile('(?P<amount>\d+) +\((?P<percamount>\d+) *%\)'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)', 'percents': lambda match: int(match.group('percamount'))}),
     (re.compile('^(?P<amount>\d+)$'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)'}),
-    (re.compile('^(?P<value>\d+\.\d+)$'), {'value': lambda match: float(match.group('value'))}),
+    (re.compile('^(?P<value>\d+\.[\dEe\+-]+)$'), {'value': lambda match: float(match.group('value'))}),
     (re.compile('^(?P<value>\d+,[\d+, ]+)$'), {'value': lambda match: map(int, match.group('value').split(','))}),
     (re.compile('(?P<amount>\d+) +\((?P<percamount>\d\.\d+) *%\)'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)', 'percents': lambda match: float(match.group('percamount'))}),
     (re.compile('(?P<amount>\d+) +%'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'percent [Entity] (one hundredth part)'}),
     (re.compile('^(?P<amount>\d+) *(?P<unit>\w+)$'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit'), ''))) or [match.group('unit')]}),
-    (re.compile('(?P<name>\w+) +\(*(?P<unit>\w+)\)'), {'feature': lambda match: list(get_meanings(onto['byword'].get(match.group('name'), ''))), 'unit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit'), '')))}),
+    (re.compile('(?P<name>\w+) +\(*(?P<unit>\w+)\)'), {'feature': lambda match: list(get_meanings(onto['byword'].get(match.group('name'), ''))) or [match.group('name')], 'unit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit'), '')))}),
     (re.compile('\(*(?P<unit1>\w+)\/(?P<unit2>\w+)\)'), {'baseUnit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit1'), ''))) or match.group('unit1'), 'dividedByUnit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit2'), ''))) or match.group('unit2')}),
     (re.compile('annotations -> sample id'), {'concept': lambda match: 'protein id (protein or sample identifier)'}),
     (re.compile('capillary'), {'concept': lambda match: 'capillary [Entity] (capillary)'}),
@@ -137,6 +137,22 @@ data2headers = {
     'DataPath',
     'ShortSignal',
     'ResulTable',
+    'Analyte',
+    'ka (1/Ms)',
+    'kd (1/s)',
+    'KD (nM)',
+    'KD (pM)',
+    'Affinity Range',
+    '% Relative Activity',
+    'Concentration (mg/mL)',
+    'Main Peak % Area',
+    'Sample Name',
+    'Plate Map Name',
+    'Epitope bin         #',
+    'Ligand level (RU)',
+    'Technology',
+    'KD (pM), [prev data]',
+    'Comment',
     u'\u26a0',
     u'\u2300',
     u'\u03c3',
@@ -149,7 +165,8 @@ for row in csv.reader(open(sys.argv[1]), quotechar='\''):
         tables[obj['id']] = Table()
         taborder.append(obj['id'])
     elif obj['class'] == 'Cell':
-        if obj['attrs']['text'].strip() in data2headers and obj['attrs']['row'] == 0:
+        table = tables[obj['attrs']['table']]
+        if obj['attrs']['text'].strip() in data2headers and obj['attrs']['cellType'] != 'header' and not table.data:
             obj['attrs']['cellType'] = 'header'
         tables[obj['attrs']['table']].add_cell(obj['attrs'])
 
@@ -176,6 +193,11 @@ with open(sys.argv[2], 'w') as outfile:
                     key = key['concept']
                 elif 'name' in key:
                     key = key['name']
+                elif 'dividedByUnit' in key:
+                    key = attr['attribute']
+                elif 'feature' in key and 'unit' in key:
+                    key = attr['attribute']
+                    # key = f'{"/".join(key["feature"])} ({"/".join(key["unit"])})'
                 else:
                     continue
                 value = attr['valueEntities']
