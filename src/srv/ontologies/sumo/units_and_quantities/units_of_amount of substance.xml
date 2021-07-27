@@ -306,6 +306,12 @@
 <attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
 </concept>
 
+<concept name="M [Entity] (amount of substance unit)">
+<attr obj="mole [Entity] (amount of substance unit.)" rel="equivalence of concepts" />
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance" />
+<attr obj="unit of amount of substance (Every instance of this class is a unit of measure that can be used to form instances of amount of substance measure) " rel="inheritance" />
+</concept>
+
 <concept name="Ymol [Entity] (amount of substance unit equal to 1000000000000000000000000 mole)">
 <attr obj="yottamole [Entity] (amount of substance unit equal to 1000000000000000000000000 mole)" rel="equivalence of concepts"/>
 <attr obj="unit of mass (Every instance of this class is a unit of measure that can be used to form instances of mass measure)" rel="inheritance"/>
