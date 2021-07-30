@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of energy.-->
+<concept name="joule [Entity]">
+<attr obj="joule [Entity]  (SI base energy unit. It is the work done when the point of application of 1 Newton is displaced a distance of 1 Meter in the direction of the force.)" rel="Coding"/>
+</concept>
+
+<concept name="yoctojoule [Entity]">
+<attr obj="yoctojoule [Entity] (energy unit equal to 0.000000000000000000000001 joule)" rel="Coding"/>
+</concept>
+
+<concept name="zeptojoule [Entity]">
+<attr obj="zeptojoule [Entity] (energy unit equal to 0.000000000000000000001 joule)" rel="Coding"/>
+</concept>
+
+<concept name="attojoule [Entity]">
+<attr obj="attojoule [Entity] (energy unit equal to 0.000000000000000001 joule)" rel="Coding"/>
+</concept>
+
+<concept name="femtojoule [Entity]">
+<attr obj="femtojoule [Entity] (energy unit equal to 0.000000000000001 joule)" rel="Coding"/>
+</concept>
+
+<concept name="picojoule [Entity]">
+<attr obj="picojoule [Entity] (energy unit equal to 0.000000000001 joule)" rel="Coding"/>
+</concept>
+
+<concept name="nanojoule [Entity]">
+<attr obj="nanojoule [Entity] (energy unit equal to 0.000000001 joule)" rel="Coding"/>
+</concept>
+
+<concept name="microjoule [Entity]">
+<attr obj="microjoule [Entity] (energy unit equal to 0.000001 joule)" rel="Coding"/>
+</concept>
+
+<concept name="millijoule [Entity]">
+<attr obj="millijoule [Entity] (energy unit equal to 0.001 joule)" rel="Coding"/>
+</concept>
+
+<concept name="centijoule [Entity]">
+<attr obj="centijoule [Entity] (energy unit equal to 0.01 joule)" rel="Coding"/>
+</concept>
+
+<concept name="decijoule [Entity]">
+<attr obj="decijoule [Entity] (energy unit equal to 0.1 joule)" rel="Coding"/>
+</concept>
+
+<concept name="decajoule [Entity]">
+<attr obj="decajoule [Entity] (energy unit equal to 10 joule)" rel="Coding"/>
+</concept>
+
+<concept name="hectojoule [Entity]">
+<attr obj="hectojoule [Entity] (energy unit equal to 100 joule)" rel="Coding"/>
+</concept>
+
+<concept name="kilojoule [Entity]">
+<attr obj="kilojoule [Entity] (energy unit equal to 1000 joule)" rel="Coding"/>
+</concept>
+
+<concept name="megajoule [Entity]">
+<attr obj="megajoule [Entity] (energy unit equal to 1000000 joule)" rel="Coding"/>
+</concept>
+
+<concept name="gigajoule [Entity]">
+<attr obj="gigajoule [Entity] (energy unit equal to 1000000000 joule)" rel="Coding"/>
+</concept>
+
+<concept name="terajoule [Entity]">
+<attr obj="terajoule [Entity] (energy unit equal to 1000000000000 joule)" rel="Coding"/>
+</concept>
+
+<concept name="petajoule [Entity]">
+<attr obj="petajoule [Entity] (energy unit equal to 1000000000000000 joule)" rel="Coding"/>
+</concept>
+
+<concept name="exajoule [Entity]">
+<attr obj="exajoule [Entity] (energy unit equal to 1000000000000000000 joule)" rel="Coding"/>
+</concept>
+
+<concept name="zettajoule [Entity]">
+<attr obj="zettajoule [Entity] (energy unit equal to 1000000000000000000000 joule)" rel="Coding"/>
+</concept>
+
+<concept name="yottajoule [Entity]">
+<attr obj="yottajoule [Entity] (energy unit equal to 1000000000000000000000000 joule)" rel="Coding"/>
+</concept>
+
+<!--atoms of units of energy.-->
+<concept name="J [Entity]">
+<attr obj="J [Entity]  (SI base energy unit. It is the work done when the point of application of 1 Newton is displaced a distance of 1 Meter in the direction of the force.)" rel="Coding"/>
+</concept>
+
+<concept name="yJ [Entity]">
+<attr obj="yJ [Entity] (energy unit equal to 0.000000000000000000000001 joule)" rel="Coding"/>
+</concept>
+
+<concept name="zJ [Entity]">
+<attr obj="zJ [Entity] (energy unit equal to 0.000000000000000000001 joule)" rel="Coding"/>
+</concept>
+
+<concept name="aJ [Entity]">
+<attr obj="aJ [Entity] (energy unit equal to 0.000000000000000001 joule)" rel="Coding"/>
+</concept>
+
+<concept name="fJ [Entity]">
+<attr obj="fJ [Entity] (energy unit equal to 0.000000000000001 joule)" rel="Coding"/>
+</concept>
+
+<concept name="pJ [Entity]">
+<attr obj="pJ [Entity] (energy unit equal to 0.000000000001 joule)" rel="Coding"/>
+</concept>
+
+<concept name="nJ [Entity]">
+<attr obj="nJ [Entity] (energy unit equal to 0.000000001 joule)" rel="Coding"/>
+</concept>
+
+<concept name="µJ [Entity]">
+<attr obj="µJ [Entity] (energy unit equal to 0.000001 joule)" rel="Coding"/>
+</concept>
+
+<concept name="mJ [Entity]">
+<attr obj="mJ [Entity] (energy unit equal to 0.001 joule)" rel="Coding"/>
+</concept>
+
+<concept name="cJ [Entity]">
+<attr obj="cJ [Entity] (energy unit equal to 0.01 joule)" rel="Coding"/>
+</concept>
+
+<concept name="dJ [Entity]">
+<attr obj="dJ [Entity] (energy unit equal to 0.1 joule)" rel="Coding"/>
+</concept>
+
+<concept name="daJ [Entity]">
+<attr obj="daJ [Entity] (energy unit equal to 10 joule)" rel="Coding"/>
+</concept>
+
+<concept name="hJ [Entity]">
+<attr obj="hJ [Entity] (energy unit equal to 100 joule)" rel="Coding"/>
+</concept>
+
+<concept name="kJ [Entity]">
+<attr obj="kJ [Entity] (energy unit equal to 1000 joule)" rel="Coding"/>
+</concept>
+
+<concept name="MJ [Entity]">
+<attr obj="MJ [Entity] (energy unit equal to 1000000 joule)" rel="Coding"/>
+</concept>
+
+<concept name="GJ [Entity]">
+<attr obj="GJ [Entity] (energy unit equal to 1000000000 joule)" rel="Coding"/>
+</concept>
+
+<concept name="TJ [Entity]">
+<attr obj="TJ [Entity] (energy unit equal to 1000000000000 joule)" rel="Coding"/>
+</concept>
+
+<concept name="PJ [Entity]">
+<attr obj="PJ [Entity] (energy unit equal to 1000000000000000 joule)" rel="Coding"/>
+</concept>
+
+<concept name="EJ [Entity]">
+<attr obj="EJ [Entity] (energy unit equal to 1000000000000000000 joule)" rel="Coding"/>
+</concept>
+
+<concept name="ZJ [Entity]">
+<attr obj="ZJ [Entity] (energy unit equal to 1000000000000000000000 joule)" rel="Coding"/>
+</concept>
+
+<concept name="YJ [Entity]">
+<attr obj="YJ [Entity] (energy unit equal to 1000000000000000000000000 joule)" rel="Coding"/>
+</concept>
+
+</ontology>

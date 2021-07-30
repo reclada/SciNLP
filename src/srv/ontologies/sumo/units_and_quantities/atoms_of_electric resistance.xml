@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of electric resistance.-->
+<concept name="ohm [Entity]">
+<attr obj="ohm [Entity]  (SI base electric resistance unit. Ohm = V/A = m^2*kg*s^(-3.)" rel="Coding"/>
+</concept>
+
+<concept name="yoctoohm [Entity]">
+<attr obj="yoctoohm [Entity] (electric resistance unit equal to 0.000000000000000000000001 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="zeptoohm [Entity]">
+<attr obj="zeptoohm [Entity] (electric resistance unit equal to 0.000000000000000000001 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="attoohm [Entity]">
+<attr obj="attoohm [Entity] (electric resistance unit equal to 0.000000000000000001 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="femtoohm [Entity]">
+<attr obj="femtoohm [Entity] (electric resistance unit equal to 0.000000000000001 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="picoohm [Entity]">
+<attr obj="picoohm [Entity] (electric resistance unit equal to 0.000000000001 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="nanoohm [Entity]">
+<attr obj="nanoohm [Entity] (electric resistance unit equal to 0.000000001 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="microohm [Entity]">
+<attr obj="microohm [Entity] (electric resistance unit equal to 0.000001 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="milliohm [Entity]">
+<attr obj="milliohm [Entity] (electric resistance unit equal to 0.001 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="centiohm [Entity]">
+<attr obj="centiohm [Entity] (electric resistance unit equal to 0.01 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="deciohm [Entity]">
+<attr obj="deciohm [Entity] (electric resistance unit equal to 0.1 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="decaohm [Entity]">
+<attr obj="decaohm [Entity] (electric resistance unit equal to 10 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="hectoohm [Entity]">
+<attr obj="hectoohm [Entity] (electric resistance unit equal to 100 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="kiloohm [Entity]">
+<attr obj="kiloohm [Entity] (electric resistance unit equal to 1000 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="megaohm [Entity]">
+<attr obj="megaohm [Entity] (electric resistance unit equal to 1000000 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="gigaohm [Entity]">
+<attr obj="gigaohm [Entity] (electric resistance unit equal to 1000000000 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="teraohm [Entity]">
+<attr obj="teraohm [Entity] (electric resistance unit equal to 1000000000000 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="petaohm [Entity]">
+<attr obj="petaohm [Entity] (electric resistance unit equal to 1000000000000000 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="exaohm [Entity]">
+<attr obj="exaohm [Entity] (electric resistance unit equal to 1000000000000000000 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="zettaohm [Entity]">
+<attr obj="zettaohm [Entity] (electric resistance unit equal to 1000000000000000000000 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="yottaohm [Entity]">
+<attr obj="yottaohm [Entity] (electric resistance unit equal to 1000000000000000000000000 ohm)" rel="Coding"/>
+</concept>
+
+<!--atoms of units of electric resistance.-->
+<concept name="Ω [Entity]">
+<attr obj="Ω [Entity]  (SI base electric resistance unit. Ohm = V/A = m^2*kg*s^(-3.)" rel="Coding"/>
+</concept>
+
+<concept name="yΩ [Entity]">
+<attr obj="yΩ [Entity] (electric resistance unit equal to 0.000000000000000000000001 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="zΩ [Entity]">
+<attr obj="zΩ [Entity] (electric resistance unit equal to 0.000000000000000000001 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="aΩ [Entity]">
+<attr obj="aΩ [Entity] (electric resistance unit equal to 0.000000000000000001 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="fΩ [Entity]">
+<attr obj="fΩ [Entity] (electric resistance unit equal to 0.000000000000001 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="pΩ [Entity]">
+<attr obj="pΩ [Entity] (electric resistance unit equal to 0.000000000001 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="nΩ [Entity]">
+<attr obj="nΩ [Entity] (electric resistance unit equal to 0.000000001 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="µΩ [Entity]">
+<attr obj="µΩ [Entity] (electric resistance unit equal to 0.000001 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="mΩ [Entity]">
+<attr obj="mΩ [Entity] (electric resistance unit equal to 0.001 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="cΩ [Entity]">
+<attr obj="cΩ [Entity] (electric resistance unit equal to 0.01 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="dΩ [Entity]">
+<attr obj="dΩ [Entity] (electric resistance unit equal to 0.1 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="daΩ [Entity]">
+<attr obj="daΩ [Entity] (electric resistance unit equal to 10 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="hΩ [Entity]">
+<attr obj="hΩ [Entity] (electric resistance unit equal to 100 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="kΩ [Entity]">
+<attr obj="kΩ [Entity] (electric resistance unit equal to 1000 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="MΩ [Entity]">
+<attr obj="MΩ [Entity] (electric resistance unit equal to 1000000 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="GΩ [Entity]">
+<attr obj="GΩ [Entity] (electric resistance unit equal to 1000000000 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="TΩ [Entity]">
+<attr obj="TΩ [Entity] (electric resistance unit equal to 1000000000000 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="PΩ [Entity]">
+<attr obj="PΩ [Entity] (electric resistance unit equal to 1000000000000000 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="EΩ [Entity]">
+<attr obj="EΩ [Entity] (electric resistance unit equal to 1000000000000000000 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="ZΩ [Entity]">
+<attr obj="ZΩ [Entity] (electric resistance unit equal to 1000000000000000000000 ohm)" rel="Coding"/>
+</concept>
+
+<concept name="YΩ [Entity]">
+<attr obj="YΩ [Entity] (electric resistance unit equal to 1000000000000000000000000 ohm)" rel="Coding"/>
+</concept>
+
+</ontology>

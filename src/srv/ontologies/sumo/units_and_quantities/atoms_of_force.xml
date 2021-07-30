@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of force.-->
+<concept name="newton [Entity]">
+<attr obj="newton [Entity]  (SI base force unit. It is that force which gives to a mass of 1 kilogram an acceleration of 1 Meter per SecondDuration.)" rel="Coding"/>
+</concept>
+
+<concept name="yoctonewton [Entity]">
+<attr obj="yoctonewton [Entity] (force unit equal to 0.000000000000000000000001 newton)" rel="Coding"/>
+</concept>
+
+<concept name="zeptonewton [Entity]">
+<attr obj="zeptonewton [Entity] (force unit equal to 0.000000000000000000001 newton)" rel="Coding"/>
+</concept>
+
+<concept name="attonewton [Entity]">
+<attr obj="attonewton [Entity] (force unit equal to 0.000000000000000001 newton)" rel="Coding"/>
+</concept>
+
+<concept name="femtonewton [Entity]">
+<attr obj="femtonewton [Entity] (force unit equal to 0.000000000000001 newton)" rel="Coding"/>
+</concept>
+
+<concept name="piconewton [Entity]">
+<attr obj="piconewton [Entity] (force unit equal to 0.000000000001 newton)" rel="Coding"/>
+</concept>
+
+<concept name="nanonewton [Entity]">
+<attr obj="nanonewton [Entity] (force unit equal to 0.000000001 newton)" rel="Coding"/>
+</concept>
+
+<concept name="micronewton [Entity]">
+<attr obj="micronewton [Entity] (force unit equal to 0.000001 newton)" rel="Coding"/>
+</concept>
+
+<concept name="millinewton [Entity]">
+<attr obj="millinewton [Entity] (force unit equal to 0.001 newton)" rel="Coding"/>
+</concept>
+
+<concept name="centinewton [Entity]">
+<attr obj="centinewton [Entity] (force unit equal to 0.01 newton)" rel="Coding"/>
+</concept>
+
+<concept name="decinewton [Entity]">
+<attr obj="decinewton [Entity] (force unit equal to 0.1 newton)" rel="Coding"/>
+</concept>
+
+<concept name="decanewton [Entity]">
+<attr obj="decanewton [Entity] (force unit equal to 10 newton)" rel="Coding"/>
+</concept>
+
+<concept name="hectonewton [Entity]">
+<attr obj="hectonewton [Entity] (force unit equal to 100 newton)" rel="Coding"/>
+</concept>
+
+<concept name="kilonewton [Entity]">
+<attr obj="kilonewton [Entity] (force unit equal to 1000 newton)" rel="Coding"/>
+</concept>
+
+<concept name="meganewton [Entity]">
+<attr obj="meganewton [Entity] (force unit equal to 1000000 newton)" rel="Coding"/>
+</concept>
+
+<concept name="giganewton [Entity]">
+<attr obj="giganewton [Entity] (force unit equal to 1000000000 newton)" rel="Coding"/>
+</concept>
+
+<concept name="teranewton [Entity]">
+<attr obj="teranewton [Entity] (force unit equal to 1000000000000 newton)" rel="Coding"/>
+</concept>
+
+<concept name="petanewton [Entity]">
+<attr obj="petanewton [Entity] (force unit equal to 1000000000000000 newton)" rel="Coding"/>
+</concept>
+
+<concept name="exanewton [Entity]">
+<attr obj="exanewton [Entity] (force unit equal to 1000000000000000000 newton)" rel="Coding"/>
+</concept>
+
+<concept name="zettanewton [Entity]">
+<attr obj="zettanewton [Entity] (force unit equal to 1000000000000000000000 newton)" rel="Coding"/>
+</concept>
+
+<concept name="yottanewton [Entity]">
+<attr obj="yottanewton [Entity] (force unit equal to 1000000000000000000000000 newton)" rel="Coding"/>
+</concept>
+
+<!--atoms of units of force.-->
+<concept name="N [Entity]">
+<attr obj="N [Entity]  (SI base force unit. It is that force which gives to a mass of 1 kilogram an acceleration of 1 Meter per SecondDuration.)" rel="Coding"/>
+</concept>
+
+<concept name="yN [Entity]">
+<attr obj="yN [Entity] (force unit equal to 0.000000000000000000000001 newton)" rel="Coding"/>
+</concept>
+
+<concept name="zN [Entity]">
+<attr obj="zN [Entity] (force unit equal to 0.000000000000000000001 newton)" rel="Coding"/>
+</concept>
+
+<concept name="aN [Entity]">
+<attr obj="aN [Entity] (force unit equal to 0.000000000000000001 newton)" rel="Coding"/>
+</concept>
+
+<concept name="fN [Entity]">
+<attr obj="fN [Entity] (force unit equal to 0.000000000000001 newton)" rel="Coding"/>
+</concept>
+
+<concept name="pN [Entity]">
+<attr obj="pN [Entity] (force unit equal to 0.000000000001 newton)" rel="Coding"/>
+</concept>
+
+<concept name="nN [Entity]">
+<attr obj="nN [Entity] (force unit equal to 0.000000001 newton)" rel="Coding"/>
+</concept>
+
+<concept name="µN [Entity]">
+<attr obj="µN [Entity] (force unit equal to 0.000001 newton)" rel="Coding"/>
+</concept>
+
+<concept name="mN [Entity]">
+<attr obj="mN [Entity] (force unit equal to 0.001 newton)" rel="Coding"/>
+</concept>
+
+<concept name="cN [Entity]">
+<attr obj="cN [Entity] (force unit equal to 0.01 newton)" rel="Coding"/>
+</concept>
+
+<concept name="dN [Entity]">
+<attr obj="dN [Entity] (force unit equal to 0.1 newton)" rel="Coding"/>
+</concept>
+
+<concept name="daN [Entity]">
+<attr obj="daN [Entity] (force unit equal to 10 newton)" rel="Coding"/>
+</concept>
+
+<concept name="hN [Entity]">
+<attr obj="hN [Entity] (force unit equal to 100 newton)" rel="Coding"/>
+</concept>
+
+<concept name="kN [Entity]">
+<attr obj="kN [Entity] (force unit equal to 1000 newton)" rel="Coding"/>
+</concept>
+
+<concept name="MN [Entity]">
+<attr obj="MN [Entity] (force unit equal to 1000000 newton)" rel="Coding"/>
+</concept>
+
+<concept name="GN [Entity]">
+<attr obj="GN [Entity] (force unit equal to 1000000000 newton)" rel="Coding"/>
+</concept>
+
+<concept name="TN [Entity]">
+<attr obj="TN [Entity] (force unit equal to 1000000000000 newton)" rel="Coding"/>
+</concept>
+
+<concept name="PN [Entity]">
+<attr obj="PN [Entity] (force unit equal to 1000000000000000 newton)" rel="Coding"/>
+</concept>
+
+<concept name="EN [Entity]">
+<attr obj="EN [Entity] (force unit equal to 1000000000000000000 newton)" rel="Coding"/>
+</concept>
+
+<concept name="ZN [Entity]">
+<attr obj="ZN [Entity] (force unit equal to 1000000000000000000000 newton)" rel="Coding"/>
+</concept>
+
+<concept name="YN [Entity]">
+<attr obj="YN [Entity] (force unit equal to 1000000000000000000000000 newton)" rel="Coding"/>
+</concept>
+
+</ontology>

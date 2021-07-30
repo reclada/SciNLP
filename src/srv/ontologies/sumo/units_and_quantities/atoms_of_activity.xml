@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of activity.-->
+<concept name="becquerel [Entity]">
+<attr obj="becquerel [Entity]  (SI base activity unit. It measures the amount of radioactivity contained in a given sample of matter.)" rel="Coding"/>
+</concept>
+
+<concept name="yoctobecquerel [Entity]">
+<attr obj="yoctobecquerel [Entity] (activity unit equal to 0.000000000000000000000001 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="zeptobecquerel [Entity]">
+<attr obj="zeptobecquerel [Entity] (activity unit equal to 0.000000000000000000001 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="attobecquerel [Entity]">
+<attr obj="attobecquerel [Entity] (activity unit equal to 0.000000000000000001 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="femtobecquerel [Entity]">
+<attr obj="femtobecquerel [Entity] (activity unit equal to 0.000000000000001 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="picobecquerel [Entity]">
+<attr obj="picobecquerel [Entity] (activity unit equal to 0.000000000001 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="nanobecquerel [Entity]">
+<attr obj="nanobecquerel [Entity] (activity unit equal to 0.000000001 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="microbecquerel [Entity]">
+<attr obj="microbecquerel [Entity] (activity unit equal to 0.000001 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="millibecquerel [Entity]">
+<attr obj="millibecquerel [Entity] (activity unit equal to 0.001 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="centibecquerel [Entity]">
+<attr obj="centibecquerel [Entity] (activity unit equal to 0.01 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="decibecquerel [Entity]">
+<attr obj="decibecquerel [Entity] (activity unit equal to 0.1 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="decabecquerel [Entity]">
+<attr obj="decabecquerel [Entity] (activity unit equal to 10 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="hectobecquerel [Entity]">
+<attr obj="hectobecquerel [Entity] (activity unit equal to 100 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="kilobecquerel [Entity]">
+<attr obj="kilobecquerel [Entity] (activity unit equal to 1000 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="megabecquerel [Entity]">
+<attr obj="megabecquerel [Entity] (activity unit equal to 1000000 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="gigabecquerel [Entity]">
+<attr obj="gigabecquerel [Entity] (activity unit equal to 1000000000 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="terabecquerel [Entity]">
+<attr obj="terabecquerel [Entity] (activity unit equal to 1000000000000 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="petabecquerel [Entity]">
+<attr obj="petabecquerel [Entity] (activity unit equal to 1000000000000000 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="exabecquerel [Entity]">
+<attr obj="exabecquerel [Entity] (activity unit equal to 1000000000000000000 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="zettabecquerel [Entity]">
+<attr obj="zettabecquerel [Entity] (activity unit equal to 1000000000000000000000 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="yottabecquerel [Entity]">
+<attr obj="yottabecquerel [Entity] (activity unit equal to 1000000000000000000000000 becquerel)" rel="Coding"/>
+</concept>
+
+<!--atoms of units of activity.-->
+<concept name="Bq [Entity]">
+<attr obj="Bq [Entity]  (SI base activity unit. It measures the amount of radioactivity contained in a given sample of matter.)" rel="Coding"/>
+</concept>
+
+<concept name="yBq [Entity]">
+<attr obj="yBq [Entity] (activity unit equal to 0.000000000000000000000001 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="zBq [Entity]">
+<attr obj="zBq [Entity] (activity unit equal to 0.000000000000000000001 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="aBq [Entity]">
+<attr obj="aBq [Entity] (activity unit equal to 0.000000000000000001 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="fBq [Entity]">
+<attr obj="fBq [Entity] (activity unit equal to 0.000000000000001 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="pBq [Entity]">
+<attr obj="pBq [Entity] (activity unit equal to 0.000000000001 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="nBq [Entity]">
+<attr obj="nBq [Entity] (activity unit equal to 0.000000001 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="µBq [Entity]">
+<attr obj="µBq [Entity] (activity unit equal to 0.000001 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="mBq [Entity]">
+<attr obj="mBq [Entity] (activity unit equal to 0.001 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="cBq [Entity]">
+<attr obj="cBq [Entity] (activity unit equal to 0.01 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="dBq [Entity]">
+<attr obj="dBq [Entity] (activity unit equal to 0.1 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="daBq [Entity]">
+<attr obj="daBq [Entity] (activity unit equal to 10 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="hBq [Entity]">
+<attr obj="hBq [Entity] (activity unit equal to 100 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="kBq [Entity]">
+<attr obj="kBq [Entity] (activity unit equal to 1000 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="MBq [Entity]">
+<attr obj="MBq [Entity] (activity unit equal to 1000000 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="GBq [Entity]">
+<attr obj="GBq [Entity] (activity unit equal to 1000000000 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="TBq [Entity]">
+<attr obj="TBq [Entity] (activity unit equal to 1000000000000 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="PBq [Entity]">
+<attr obj="PBq [Entity] (activity unit equal to 1000000000000000 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="EBq [Entity]">
+<attr obj="EBq [Entity] (activity unit equal to 1000000000000000000 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="ZBq [Entity]">
+<attr obj="ZBq [Entity] (activity unit equal to 1000000000000000000000 becquerel)" rel="Coding"/>
+</concept>
+
+<concept name="YBq [Entity]">
+<attr obj="YBq [Entity] (activity unit equal to 1000000000000000000000000 becquerel)" rel="Coding"/>
+</concept>
+
+</ontology>

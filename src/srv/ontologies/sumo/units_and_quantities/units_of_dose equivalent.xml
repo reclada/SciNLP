@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of dose equivalent.-->
+<concept name="sievert [Entity] (SI base dose equivalent unit. It is a unit of biologic dose of ionizing radiation.)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctosievert [Entity] (dose equivalent unit equal to 0.000000000000000000000001 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptosievert [Entity] (dose equivalent unit equal to 0.000000000000000000001 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attosievert [Entity] (dose equivalent unit equal to 0.000000000000000001 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtosievert [Entity] (dose equivalent unit equal to 0.000000000000001 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picosievert [Entity] (dose equivalent unit equal to 0.000000000001 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanosievert [Entity] (dose equivalent unit equal to 0.000000001 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microsievert [Entity] (dose equivalent unit equal to 0.000001 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millisievert [Entity] (dose equivalent unit equal to 0.001 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centisievert [Entity] (dose equivalent unit equal to 0.01 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decisievert [Entity] (dose equivalent unit equal to 0.1 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decasievert [Entity] (dose equivalent unit equal to 10 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectosievert [Entity] (dose equivalent unit equal to 100 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilosievert [Entity] (dose equivalent unit equal to 1000 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megasievert [Entity] (dose equivalent unit equal to 1000000 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigasievert [Entity] (dose equivalent unit equal to 1000000000 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="terasievert [Entity] (dose equivalent unit equal to 1000000000000 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petasievert [Entity] (dose equivalent unit equal to 1000000000000000 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exasievert [Entity] (dose equivalent unit equal to 1000000000000000000 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettasievert [Entity] (dose equivalent unit equal to 1000000000000000000000 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottasievert [Entity] (dose equivalent unit equal to 1000000000000000000000000 sievert)">
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<!--Units of dose equivalent.-->
+<concept name="Sv [Entity] (SI base dose equivalent unit. It is a unit of biologic dose of ionizing radiation.)">
+<attr obj="sievert [Entity] (SI base dose equivalent unit. It is a unit of biologic dose of ionizing radiation.)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+</concept>
+
+<concept name="ySv [Entity] (dose equivalent unit equal to 0.000000000000000000000001 sievert)">
+<attr obj="yoctosievert [Entity] (dose equivalent unit equal to 0.000000000000000000000001 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zSv [Entity] (dose equivalent unit equal to 0.000000000000000000001 sievert)">
+<attr obj="zeptosievert [Entity] (dose equivalent unit equal to 0.000000000000000000001 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="aSv [Entity] (dose equivalent unit equal to 0.000000000000000001 sievert)">
+<attr obj="attosievert [Entity] (dose equivalent unit equal to 0.000000000000000001 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fSv [Entity] (dose equivalent unit equal to 0.000000000000001 sievert)">
+<attr obj="femtosievert [Entity] (dose equivalent unit equal to 0.000000000000001 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pSv [Entity] (dose equivalent unit equal to 0.000000000001 sievert)">
+<attr obj="picosievert [Entity] (dose equivalent unit equal to 0.000000000001 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nSv [Entity] (dose equivalent unit equal to 0.000000001 sievert)">
+<attr obj="nanosievert [Entity] (dose equivalent unit equal to 0.000000001 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µSv [Entity] (dose equivalent unit equal to 0.000001 sievert)">
+<attr obj="microsievert [Entity] (dose equivalent unit equal to 0.000001 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mSv [Entity] (dose equivalent unit equal to 0.001 sievert)">
+<attr obj="millisievert [Entity] (dose equivalent unit equal to 0.001 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cSv [Entity] (dose equivalent unit equal to 0.01 sievert)">
+<attr obj="centisievert [Entity] (dose equivalent unit equal to 0.01 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dSv [Entity] (dose equivalent unit equal to 0.1 sievert)">
+<attr obj="decisievert [Entity] (dose equivalent unit equal to 0.1 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="daSv [Entity] (dose equivalent unit equal to 10 sievert)">
+<attr obj="decasievert [Entity] (dose equivalent unit equal to 10 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hSv [Entity] (dose equivalent unit equal to 100 sievert)">
+<attr obj="hectosievert [Entity] (dose equivalent unit equal to 100 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kSv [Entity] (dose equivalent unit equal to 1000 sievert)">
+<attr obj="kilosievert [Entity] (dose equivalent unit equal to 1000 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="MSv [Entity] (dose equivalent unit equal to 1000000 sievert)">
+<attr obj="megasievert [Entity] (dose equivalent unit equal to 1000000 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="GSv [Entity] (dose equivalent unit equal to 1000000000 sievert)">
+<attr obj="gigasievert [Entity] (dose equivalent unit equal to 1000000000 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="TSv [Entity] (dose equivalent unit equal to 1000000000000 sievert)">
+<attr obj="terasievert [Entity] (dose equivalent unit equal to 1000000000000 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="PSv [Entity] (dose equivalent unit equal to 1000000000000000 sievert)">
+<attr obj="petasievert [Entity] (dose equivalent unit equal to 1000000000000000 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="ESv [Entity] (dose equivalent unit equal to 1000000000000000000 sievert)">
+<attr obj="exasievert [Entity] (dose equivalent unit equal to 1000000000000000000 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="ZSv [Entity] (dose equivalent unit equal to 1000000000000000000000 sievert)">
+<attr obj="zettasievert [Entity] (dose equivalent unit equal to 1000000000000000000000 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="YSv [Entity] (dose equivalent unit equal to 1000000000000000000000000 sievert)">
+<attr obj="yottasievert [Entity] (dose equivalent unit equal to 1000000000000000000000000 sievert)" rel="equivalence of concepts"/>
+<attr obj="unit of dose equivalent (Every instance of this class is a unit of measure that can be used to form instances of dose equivalent measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="sievert [Entity] (base dose equivalent unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>

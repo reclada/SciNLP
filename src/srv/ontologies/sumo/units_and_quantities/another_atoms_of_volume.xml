@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of volume.-->
+
+<concept name="liter [Entity]">
+	<attr obj="liter [Entity] (volume unit equal 0.001 cubic meter)" rel="Coding"/>
+</concept>
+
+<concept name="l [Entity]">
+	<attr obj="l [Entity] (volume unit equal 0.001 cubic meter)" rel="Coding"/>
+</concept>
+
+<concept name="L [Entity]">
+	<attr obj="L [Entity] (volume unit equal 0.001 cubic meter)" rel="Coding"/>
+</concept>
+
+<concept name="yoctoliter [Entity]">
+<attr obj="yoctoliter [Entity] (volume unit equal to 0.000000000000000000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="zeptoliter [Entity]">
+<attr obj="zeptoliter [Entity] (volume unit equal to 0.000000000000000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="attoliter [Entity]">
+<attr obj="attoliter [Entity] (volume unit equal to 0.000000000000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="femtoliter [Entity]">
+<attr obj="femtoliter [Entity] (volume unit equal to 0.000000000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="picoliter [Entity]">
+<attr obj="picoliter [Entity] (volume unit equal to 0.000000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="nanoliter [Entity]">
+<attr obj="nanoliter [Entity] (volume unit equal to 0.000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="microliter [Entity]">
+<attr obj="microliter [Entity] (volume unit equal to 0.000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="milliliter [Entity]">
+<attr obj="milliliter [Entity] (volume unit equal to 0.001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="centiliter [Entity]">
+<attr obj="centiliter [Entity] (volume unit equal to 0.01 liter)" rel="Coding"/>
+</concept>
+
+<concept name="deciliter [Entity]">
+<attr obj="deciliter [Entity] (volume unit equal to 0.1 liter)" rel="Coding"/>
+</concept>
+
+<concept name="decaliter [Entity]">
+<attr obj="decaliter [Entity] (volume unit equal to 10 liter)" rel="Coding"/>
+</concept>
+
+<concept name="hectoliter [Entity]">
+<attr obj="hectoliter [Entity] (volume unit equal to 100 liter)" rel="Coding"/>
+</concept>
+
+<concept name="kiloliter [Entity]">
+<attr obj="kiloliter [Entity] (volume unit equal to 1000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="megaliter [Entity]">
+<attr obj="megaliter [Entity] (volume unit equal to 1000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="gigaliter [Entity]">
+<attr obj="gigaliter [Entity] (volume unit equal to 1000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="teraliter [Entity]">
+<attr obj="teraliter [Entity] (volume unit equal to 1000000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="petaliter [Entity]">
+<attr obj="petaliter [Entity] (volume unit equal to 1000000000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="exaliter [Entity]">
+<attr obj="exaliter [Entity] (volume unit equal to 1000000000000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="zettaliter [Entity]">
+<attr obj="zettaliter [Entity] (volume unit equal to 1000000000000000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="yottaliter [Entity]">
+<attr obj="yottaliter [Entity] (volume unit equal to 1000000000000000000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="yl [Entity]">
+<attr obj="yl [Entity] (volume unit equal to 0.000000000000000000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="zl [Entity]">
+<attr obj="zl [Entity] (volume unit equal to 0.000000000000000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="al [Entity]">
+<attr obj="al [Entity] (volume unit equal to 0.000000000000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="fl [Entity]">
+<attr obj="fl [Entity] (volume unit equal to 0.000000000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="pl [Entity]">
+<attr obj="pl [Entity] (volume unit equal to 0.000000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="nl [Entity]">
+<attr obj="nl [Entity] (volume unit equal to 0.000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="µl [Entity]">
+<attr obj="µl [Entity] (volume unit equal to 0.000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="ml [Entity]">
+<attr obj="ml [Entity] (volume unit equal to 0.001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="cl [Entity]">
+<attr obj="cl [Entity] (volume unit equal to 0.01 liter)" rel="Coding"/>
+</concept>
+
+<concept name="dl [Entity]">
+<attr obj="dl [Entity] (volume unit equal to 0.1 liter)" rel="Coding"/>
+</concept>
+
+<concept name="dal [Entity]">
+<attr obj="dal [Entity] (volume unit equal to 10 liter)" rel="Coding"/>
+</concept>
+
+<concept name="hl [Entity]">
+<attr obj="hl [Entity] (volume unit equal to 100 liter)" rel="Coding"/>
+</concept>
+
+<concept name="kl [Entity]">
+<attr obj="kl [Entity] (volume unit equal to 1000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="Ml [Entity]">
+<attr obj="Ml [Entity] (volume unit equal to 1000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="Gl [Entity]">
+<attr obj="Gl [Entity] (volume unit equal to 1000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="Tl [Entity]">
+<attr obj="Tl [Entity] (volume unit equal to 1000000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="Pl [Entity]">
+<attr obj="Pl [Entity] (volume unit equal to 1000000000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="El [Entity]">
+<attr obj="El [Entity] (volume unit equal to 1000000000000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="Zl [Entity]">
+<attr obj="Zl [Entity] (volume unit equal to 1000000000000000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="Yl [Entity]">
+<attr obj="Yl [Entity] (volume unit equal to 1000000000000000000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="yL [Entity]">
+<attr obj="yL [Entity] (volume unit equal to 0.000000000000000000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="zL [Entity]">
+<attr obj="zL [Entity] (volume unit equal to 0.000000000000000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="aL [Entity]">
+<attr obj="aL [Entity] (volume unit equal to 0.000000000000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="fL [Entity]">
+<attr obj="fL [Entity] (volume unit equal to 0.000000000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="pL [Entity]">
+<attr obj="pL [Entity] (volume unit equal to 0.000000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="nL [Entity]">
+<attr obj="nL [Entity] (volume unit equal to 0.000000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="µL [Entity]">
+<attr obj="µL [Entity] (volume unit equal to 0.000001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="mL [Entity]">
+<attr obj="mL [Entity] (volume unit equal to 0.001 liter)" rel="Coding"/>
+</concept>
+
+<concept name="cL [Entity]">
+<attr obj="cL [Entity] (volume unit equal to 0.01 liter)" rel="Coding"/>
+</concept>
+
+<concept name="dL [Entity]">
+<attr obj="dL [Entity] (volume unit equal to 0.1 liter)" rel="Coding"/>
+</concept>
+
+<concept name="daL [Entity]">
+<attr obj="daL [Entity] (volume unit equal to 10 liter)" rel="Coding"/>
+</concept>
+
+<concept name="hL [Entity]">
+<attr obj="hL [Entity] (volume unit equal to 100 liter)" rel="Coding"/>
+</concept>
+
+<concept name="kL [Entity]">
+<attr obj="kL [Entity] (volume unit equal to 1000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="ML [Entity]">
+<attr obj="ML [Entity] (volume unit equal to 1000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="GL [Entity]">
+<attr obj="GL [Entity] (volume unit equal to 1000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="TL [Entity]">
+<attr obj="TL [Entity] (volume unit equal to 1000000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="PL [Entity]">
+<attr obj="PL [Entity] (volume unit equal to 1000000000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="EL [Entity]">
+<attr obj="EL [Entity] (volume unit equal to 1000000000000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="ZL [Entity]">
+<attr obj="ZL [Entity] (volume unit equal to 1000000000000000000000 liter)" rel="Coding"/>
+</concept>
+
+<concept name="YL [Entity]">
+<attr obj="YL [Entity] (volume unit equal to 1000000000000000000000000 liter)" rel="Coding"/>
+</concept>
+
+</ontology>

@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of activity.-->
+<concept name="becquerel [Entity] (SI base activity unit. It measures the amount of radioactivity contained in a given sample of matter.)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctobecquerel [Entity] (activity unit equal to 0.000000000000000000000001 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptobecquerel [Entity] (activity unit equal to 0.000000000000000000001 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attobecquerel [Entity] (activity unit equal to 0.000000000000000001 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtobecquerel [Entity] (activity unit equal to 0.000000000000001 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picobecquerel [Entity] (activity unit equal to 0.000000000001 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanobecquerel [Entity] (activity unit equal to 0.000000001 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microbecquerel [Entity] (activity unit equal to 0.000001 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millibecquerel [Entity] (activity unit equal to 0.001 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centibecquerel [Entity] (activity unit equal to 0.01 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decibecquerel [Entity] (activity unit equal to 0.1 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decabecquerel [Entity] (activity unit equal to 10 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectobecquerel [Entity] (activity unit equal to 100 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilobecquerel [Entity] (activity unit equal to 1000 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megabecquerel [Entity] (activity unit equal to 1000000 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigabecquerel [Entity] (activity unit equal to 1000000000 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="terabecquerel [Entity] (activity unit equal to 1000000000000 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petabecquerel [Entity] (activity unit equal to 1000000000000000 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exabecquerel [Entity] (activity unit equal to 1000000000000000000 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettabecquerel [Entity] (activity unit equal to 1000000000000000000000 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottabecquerel [Entity] (activity unit equal to 1000000000000000000000000 becquerel)">
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<!--Units of activity.-->
+<concept name="Bq [Entity] (SI base activity unit. It measures the amount of radioactivity contained in a given sample of matter.)">
+<attr obj="becquerel [Entity] (SI base activity unit. It measures the amount of radioactivity contained in a given sample of matter.)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yBq [Entity] (activity unit equal to 0.000000000000000000000001 becquerel)">
+<attr obj="yoctobecquerel [Entity] (activity unit equal to 0.000000000000000000000001 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zBq [Entity] (activity unit equal to 0.000000000000000000001 becquerel)">
+<attr obj="zeptobecquerel [Entity] (activity unit equal to 0.000000000000000000001 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="aBq [Entity] (activity unit equal to 0.000000000000000001 becquerel)">
+<attr obj="attobecquerel [Entity] (activity unit equal to 0.000000000000000001 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fBq [Entity] (activity unit equal to 0.000000000000001 becquerel)">
+<attr obj="femtobecquerel [Entity] (activity unit equal to 0.000000000000001 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pBq [Entity] (activity unit equal to 0.000000000001 becquerel)">
+<attr obj="picobecquerel [Entity] (activity unit equal to 0.000000000001 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nBq [Entity] (activity unit equal to 0.000000001 becquerel)">
+<attr obj="nanobecquerel [Entity] (activity unit equal to 0.000000001 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µBq [Entity] (activity unit equal to 0.000001 becquerel)">
+<attr obj="microbecquerel [Entity] (activity unit equal to 0.000001 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mBq [Entity] (activity unit equal to 0.001 becquerel)">
+<attr obj="millibecquerel [Entity] (activity unit equal to 0.001 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cBq [Entity] (activity unit equal to 0.01 becquerel)">
+<attr obj="centibecquerel [Entity] (activity unit equal to 0.01 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dBq [Entity] (activity unit equal to 0.1 becquerel)">
+<attr obj="decibecquerel [Entity] (activity unit equal to 0.1 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="daBq [Entity] (activity unit equal to 10 becquerel)">
+<attr obj="decabecquerel [Entity] (activity unit equal to 10 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hBq [Entity] (activity unit equal to 100 becquerel)">
+<attr obj="hectobecquerel [Entity] (activity unit equal to 100 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kBq [Entity] (activity unit equal to 1000 becquerel)">
+<attr obj="kilobecquerel [Entity] (activity unit equal to 1000 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="MBq [Entity] (activity unit equal to 1000000 becquerel)">
+<attr obj="megabecquerel [Entity] (activity unit equal to 1000000 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="GBq [Entity] (activity unit equal to 1000000000 becquerel)">
+<attr obj="gigabecquerel [Entity] (activity unit equal to 1000000000 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="TBq [Entity] (activity unit equal to 1000000000000 becquerel)">
+<attr obj="terabecquerel [Entity] (activity unit equal to 1000000000000 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="PBq [Entity] (activity unit equal to 1000000000000000 becquerel)">
+<attr obj="petabecquerel [Entity] (activity unit equal to 1000000000000000 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="EBq [Entity] (activity unit equal to 1000000000000000000 becquerel)">
+<attr obj="exabecquerel [Entity] (activity unit equal to 1000000000000000000 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="ZBq [Entity] (activity unit equal to 1000000000000000000000 becquerel)">
+<attr obj="zettabecquerel [Entity] (activity unit equal to 1000000000000000000000 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="YBq [Entity] (activity unit equal to 1000000000000000000000000 becquerel)">
+<attr obj="yottabecquerel [Entity] (activity unit equal to 1000000000000000000000000 becquerel)" rel="equivalence of concepts"/>
+<attr obj="unit of activity (Every instance of this class is a unit of measure that can be used to form instances of activity measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="becquerel [Entity] (base activity unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>

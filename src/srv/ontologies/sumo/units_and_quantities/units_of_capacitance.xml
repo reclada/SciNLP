@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of capacitance.-->
+<concept name="farad [Entity] (SI base capacitance unit. It is the capacitance of a capacitator between the plates of which there appears a difference of potential of 1 Volt when it is charged by a quantity of electricity equal to 1 Coulomb.)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctofarad [Entity] (capacitance unit equal to 0.000000000000000000000001 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptofarad [Entity] (capacitance unit equal to 0.000000000000000000001 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attofarad [Entity] (capacitance unit equal to 0.000000000000000001 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtofarad [Entity] (capacitance unit equal to 0.000000000000001 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picofarad [Entity] (capacitance unit equal to 0.000000000001 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanofarad [Entity] (capacitance unit equal to 0.000000001 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microfarad [Entity] (capacitance unit equal to 0.000001 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millifarad [Entity] (capacitance unit equal to 0.001 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centifarad [Entity] (capacitance unit equal to 0.01 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decifarad [Entity] (capacitance unit equal to 0.1 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decafarad [Entity] (capacitance unit equal to 10 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectofarad [Entity] (capacitance unit equal to 100 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilofarad [Entity] (capacitance unit equal to 1000 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megafarad [Entity] (capacitance unit equal to 1000000 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigafarad [Entity] (capacitance unit equal to 1000000000 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="terafarad [Entity] (capacitance unit equal to 1000000000000 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petafarad [Entity] (capacitance unit equal to 1000000000000000 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exafarad [Entity] (capacitance unit equal to 1000000000000000000 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettafarad [Entity] (capacitance unit equal to 1000000000000000000000 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottafarad [Entity] (capacitance unit equal to 1000000000000000000000000 farad)">
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<!--Units of capacitance.-->
+<concept name="F [Entity] (SI base capacitance unit. It is the capacitance of a capacitator between the plates of which there appears a difference of potential of 1 Volt when it is charged by a quantity of electricity equal to 1 Coulomb.)">
+<attr obj="farad [Entity] (SI base capacitance unit. It is the capacitance of a capacitator between the plates of which there appears a difference of potential of 1 Volt when it is charged by a quantity of electricity equal to 1 Coulomb.)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yF [Entity] (capacitance unit equal to 0.000000000000000000000001 farad)">
+<attr obj="yoctofarad [Entity] (capacitance unit equal to 0.000000000000000000000001 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zF [Entity] (capacitance unit equal to 0.000000000000000000001 farad)">
+<attr obj="zeptofarad [Entity] (capacitance unit equal to 0.000000000000000000001 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="aF [Entity] (capacitance unit equal to 0.000000000000000001 farad)">
+<attr obj="attofarad [Entity] (capacitance unit equal to 0.000000000000000001 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fF [Entity] (capacitance unit equal to 0.000000000000001 farad)">
+<attr obj="femtofarad [Entity] (capacitance unit equal to 0.000000000000001 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pF [Entity] (capacitance unit equal to 0.000000000001 farad)">
+<attr obj="picofarad [Entity] (capacitance unit equal to 0.000000000001 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nF [Entity] (capacitance unit equal to 0.000000001 farad)">
+<attr obj="nanofarad [Entity] (capacitance unit equal to 0.000000001 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µF [Entity] (capacitance unit equal to 0.000001 farad)">
+<attr obj="microfarad [Entity] (capacitance unit equal to 0.000001 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mF [Entity] (capacitance unit equal to 0.001 farad)">
+<attr obj="millifarad [Entity] (capacitance unit equal to 0.001 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cF [Entity] (capacitance unit equal to 0.01 farad)">
+<attr obj="centifarad [Entity] (capacitance unit equal to 0.01 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dF [Entity] (capacitance unit equal to 0.1 farad)">
+<attr obj="decifarad [Entity] (capacitance unit equal to 0.1 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="daF [Entity] (capacitance unit equal to 10 farad)">
+<attr obj="decafarad [Entity] (capacitance unit equal to 10 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hF [Entity] (capacitance unit equal to 100 farad)">
+<attr obj="hectofarad [Entity] (capacitance unit equal to 100 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kF [Entity] (capacitance unit equal to 1000 farad)">
+<attr obj="kilofarad [Entity] (capacitance unit equal to 1000 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="MF [Entity] (capacitance unit equal to 1000000 farad)">
+<attr obj="megafarad [Entity] (capacitance unit equal to 1000000 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="GF [Entity] (capacitance unit equal to 1000000000 farad)">
+<attr obj="gigafarad [Entity] (capacitance unit equal to 1000000000 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="TF [Entity] (capacitance unit equal to 1000000000000 farad)">
+<attr obj="terafarad [Entity] (capacitance unit equal to 1000000000000 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="PF [Entity] (capacitance unit equal to 1000000000000000 farad)">
+<attr obj="petafarad [Entity] (capacitance unit equal to 1000000000000000 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="EF [Entity] (capacitance unit equal to 1000000000000000000 farad)">
+<attr obj="exafarad [Entity] (capacitance unit equal to 1000000000000000000 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="ZF [Entity] (capacitance unit equal to 1000000000000000000000 farad)">
+<attr obj="zettafarad [Entity] (capacitance unit equal to 1000000000000000000000 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="YF [Entity] (capacitance unit equal to 1000000000000000000000000 farad)">
+<attr obj="yottafarad [Entity] (capacitance unit equal to 1000000000000000000000000 farad)" rel="equivalence of concepts"/>
+<attr obj="unit of capacitance (Every instance of this class is a unit of measure that can be used to form instances of capacitance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="farad [Entity] (base capacitance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>

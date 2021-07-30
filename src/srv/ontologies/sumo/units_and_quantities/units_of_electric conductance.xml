@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of electric conductance.-->
+<concept name="siemens [Entity] (SI base electric conductance unit. In the case of direct current, the conductance in Siemens is the reciprocal of the resistance in Ohms, in the case of alternating current, it is the reciprocal of the impedance in ohms.)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctosiemens [Entity] (electric conductance unit equal to 0.000000000000000000000001 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptosiemens [Entity] (electric conductance unit equal to 0.000000000000000000001 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attosiemens [Entity] (electric conductance unit equal to 0.000000000000000001 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtosiemens [Entity] (electric conductance unit equal to 0.000000000000001 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picosiemens [Entity] (electric conductance unit equal to 0.000000000001 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanosiemens [Entity] (electric conductance unit equal to 0.000000001 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microsiemens [Entity] (electric conductance unit equal to 0.000001 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millisiemens [Entity] (electric conductance unit equal to 0.001 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centisiemens [Entity] (electric conductance unit equal to 0.01 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decisiemens [Entity] (electric conductance unit equal to 0.1 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decasiemens [Entity] (electric conductance unit equal to 10 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectosiemens [Entity] (electric conductance unit equal to 100 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilosiemens [Entity] (electric conductance unit equal to 1000 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megasiemens [Entity] (electric conductance unit equal to 1000000 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigasiemens [Entity] (electric conductance unit equal to 1000000000 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="terasiemens [Entity] (electric conductance unit equal to 1000000000000 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petasiemens [Entity] (electric conductance unit equal to 1000000000000000 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exasiemens [Entity] (electric conductance unit equal to 1000000000000000000 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettasiemens [Entity] (electric conductance unit equal to 1000000000000000000000 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottasiemens [Entity] (electric conductance unit equal to 1000000000000000000000000 siemens)">
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<!--Units of electric conductance.-->
+<concept name="S [Entity] (SI base electric conductance unit. In the case of direct current, the conductance in Siemens is the reciprocal of the resistance in Ohms, in the case of alternating current, it is the reciprocal of the impedance in ohms.)">
+<attr obj="siemens [Entity] (SI base electric conductance unit. In the case of direct current, the conductance in Siemens is the reciprocal of the resistance in Ohms, in the case of alternating current, it is the reciprocal of the impedance in ohms.)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yS [Entity] (electric conductance unit equal to 0.000000000000000000000001 siemens)">
+<attr obj="yoctosiemens [Entity] (electric conductance unit equal to 0.000000000000000000000001 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zS [Entity] (electric conductance unit equal to 0.000000000000000000001 siemens)">
+<attr obj="zeptosiemens [Entity] (electric conductance unit equal to 0.000000000000000000001 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="aS [Entity] (electric conductance unit equal to 0.000000000000000001 siemens)">
+<attr obj="attosiemens [Entity] (electric conductance unit equal to 0.000000000000000001 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fS [Entity] (electric conductance unit equal to 0.000000000000001 siemens)">
+<attr obj="femtosiemens [Entity] (electric conductance unit equal to 0.000000000000001 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pS [Entity] (electric conductance unit equal to 0.000000000001 siemens)">
+<attr obj="picosiemens [Entity] (electric conductance unit equal to 0.000000000001 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nS [Entity] (electric conductance unit equal to 0.000000001 siemens)">
+<attr obj="nanosiemens [Entity] (electric conductance unit equal to 0.000000001 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µS [Entity] (electric conductance unit equal to 0.000001 siemens)">
+<attr obj="microsiemens [Entity] (electric conductance unit equal to 0.000001 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mS [Entity] (electric conductance unit equal to 0.001 siemens)">
+<attr obj="millisiemens [Entity] (electric conductance unit equal to 0.001 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cS [Entity] (electric conductance unit equal to 0.01 siemens)">
+<attr obj="centisiemens [Entity] (electric conductance unit equal to 0.01 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dS [Entity] (electric conductance unit equal to 0.1 siemens)">
+<attr obj="decisiemens [Entity] (electric conductance unit equal to 0.1 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="daS [Entity] (electric conductance unit equal to 10 siemens)">
+<attr obj="decasiemens [Entity] (electric conductance unit equal to 10 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hS [Entity] (electric conductance unit equal to 100 siemens)">
+<attr obj="hectosiemens [Entity] (electric conductance unit equal to 100 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kS [Entity] (electric conductance unit equal to 1000 siemens)">
+<attr obj="kilosiemens [Entity] (electric conductance unit equal to 1000 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="MS [Entity] (electric conductance unit equal to 1000000 siemens)">
+<attr obj="megasiemens [Entity] (electric conductance unit equal to 1000000 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="GS [Entity] (electric conductance unit equal to 1000000000 siemens)">
+<attr obj="gigasiemens [Entity] (electric conductance unit equal to 1000000000 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="TS [Entity] (electric conductance unit equal to 1000000000000 siemens)">
+<attr obj="terasiemens [Entity] (electric conductance unit equal to 1000000000000 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="PS [Entity] (electric conductance unit equal to 1000000000000000 siemens)">
+<attr obj="petasiemens [Entity] (electric conductance unit equal to 1000000000000000 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="ES [Entity] (electric conductance unit equal to 1000000000000000000 siemens)">
+<attr obj="exasiemens [Entity] (electric conductance unit equal to 1000000000000000000 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="ZS [Entity] (electric conductance unit equal to 1000000000000000000000 siemens)">
+<attr obj="zettasiemens [Entity] (electric conductance unit equal to 1000000000000000000000 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="YS [Entity] (electric conductance unit equal to 1000000000000000000000000 siemens)">
+<attr obj="yottasiemens [Entity] (electric conductance unit equal to 1000000000000000000000000 siemens)" rel="equivalence of concepts"/>
+<attr obj="unit of electric conductance (Every instance of this class is a unit of measure that can be used to form instances of electric conductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="siemens [Entity] (base electric conductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>

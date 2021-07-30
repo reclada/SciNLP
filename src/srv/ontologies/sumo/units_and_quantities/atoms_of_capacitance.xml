@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of capacitance.-->
+<concept name="farad [Entity]">
+<attr obj="farad [Entity]  (SI base capacitance unit. It is the capacitance of a capacitator between the plates of which there appears a difference of potential of 1 Volt when it is charged by a quantity of electricity equal to 1 Coulomb.)" rel="Coding"/>
+</concept>
+
+<concept name="yoctofarad [Entity]">
+<attr obj="yoctofarad [Entity] (capacitance unit equal to 0.000000000000000000000001 farad)" rel="Coding"/>
+</concept>
+
+<concept name="zeptofarad [Entity]">
+<attr obj="zeptofarad [Entity] (capacitance unit equal to 0.000000000000000000001 farad)" rel="Coding"/>
+</concept>
+
+<concept name="attofarad [Entity]">
+<attr obj="attofarad [Entity] (capacitance unit equal to 0.000000000000000001 farad)" rel="Coding"/>
+</concept>
+
+<concept name="femtofarad [Entity]">
+<attr obj="femtofarad [Entity] (capacitance unit equal to 0.000000000000001 farad)" rel="Coding"/>
+</concept>
+
+<concept name="picofarad [Entity]">
+<attr obj="picofarad [Entity] (capacitance unit equal to 0.000000000001 farad)" rel="Coding"/>
+</concept>
+
+<concept name="nanofarad [Entity]">
+<attr obj="nanofarad [Entity] (capacitance unit equal to 0.000000001 farad)" rel="Coding"/>
+</concept>
+
+<concept name="microfarad [Entity]">
+<attr obj="microfarad [Entity] (capacitance unit equal to 0.000001 farad)" rel="Coding"/>
+</concept>
+
+<concept name="millifarad [Entity]">
+<attr obj="millifarad [Entity] (capacitance unit equal to 0.001 farad)" rel="Coding"/>
+</concept>
+
+<concept name="centifarad [Entity]">
+<attr obj="centifarad [Entity] (capacitance unit equal to 0.01 farad)" rel="Coding"/>
+</concept>
+
+<concept name="decifarad [Entity]">
+<attr obj="decifarad [Entity] (capacitance unit equal to 0.1 farad)" rel="Coding"/>
+</concept>
+
+<concept name="decafarad [Entity]">
+<attr obj="decafarad [Entity] (capacitance unit equal to 10 farad)" rel="Coding"/>
+</concept>
+
+<concept name="hectofarad [Entity]">
+<attr obj="hectofarad [Entity] (capacitance unit equal to 100 farad)" rel="Coding"/>
+</concept>
+
+<concept name="kilofarad [Entity]">
+<attr obj="kilofarad [Entity] (capacitance unit equal to 1000 farad)" rel="Coding"/>
+</concept>
+
+<concept name="megafarad [Entity]">
+<attr obj="megafarad [Entity] (capacitance unit equal to 1000000 farad)" rel="Coding"/>
+</concept>
+
+<concept name="gigafarad [Entity]">
+<attr obj="gigafarad [Entity] (capacitance unit equal to 1000000000 farad)" rel="Coding"/>
+</concept>
+
+<concept name="terafarad [Entity]">
+<attr obj="terafarad [Entity] (capacitance unit equal to 1000000000000 farad)" rel="Coding"/>
+</concept>
+
+<concept name="petafarad [Entity]">
+<attr obj="petafarad [Entity] (capacitance unit equal to 1000000000000000 farad)" rel="Coding"/>
+</concept>
+
+<concept name="exafarad [Entity]">
+<attr obj="exafarad [Entity] (capacitance unit equal to 1000000000000000000 farad)" rel="Coding"/>
+</concept>
+
+<concept name="zettafarad [Entity]">
+<attr obj="zettafarad [Entity] (capacitance unit equal to 1000000000000000000000 farad)" rel="Coding"/>
+</concept>
+
+<concept name="yottafarad [Entity]">
+<attr obj="yottafarad [Entity] (capacitance unit equal to 1000000000000000000000000 farad)" rel="Coding"/>
+</concept>
+
+<!--atoms of units of capacitance.-->
+<concept name="F [Entity]">
+<attr obj="F [Entity]  (SI base capacitance unit. It is the capacitance of a capacitator between the plates of which there appears a difference of potential of 1 Volt when it is charged by a quantity of electricity equal to 1 Coulomb.)" rel="Coding"/>
+</concept>
+
+<concept name="yF [Entity]">
+<attr obj="yF [Entity] (capacitance unit equal to 0.000000000000000000000001 farad)" rel="Coding"/>
+</concept>
+
+<concept name="zF [Entity]">
+<attr obj="zF [Entity] (capacitance unit equal to 0.000000000000000000001 farad)" rel="Coding"/>
+</concept>
+
+<concept name="aF [Entity]">
+<attr obj="aF [Entity] (capacitance unit equal to 0.000000000000000001 farad)" rel="Coding"/>
+</concept>
+
+<concept name="fF [Entity]">
+<attr obj="fF [Entity] (capacitance unit equal to 0.000000000000001 farad)" rel="Coding"/>
+</concept>
+
+<concept name="pF [Entity]">
+<attr obj="pF [Entity] (capacitance unit equal to 0.000000000001 farad)" rel="Coding"/>
+</concept>
+
+<concept name="nF [Entity]">
+<attr obj="nF [Entity] (capacitance unit equal to 0.000000001 farad)" rel="Coding"/>
+</concept>
+
+<concept name="µF [Entity]">
+<attr obj="µF [Entity] (capacitance unit equal to 0.000001 farad)" rel="Coding"/>
+</concept>
+
+<concept name="mF [Entity]">
+<attr obj="mF [Entity] (capacitance unit equal to 0.001 farad)" rel="Coding"/>
+</concept>
+
+<concept name="cF [Entity]">
+<attr obj="cF [Entity] (capacitance unit equal to 0.01 farad)" rel="Coding"/>
+</concept>
+
+<concept name="dF [Entity]">
+<attr obj="dF [Entity] (capacitance unit equal to 0.1 farad)" rel="Coding"/>
+</concept>
+
+<concept name="daF [Entity]">
+<attr obj="daF [Entity] (capacitance unit equal to 10 farad)" rel="Coding"/>
+</concept>
+
+<concept name="hF [Entity]">
+<attr obj="hF [Entity] (capacitance unit equal to 100 farad)" rel="Coding"/>
+</concept>
+
+<concept name="kF [Entity]">
+<attr obj="kF [Entity] (capacitance unit equal to 1000 farad)" rel="Coding"/>
+</concept>
+
+<concept name="MF [Entity]">
+<attr obj="MF [Entity] (capacitance unit equal to 1000000 farad)" rel="Coding"/>
+</concept>
+
+<concept name="GF [Entity]">
+<attr obj="GF [Entity] (capacitance unit equal to 1000000000 farad)" rel="Coding"/>
+</concept>
+
+<concept name="TF [Entity]">
+<attr obj="TF [Entity] (capacitance unit equal to 1000000000000 farad)" rel="Coding"/>
+</concept>
+
+<concept name="PF [Entity]">
+<attr obj="PF [Entity] (capacitance unit equal to 1000000000000000 farad)" rel="Coding"/>
+</concept>
+
+<concept name="EF [Entity]">
+<attr obj="EF [Entity] (capacitance unit equal to 1000000000000000000 farad)" rel="Coding"/>
+</concept>
+
+<concept name="ZF [Entity]">
+<attr obj="ZF [Entity] (capacitance unit equal to 1000000000000000000000 farad)" rel="Coding"/>
+</concept>
+
+<concept name="YF [Entity]">
+<attr obj="YF [Entity] (capacitance unit equal to 1000000000000000000000000 farad)" rel="Coding"/>
+</concept>
+
+</ontology>

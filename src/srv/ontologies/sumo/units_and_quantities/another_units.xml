@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Another time units.-->
+
+<concept name="cubic meter [Entity]">
+<attr obj="cubic meter [Entity] (base volume unit)" rel="Coding"/>
+</concept>
+
+<concept name="liter [Entity]">
+<attr obj="liter [Entity] (volume unit equal 0.001 cubic meter)" rel="Coding"/>
+</concept>
+
+<concept name="cubic meter [Entity] (base volume unit)">
+<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by exponentiation, from base unit)" obj="meter [Entity] (base length unit)"/>
+<attr rel="be derived from base unit by exponentiation by number ((about derived unit) to be derived from base unit by exponentiation by number)" obj="3 [Number] (three)"/>
+</concept>
+
+<concept name="liter [Entity] (volume unit equal 0.001 cubic meter)">
+<attr obj="unit of volume (Every instance of this class is a unit of measure that can be used to form instances of volume measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="cubic meter [Entity] (base volume unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+</ontology>

@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of luminous flux.-->
+<concept name="lumen [Entity]">
+<attr obj="lumen [Entity]  (SI base luminous flux unit. It is the amount streaming outward through one solid angle of 1 Steradian from a uniform point source having an intensity of one Candela.)" rel="Coding"/>
+</concept>
+
+<concept name="yoctolumen [Entity]">
+<attr obj="yoctolumen [Entity] (luminous flux unit equal to 0.000000000000000000000001 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="zeptolumen [Entity]">
+<attr obj="zeptolumen [Entity] (luminous flux unit equal to 0.000000000000000000001 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="attolumen [Entity]">
+<attr obj="attolumen [Entity] (luminous flux unit equal to 0.000000000000000001 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="femtolumen [Entity]">
+<attr obj="femtolumen [Entity] (luminous flux unit equal to 0.000000000000001 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="picolumen [Entity]">
+<attr obj="picolumen [Entity] (luminous flux unit equal to 0.000000000001 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="nanolumen [Entity]">
+<attr obj="nanolumen [Entity] (luminous flux unit equal to 0.000000001 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="microlumen [Entity]">
+<attr obj="microlumen [Entity] (luminous flux unit equal to 0.000001 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="millilumen [Entity]">
+<attr obj="millilumen [Entity] (luminous flux unit equal to 0.001 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="centilumen [Entity]">
+<attr obj="centilumen [Entity] (luminous flux unit equal to 0.01 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="decilumen [Entity]">
+<attr obj="decilumen [Entity] (luminous flux unit equal to 0.1 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="decalumen [Entity]">
+<attr obj="decalumen [Entity] (luminous flux unit equal to 10 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="hectolumen [Entity]">
+<attr obj="hectolumen [Entity] (luminous flux unit equal to 100 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="kilolumen [Entity]">
+<attr obj="kilolumen [Entity] (luminous flux unit equal to 1000 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="megalumen [Entity]">
+<attr obj="megalumen [Entity] (luminous flux unit equal to 1000000 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="gigalumen [Entity]">
+<attr obj="gigalumen [Entity] (luminous flux unit equal to 1000000000 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="teralumen [Entity]">
+<attr obj="teralumen [Entity] (luminous flux unit equal to 1000000000000 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="petalumen [Entity]">
+<attr obj="petalumen [Entity] (luminous flux unit equal to 1000000000000000 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="exalumen [Entity]">
+<attr obj="exalumen [Entity] (luminous flux unit equal to 1000000000000000000 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="zettalumen [Entity]">
+<attr obj="zettalumen [Entity] (luminous flux unit equal to 1000000000000000000000 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="yottalumen [Entity]">
+<attr obj="yottalumen [Entity] (luminous flux unit equal to 1000000000000000000000000 lumen)" rel="Coding"/>
+</concept>
+
+<!--atoms of units of luminous flux.-->
+<concept name="lm [Entity]">
+<attr obj="lm [Entity]  (SI base luminous flux unit. It is the amount streaming outward through one solid angle of 1 Steradian from a uniform point source having an intensity of one Candela.)" rel="Coding"/>
+</concept>
+
+<concept name="ylm [Entity]">
+<attr obj="ylm [Entity] (luminous flux unit equal to 0.000000000000000000000001 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="zlm [Entity]">
+<attr obj="zlm [Entity] (luminous flux unit equal to 0.000000000000000000001 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="alm [Entity]">
+<attr obj="alm [Entity] (luminous flux unit equal to 0.000000000000000001 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="flm [Entity]">
+<attr obj="flm [Entity] (luminous flux unit equal to 0.000000000000001 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="plm [Entity]">
+<attr obj="plm [Entity] (luminous flux unit equal to 0.000000000001 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="nlm [Entity]">
+<attr obj="nlm [Entity] (luminous flux unit equal to 0.000000001 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="µlm [Entity]">
+<attr obj="µlm [Entity] (luminous flux unit equal to 0.000001 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="mlm [Entity]">
+<attr obj="mlm [Entity] (luminous flux unit equal to 0.001 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="clm [Entity]">
+<attr obj="clm [Entity] (luminous flux unit equal to 0.01 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="dlm [Entity]">
+<attr obj="dlm [Entity] (luminous flux unit equal to 0.1 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="dalm [Entity]">
+<attr obj="dalm [Entity] (luminous flux unit equal to 10 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="hlm [Entity]">
+<attr obj="hlm [Entity] (luminous flux unit equal to 100 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="klm [Entity]">
+<attr obj="klm [Entity] (luminous flux unit equal to 1000 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="Mlm [Entity]">
+<attr obj="Mlm [Entity] (luminous flux unit equal to 1000000 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="Glm [Entity]">
+<attr obj="Glm [Entity] (luminous flux unit equal to 1000000000 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="Tlm [Entity]">
+<attr obj="Tlm [Entity] (luminous flux unit equal to 1000000000000 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="Plm [Entity]">
+<attr obj="Plm [Entity] (luminous flux unit equal to 1000000000000000 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="Elm [Entity]">
+<attr obj="Elm [Entity] (luminous flux unit equal to 1000000000000000000 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="Zlm [Entity]">
+<attr obj="Zlm [Entity] (luminous flux unit equal to 1000000000000000000000 lumen)" rel="Coding"/>
+</concept>
+
+<concept name="Ylm [Entity]">
+<attr obj="Ylm [Entity] (luminous flux unit equal to 1000000000000000000000000 lumen)" rel="Coding"/>
+</concept>
+
+</ontology>
