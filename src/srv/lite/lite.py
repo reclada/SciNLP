@@ -13,7 +13,7 @@ with open(os.path.dirname(__file__) + os.sep + 'onto.pickle', 'rb') as f:
 res = [
     (re.compile('onset ?#(?P<no>\d+) for (?P<target>\w+)'), {'concept': lambda match: 'Tonset [Entity] (protein unfolding onset temperature)', 'number': lambda match: int(match.group('no')), 'target': lambda match: match.group('target')}),
     (re.compile('(?P<amount>\d+\.*\d+) *°c'), {'amount': lambda match: float(match.group('amount')), 'unit': lambda match: 'celsius [Entity] (The degree Celsius is a unit of temperature on the Celsius scale.)'}),
-    (re.compile('(?P<amount>\d+) +\((?P<percamount>\d+) *%\)'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)', 'percents': lambda match: int(match.group('percamount'))}),
+    (re.compile('(?P<amount>\d+) +\((?P<percamount>\d+) *%\)'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)', 'percent': lambda match: int(match.group('percamount'))}),
     (re.compile('^(?P<amount>\d+)$'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)'}),
     (re.compile('^(?P<value>\d+\.[\dEe\+-]+)$'), {'value': lambda match: float(match.group('value'))}),
     (re.compile('^(?P<value>\d+[\.,]?[\dEe\+-]*) *\+ *(?P<sd>\d+[\.,]?[\dEe\+-]*) *\(n *= *(?P<amount>\d+)\)$'), 
@@ -25,7 +25,7 @@ res = [
     ),
     (re.compile('^\> *(?P<value>\d+[\.,]?[\dEe\+-]*) *\(n *= *(?P<amount>\d+)\)$'), 
         {
-            'value': lambda match: '> %s' % float(match.group('value').replace(',', '')),
+            'value': lambda match: '>%s' % float(match.group('value').replace(',', '')),
             'sd': lambda match: '',
             'amount': lambda match: int(match.group('amount')),
         }
@@ -38,7 +38,7 @@ res = [
         }
     ),
     (re.compile('^(?P<value>\d+,[\d+, ]+)$'), {'value': lambda match: map(int, match.group('value').split(','))}),
-    (re.compile('(?P<amount>\d+) +\((?P<percamount>\d\.\d+) *%\)'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)', 'percents': lambda match: float(match.group('percamount'))}),
+    (re.compile('(?P<amount>\d+) +\((?P<percamount>\d\.\d+) *%\)'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)', 'percent': lambda match: float(match.group('percamount'))}),
     (re.compile('(?P<amount>\d+) +%'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'percent [Entity] (one hundredth part)'}),
     (re.compile('^(?P<amount>\d+) *(?P<unit>\w+)$'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit'), ''))) or [match.group('unit')]}),
     (re.compile('(?P<name>\w+) +\(*(?P<unit>\w+)\)'), {'feature': lambda match: list(get_meanings(onto['byword'].get(match.group('name'), ''))) or [match.group('name')], 'unit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit'), '')))}),
