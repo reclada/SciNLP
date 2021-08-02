@@ -29,6 +29,9 @@ while queue:
         if isinstance(v, list):
             if obj_type is None or any(not isinstance(item, dict) for item in v):
                 robj[_(k)] = rlist = []
+            if all(isinstance(item, dict) for item in v):
+                if k in ('header', 'cells'):
+                    v.sort(key=lambda c: (c['row'], c['column']))
             for item in v:
                 if isinstance(item, dict):
                     queue.insert(qpos, item)

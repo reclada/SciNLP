@@ -16,6 +16,27 @@ res = [
     (re.compile('(?P<amount>\d+) +\((?P<percamount>\d+) *%\)'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)', 'percents': lambda match: int(match.group('percamount'))}),
     (re.compile('^(?P<amount>\d+)$'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)'}),
     (re.compile('^(?P<value>\d+\.[\dEe\+-]+)$'), {'value': lambda match: float(match.group('value'))}),
+    (re.compile('^(?P<value>\d+[\.,]?[\dEe\+-]*) *\+ *(?P<sd>\d+[\.,]?[\dEe\+-]*) *\(n *= *(?P<amount>\d+)\)$'), 
+        {
+            'value': lambda match: float(match.group('value').replace(',', '')),
+            'sd': lambda match: float(match.group('sd').replace(',', '.')),
+            'amount': lambda match: int(match.group('amount')),
+        }
+    ),
+    (re.compile('^\> *(?P<value>\d+[\.,]?[\dEe\+-]*) *\(n *= *(?P<amount>\d+)\)$'), 
+        {
+            'value': lambda match: '> %s' % float(match.group('value').replace(',', '')),
+            'sd': lambda match: '',
+            'amount': lambda match: int(match.group('amount')),
+        }
+    ),
+    (re.compile('^(?P<value>\d+[\.,]?[\dEe\+-]*) *\(n *= *(?P<amount>\d+)\)$'), 
+        {
+            'value': lambda match: float(match.group('value').replace(',', '')),
+            'sd': lambda match: '',
+            'amount': lambda match: int(match.group('amount')),
+        }
+    ),
     (re.compile('^(?P<value>\d+,[\d+, ]+)$'), {'value': lambda match: map(int, match.group('value').split(','))}),
     (re.compile('(?P<amount>\d+) +\((?P<percamount>\d\.\d+) *%\)'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)', 'percents': lambda match: float(match.group('percamount'))}),
     (re.compile('(?P<amount>\d+) +%'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'percent [Entity] (one hundredth part)'}),
@@ -100,7 +121,7 @@ class Table(object):
             obj = []
             for colnum in sorted(row):
                 value = row[colnum]
-                header_text = self.header.get(colnum, '?')
+                header_text = self.header.get(colnum, f'column #{colnum}')
                 entities = []
                 for mobj in search(header_text):
                     entities.append(mobj)
@@ -153,6 +174,9 @@ data2headers = {
     'Technology',
     'KD (pM), [prev data]',
     'Comment',
+    'Agent',
+    'HEK293/Human a7 nAChR Mean + SD ECzpo (nM)',
+    'HEK293/Human 5-HToa Mean # SD Cag (nM)',
     u'\u26a0',
     u'\u2300',
     u'\u03c3',
@@ -166,7 +190,8 @@ for row in csv.reader(open(sys.argv[1]), quotechar='\''):
         taborder.append(obj['id'])
     elif obj['class'] == 'Cell':
         table = tables[obj['attrs']['table']]
-        if obj['attrs']['text'].strip() in data2headers and obj['attrs']['cellType'] != 'header' and not table.data:
+        obj['attrs']['text'] = obj['attrs']['text'].strip('| \n').strip().strip('| \n')
+        if obj['attrs']['text'] in data2headers and obj['attrs']['cellType'] != 'header' and not table.data:
             obj['attrs']['cellType'] = 'header'
         tables[obj['attrs']['table']].add_cell(obj['attrs'])
 
@@ -206,6 +231,8 @@ with open(sys.argv[2], 'w') as outfile:
                 value = value[0]
                 if 'unit' in value and not value['unit'] and 'amount' in value:
                     value = {'number': value['amount']}
+                if attr['attributeEntities']:
+                    value['header'] = attr['attributeEntities']
                 datarow[key.strip()] = value
                 # attr['object'] = objid
                 # writer.writerow([json.dumps({'class': 'Attribute', 'id': str(uuid.uuid4()), 'attrs': attr}, indent=4, ensure_ascii=False)])
