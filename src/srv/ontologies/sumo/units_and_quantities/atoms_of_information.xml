@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of information.-->
+<concept name="bit [Entity]">
+<attr obj="bit [Entity] (base information unit)" rel="Coding"/>
+</concept>
+
+<concept name="byte [Entity]">
+<attr obj="byte [Entity] (information unit equal to 8 bit)" rel="Coding"/>
+</concept>
+
+<concept name="b [Entity]">
+<attr obj="b [Entity] (information unit equal to 8 bit)" rel="Coding"/>
+</concept>
+
+<concept name="kilobyte [Entity]">
+<attr obj="kilobyte [Entity] (information unit equal to 1000 byte)" rel="Coding"/>
+</concept>
+
+<concept name="megabyte [Entity]">
+<attr obj="megabyte [Entity] (information unit equal to 1000000 byte)" rel="Coding"/>
+</concept>
+
+<concept name="gigabyte [Entity]">
+<attr obj="gigabyte [Entity] (information unit equal to 1000000000 byte)" rel="Coding"/>
+</concept>
+
+<concept name="terabyte [Entity]">
+<attr obj="terabyte [Entity] (information unit equal to 1000000000000 byte)" rel="Coding"/>
+</concept>
+
+<concept name="petabyte [Entity]">
+<attr obj="petabyte [Entity] (information unit equal to 1000000000000000 byte)" rel="Coding"/>
+</concept>
+
+<concept name="exabyte [Entity]">
+<attr obj="exabyte [Entity] (information unit equal to 1000000000000000000 byte)" rel="Coding"/>
+</concept>
+
+<concept name="zettabyte [Entity]">
+<attr obj="zettabyte [Entity] (information unit equal to 1000000000000000000000 byte)" rel="Coding"/>
+</concept>
+
+<concept name="yottabyte [Entity]">
+<attr obj="yottabyte [Entity] (information unit equal to 1000000000000000000000000 byte)" rel="Coding"/>
+</concept>
+
+<concept name="kibibyte [Entity]">
+<attr obj="kibibyte [Entity] (information unit equal to 1024 byte)" rel="Coding" />
+</concept>
+
+<concept name="mebibyte [Entity]">
+<attr obj="mebibyte [Entity] (information unit equal to 1048576 byte)" rel="Coding" />
+</concept>
+
+<concept name="gibibyte [Entity]">
+<attr obj="gibibyte [Entity] (information unit equal to 1073741824 byte)" rel="Coding" />
+</concept>
+
+<concept name="tebibyte [Entity]">
+<attr obj="tebibyte [Entity] (information unit equal to 1099511627776 byte)" rel="Coding" />
+</concept>
+
+<concept name="pebibyte [Entity]">
+<attr obj="pebibyte [Entity] (information unit equal to 1125899906842624 byte)" rel="Coding" />
+</concept>
+
+<concept name="exbibyte [Entity]">
+<attr obj="exbibyte [Entity] (information unit equal to 1152921504606847000 byte)" rel="Coding" />
+</concept>
+
+<concept name="zebibyte [Entity]">
+<attr obj="zebibyte [Entity] (information unit equal to 1180591620717411303424 byte)" rel="Coding" />
+</concept>
+
+<concept name="yobibyte [Entity]">
+<attr obj="yobibyte [Entity] (information unit equal to 1208925819614629174706176 byte)" rel="Coding" />
+</concept>
+
+<concept name="kilobit [Entity]">
+<attr obj="kilobit [Entity] (information unit equal to 1000 bit)" rel="Coding"/>
+</concept>
+
+<concept name="megabit [Entity]">
+<attr obj="megabit [Entity] (information unit equal to 1000000 bit)" rel="Coding"/>
+</concept>
+
+<concept name="gigabit [Entity]">
+<attr obj="gigabit [Entity] (information unit equal to 1000000000 bit)" rel="Coding"/>
+</concept>
+
+<concept name="terabit [Entity]">
+<attr obj="terabit [Entity] (information unit equal to 1000000000000 bit)" rel="Coding"/>
+</concept>
+
+<concept name="petabit [Entity]">
+<attr obj="petabit [Entity] (information unit equal to 1000000000000000 bit)" rel="Coding"/>
+</concept>
+
+<concept name="exabit [Entity]">
+<attr obj="exabit [Entity] (information unit equal to 1000000000000000000 bit)" rel="Coding"/>
+</concept>
+
+<concept name="zettabit [Entity]">
+<attr obj="zettabit [Entity] (information unit equal to 1000000000000000000000 bit)" rel="Coding"/>
+</concept>
+
+<concept name="yottabit [Entity]">
+<attr obj="yottabit [Entity] (information unit equal to 1000000000000000000000000 bit)" rel="Coding"/>
+</concept>
+
+<concept name="kibibit [Entity]">
+<attr obj="kibibit [Entity] (information unit equal to 1024 bit)" rel="Coding"/>
+</concept>
+
+<concept name="mebibit [Entity]">
+<attr obj="mebibit [Entity] (information unit equal to 1048576 bit)" rel="Coding"/>
+</concept>
+
+<concept name="gibibit [Entity]">
+<attr obj="gibibit [Entity] (information unit equal to 1073741824 bit)" rel="Coding"/>
+</concept>
+
+<concept name="tebibit [Entity]">
+<attr obj="tebibit [Entity] (information unit equal to 1099511627776 bit)" rel="Coding" />
+</concept>
+
+<concept name="pebibit [Entity]">
+<attr obj="pebibit [Entity] (information unit equal to 1125899906842624 bit)" rel="Coding" />
+</concept>
+
+<concept name="exbibit [Entity]">
+<attr obj="exbibit [Entity] (information unit equal to 1152921504606847000 bit)" rel="Coding" />
+</concept>
+
+<concept name="zebibit [Entity]">
+<attr obj="zebibit [Entity] (information unit equal to 1180591620717411303424 bit)" rel="Coding" />
+</concept>
+
+<concept name="yobibit [Entity]">
+<attr obj="yobibit [Entity] (information unit equal to 1208925819614629174706176 bit)" rel="Coding" />
+</concept>
+
+<concept name="kb [Entity]">
+<attr obj="kb [Entity] (information unit equal to 1000 byte)" rel="Coding"/>
+</concept>
+
+<concept name="Mb [Entity]">
+<attr obj="Mb [Entity] (information unit equal to 1000000 byte)" rel="Coding"/>
+</concept>
+
+<concept name="Gb [Entity]">
+<attr obj="Gb [Entity] (information unit equal to 1000000000 byte)" rel="Coding"/>
+</concept>
+
+<concept name="Tb [Entity]">
+<attr obj="Tb [Entity] (information unit equal to 1000000000000 byte)" rel="Coding"/>
+</concept>
+
+<concept name="Pb [Entity]">
+<attr obj="Pb [Entity] (information unit equal to 1000000000000000 byte)" rel="Coding"/>
+</concept>
+
+<concept name="Eb [Entity]">
+<attr obj="Eb [Entity] (information unit equal to 1000000000000000000 byte)" rel="Coding"/>
+</concept>
+
+<concept name="Zb [Entity]">
+<attr obj="Zb [Entity] (information unit equal to 1000000000000000000000 byte)" rel="Coding"/>
+</concept>
+
+<concept name="Yb [Entity]">
+<attr obj="Yb [Entity] (information unit equal to 1000000000000000000000000 byte)" rel="Coding"/>
+</concept>
+
+<concept name="Kib [Entity]">
+<attr obj="Kib [Entity] (information unit equal to 1024 byte)" rel="Coding"/>
+</concept>
+
+<concept name="Mib [Entity]">
+<attr obj="Mib [Entity] (information unit equal to 1048576 byte)" rel="Coding"/>
+</concept>
+
+<concept name="Gib [Entity]">
+<attr obj="Gib [Entity] (information unit equal to 1073741824 byte)" rel="Coding"/>
+</concept>
+
+<concept name="Tib [Entity]">
+<attr obj="Tib [Entity] (information unit equal to 1099511627776 byte)" rel="Coding" />
+</concept>
+
+<concept name="Pib [Entity]">
+<attr obj="Pib [Entity] (information unit equal to 1125899906842624 byte)" rel="Coding" />
+</concept>
+
+<concept name="Eib [Entity]">
+<attr obj="Eib [Entity] (information unit equal to 1152921504606847000 byte)" rel="Coding" />
+</concept>
+
+<concept name="Zib [Entity]">
+<attr obj="Zib [Entity] (information unit equal to 1180591620717411303424 byte)" rel="Coding" />
+</concept>
+
+<concept name="Yib [Entity]">
+<attr obj="Yib [Entity] (information unit equal to 1208925819614629174706176 byte)" rel="Coding" />
+</concept>
+
+</ontology>

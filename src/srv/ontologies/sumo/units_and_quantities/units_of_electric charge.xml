@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of electric charge.-->
+<concept name="coulomb [Entity] (SI base electric charge unit. It is the quantity of electric charge transported through a cross section of a conductor in an electric circuit during each SecondDuration by a current of 1 Ampere.)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctocoulomb [Entity] (electric charge unit equal to 0.000000000000000000000001 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptocoulomb [Entity] (electric charge unit equal to 0.000000000000000000001 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attocoulomb [Entity] (electric charge unit equal to 0.000000000000000001 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtocoulomb [Entity] (electric charge unit equal to 0.000000000000001 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picocoulomb [Entity] (electric charge unit equal to 0.000000000001 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanocoulomb [Entity] (electric charge unit equal to 0.000000001 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microcoulomb [Entity] (electric charge unit equal to 0.000001 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millicoulomb [Entity] (electric charge unit equal to 0.001 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centicoulomb [Entity] (electric charge unit equal to 0.01 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decicoulomb [Entity] (electric charge unit equal to 0.1 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decacoulomb [Entity] (electric charge unit equal to 10 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectocoulomb [Entity] (electric charge unit equal to 100 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilocoulomb [Entity] (electric charge unit equal to 1000 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megacoulomb [Entity] (electric charge unit equal to 1000000 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigacoulomb [Entity] (electric charge unit equal to 1000000000 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="teracoulomb [Entity] (electric charge unit equal to 1000000000000 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petacoulomb [Entity] (electric charge unit equal to 1000000000000000 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exacoulomb [Entity] (electric charge unit equal to 1000000000000000000 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettacoulomb [Entity] (electric charge unit equal to 1000000000000000000000 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottacoulomb [Entity] (electric charge unit equal to 1000000000000000000000000 coulomb)">
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<!--Units of electric charge.-->
+<concept name="C [Entity] (SI base electric charge unit. It is the quantity of electric charge transported through a cross section of a conductor in an electric circuit during each SecondDuration by a current of 1 Ampere.)">
+<attr obj="coulomb [Entity] (SI base electric charge unit. It is the quantity of electric charge transported through a cross section of a conductor in an electric circuit during each SecondDuration by a current of 1 Ampere.)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yC [Entity] (electric charge unit equal to 0.000000000000000000000001 coulomb)">
+<attr obj="yoctocoulomb [Entity] (electric charge unit equal to 0.000000000000000000000001 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zC [Entity] (electric charge unit equal to 0.000000000000000000001 coulomb)">
+<attr obj="zeptocoulomb [Entity] (electric charge unit equal to 0.000000000000000000001 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="aC [Entity] (electric charge unit equal to 0.000000000000000001 coulomb)">
+<attr obj="attocoulomb [Entity] (electric charge unit equal to 0.000000000000000001 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fC [Entity] (electric charge unit equal to 0.000000000000001 coulomb)">
+<attr obj="femtocoulomb [Entity] (electric charge unit equal to 0.000000000000001 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pC [Entity] (electric charge unit equal to 0.000000000001 coulomb)">
+<attr obj="picocoulomb [Entity] (electric charge unit equal to 0.000000000001 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nC [Entity] (electric charge unit equal to 0.000000001 coulomb)">
+<attr obj="nanocoulomb [Entity] (electric charge unit equal to 0.000000001 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µC [Entity] (electric charge unit equal to 0.000001 coulomb)">
+<attr obj="microcoulomb [Entity] (electric charge unit equal to 0.000001 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mC [Entity] (electric charge unit equal to 0.001 coulomb)">
+<attr obj="millicoulomb [Entity] (electric charge unit equal to 0.001 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cC [Entity] (electric charge unit equal to 0.01 coulomb)">
+<attr obj="centicoulomb [Entity] (electric charge unit equal to 0.01 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dC [Entity] (electric charge unit equal to 0.1 coulomb)">
+<attr obj="decicoulomb [Entity] (electric charge unit equal to 0.1 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="daC [Entity] (electric charge unit equal to 10 coulomb)">
+<attr obj="decacoulomb [Entity] (electric charge unit equal to 10 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hC [Entity] (electric charge unit equal to 100 coulomb)">
+<attr obj="hectocoulomb [Entity] (electric charge unit equal to 100 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kC [Entity] (electric charge unit equal to 1000 coulomb)">
+<attr obj="kilocoulomb [Entity] (electric charge unit equal to 1000 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="MC [Entity] (electric charge unit equal to 1000000 coulomb)">
+<attr obj="megacoulomb [Entity] (electric charge unit equal to 1000000 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="GC [Entity] (electric charge unit equal to 1000000000 coulomb)">
+<attr obj="gigacoulomb [Entity] (electric charge unit equal to 1000000000 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="TC [Entity] (electric charge unit equal to 1000000000000 coulomb)">
+<attr obj="teracoulomb [Entity] (electric charge unit equal to 1000000000000 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="PC [Entity] (electric charge unit equal to 1000000000000000 coulomb)">
+<attr obj="petacoulomb [Entity] (electric charge unit equal to 1000000000000000 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="EC [Entity] (electric charge unit equal to 1000000000000000000 coulomb)">
+<attr obj="exacoulomb [Entity] (electric charge unit equal to 1000000000000000000 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="ZC [Entity] (electric charge unit equal to 1000000000000000000000 coulomb)">
+<attr obj="zettacoulomb [Entity] (electric charge unit equal to 1000000000000000000000 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="YC [Entity] (electric charge unit equal to 1000000000000000000000000 coulomb)">
+<attr obj="yottacoulomb [Entity] (electric charge unit equal to 1000000000000000000000000 coulomb)" rel="equivalence of concepts"/>
+<attr obj="unit of electric charge (Every instance of this class is a unit of measure that can be used to form instances of electric charge measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="coulomb [Entity] (base electric charge unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>

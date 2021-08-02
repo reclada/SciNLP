@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of pressure.-->
+<concept name="pascal [Entity] (SI base pressure unit. It is the pressure of one Newton per square Meter.)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctopascal [Entity] (pressure unit equal to 0.000000000000000000000001 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptopascal [Entity] (pressure unit equal to 0.000000000000000000001 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attopascal [Entity] (pressure unit equal to 0.000000000000000001 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtopascal [Entity] (pressure unit equal to 0.000000000000001 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picopascal [Entity] (pressure unit equal to 0.000000000001 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanopascal [Entity] (pressure unit equal to 0.000000001 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="micropascal [Entity] (pressure unit equal to 0.000001 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millipascal [Entity] (pressure unit equal to 0.001 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centipascal [Entity] (pressure unit equal to 0.01 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decipascal [Entity] (pressure unit equal to 0.1 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decapascal [Entity] (pressure unit equal to 10 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectopascal [Entity] (pressure unit equal to 100 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilopascal [Entity] (pressure unit equal to 1000 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megapascal [Entity] (pressure unit equal to 1000000 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigapascal [Entity] (pressure unit equal to 1000000000 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="terapascal [Entity] (pressure unit equal to 1000000000000 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petapascal [Entity] (pressure unit equal to 1000000000000000 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exapascal [Entity] (pressure unit equal to 1000000000000000000 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettapascal [Entity] (pressure unit equal to 1000000000000000000000 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottapascal [Entity] (pressure unit equal to 1000000000000000000000000 pascal)">
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<!--Units of pressure.-->
+<concept name="Pa [Entity] (SI base pressure unit. It is the pressure of one Newton per square Meter.)">
+<attr obj="pascal [Entity] (SI base pressure unit. It is the pressure of one Newton per square Meter.)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yPa [Entity] (pressure unit equal to 0.000000000000000000000001 pascal)">
+<attr obj="yoctopascal [Entity] (pressure unit equal to 0.000000000000000000000001 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zPa [Entity] (pressure unit equal to 0.000000000000000000001 pascal)">
+<attr obj="zeptopascal [Entity] (pressure unit equal to 0.000000000000000000001 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="aPa [Entity] (pressure unit equal to 0.000000000000000001 pascal)">
+<attr obj="attopascal [Entity] (pressure unit equal to 0.000000000000000001 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fPa [Entity] (pressure unit equal to 0.000000000000001 pascal)">
+<attr obj="femtopascal [Entity] (pressure unit equal to 0.000000000000001 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pPa [Entity] (pressure unit equal to 0.000000000001 pascal)">
+<attr obj="picopascal [Entity] (pressure unit equal to 0.000000000001 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nPa [Entity] (pressure unit equal to 0.000000001 pascal)">
+<attr obj="nanopascal [Entity] (pressure unit equal to 0.000000001 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µPa [Entity] (pressure unit equal to 0.000001 pascal)">
+<attr obj="micropascal [Entity] (pressure unit equal to 0.000001 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mPa [Entity] (pressure unit equal to 0.001 pascal)">
+<attr obj="millipascal [Entity] (pressure unit equal to 0.001 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cPa [Entity] (pressure unit equal to 0.01 pascal)">
+<attr obj="centipascal [Entity] (pressure unit equal to 0.01 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dPa [Entity] (pressure unit equal to 0.1 pascal)">
+<attr obj="decipascal [Entity] (pressure unit equal to 0.1 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="daPa [Entity] (pressure unit equal to 10 pascal)">
+<attr obj="decapascal [Entity] (pressure unit equal to 10 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hPa [Entity] (pressure unit equal to 100 pascal)">
+<attr obj="hectopascal [Entity] (pressure unit equal to 100 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kPa [Entity] (pressure unit equal to 1000 pascal)">
+<attr obj="kilopascal [Entity] (pressure unit equal to 1000 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="MPa [Entity] (pressure unit equal to 1000000 pascal)">
+<attr obj="megapascal [Entity] (pressure unit equal to 1000000 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="GPa [Entity] (pressure unit equal to 1000000000 pascal)">
+<attr obj="gigapascal [Entity] (pressure unit equal to 1000000000 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="TPa [Entity] (pressure unit equal to 1000000000000 pascal)">
+<attr obj="terapascal [Entity] (pressure unit equal to 1000000000000 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="PPa [Entity] (pressure unit equal to 1000000000000000 pascal)">
+<attr obj="petapascal [Entity] (pressure unit equal to 1000000000000000 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="EPa [Entity] (pressure unit equal to 1000000000000000000 pascal)">
+<attr obj="exapascal [Entity] (pressure unit equal to 1000000000000000000 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="ZPa [Entity] (pressure unit equal to 1000000000000000000000 pascal)">
+<attr obj="zettapascal [Entity] (pressure unit equal to 1000000000000000000000 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="YPa [Entity] (pressure unit equal to 1000000000000000000000000 pascal)">
+<attr obj="yottapascal [Entity] (pressure unit equal to 1000000000000000000000000 pascal)" rel="equivalence of concepts"/>
+<attr obj="unit of pressure (Every instance of this class is a unit of measure that can be used to form instances of pressure measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="pascal [Entity] (base pressure unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>

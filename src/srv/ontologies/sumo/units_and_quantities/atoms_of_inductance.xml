@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of inductance.-->
+<concept name="henry [Entity]">
+<attr obj="henry [Entity]  (SI base inductance unit. One Henry is equivalent to one Volt divided by one Ampere per SecondDuration.)" rel="Coding"/>
+</concept>
+
+<concept name="yoctohenry [Entity]">
+<attr obj="yoctohenry [Entity] (inductance unit equal to 0.000000000000000000000001 henry)" rel="Coding"/>
+</concept>
+
+<concept name="zeptohenry [Entity]">
+<attr obj="zeptohenry [Entity] (inductance unit equal to 0.000000000000000000001 henry)" rel="Coding"/>
+</concept>
+
+<concept name="attohenry [Entity]">
+<attr obj="attohenry [Entity] (inductance unit equal to 0.000000000000000001 henry)" rel="Coding"/>
+</concept>
+
+<concept name="femtohenry [Entity]">
+<attr obj="femtohenry [Entity] (inductance unit equal to 0.000000000000001 henry)" rel="Coding"/>
+</concept>
+
+<concept name="picohenry [Entity]">
+<attr obj="picohenry [Entity] (inductance unit equal to 0.000000000001 henry)" rel="Coding"/>
+</concept>
+
+<concept name="nanohenry [Entity]">
+<attr obj="nanohenry [Entity] (inductance unit equal to 0.000000001 henry)" rel="Coding"/>
+</concept>
+
+<concept name="microhenry [Entity]">
+<attr obj="microhenry [Entity] (inductance unit equal to 0.000001 henry)" rel="Coding"/>
+</concept>
+
+<concept name="millihenry [Entity]">
+<attr obj="millihenry [Entity] (inductance unit equal to 0.001 henry)" rel="Coding"/>
+</concept>
+
+<concept name="centihenry [Entity]">
+<attr obj="centihenry [Entity] (inductance unit equal to 0.01 henry)" rel="Coding"/>
+</concept>
+
+<concept name="decihenry [Entity]">
+<attr obj="decihenry [Entity] (inductance unit equal to 0.1 henry)" rel="Coding"/>
+</concept>
+
+<concept name="decahenry [Entity]">
+<attr obj="decahenry [Entity] (inductance unit equal to 10 henry)" rel="Coding"/>
+</concept>
+
+<concept name="hectohenry [Entity]">
+<attr obj="hectohenry [Entity] (inductance unit equal to 100 henry)" rel="Coding"/>
+</concept>
+
+<concept name="kilohenry [Entity]">
+<attr obj="kilohenry [Entity] (inductance unit equal to 1000 henry)" rel="Coding"/>
+</concept>
+
+<concept name="megahenry [Entity]">
+<attr obj="megahenry [Entity] (inductance unit equal to 1000000 henry)" rel="Coding"/>
+</concept>
+
+<concept name="gigahenry [Entity]">
+<attr obj="gigahenry [Entity] (inductance unit equal to 1000000000 henry)" rel="Coding"/>
+</concept>
+
+<concept name="terahenry [Entity]">
+<attr obj="terahenry [Entity] (inductance unit equal to 1000000000000 henry)" rel="Coding"/>
+</concept>
+
+<concept name="petahenry [Entity]">
+<attr obj="petahenry [Entity] (inductance unit equal to 1000000000000000 henry)" rel="Coding"/>
+</concept>
+
+<concept name="exahenry [Entity]">
+<attr obj="exahenry [Entity] (inductance unit equal to 1000000000000000000 henry)" rel="Coding"/>
+</concept>
+
+<concept name="zettahenry [Entity]">
+<attr obj="zettahenry [Entity] (inductance unit equal to 1000000000000000000000 henry)" rel="Coding"/>
+</concept>
+
+<concept name="yottahenry [Entity]">
+<attr obj="yottahenry [Entity] (inductance unit equal to 1000000000000000000000000 henry)" rel="Coding"/>
+</concept>
+
+<!--atoms of units of inductance.-->
+<concept name="H [Entity]">
+<attr obj="H [Entity]  (SI base inductance unit. One Henry is equivalent to one Volt divided by one Ampere per SecondDuration.)" rel="Coding"/>
+</concept>
+
+<concept name="yH [Entity]">
+<attr obj="yH [Entity] (inductance unit equal to 0.000000000000000000000001 henry)" rel="Coding"/>
+</concept>
+
+<concept name="zH [Entity]">
+<attr obj="zH [Entity] (inductance unit equal to 0.000000000000000000001 henry)" rel="Coding"/>
+</concept>
+
+<concept name="aH [Entity]">
+<attr obj="aH [Entity] (inductance unit equal to 0.000000000000000001 henry)" rel="Coding"/>
+</concept>
+
+<concept name="fH [Entity]">
+<attr obj="fH [Entity] (inductance unit equal to 0.000000000000001 henry)" rel="Coding"/>
+</concept>
+
+<concept name="pH [Entity]">
+<attr obj="pH [Entity] (inductance unit equal to 0.000000000001 henry)" rel="Coding"/>
+</concept>
+
+<concept name="nH [Entity]">
+<attr obj="nH [Entity] (inductance unit equal to 0.000000001 henry)" rel="Coding"/>
+</concept>
+
+<concept name="µH [Entity]">
+<attr obj="µH [Entity] (inductance unit equal to 0.000001 henry)" rel="Coding"/>
+</concept>
+
+<concept name="mH [Entity]">
+<attr obj="mH [Entity] (inductance unit equal to 0.001 henry)" rel="Coding"/>
+</concept>
+
+<concept name="cH [Entity]">
+<attr obj="cH [Entity] (inductance unit equal to 0.01 henry)" rel="Coding"/>
+</concept>
+
+<concept name="dH [Entity]">
+<attr obj="dH [Entity] (inductance unit equal to 0.1 henry)" rel="Coding"/>
+</concept>
+
+<concept name="daH [Entity]">
+<attr obj="daH [Entity] (inductance unit equal to 10 henry)" rel="Coding"/>
+</concept>
+
+<concept name="hH [Entity]">
+<attr obj="hH [Entity] (inductance unit equal to 100 henry)" rel="Coding"/>
+</concept>
+
+<concept name="kH [Entity]">
+<attr obj="kH [Entity] (inductance unit equal to 1000 henry)" rel="Coding"/>
+</concept>
+
+<concept name="MH [Entity]">
+<attr obj="MH [Entity] (inductance unit equal to 1000000 henry)" rel="Coding"/>
+</concept>
+
+<concept name="GH [Entity]">
+<attr obj="GH [Entity] (inductance unit equal to 1000000000 henry)" rel="Coding"/>
+</concept>
+
+<concept name="TH [Entity]">
+<attr obj="TH [Entity] (inductance unit equal to 1000000000000 henry)" rel="Coding"/>
+</concept>
+
+<concept name="PH [Entity]">
+<attr obj="PH [Entity] (inductance unit equal to 1000000000000000 henry)" rel="Coding"/>
+</concept>
+
+<concept name="EH [Entity]">
+<attr obj="EH [Entity] (inductance unit equal to 1000000000000000000 henry)" rel="Coding"/>
+</concept>
+
+<concept name="ZH [Entity]">
+<attr obj="ZH [Entity] (inductance unit equal to 1000000000000000000000 henry)" rel="Coding"/>
+</concept>
+
+<concept name="YH [Entity]">
+<attr obj="YH [Entity] (inductance unit equal to 1000000000000000000000000 henry)" rel="Coding"/>
+</concept>
+
+</ontology>

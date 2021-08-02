@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of electric potential.-->
+<concept name="volt [Entity] (SI base electric potential unit. It is the difference of electric potential between two points of a conducting wire carrying a constant current of 1 Ampere, when the power dissipated between these points is equal to 1 Watt.)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctovolt [Entity] (electric potential unit equal to 0.000000000000000000000001 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptovolt [Entity] (electric potential unit equal to 0.000000000000000000001 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attovolt [Entity] (electric potential unit equal to 0.000000000000000001 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtovolt [Entity] (electric potential unit equal to 0.000000000000001 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picovolt [Entity] (electric potential unit equal to 0.000000000001 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanovolt [Entity] (electric potential unit equal to 0.000000001 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microvolt [Entity] (electric potential unit equal to 0.000001 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millivolt [Entity] (electric potential unit equal to 0.001 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centivolt [Entity] (electric potential unit equal to 0.01 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decivolt [Entity] (electric potential unit equal to 0.1 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decavolt [Entity] (electric potential unit equal to 10 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectovolt [Entity] (electric potential unit equal to 100 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilovolt [Entity] (electric potential unit equal to 1000 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megavolt [Entity] (electric potential unit equal to 1000000 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigavolt [Entity] (electric potential unit equal to 1000000000 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="teravolt [Entity] (electric potential unit equal to 1000000000000 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petavolt [Entity] (electric potential unit equal to 1000000000000000 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exavolt [Entity] (electric potential unit equal to 1000000000000000000 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettavolt [Entity] (electric potential unit equal to 1000000000000000000000 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottavolt [Entity] (electric potential unit equal to 1000000000000000000000000 volt)">
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<!--Units of electric potential.-->
+<concept name="V [Entity] (SI base electric potential unit. It is the difference of electric potential between two points of a conducting wire carrying a constant current of 1 Ampere, when the power dissipated between these points is equal to 1 Watt.)">
+<attr obj="volt [Entity] (SI base electric potential unit. It is the difference of electric potential between two points of a conducting wire carrying a constant current of 1 Ampere, when the power dissipated between these points is equal to 1 Watt.)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yV [Entity] (electric potential unit equal to 0.000000000000000000000001 volt)">
+<attr obj="yoctovolt [Entity] (electric potential unit equal to 0.000000000000000000000001 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zV [Entity] (electric potential unit equal to 0.000000000000000000001 volt)">
+<attr obj="zeptovolt [Entity] (electric potential unit equal to 0.000000000000000000001 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="aV [Entity] (electric potential unit equal to 0.000000000000000001 volt)">
+<attr obj="attovolt [Entity] (electric potential unit equal to 0.000000000000000001 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fV [Entity] (electric potential unit equal to 0.000000000000001 volt)">
+<attr obj="femtovolt [Entity] (electric potential unit equal to 0.000000000000001 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pV [Entity] (electric potential unit equal to 0.000000000001 volt)">
+<attr obj="picovolt [Entity] (electric potential unit equal to 0.000000000001 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nV [Entity] (electric potential unit equal to 0.000000001 volt)">
+<attr obj="nanovolt [Entity] (electric potential unit equal to 0.000000001 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µV [Entity] (electric potential unit equal to 0.000001 volt)">
+<attr obj="microvolt [Entity] (electric potential unit equal to 0.000001 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mV [Entity] (electric potential unit equal to 0.001 volt)">
+<attr obj="millivolt [Entity] (electric potential unit equal to 0.001 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cV [Entity] (electric potential unit equal to 0.01 volt)">
+<attr obj="centivolt [Entity] (electric potential unit equal to 0.01 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dV [Entity] (electric potential unit equal to 0.1 volt)">
+<attr obj="decivolt [Entity] (electric potential unit equal to 0.1 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="daV [Entity] (electric potential unit equal to 10 volt)">
+<attr obj="decavolt [Entity] (electric potential unit equal to 10 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hV [Entity] (electric potential unit equal to 100 volt)">
+<attr obj="hectovolt [Entity] (electric potential unit equal to 100 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kV [Entity] (electric potential unit equal to 1000 volt)">
+<attr obj="kilovolt [Entity] (electric potential unit equal to 1000 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="MV [Entity] (electric potential unit equal to 1000000 volt)">
+<attr obj="megavolt [Entity] (electric potential unit equal to 1000000 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="GV [Entity] (electric potential unit equal to 1000000000 volt)">
+<attr obj="gigavolt [Entity] (electric potential unit equal to 1000000000 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="TV [Entity] (electric potential unit equal to 1000000000000 volt)">
+<attr obj="teravolt [Entity] (electric potential unit equal to 1000000000000 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="PV [Entity] (electric potential unit equal to 1000000000000000 volt)">
+<attr obj="petavolt [Entity] (electric potential unit equal to 1000000000000000 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="EV [Entity] (electric potential unit equal to 1000000000000000000 volt)">
+<attr obj="exavolt [Entity] (electric potential unit equal to 1000000000000000000 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="ZV [Entity] (electric potential unit equal to 1000000000000000000000 volt)">
+<attr obj="zettavolt [Entity] (electric potential unit equal to 1000000000000000000000 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="YV [Entity] (electric potential unit equal to 1000000000000000000000000 volt)">
+<attr obj="yottavolt [Entity] (electric potential unit equal to 1000000000000000000000000 volt)" rel="equivalence of concepts"/>
+<attr obj="unit of electric potential (Every instance of this class is a unit of measure that can be used to form instances of electric potential measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="volt [Entity] (base electric potential unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>

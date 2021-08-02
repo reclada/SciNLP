@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of illuminance.-->
+<concept name="lux [Entity]">
+<attr obj="lux [Entity]  (SI base illuminance unit. It is the amount of illumination provided when one Lumen is evenly distributed over an area of 1 square Meter.)" rel="Coding"/>
+</concept>
+
+<concept name="yoctolux [Entity]">
+<attr obj="yoctolux [Entity] (illuminance unit equal to 0.000000000000000000000001 lux)" rel="Coding"/>
+</concept>
+
+<concept name="zeptolux [Entity]">
+<attr obj="zeptolux [Entity] (illuminance unit equal to 0.000000000000000000001 lux)" rel="Coding"/>
+</concept>
+
+<concept name="attolux [Entity]">
+<attr obj="attolux [Entity] (illuminance unit equal to 0.000000000000000001 lux)" rel="Coding"/>
+</concept>
+
+<concept name="femtolux [Entity]">
+<attr obj="femtolux [Entity] (illuminance unit equal to 0.000000000000001 lux)" rel="Coding"/>
+</concept>
+
+<concept name="picolux [Entity]">
+<attr obj="picolux [Entity] (illuminance unit equal to 0.000000000001 lux)" rel="Coding"/>
+</concept>
+
+<concept name="nanolux [Entity]">
+<attr obj="nanolux [Entity] (illuminance unit equal to 0.000000001 lux)" rel="Coding"/>
+</concept>
+
+<concept name="microlux [Entity]">
+<attr obj="microlux [Entity] (illuminance unit equal to 0.000001 lux)" rel="Coding"/>
+</concept>
+
+<concept name="millilux [Entity]">
+<attr obj="millilux [Entity] (illuminance unit equal to 0.001 lux)" rel="Coding"/>
+</concept>
+
+<concept name="centilux [Entity]">
+<attr obj="centilux [Entity] (illuminance unit equal to 0.01 lux)" rel="Coding"/>
+</concept>
+
+<concept name="decilux [Entity]">
+<attr obj="decilux [Entity] (illuminance unit equal to 0.1 lux)" rel="Coding"/>
+</concept>
+
+<concept name="decalux [Entity]">
+<attr obj="decalux [Entity] (illuminance unit equal to 10 lux)" rel="Coding"/>
+</concept>
+
+<concept name="hectolux [Entity]">
+<attr obj="hectolux [Entity] (illuminance unit equal to 100 lux)" rel="Coding"/>
+</concept>
+
+<concept name="kilolux [Entity]">
+<attr obj="kilolux [Entity] (illuminance unit equal to 1000 lux)" rel="Coding"/>
+</concept>
+
+<concept name="megalux [Entity]">
+<attr obj="megalux [Entity] (illuminance unit equal to 1000000 lux)" rel="Coding"/>
+</concept>
+
+<concept name="gigalux [Entity]">
+<attr obj="gigalux [Entity] (illuminance unit equal to 1000000000 lux)" rel="Coding"/>
+</concept>
+
+<concept name="teralux [Entity]">
+<attr obj="teralux [Entity] (illuminance unit equal to 1000000000000 lux)" rel="Coding"/>
+</concept>
+
+<concept name="petalux [Entity]">
+<attr obj="petalux [Entity] (illuminance unit equal to 1000000000000000 lux)" rel="Coding"/>
+</concept>
+
+<concept name="exalux [Entity]">
+<attr obj="exalux [Entity] (illuminance unit equal to 1000000000000000000 lux)" rel="Coding"/>
+</concept>
+
+<concept name="zettalux [Entity]">
+<attr obj="zettalux [Entity] (illuminance unit equal to 1000000000000000000000 lux)" rel="Coding"/>
+</concept>
+
+<concept name="yottalux [Entity]">
+<attr obj="yottalux [Entity] (illuminance unit equal to 1000000000000000000000000 lux)" rel="Coding"/>
+</concept>
+
+<!--atoms of units of illuminance.-->
+<concept name="lx [Entity]">
+<attr obj="lx [Entity]  (SI base illuminance unit. It is the amount of illumination provided when one Lumen is evenly distributed over an area of 1 square Meter.)" rel="Coding"/>
+</concept>
+
+<concept name="ylx [Entity]">
+<attr obj="ylx [Entity] (illuminance unit equal to 0.000000000000000000000001 lux)" rel="Coding"/>
+</concept>
+
+<concept name="zlx [Entity]">
+<attr obj="zlx [Entity] (illuminance unit equal to 0.000000000000000000001 lux)" rel="Coding"/>
+</concept>
+
+<concept name="alx [Entity]">
+<attr obj="alx [Entity] (illuminance unit equal to 0.000000000000000001 lux)" rel="Coding"/>
+</concept>
+
+<concept name="flx [Entity]">
+<attr obj="flx [Entity] (illuminance unit equal to 0.000000000000001 lux)" rel="Coding"/>
+</concept>
+
+<concept name="plx [Entity]">
+<attr obj="plx [Entity] (illuminance unit equal to 0.000000000001 lux)" rel="Coding"/>
+</concept>
+
+<concept name="nlx [Entity]">
+<attr obj="nlx [Entity] (illuminance unit equal to 0.000000001 lux)" rel="Coding"/>
+</concept>
+
+<concept name="µlx [Entity]">
+<attr obj="µlx [Entity] (illuminance unit equal to 0.000001 lux)" rel="Coding"/>
+</concept>
+
+<concept name="mlx [Entity]">
+<attr obj="mlx [Entity] (illuminance unit equal to 0.001 lux)" rel="Coding"/>
+</concept>
+
+<concept name="clx [Entity]">
+<attr obj="clx [Entity] (illuminance unit equal to 0.01 lux)" rel="Coding"/>
+</concept>
+
+<concept name="dlx [Entity]">
+<attr obj="dlx [Entity] (illuminance unit equal to 0.1 lux)" rel="Coding"/>
+</concept>
+
+<concept name="dalx [Entity]">
+<attr obj="dalx [Entity] (illuminance unit equal to 10 lux)" rel="Coding"/>
+</concept>
+
+<concept name="hlx [Entity]">
+<attr obj="hlx [Entity] (illuminance unit equal to 100 lux)" rel="Coding"/>
+</concept>
+
+<concept name="klx [Entity]">
+<attr obj="klx [Entity] (illuminance unit equal to 1000 lux)" rel="Coding"/>
+</concept>
+
+<concept name="Mlx [Entity]">
+<attr obj="Mlx [Entity] (illuminance unit equal to 1000000 lux)" rel="Coding"/>
+</concept>
+
+<concept name="Glx [Entity]">
+<attr obj="Glx [Entity] (illuminance unit equal to 1000000000 lux)" rel="Coding"/>
+</concept>
+
+<concept name="Tlx [Entity]">
+<attr obj="Tlx [Entity] (illuminance unit equal to 1000000000000 lux)" rel="Coding"/>
+</concept>
+
+<concept name="Plx [Entity]">
+<attr obj="Plx [Entity] (illuminance unit equal to 1000000000000000 lux)" rel="Coding"/>
+</concept>
+
+<concept name="Elx [Entity]">
+<attr obj="Elx [Entity] (illuminance unit equal to 1000000000000000000 lux)" rel="Coding"/>
+</concept>
+
+<concept name="Zlx [Entity]">
+<attr obj="Zlx [Entity] (illuminance unit equal to 1000000000000000000000 lux)" rel="Coding"/>
+</concept>
+
+<concept name="Ylx [Entity]">
+<attr obj="Ylx [Entity] (illuminance unit equal to 1000000000000000000000000 lux)" rel="Coding"/>
+</concept>
+
+</ontology>

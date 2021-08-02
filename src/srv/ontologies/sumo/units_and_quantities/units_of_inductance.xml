@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of inductance.-->
+<concept name="henry [Entity] (SI base inductance unit. One Henry is equivalent to one Volt divided by one Ampere per SecondDuration.)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctohenry [Entity] (inductance unit equal to 0.000000000000000000000001 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptohenry [Entity] (inductance unit equal to 0.000000000000000000001 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attohenry [Entity] (inductance unit equal to 0.000000000000000001 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtohenry [Entity] (inductance unit equal to 0.000000000000001 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picohenry [Entity] (inductance unit equal to 0.000000000001 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanohenry [Entity] (inductance unit equal to 0.000000001 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microhenry [Entity] (inductance unit equal to 0.000001 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millihenry [Entity] (inductance unit equal to 0.001 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centihenry [Entity] (inductance unit equal to 0.01 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decihenry [Entity] (inductance unit equal to 0.1 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decahenry [Entity] (inductance unit equal to 10 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectohenry [Entity] (inductance unit equal to 100 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilohenry [Entity] (inductance unit equal to 1000 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megahenry [Entity] (inductance unit equal to 1000000 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigahenry [Entity] (inductance unit equal to 1000000000 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="terahenry [Entity] (inductance unit equal to 1000000000000 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petahenry [Entity] (inductance unit equal to 1000000000000000 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exahenry [Entity] (inductance unit equal to 1000000000000000000 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettahenry [Entity] (inductance unit equal to 1000000000000000000000 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottahenry [Entity] (inductance unit equal to 1000000000000000000000000 henry)">
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<!--Units of inductance.-->
+<concept name="H [Entity] (SI base inductance unit. One Henry is equivalent to one Volt divided by one Ampere per SecondDuration.)">
+<attr obj="henry [Entity] (SI base inductance unit. One Henry is equivalent to one Volt divided by one Ampere per SecondDuration.)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yH [Entity] (inductance unit equal to 0.000000000000000000000001 henry)">
+<attr obj="yoctohenry [Entity] (inductance unit equal to 0.000000000000000000000001 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zH [Entity] (inductance unit equal to 0.000000000000000000001 henry)">
+<attr obj="zeptohenry [Entity] (inductance unit equal to 0.000000000000000000001 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="aH [Entity] (inductance unit equal to 0.000000000000000001 henry)">
+<attr obj="attohenry [Entity] (inductance unit equal to 0.000000000000000001 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="fH [Entity] (inductance unit equal to 0.000000000000001 henry)">
+<attr obj="femtohenry [Entity] (inductance unit equal to 0.000000000000001 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="pH [Entity] (inductance unit equal to 0.000000000001 henry)">
+<attr obj="picohenry [Entity] (inductance unit equal to 0.000000000001 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nH [Entity] (inductance unit equal to 0.000000001 henry)">
+<attr obj="nanohenry [Entity] (inductance unit equal to 0.000000001 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µH [Entity] (inductance unit equal to 0.000001 henry)">
+<attr obj="microhenry [Entity] (inductance unit equal to 0.000001 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mH [Entity] (inductance unit equal to 0.001 henry)">
+<attr obj="millihenry [Entity] (inductance unit equal to 0.001 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="cH [Entity] (inductance unit equal to 0.01 henry)">
+<attr obj="centihenry [Entity] (inductance unit equal to 0.01 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dH [Entity] (inductance unit equal to 0.1 henry)">
+<attr obj="decihenry [Entity] (inductance unit equal to 0.1 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="daH [Entity] (inductance unit equal to 10 henry)">
+<attr obj="decahenry [Entity] (inductance unit equal to 10 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hH [Entity] (inductance unit equal to 100 henry)">
+<attr obj="hectohenry [Entity] (inductance unit equal to 100 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kH [Entity] (inductance unit equal to 1000 henry)">
+<attr obj="kilohenry [Entity] (inductance unit equal to 1000 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="MH [Entity] (inductance unit equal to 1000000 henry)">
+<attr obj="megahenry [Entity] (inductance unit equal to 1000000 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="GH [Entity] (inductance unit equal to 1000000000 henry)">
+<attr obj="gigahenry [Entity] (inductance unit equal to 1000000000 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="TH [Entity] (inductance unit equal to 1000000000000 henry)">
+<attr obj="terahenry [Entity] (inductance unit equal to 1000000000000 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="PH [Entity] (inductance unit equal to 1000000000000000 henry)">
+<attr obj="petahenry [Entity] (inductance unit equal to 1000000000000000 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="EH [Entity] (inductance unit equal to 1000000000000000000 henry)">
+<attr obj="exahenry [Entity] (inductance unit equal to 1000000000000000000 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="ZH [Entity] (inductance unit equal to 1000000000000000000000 henry)">
+<attr obj="zettahenry [Entity] (inductance unit equal to 1000000000000000000000 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="YH [Entity] (inductance unit equal to 1000000000000000000000000 henry)">
+<attr obj="yottahenry [Entity] (inductance unit equal to 1000000000000000000000000 henry)" rel="equivalence of concepts"/>
+<attr obj="unit of inductance (Every instance of this class is a unit of measure that can be used to form instances of inductance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="henry [Entity] (base inductance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>

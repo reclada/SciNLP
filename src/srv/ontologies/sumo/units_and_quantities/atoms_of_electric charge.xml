@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--atoms of units of electric charge.-->
+<concept name="coulomb [Entity]">
+<attr obj="coulomb [Entity]  (SI base electric charge unit. It is the quantity of electric charge transported through a cross section of a conductor in an electric circuit during each SecondDuration by a current of 1 Ampere.)" rel="Coding"/>
+</concept>
+
+<concept name="yoctocoulomb [Entity]">
+<attr obj="yoctocoulomb [Entity] (electric charge unit equal to 0.000000000000000000000001 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="zeptocoulomb [Entity]">
+<attr obj="zeptocoulomb [Entity] (electric charge unit equal to 0.000000000000000000001 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="attocoulomb [Entity]">
+<attr obj="attocoulomb [Entity] (electric charge unit equal to 0.000000000000000001 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="femtocoulomb [Entity]">
+<attr obj="femtocoulomb [Entity] (electric charge unit equal to 0.000000000000001 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="picocoulomb [Entity]">
+<attr obj="picocoulomb [Entity] (electric charge unit equal to 0.000000000001 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="nanocoulomb [Entity]">
+<attr obj="nanocoulomb [Entity] (electric charge unit equal to 0.000000001 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="microcoulomb [Entity]">
+<attr obj="microcoulomb [Entity] (electric charge unit equal to 0.000001 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="millicoulomb [Entity]">
+<attr obj="millicoulomb [Entity] (electric charge unit equal to 0.001 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="centicoulomb [Entity]">
+<attr obj="centicoulomb [Entity] (electric charge unit equal to 0.01 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="decicoulomb [Entity]">
+<attr obj="decicoulomb [Entity] (electric charge unit equal to 0.1 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="decacoulomb [Entity]">
+<attr obj="decacoulomb [Entity] (electric charge unit equal to 10 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="hectocoulomb [Entity]">
+<attr obj="hectocoulomb [Entity] (electric charge unit equal to 100 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="kilocoulomb [Entity]">
+<attr obj="kilocoulomb [Entity] (electric charge unit equal to 1000 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="megacoulomb [Entity]">
+<attr obj="megacoulomb [Entity] (electric charge unit equal to 1000000 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="gigacoulomb [Entity]">
+<attr obj="gigacoulomb [Entity] (electric charge unit equal to 1000000000 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="teracoulomb [Entity]">
+<attr obj="teracoulomb [Entity] (electric charge unit equal to 1000000000000 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="petacoulomb [Entity]">
+<attr obj="petacoulomb [Entity] (electric charge unit equal to 1000000000000000 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="exacoulomb [Entity]">
+<attr obj="exacoulomb [Entity] (electric charge unit equal to 1000000000000000000 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="zettacoulomb [Entity]">
+<attr obj="zettacoulomb [Entity] (electric charge unit equal to 1000000000000000000000 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="yottacoulomb [Entity]">
+<attr obj="yottacoulomb [Entity] (electric charge unit equal to 1000000000000000000000000 coulomb)" rel="Coding"/>
+</concept>
+
+<!--atoms of units of electric charge.-->
+<concept name="C [Entity]">
+<attr obj="C [Entity]  (SI base electric charge unit. It is the quantity of electric charge transported through a cross section of a conductor in an electric circuit during each SecondDuration by a current of 1 Ampere.)" rel="Coding"/>
+</concept>
+
+<concept name="yC [Entity]">
+<attr obj="yC [Entity] (electric charge unit equal to 0.000000000000000000000001 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="zC [Entity]">
+<attr obj="zC [Entity] (electric charge unit equal to 0.000000000000000000001 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="aC [Entity]">
+<attr obj="aC [Entity] (electric charge unit equal to 0.000000000000000001 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="fC [Entity]">
+<attr obj="fC [Entity] (electric charge unit equal to 0.000000000000001 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="pC [Entity]">
+<attr obj="pC [Entity] (electric charge unit equal to 0.000000000001 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="nC [Entity]">
+<attr obj="nC [Entity] (electric charge unit equal to 0.000000001 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="µC [Entity]">
+<attr obj="µC [Entity] (electric charge unit equal to 0.000001 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="mC [Entity]">
+<attr obj="mC [Entity] (electric charge unit equal to 0.001 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="cC [Entity]">
+<attr obj="cC [Entity] (electric charge unit equal to 0.01 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="dC [Entity]">
+<attr obj="dC [Entity] (electric charge unit equal to 0.1 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="daC [Entity]">
+<attr obj="daC [Entity] (electric charge unit equal to 10 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="hC [Entity]">
+<attr obj="hC [Entity] (electric charge unit equal to 100 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="kC [Entity]">
+<attr obj="kC [Entity] (electric charge unit equal to 1000 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="MC [Entity]">
+<attr obj="MC [Entity] (electric charge unit equal to 1000000 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="GC [Entity]">
+<attr obj="GC [Entity] (electric charge unit equal to 1000000000 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="TC [Entity]">
+<attr obj="TC [Entity] (electric charge unit equal to 1000000000000 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="PC [Entity]">
+<attr obj="PC [Entity] (electric charge unit equal to 1000000000000000 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="EC [Entity]">
+<attr obj="EC [Entity] (electric charge unit equal to 1000000000000000000 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="ZC [Entity]">
+<attr obj="ZC [Entity] (electric charge unit equal to 1000000000000000000000 coulomb)" rel="Coding"/>
+</concept>
+
+<concept name="YC [Entity]">
+<attr obj="YC [Entity] (electric charge unit equal to 1000000000000000000000000 coulomb)" rel="Coding"/>
+</concept>
+
+</ontology>

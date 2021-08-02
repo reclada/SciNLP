@@ -2,67 +2,143 @@
 <ontology>
 <!--atoms of physical quantities-->
 <concept name="length [Entity]">
-<attr obj="length [Entity] (length)" rel="Coding"/>
+    <attr obj="length [Entity] (length)" rel="Coding"/>
 </concept>
 
 <concept name="time [Entity]">
-<attr obj="time [Entity] (time)" rel="Coding"/>
+    <attr obj="time [Entity] (time)" rel="Coding"/>
 </concept>
 
 <concept name="mass [Entity]">
-<attr obj="mass [Entity] (mass)" rel="Coding"/>
+    <attr obj="mass [Entity] (mass)" rel="Coding"/>
 </concept>
 
 <concept name="temperature [Entity]">
-<attr obj="temperature [Entity] (temperature)" rel="Coding"/>
+    <attr obj="temperature [Entity] (temperature)" rel="Coding"/>
 </concept>
 
 <concept name="currency [Entity]">
-<attr obj="currency [Entity] (currency)" rel="Coding"/>
+    <attr obj="currency [Entity] (currency)" rel="Coding"/>
 </concept>
 
 <concept name="plane angle [Entity] (angle)">
-<attr obj="plane angle [Entity] (angle)" rel="Coding"/>
+    <attr obj="plane angle [Entity] (angle)" rel="Coding"/>
 </concept>
 
 <concept name="solid angle [Entity] (angle)">
-<attr obj="solid angle [Entity] (angle)" rel="Coding"/>
+    <attr obj="solid angle [Entity] (angle)" rel="Coding"/>
 </concept>
 
 <concept name="information [Entity]">
-<attr obj="information [Entity] (information)" rel="Coding"/>
+    <attr obj="information [Entity] (information)" rel="Coding"/>
 </concept>
 
 <concept name="area [Entity]">
-<attr obj="area [Entity] (area)" rel="Coding"/>
+	<attr obj="area [Entity] (Area is the quantity that expresses the extent of a two-dimensional region, shape, or planar lamina, in the plane.)" rel="Coding"/>
 </concept>
 
 <concept name="volume [Entity]">
-<attr obj="volume [Entity] (volume)" rel="Coding"/>
+	<attr obj="volume [Entity] (Volume is the quantity of three-dimensional space enclosed by a closed surface, for example, the space that a substance or 3D shape occupies or contains.)" rel="Coding"/>
 </concept>
 
 <concept name="frequency [Entity]">
-<attr obj="frequency [Entity] (frequency)" rel="Coding"/>
+	<attr obj="frequency [Entity] (Frequency is the measurement of the number of times that a repeated event occurs per unit of time.)" rel="Coding"/>
 </concept>
 
 <concept name="pressure [Entity]">
-<attr obj="pressure [Entity] (pressure)" rel="Coding"/>
+    <attr obj="pressure [Entity] (pressure)" rel="Coding"/>
 </concept>
 
 <concept name="electric current [Entity]">
-<attr obj="electric current [Entity] (electric current)" rel="Coding"/>
+    <attr obj="electric current [Entity] (electric current)" rel="Coding"/>
 </concept>
 
 <concept name="luminosity intensity [Entity]">
-<attr obj="luminosity intensity [Entity] (luminosity intensity)" rel="Coding"/>
+    <attr obj="luminosity intensity [Entity] (luminosity intensity)" rel="Coding"/>
 </concept>
 
 <concept name="amount of substance [Entity]">
-<attr obj="amount of substance [Entity] (amount of substance)" rel="Coding"/>
+    <attr obj="amount of substance [Entity] (amount of substance)" rel="Coding"/>
 </concept>
 
 <concept name="amount of substance [Entity]">
-<attr obj="amount of substance [Entity] (amount of substance)" rel="Coding"/>
+    <attr obj="amount of substance [Entity] (amount of substance)" rel="Coding"/>
+</concept>
+
+<concept name="force [Entity]">
+	<attr obj="force [Entity] (A force is any influence that, when unopposed, will change the motion of an object.)" rel="Coding"/>
+</concept>
+
+<concept name="pressure [Entity]">
+	<attr obj="pressure [Entity] (Pressure is the force applied perpendicular to the surface of an object per unit area over which that force is distributed.)" rel="Coding"/>
+</concept>
+
+<concept name="energy [Entity]">
+	<attr obj="energy [Entity] (Energy is the quantitative property that must be transferred to a body or physical system to perform work on the body, or to heat it.)" rel="Coding"/>
+</concept>
+
+<concept name="power [Entity]">
+	<attr obj="power [Entity] (Power is the amount of energy transferred or converted per unit time.)" rel="Coding"/>
+</concept>
+
+<concept name="inductance [Entity]">
+	<attr obj="inductance [Entity] (Inductance is the tendency of an electrical conductor to oppose a change in the electric current flowing through it. )" rel="Coding"/>
+</concept>
+
+<concept name="illuminance [Entity]">
+	<attr obj="illuminance [Entity] (In photometry, illuminance is the total luminous flux incident on a surface, per unit area.)" rel="Coding"/>
+</concept>
+
+<concept name="height [Entity]">
+	<attr obj="height [Entity] (The height of an object is the distance between its top and its bottom.)" rel="Coding"/>
+</concept>
+
+<concept name="width [Entity]">
+	<attr obj="width [Entity] (The width of an object is the measurement or extent of something from side to side)" rel="Coding"/>
+</concept>
+
+<concept name="electric charge [Entity]">
+	<attr obj="electric charge [Entity] (Electric charge is the physical property of matter that causes it to experience a force when placed in an electromagnetic field.)" rel="Coding"/>
+</concept>
+
+<concept name="electric potential [Entity]">
+	<attr obj="electric potential [Entity] (The electric potential is the amount of work energy needed to move a unit of electric charge from a reference point to the specific point in an electric field with negligible acceleration of the test charge to avoid producing kinetic energy or radiation by test charge.)" rel="Coding"/>
+</concept>
+
+<concept name="capacitance [Entity]">
+	<attr obj="capacitance [Entity] (Capacitance is the ratio of the amount of electric charge stored on a conductor to a difference in electric potential)" rel="Coding"/>
+</concept>
+
+<concept name="electric conductance [Entity]">
+	<attr obj="electric conductance [Entity] (Electrical conductance measures how easily electricity flows through electrical components for a given voltage difference.)" rel="Coding"/>
+</concept>
+
+<concept name="magnetic flux [Entity]">
+	<attr obj="magnetic flux [Entity] (Magnetic flux is a measurement of the total magnetic field which passes through a given area.)" rel="Coding"/>
+</concept>
+
+<concept name="magnetic flux density [Entity]">
+	<attr obj="magnetic flux density [Entity] (The magnetic flux density or magnetic induction is the number of lines of force passing through a unit area of material.)" rel="Coding"/>
+</concept>
+
+<concept name="inductance [Entity]">
+	<attr obj="inductance [Entity] (Inductance is the tendency of an electrical conductor to oppose a change in the electric current flowing through it.)" rel="Coding"/>
+</concept>
+
+<concept name="celsius temperature [Entity]">
+	<attr obj="celsius temperature [Entity] (The degree Celsius is a unit of temperature on the Celsius scale, a temperature scale originally known as the centigrade scale.)" rel="Coding"/>
+</concept>
+
+<concept name="luminous flux [Entity]">
+	<attr obj="luminous flux [Entity] (Luminous flux is the measure of brightness of a light source in terms of energy being emitted.)" rel="Coding"/>
+</concept>
+
+<concept name="absorbed dose [Entity]">
+	<attr obj="absorbed dose [Entity] (Absorbed dose is a dose quantity which is the measure of the energy deposited in matter by ionizing radiation per unit mass.)" rel="Coding"/>
+</concept>
+
+<concept name="dose equivalent [Entity]">
+	<attr obj="dose equivalent [Entity] (Equivalent dose is a dose quantity H representing the stochastic health effects of low levels of ionizing radiation on the human body which represents the probability of radiation-induced cancer and genetic damage.)" rel="Coding"/>
 </concept>
 
 </ontology>

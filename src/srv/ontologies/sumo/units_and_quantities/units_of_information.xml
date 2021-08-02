@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of information.-->
+
+<concept name="bit [Entity] (base information unit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+</concept>
+
+<concept name="byte [Entity] (information unit equal to 8 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="8 [Number] (eight)"/>
+</concept>
+
+<concept name="b [Entity] (information unit equal to 8 bit)">
+<attr obj="byte [Entity] (base information unit.)" rel="equivalence of concepts"/>
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="8 [Number] (eight)"/>
+</concept>
+
+<concept name="kilobyte [Entity] (information unit equal to 1000 byte)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megabyte [Entity] (information unit equal to 1000000 byte)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigabyte [Entity] (information unit equal to 1000000000 byte)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="terabyte [Entity] (information unit equal to 1000000000000 byte)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petabyte [Entity] (information unit equal to 1000000000000000 byte)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exabyte [Entity] (information unit equal to 1000000000000000000 byte)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettabyte [Entity] (information unit equal to 1000000000000000000000 byte)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottabyte [Entity] (information unit equal to 1000000000000000000000000 byte)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="kibibyte [Entity] (information unit equal to 1024 byte)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1024 [Number] (1024)"/>
+</concept>
+
+<concept name="mebibyte [Entity] (information unit equal to 1048576 byte)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1048576 [Number] (1048576)"/>
+</concept>
+
+<concept name="gibibyte [Entity] (information unit equal to 1073741824 byte)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1073741824 [Number] (1073741824)"/>
+</concept>
+
+<concept name="tebibyte [Entity] (information unit equal to 1099511627776 byte)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance" />
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (base information unit)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1099511627776 [Number] (1099511627776)" />
+</concept>
+
+<concept name="pebibyte [Entity] (information unit equal to 1125899906842624 byte)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance" />
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (base information unit)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1125899906842624 [Number] (1125899906842624)" />
+</concept>
+
+<concept name="exbibyte [Entity] (information unit equal to 1152921504606847000 byte)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance" />
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (base information unit)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1152921504606847000 [Number] (1152921504606847000)" />
+</concept>
+
+<concept name="zebibyte [Entity] (information unit equal to 1180591620717411303424 byte)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance" />
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (base information unit)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1180591620717411303424 [Number] (1180591620717411303424)" />
+</concept>
+
+<concept name="yobibyte [Entity] (information unit equal to 1208925819614629174706176 byte)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance" />
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (base information unit)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1208925819614629174706176 [Number] (1208925819614629174706176)" />
+</concept>
+
+<concept name="kilobit [Entity] (information unit equal to 1000 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megabit [Entity] (information unit equal to 1000000 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigabit [Entity] (information unit equal to 1000000000 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="terabit [Entity] (information unit equal to 1000000000000 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petabit [Entity] (information unit equal to 1000000000000000 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exabit [Entity] (information unit equal to 1000000000000000000 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettabit [Entity] (information unit equal to 1000000000000000000000 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottabit [Entity] (information unit equal to 1000000000000000000000000 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="kibibit [Entity] (information unit equal to 1024 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1024 [Number] (1024)"/>
+</concept>
+
+<concept name="mebibit [Entity] (information unit equal to 1048576 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1048576 [Number] (1048576)"/>
+</concept>
+
+<concept name="gibibit [Entity] (information unit equal to 1073741824 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1073741824 [Number] (1073741824)"/>
+</concept>
+
+<concept name="tebibit [Entity] (information unit equal to 1099511627776 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance" />
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1099511627776 [Number] (1099511627776)" />
+</concept>
+<concept name="pebibit [Entity] (information unit equal to 1125899906842624 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance" />
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1125899906842624 [Number] (1125899906842624)" />
+</concept>
+
+<concept name="exbibit [Entity] (information unit equal to 1152921504606847000 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance" />
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1152921504606847000 [Number] (1152921504606847000)" />
+</concept>
+
+<concept name="zebibit [Entity] (information unit equal to 1180591620717411303424 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance" />
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1180591620717411303424 [Number] (1180591620717411303424)" />
+</concept>
+
+<concept name="yobibit [Entity] (information unit equal to 1208925819614629174706176 bit)">
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance" />
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="bit [Entity] (base information unit)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1208925819614629174706176 [Number] (1208925819614629174706176)" />
+</concept>
+
+<concept name="kb [Entity] (information unit equal to 1000 byte)">
+<attr obj="kilobyte [Entity] (information unit equal to 1000 byte)" rel="equivalence of concepts"/>
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="Mb [Entity] (information unit equal to 1000000 byte)">
+<attr obj="megabyte [Entity] (information unit equal to 1000000 byte)" rel="equivalence of concepts"/>
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="Gb [Entity] (information unit equal to 1000000000 byte)">
+<attr obj="gigabyte [Entity] (information unit equal to 1000000000 byte)" rel="equivalence of concepts"/>
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="Tb [Entity] (information unit equal to 1000000000000 byte)">
+<attr obj="terabyte [Entity] (information unit equal to 1000000000000 byte)" rel="equivalence of concepts"/>
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="Pb [Entity] (information unit equal to 1000000000000000 byte)">
+<attr obj="petabyte [Entity] (information unit equal to 1000000000000000 byte)" rel="equivalence of concepts"/>
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="Eb [Entity] (information unit equal to 1000000000000000000 byte)">
+<attr obj="exabyte [Entity] (information unit equal to 1000000000000000000 byte)" rel="equivalence of concepts"/>
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="Zb [Entity] (information unit equal to 1000000000000000000000 byte)">
+<attr obj="zettabyte [Entity] (information unit equal to 1000000000000000000000 byte)" rel="equivalence of concepts"/>
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="Yb [Entity] (information unit equal to 1000000000000000000000000 byte)">
+<attr obj="yottabyte [Entity] (information unit equal to 1000000000000000000000000 byte)" rel="equivalence of concepts"/>
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="Kib [Entity] (information unit equal to 1024 byte)">
+<attr obj="kibibyte [Entity] (information unit equal to 1024 byte)" rel="equivalence of concepts"/>
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1024 [Number] (1024)"/>
+</concept>
+
+<concept name="Mib [Entity] (information unit equal to 1048576 byte)">
+<attr obj="mebibyte [Entity] (information unit equal to 1048576 byte)" rel="equivalence of concepts"/>
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1048576 [Number] (1048576)"/>
+</concept>
+
+<concept name="Gib [Entity] (information unit equal to 1073741824 byte)">
+<attr obj="gibibyte [Entity] (information unit equal to 1073741824 byte)" rel="equivalence of concepts"/>
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (information unit equal to 8 bit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1073741824 [Number] (1073741824)"/>
+</concept>
+
+<concept name="Tib [Entity] (information unit equal to 1099511627776 byte)">
+<attr obj="tebibyte [Entity] (information unit equal to 1099511627776 byte)" rel="equivalence of concepts" />
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance" />
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (base information unit)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1099511627776 [Number] (1099511627776)" />
+</concept>
+
+<concept name="Pib [Entity] (information unit equal to 1125899906842624 byte)">
+<attr obj="pebibyte [Entity] (information unit equal to 1125899906842624 byte)" rel="equivalence of concepts" />
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance" />
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (base information unit)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1125899906842624 [Number] (1125899906842624)" />
+</concept>
+
+<concept name="Eib [Entity] (information unit equal to 1152921504606847000 byte)">
+<attr obj="exbibyte [Entity] (information unit equal to 1152921504606847000 byte)" rel="equivalence of concepts" />
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance" />
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (base information unit)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1152921504606847000 [Number] (1152921504606847000)" />
+</concept>
+
+<concept name="Zib [Entity] (information unit equal to 1180591620717411303424 byte)">
+<attr obj="zebibyte [Entity] (information unit equal to 1180591620717411303424 byte)" rel="equivalence of concepts" />
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance" />
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (base information unit)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1180591620717411303424 [Number] (1180591620717411303424)" />
+</concept>
+
+<concept name="Yib [Entity] (information unit equal to 1208925819614629174706176 byte)">
+<attr obj="yobibyte [Entity] (information unit equal to 1208925819614629174706176 byte)" rel="equivalence of concepts" />
+<attr obj="unit of information (Every instance of this class is a unit of measure that can be used to form instances of information measure)" rel="inheritance" />
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="byte [Entity] (base information unit)" />
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1208925819614629174706176 [Number] (1208925819614629174706176)" />
+</concept>
+
+</ontology>

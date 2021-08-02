@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ontology>
+<!--Units of illuminance.-->
+<concept name="lux [Entity] (SI base illuminance unit. It is the amount of illumination provided when one Lumen is evenly distributed over an area of 1 square Meter.)">
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+</concept>
+
+<concept name="yoctolux [Entity] (illuminance unit equal to 0.000000000000000000000001 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zeptolux [Entity] (illuminance unit equal to 0.000000000000000000001 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="attolux [Entity] (illuminance unit equal to 0.000000000000000001 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="femtolux [Entity] (illuminance unit equal to 0.000000000000001 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="picolux [Entity] (illuminance unit equal to 0.000000000001 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nanolux [Entity] (illuminance unit equal to 0.000000001 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="microlux [Entity] (illuminance unit equal to 0.000001 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="millilux [Entity] (illuminance unit equal to 0.001 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="centilux [Entity] (illuminance unit equal to 0.01 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="decilux [Entity] (illuminance unit equal to 0.1 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="decalux [Entity] (illuminance unit equal to 10 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hectolux [Entity] (illuminance unit equal to 100 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="kilolux [Entity] (illuminance unit equal to 1000 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="megalux [Entity] (illuminance unit equal to 1000000 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="gigalux [Entity] (illuminance unit equal to 1000000000 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="teralux [Entity] (illuminance unit equal to 1000000000000 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="petalux [Entity] (illuminance unit equal to 1000000000000000 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="exalux [Entity] (illuminance unit equal to 1000000000000000000 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="zettalux [Entity] (illuminance unit equal to 1000000000000000000000 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="yottalux [Entity] (illuminance unit equal to 1000000000000000000000000 lux)">
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<!--Units of illuminance.-->
+<concept name="lx [Entity] (SI base illuminance unit. It is the amount of illumination provided when one Lumen is evenly distributed over an area of 1 square Meter.)">
+<attr obj="lux [Entity] (SI base illuminance unit. It is the amount of illumination provided when one Lumen is evenly distributed over an area of 1 square Meter.)" rel="equivalence of concepts"/>
+<attr obj="systeme international unit (The class of Systeme International (SI) units.)" rel="inheritance"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+</concept>
+
+<concept name="ylx [Entity] (illuminance unit equal to 0.000000000000000000000001 lux)">
+<attr obj="yoctolux [Entity] (illuminance unit equal to 0.000000000000000000000001 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+<concept name="zlx [Entity] (illuminance unit equal to 0.000000000000000000001 lux)">
+<attr obj="zeptolux [Entity] (illuminance unit equal to 0.000000000000000000001 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="alx [Entity] (illuminance unit equal to 0.000000000000000001 lux)">
+<attr obj="attolux [Entity] (illuminance unit equal to 0.000000000000000001 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="flx [Entity] (illuminance unit equal to 0.000000000000001 lux)">
+<attr obj="femtolux [Entity] (illuminance unit equal to 0.000000000000001 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="plx [Entity] (illuminance unit equal to 0.000000000001 lux)">
+<attr obj="picolux [Entity] (illuminance unit equal to 0.000000000001 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="nlx [Entity] (illuminance unit equal to 0.000000001 lux)">
+<attr obj="nanolux [Entity] (illuminance unit equal to 0.000000001 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="µlx [Entity] (illuminance unit equal to 0.000001 lux)">
+<attr obj="microlux [Entity] (illuminance unit equal to 0.000001 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="mlx [Entity] (illuminance unit equal to 0.001 lux)">
+<attr obj="millilux [Entity] (illuminance unit equal to 0.001 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="clx [Entity] (illuminance unit equal to 0.01 lux)">
+<attr obj="centilux [Entity] (illuminance unit equal to 0.01 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="dlx [Entity] (illuminance unit equal to 0.1 lux)">
+<attr obj="decilux [Entity] (illuminance unit equal to 0.1 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by division by number ((about derived unit) to be derived from base unit by division by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="dalx [Entity] (illuminance unit equal to 10 lux)">
+<attr obj="decalux [Entity] (illuminance unit equal to 10 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="10 [Number] (ten)"/>
+</concept>
+
+<concept name="hlx [Entity] (illuminance unit equal to 100 lux)">
+<attr obj="hectolux [Entity] (illuminance unit equal to 100 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="100 [Number] (hundred)"/>
+</concept>
+
+<concept name="klx [Entity] (illuminance unit equal to 1000 lux)">
+<attr obj="kilolux [Entity] (illuminance unit equal to 1000 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000 [Number] (thousand)"/>
+</concept>
+
+<concept name="Mlx [Entity] (illuminance unit equal to 1000000 lux)">
+<attr obj="megalux [Entity] (illuminance unit equal to 1000000 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000 [Number] (million)"/>
+</concept>
+
+<concept name="Glx [Entity] (illuminance unit equal to 1000000000 lux)">
+<attr obj="gigalux [Entity] (illuminance unit equal to 1000000000 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000 [Number] (billion)"/>
+</concept>
+
+<concept name="Tlx [Entity] (illuminance unit equal to 1000000000000 lux)">
+<attr obj="teralux [Entity] (illuminance unit equal to 1000000000000 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000 [Number] (trillion)"/>
+</concept>
+
+<concept name="Plx [Entity] (illuminance unit equal to 1000000000000000 lux)">
+<attr obj="petalux [Entity] (illuminance unit equal to 1000000000000000 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000 [Number] (quadrillion)"/>
+</concept>
+
+<concept name="Elx [Entity] (illuminance unit equal to 1000000000000000000 lux)">
+<attr obj="exalux [Entity] (illuminance unit equal to 1000000000000000000 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000 [Number] (quintillion)"/>
+</concept>
+
+<concept name="Zlx [Entity] (illuminance unit equal to 1000000000000000000000 lux)">
+<attr obj="zettalux [Entity] (illuminance unit equal to 1000000000000000000000 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000 [Number] (sextillion)"/>
+</concept>
+
+<concept name="Ylx [Entity] (illuminance unit equal to 1000000000000000000000000 lux)">
+<attr obj="yottalux [Entity] (illuminance unit equal to 1000000000000000000000000 lux)" rel="equivalence of concepts"/>
+<attr obj="unit of illuminance (Every instance of this class is a unit of measure that can be used to form instances of illuminance measure)" rel="inheritance"/>
+<attr rel="be derived from base unit ((about derived unit) to be derived, by division or multiplication, from base unit)" obj="lux [Entity] (base illuminance unit)"/>
+<attr rel="be derived from base unit by multiplication by number ((about derived unit) to be derived from base unit by multiplication by number)" obj="1000000000000000000000000 [Number] (septillion)"/>
+</concept>
+
+</ontology>
