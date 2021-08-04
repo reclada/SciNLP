@@ -39,14 +39,14 @@ res = [
     ),
     (re.compile('^(?P<analyte>[^(]+)\((?P<antigen>[^\.]*)\.(?P<antigenno>[^)]*)\)$'), 
         {
-            'analyte': lambda match: match.group('analyte').strip(),
+            'analyte': lambda match: match.group('analyte').upper() + '(' + match.group('antigen').upper() + '.' + match.group('antigenno') + ')',
             'antigen': lambda match: match.group('antigen').upper(),
             'antigenMaterial': lambda match: match.group('antigen').upper() + '.' + match.group('antigenno'),
         }
     ),
     (re.compile('^(?P<value>\d+,[\d+, ]+)$'), {'value': lambda match: map(int, match.group('value').split(','))}),
     (re.compile('(?P<amount>\d+) +\((?P<percamount>\d\.\d+) *%\)'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)', 'percent': lambda match: float(match.group('percamount'))}),
-    (re.compile('(?P<amount>\d+) +%'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'percent [Entity] (one hundredth part)'}),
+    (re.compile('(?P<amount>\d+) *%'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'percent [Entity] (one hundredth part)'}),
     (re.compile('^(?P<amount>\d+) *(?P<unit>\w+)$'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit'), ''))) or [match.group('unit')]}),
     (re.compile('(?P<name>\w+) +\(*(?P<unit>\w+)\)'), {'feature': lambda match: list(get_meanings(onto['byword'].get(match.group('name'), ''))) or [match.group('name')], 'unit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit'), '')))}),
     (re.compile('\(*(?P<unit1>\w+)\/(?P<unit2>\w+)\)'), {'baseUnit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit1'), ''))) or match.group('unit1'), 'dividedByUnit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit2'), ''))) or match.group('unit2')}),
