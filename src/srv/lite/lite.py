@@ -44,6 +44,13 @@ res = [
             'antigenMaterial': lambda match: match.group('antigen').upper() + '.' + match.group('antigenno'),
         }
     ),
+    (re.compile('^(?P<antigen>[a-z\d]*)\.(?P<antigenno>\d*)$'), 
+        {
+            'analyte': lambda match: match.group('antigen').upper() + '.' + match.group('antigenno'),
+            'antigen': lambda match: match.group('antigen').upper(),
+            'antigenMaterial': lambda match: match.group('antigen').upper() + '.' + match.group('antigenno'),
+        }
+    ),
     (re.compile('^(?P<value>\d+,[\d+, ]+)$'), {'value': lambda match: map(int, match.group('value').split(','))}),
     (re.compile('(?P<amount>\d+) +\((?P<percamount>\d\.\d+) *%\)'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)', 'percent': lambda match: float(match.group('percamount'))}),
     (re.compile('(?P<amount>\d+) *%'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'percent [Entity] (one hundredth part)'}),
