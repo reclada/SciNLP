@@ -70,7 +70,8 @@ res = [
     (re.compile('(?P<name>scattering ↗ -> .*)'), {'name': lambda match: match.group('name').replace(' ↗', '').replace(' -> ', ' ')}),
 ]
 
-#Start	Capillary	Tonset	Tm1	Tm2
+
+# Start	Capillary	Tonset	Tm1	Tm2
 def search(t):
     t = t.lower()
     for re, tpl in res:
@@ -80,7 +81,8 @@ def search(t):
                 obj[k] = v(match)
             yield obj
         t = re.sub('', t)
-    
+
+
 def concept_inherits(concname, clnames):
     hier = [concname]
     if not isinstance(clnames, set):
@@ -92,6 +94,7 @@ def concept_inherits(concname, clnames):
         for attr in conc:
             if attr['rel'] == 'inheritance':
                 hier.append(attr['obj'])
+
 
 def get_meanings(concs):
     for c in concs:
@@ -144,6 +147,7 @@ class Table(object):
                     ventities.append(mobj)
                 obj.append({'attribute': header_text, 'value': value, 'attributeEntities': entities, 'valueEntities': ventities})
             yield obj
+
 
 by_ids = {}
 tables = {}
