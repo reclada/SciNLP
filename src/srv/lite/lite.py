@@ -11,69 +11,170 @@ with open(os.path.dirname(__file__) + os.sep + 'onto.pickle', 'rb') as f:
     onto = pickle.load(f)
 
 res = [
-    (re.compile('onset ?#(?P<no>\d+) for (?P<target>\w+)'), {'concept': lambda match: 'Tonset [Entity] (protein unfolding onset temperature)', 'number': lambda match: int(match.group('no')), 'target': lambda match: match.group('target')}),
-    (re.compile('(?P<amount>\d+\.*\d+) *°c'), {'amount': lambda match: float(match.group('amount')), 'unit': lambda match: 'celsius [Entity] (The degree Celsius is a unit of temperature on the Celsius scale.)'}),
-    (re.compile('(?P<amount>\d+) +\((?P<percamount>\d+) *%\)'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)', 'percent': lambda match: int(match.group('percamount'))}),
-    (re.compile('^(?P<amount>\d+)$'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)'}),
-    (re.compile('^(?P<value>\d+\.[\dEe\+-]+)$'), {'value': lambda match: float(match.group('value'))}),
-    (re.compile('^(?P<value>\d+[\.,]?[\dEe\+-]*) *\+ *(?P<sd>\d+[\.,]?[\dEe\+-]*) *\(n *= *(?P<amount>\d+)\)$'), 
-        {
-            'value': lambda match: float(match.group('value').replace(',', '')),
-            'sd': lambda match: float(match.group('sd').replace(',', '.')),
-            'amount': lambda match: int(match.group('amount')),
-        }
-    ),
-    (re.compile('^\> *(?P<value>\d+[\.,]?[\dEe\+-]*) *\(n *= *(?P<amount>\d+)\)$'), 
-        {
-            'value': lambda match: '>%s' % float(match.group('value').replace(',', '')),
-            'sd': lambda match: '',
-            'amount': lambda match: int(match.group('amount')),
-        }
-    ),
-    (re.compile('^(?P<value>\d+[\.,]?[\dEe\+-]*) *\(n *= *(?P<amount>\d+)\)$'), 
-        {
-            'value': lambda match: float(match.group('value').replace(',', '')),
-            'sd': lambda match: '',
-            'amount': lambda match: int(match.group('amount')),
-        }
-    ),
-    (re.compile('^(?P<analyte>[^(]+)\((?P<antigen>[^\.]*)\.(?P<antigenno>[^)]*)\)$'), 
-        {
-            'analyte': lambda match: match.group('analyte').upper() + '(' + match.group('antigen').upper() + '.' + match.group('antigenno') + ')',
-            'antigen': lambda match: match.group('antigen').upper(),
-            'antigenMaterial': lambda match: match.group('antigen').upper() + '.' + match.group('antigenno'),
-        }
-    ),
-    (re.compile('^(?P<antigen>[a-z\d]*)\.(?P<antigenno>\d*)$'), 
-        {
-            'analyte': lambda match: match.group('antigen').upper() + '.' + match.group('antigenno'),
-            'antigen': lambda match: match.group('antigen').upper(),
-            'antigenMaterial': lambda match: match.group('antigen').upper() + '.' + match.group('antigenno'),
-        }
-    ),
-    (re.compile('^(?P<value>\d+,[\d+, ]+)$'), {'value': lambda match: map(int, match.group('value').split(','))}),
-    (re.compile('(?P<amount>\d+) +\((?P<percamount>\d\.\d+) *%\)'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'item [Entity] (a distinct object)', 'percent': lambda match: float(match.group('percamount'))}),
-    (re.compile('(?P<amount>\d+) *%'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: 'percent [Entity] (one hundredth part)'}),
-    (re.compile('^(?P<amount>\d+) *(?P<unit>\w+)$'), {'amount': lambda match: int(match.group('amount')), 'unit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit'), ''))) or [match.group('unit')]}),
-    (re.compile('(?P<name>\w+) +\(*(?P<unit>\w+)\)'), {'feature': lambda match: list(get_meanings(onto['byword'].get(match.group('name'), ''))) or [match.group('name')], 'unit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit'), '')))}),
-    (re.compile('\(*(?P<unit1>\w+)\/(?P<unit2>\w+)\)'), {'baseUnit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit1'), ''))) or match.group('unit1'), 'dividedByUnit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit2'), ''))) or match.group('unit2')}),
-    (re.compile('annotations -> sample id'), {'concept': lambda match: 'protein id (protein or sample identifier)'}),
-    (re.compile('capillary'), {'concept': lambda match: 'capillary [Entity] (capillary)'}),
-    (re.compile('capillaries'), {'concept': lambda match: 'capillary [Entity] (capillary)'}),
-    (re.compile('^(?P<protein>\w\w\w\w\w*\d+\.\d\d\d)$'), {'protein': lambda match: match.group('protein').upper()}),
-    (re.compile('ratio ↗ -> ip #(?P<no>\d) -> ⌀'), {'concept': lambda match: 'Tm%(no)s [Entity] (value of Tm%(no)s)' % match.groupdict()}),
-    (re.compile('ratio ↗ -> ip #(?P<no>\d) -> σ'), {'concept': lambda match: 'Tm%(no)s σ (deviation of Tm%(no)s)' % match.groupdict()}),
-    (re.compile('ratio ↗ -> on -> ⌀'), {'concept': lambda match: 'Tonset [Entity] (protein unfolding onset temperature)' % match.groupdict()}),
-    (re.compile('ratio ↗ -> on -> σ'), {'concept': lambda match: 'Tonset σ (protein unfolding onset temperature deviation)' % match.groupdict()}),
-    (re.compile('ratio ↗ -> initialvalue -> ⌀'), {'concept': lambda match: 'start [Entity] (initial value)' % match.groupdict()}),
-    (re.compile('ratio ↗ -> initialvalue -> σ'), {'concept': lambda match: 'start σ (initial value deviation)' % match.groupdict()}),
-    (re.compile('(?P<name>scattering ↗ -> .*)'), {'name': lambda match: match.group('name').replace(' ↗', '').replace(' -> ', ' ')}),
+    (re.compile('onset ?#(?P<no>\d+) for (?P<target>\w+)'),
+     {
+         'concept': lambda match: 'Tonset [Entity] (protein unfolding onset temperature)',
+         'number': lambda match: int(match.group('no')),
+         'target': lambda match: match.group('target')
+     }
+     ),
+    (re.compile('(?P<amount>\d+\.*\d+) *°c'),
+     {
+         'amount': lambda match: float(match.group('amount')),
+         'unit': lambda match: 'celsius [Entity] (The degree Celsius is a unit of temperature on the Celsius scale.)'
+     }
+     ),
+    (re.compile('(?P<amount>\d+) +\((?P<percamount>\d+) *%\)'),
+     {
+         'amount': lambda match: int(match.group('amount')),
+         'unit': lambda match: 'item [Entity] (a distinct object)',
+         'percent': lambda match: int(match.group('percamount'))
+     }
+     ),
+    (re.compile('^(?P<amount>\d+)$'),
+     {
+         'amount': lambda match: int(match.group('amount')),
+         'unit': lambda match: 'item [Entity] (a distinct object)'
+     }
+     ),
+    (re.compile('^(?P<value>\d+\.[\dEe\+-]+)$'),
+     {
+         'value': lambda match: float(match.group('value'))
+     }
+     ),
+    (re.compile('^(?P<value>\d+[\.,]?[\dEe\+-]*) *\+ *(?P<sd>\d+[\.,]?[\dEe\+-]*) *\(n *= *(?P<amount>\d+)\)$'),
+     {
+         'value': lambda match: float(match.group('value').replace(',', '')),
+         'sd': lambda match: float(match.group('sd').replace(',', '.')),
+         'amount': lambda match: int(match.group('amount')),
+     }
+     ),
+    (re.compile('^\> *(?P<value>\d+[\.,]?[\dEe\+-]*) *\(n *= *(?P<amount>\d+)\)$'),
+     {
+         'value': lambda match: '>%s' % float(match.group('value').replace(',', '')),
+         'sd': lambda match: '',
+         'amount': lambda match: int(match.group('amount')),
+     }
+     ),
+    (re.compile('^(?P<value>\d+[\.,]?[\dEe\+-]*) *\(n *= *(?P<amount>\d+)\)$'),
+     {
+         'value': lambda match: float(match.group('value').replace(',', '')),
+         'sd': lambda match: '',
+         'amount': lambda match: int(match.group('amount')),
+     }
+     ),
+    (re.compile('^(?P<analyte>[^(]+)\((?P<antigen>[^\.]*)\.(?P<antigenno>[^)]*)\)$'),
+     {
+         'analyte': lambda match: match.group('analyte').upper() + '(' + match.group(
+             'antigen').upper() + '.' + match.group('antigenno') + ')',
+         'antigen': lambda match: match.group('antigen').upper(),
+         'antigenMaterial': lambda match: match.group('antigen').upper() + '.' + match.group('antigenno'),
+     }
+     ),
+    (re.compile('^(?P<antigen>[a-z\d]*)\.(?P<antigenno>\d*)$'),
+     {
+         'analyte': lambda match: match.group('antigen').upper() + '.' + match.group('antigenno'),
+         'antigen': lambda match: match.group('antigen').upper(),
+         'antigenMaterial': lambda match: match.group('antigen').upper() + '.' + match.group('antigenno'),
+     }
+     ),
+    (re.compile('^(?P<value>\d+,[\d+, ]+)$'),
+     {'value': lambda match: map(int, match.group('value').split(','))}
+     ),
+    (re.compile('(?P<amount>\d+) +\((?P<percamount>\d\.\d+) *%\)'),
+     {
+         'amount': lambda match: int(match.group('amount')),
+         'unit': lambda match: 'item [Entity] (a distinct object)',
+         'percent': lambda match: float(match.group('percamount'))
+     }
+     ),
+    (re.compile('(?P<amount>\d+) *%'),
+     {
+         'amount': lambda match: int(match.group('amount')),
+         'unit': lambda match: 'percent [Entity] (one hundredth part)'
+     }
+     ),
+    (re.compile('^(?P<amount>\d+) *(?P<unit>\w+)$'),
+     {
+         'amount': lambda match: int(match.group('amount')),
+         'unit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit'), ''))) or [match.group('unit')]
+     }
+     ),
+    (re.compile('(?P<name>\w+) +\(*(?P<unit>\w+)\)'),
+     {
+         'feature': lambda match: list(get_meanings(onto['byword'].get(match.group('name'), ''))) or [
+             match.group('name')],
+         'unit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit'), '')))
+     }
+     ),
+    (re.compile('\(*(?P<unit1>\w+)\/(?P<unit2>\w+)\)'),
+     {
+         'baseUnit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit1'), ''))) or match.group(
+             'unit1'),
+         'dividedByUnit': lambda match: list(get_meanings(onto['byword'].get(match.group('unit2'), ''))) or match.group(
+             'unit2')
+     }
+     ),
+    (re.compile('[Aa]nnotations -> [Ss]ample [IiDd]{2}'),
+     {
+         'concept': lambda match: 'protein id (protein or sample identifier)'
+     }
+     ),
+    (re.compile('[Cc]apillary'),
+     {
+         'concept': lambda match: 'capillary [Entity] (capillary)'
+     }
+     ),
+    (re.compile('[Cc]apillaries'),
+     {
+         'concept': lambda match: 'capillary [Entity] (capillary)'
+     }
+     ),
+    (re.compile('^(?P<protein>\w\w\w\w\w*\d+\.\d\d\d)$'),
+     {
+         'protein': lambda match: match.group('protein').upper()
+     }
+     ),
+    (re.compile('[Rr]atio ↗ -> [IiPp]{2} #(?P<no>\d) -> ⌀'),
+     {
+         'concept': lambda match: 'Tm%(no)s [Entity] (value of Tm%(no)s)' % match.groupdict()
+     }
+     ),
+    (re.compile('[Rr]atio ↗ -> [IiPp]{2} #(?P<no>\d) -> σ'),
+     {
+         'concept': lambda match: 'Tm%(no)s σ (deviation of Tm%(no)s)' % match.groupdict()
+     }
+     ),
+    (re.compile('[Rr]atio ↗ -> [OoNn]{2} -> ⌀'),
+     {
+         'concept': lambda match: 'Tonset [Entity] (protein unfolding onset temperature)' % match.groupdict()
+     }
+     ),
+    (re.compile('[Rr]atio ↗ -> [OoNn]{2} -> σ'),
+     {
+         'concept': lambda match: 'Tonset σ (protein unfolding onset temperature deviation)' % match.groupdict()
+     }
+     ),
+    (re.compile('[Rr]atio ↗ -> [Ii]nitial[Vv]alue -> ⌀'),
+     {
+         'concept': lambda match: 'start [Entity] (initial value)' % match.groupdict()
+     }
+     ),
+    (re.compile('[Rr]atio ↗ -> [Ii]nitial[Vv]alue -> σ'),
+     {
+         'concept': lambda match: 'start σ (initial value deviation)' % match.groupdict()
+     }
+     ),
+    (re.compile('(?P<name>[Ss]cattering ↗ -> .*)'),
+     {
+         'name': lambda match: match.group('name').replace(' ↗', '').replace(' -> ', ' ')
+     }
+     ),
 ]
 
 
 # Start	Capillary	Tonset	Tm1	Tm2
 def search(t):
-    t = t.lower()
     for re, tpl in res:
         for match in re.finditer(t):
             obj = {}
