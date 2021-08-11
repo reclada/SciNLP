@@ -18,7 +18,7 @@ res = [
          'target': lambda match: match.group('target')
      }
      ),
-    (re.compile('(?P<amount>\d+\.*\d+) *°c'),
+    (re.compile('(?P<amount>\d+\.*\d+) *°[Cc]{1}'),
      {
          'amount': lambda match: float(match.group('amount')),
          'unit': lambda match: 'celsius [Entity] (The degree Celsius is a unit of temperature on the Celsius scale.)'
