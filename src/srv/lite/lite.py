@@ -11,7 +11,7 @@ with open(os.path.dirname(__file__) + os.sep + 'onto.pickle', 'rb') as f:
     onto = pickle.load(f)
 
 res = [
-    (re.compile('onset ?#(?P<no>\d+) for (?P<target>\w+)'),
+    (re.compile('onset ?#(?P<no>\d+) [FfOoRr]{3} (?P<target>\w+)'),
      {
          'concept': lambda match: 'Tonset [Entity] (protein unfolding onset temperature)',
          'number': lambda match: int(match.group('no')),
@@ -49,14 +49,14 @@ res = [
          'amount': lambda match: int(match.group('amount')),
      }
      ),
-    (re.compile('^\> *(?P<value>\d+[\.,]?[\dEe\+-]*) *\(n *= *(?P<amount>\d+)\)$'),
+    (re.compile('^\> *(?P<value>\d+[\.,]?[\dEe\+-]*) *\([Nn]{1} *= *(?P<amount>\d+)\)$'),
      {
          'value': lambda match: '>%s' % float(match.group('value').replace(',', '')),
          'sd': lambda match: '',
          'amount': lambda match: int(match.group('amount')),
      }
      ),
-    (re.compile('^(?P<value>\d+[\.,]?[\dEe\+-]*) *\(n *= *(?P<amount>\d+)\)$'),
+    (re.compile('^(?P<value>\d+[\.,]?[\dEe\+-]*) *\([Nn]{1} *= *(?P<amount>\d+)\)$'),
      {
          'value': lambda match: float(match.group('value').replace(',', '')),
          'sd': lambda match: '',
@@ -71,7 +71,7 @@ res = [
          'antigenMaterial': lambda match: match.group('antigen').upper() + '.' + match.group('antigenno'),
      }
      ),
-    (re.compile('^(?P<antigen>[a-z\d]*)\.(?P<antigenno>\d*)$'),
+    (re.compile('^(?P<antigen>[A-Za-z\d]*)\.(?P<antigenno>\d*)$'),
      {
          'analyte': lambda match: match.group('antigen').upper() + '.' + match.group('antigenno'),
          'antigen': lambda match: match.group('antigen').upper(),
