@@ -73,6 +73,7 @@ res = [
      ),
     (re.compile('^(?P<antigen>[A-Za-z\d]*)\.(?P<antigenno>\d*)$'),
      {
+         'protein': lambda match: match.group('antigen').upper() + '.' + match.group('antigenno'),
          'analyte': lambda match: match.group('antigen').upper() + '.' + match.group('antigenno'),
          'antigen': lambda match: match.group('antigen').upper(),
          'antigenMaterial': lambda match: match.group('antigen').upper() + '.' + match.group('antigenno'),
@@ -353,6 +354,7 @@ with open(sys.argv[2], 'w') as outfile:
                 if attr['attributeEntities']:
                     value['header'] = attr['attributeEntities']
                 datarow[key.strip()] = value
+                value['headerText'] = attr['attribute']
                 # attr['object'] = objid
                 # writer.writerow([json.dumps({'class': 'Attribute', 'id': str(uuid.uuid4()), 'attrs': attr}, indent=4, ensure_ascii=False)])
             writer.writerow([json.dumps({'class': 'DataRow', 'attrs': datarow, 'id': str(uuid.uuid4())}, indent=4, ensure_ascii=False)])
