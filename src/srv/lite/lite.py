@@ -304,16 +304,16 @@ data2headers = {
 
 for row in csv.reader(open(sys.argv[1]), quotechar='\''):
     obj = json.loads(row[0])
-    by_ids[obj['id']] = obj
+    by_ids[obj['GUID']] = obj
     if obj['class'] == 'Table':
-        tables[obj['id']] = Table()
-        taborder.append(obj['id'])
+        tables[obj['GUID']] = Table()
+        taborder.append(obj['GUID'])
     elif obj['class'] == 'Cell':
-        table = tables[obj['attrs']['table']]
-        obj['attrs']['text'] = obj['attrs']['text'].strip('| \n').strip().strip('| \n')
-        if obj['attrs']['text'] in data2headers and obj['attrs']['cellType'] != 'header' and not table.data:
-            obj['attrs']['cellType'] = 'header'
-        tables[obj['attrs']['table']].add_cell(obj['attrs'])
+        table = tables[obj['attributes']['table']]
+        obj['attributes']['text'] = obj['attributes']['text'].strip('| \n').strip().strip('| \n')
+        if obj['attributes']['text'] in data2headers and obj['attributes']['cellType'] != 'header' and not table.data:
+            obj['attributes']['cellType'] = 'header'
+        tables[obj['attributes']['table']].add_cell(obj['attributes'])
 
 with open(sys.argv[2], 'w') as outfile:
     writer = csv.writer(outfile, quotechar='\'')
@@ -325,7 +325,7 @@ with open(sys.argv[2], 'w') as outfile:
             obj['table'] = tableid
             obj['row'] = i
             objid = str(uuid.uuid4())
-            # writer.writerow([json.dumps({'class': 'Data', 'attrs': obj, 'id': objid}, indent=4)])
+            # writer.writerow([json.dumps({'class': 'Data', 'attributes': obj, 'GUID': objid}, indent=4)])
             datarow = {}
             datarow['table'] = tableid
             datarow['row'] = i
@@ -356,6 +356,6 @@ with open(sys.argv[2], 'w') as outfile:
                 datarow[key.strip()] = value
                 value['headerText'] = attr['attribute']
                 # attr['object'] = objid
-                # writer.writerow([json.dumps({'class': 'Attribute', 'id': str(uuid.uuid4()), 'attrs': attr}, indent=4, ensure_ascii=False)])
-            writer.writerow([json.dumps({'class': 'DataRow', 'attrs': datarow, 'id': str(uuid.uuid4())}, indent=4, ensure_ascii=False)])
+                # writer.writerow([json.dumps({'class': 'Attribute', 'GUID': str(uuid.uuid4()), 'attributes': attr}, indent=4, ensure_ascii=False)])
+            writer.writerow([json.dumps({'class': 'DataRow', 'attributes': datarow, 'GUID': str(uuid.uuid4())}, indent=4, ensure_ascii=False)])
 

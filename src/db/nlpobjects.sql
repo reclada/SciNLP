@@ -1,7 +1,7 @@
 /*
 SELECT reclada_object.create_subclass('{
     "class": "RecladaObject",
-    "attrs": {
+    "attributes": {
         "newClass": "Data",
         "properties": {
             "table": {"type": "string"},
@@ -12,7 +12,7 @@ SELECT reclada_object.create_subclass('{
 }'::jsonb);
 SELECT reclada_object.create_subclass('{
     "class": "RecladaObject",
-    "attrs": {
+    "attributes": {
         "newClass": "Attribute",
         "properties": {
             "attribute": {"type": "string"},
@@ -26,7 +26,7 @@ SELECT reclada_object.create_subclass('{
 }'::jsonb);*/
 SELECT reclada_object.create_subclass('{
     "class": "RecladaObject",
-    "attrs": {
+    "attributes": {
         "newClass": "DataRow",
         "properties": {
             "table": {"type": "string"},

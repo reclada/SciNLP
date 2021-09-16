@@ -1,6 +1,6 @@
 SELECT reclada_object.create_subclass('{
     "class": "RecladaObject",
-    "attrs": {
+    "attributes": {
         "newClass": "Document",
         "properties": {
             "name": {"type": "string"}
@@ -10,7 +10,7 @@ SELECT reclada_object.create_subclass('{
 }'::jsonb);
 SELECT reclada_object.create_subclass('{
     "class": "RecladaObject",
-    "attrs": {
+    "attributes": {
         "newClass": "Page",
         "properties": {
             "number": {"type": "number"},
@@ -22,7 +22,7 @@ SELECT reclada_object.create_subclass('{
 }'::jsonb);
 SELECT reclada_object.create_subclass('{
     "class": "RecladaObject",
-    "attrs": {
+    "attributes": {
         "newClass": "BBox",
         "properties": {
             "left": {"type": "number"},
@@ -35,7 +35,7 @@ SELECT reclada_object.create_subclass('{
 }'::jsonb);
 SELECT reclada_object.create_subclass('{
     "class": "RecladaObject",
-    "attrs": {
+    "attributes": {
         "newClass": "TextBlock",
         "properties": {
             "bbox": {"type": "string"},
@@ -47,7 +47,7 @@ SELECT reclada_object.create_subclass('{
 }'::jsonb);
 SELECT reclada_object.create_subclass('{
     "class": "RecladaObject",
-    "attrs": {
+    "attributes": {
         "newClass": "Table",
         "properties": {
             "bbox": {"type": "string"},
@@ -58,7 +58,7 @@ SELECT reclada_object.create_subclass('{
 }'::jsonb);
 SELECT reclada_object.create_subclass('{
     "class": "RecladaObject",
-    "attrs": {
+    "attributes": {
         "newClass": "Cell",
         "properties": {
             "row": {"type": "number"},
