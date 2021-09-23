@@ -1,0 +1,15 @@
+{
+    "types_by_fields": {
+        "attributes": "measurementType",
+        "attribute": "measurementResultTemplate",
+        "isMandatory": "measurementResultDataMapping"
+    },
+    "field_names": {
+        "measurementType": {
+            "measurementType": "name"
+        },
+        "measurementResultTemplate": {
+            "attribute": "name"
+        }
+    }
+}
