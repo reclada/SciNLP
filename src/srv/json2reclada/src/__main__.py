@@ -43,6 +43,10 @@ def main():
     mapper = JSONObjMapper.from_json_file(sys.argv[1])
     with open(sys.argv[2]) as inputfile:
         inputobj = json.load(inputfile)
+    if len(sys.argv) > 4:
+        transaction_id = int(sys.argv[4])
+    else:
+        transaction_id = None
     objects = []
     if isinstance(inputobj, list):
         queue = [x for x in inputobj]
@@ -63,6 +67,8 @@ def main():
         _ = lambda f: mapper.field_names.get(obj_type, {}).get(f, f)
         objects.append(robj)
         robj['GUID'] = obj['GUID']
+        if transaction_id is not None:
+            robj['transactionId'] = transaction_id
         robj = robj.setdefault('attributes', {})
         for k, v in obj.items():
             if k == 'GUID':
