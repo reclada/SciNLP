@@ -46,6 +46,7 @@ class JSONObjMapper:
             raise KeyError('Input object must have two keys: "types_by_fields" and "field_names"')
         if not ('types_by_fields' in  input_dictionary and 'field_names' in input_dictionary):
             raise KeyError('Input object must have two keys: "types_by_fields" and "field_names"')
+        return True
 
         
 def main():
