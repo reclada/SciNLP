@@ -38,6 +38,15 @@ class JSONObjMapper:
         # with the 'title' method and join them together.
         return components[0] + ''.join(x.title() for x in components[1:])
 
+    @staticmethod
+    def is_valid_dictionary(input_dictionary: dict) -> bool:
+        if not isinstance(input_dictionary, dict):
+            raise TypeError('Input object must be a dictionary.')
+        if not len(input_dictionary) == 2:
+            raise KeyError('Input object must have two keys: "types_by_fields" and "field_names"')
+        if not ('types_by_fields' in  input_dictionary and 'field_names' in input_dictionary):
+            raise KeyError('Input object must have two keys: "types_by_fields" and "field_names"')
+
         
 def main():
     mapper = JSONObjMapper.from_json_file(sys.argv[1])
