@@ -1,0 +1,103 @@
+{
+        "measurementType": "TmTagg",
+        "attributes": [
+            {
+                "attribute": "Analyzed Entity Type",
+                "mapping": [{
+                    "isMandatory": true,
+                    "dataPath": "PPB"
+                }]
+            },
+            {
+                "attribute": "Analyzed Entity Name",
+                "mapping": [{
+                    "isMandatory": true,
+                    "dataPath": ["protein id (protein or sample identifier)", "protein"]
+                }]
+            },
+            {
+                "attribute": "Ratio 350nm/330nm (20C)",
+                "mapping": [{
+                    "isMandatory": false,
+                    "dataPath": ["start [Entity] (initial value)"]
+                }]
+            },
+            {
+                "attribute": "T onset",
+                "mapping": [{
+                    "isMandatory": false,
+                    "dataPath": ["Tonset [Entity] (protein unfolding onset temperature)"]
+                }]
+            },
+            {
+                "attribute": "Tm1",
+                "mapping": [{
+                    "isMandatory": false,
+                    "dataPath": ["Tm1 [Entity] (value of Tm1)"]
+                }]
+            },
+            {
+                "attribute": "Tm1 type",
+                "mapping": [{
+                    "isMandatory": false,
+                    "dataPath": ""
+                }]
+            },
+            {
+                "attribute": "Tm2",
+                "mapping": [{
+                    "isMandatory": false,
+                    "dataPath": ["Tm2 [Entity] (value of Tm2)"]
+                }]
+            },
+            {
+                "attribute": "Tm2 type",
+                "mapping": [{
+                    "isMandatory": false,
+                    "dataPath": ""
+                }]
+            },
+            {
+                "attribute": "Tagg",
+                "mapping": [{
+                    "isMandatory": false,
+                    "dataPath": ["scattering on ⌀"]
+                }]
+            },
+            {
+                "attribute": "Tm3",
+                "mapping": [{
+                    "isMandatory": false,
+                    "dataPath": ["Tm3 [Entity] (value of Tm3)"]
+                }]
+            },
+            {
+                "attribute": "Tm3 type",
+                "mapping": [{
+                    "isMandatory": false,
+                    "dataPath": ""
+                }]
+            },
+            {
+                "attribute": "Tm4",
+                "mapping": [{
+                    "isMandatory": false,
+                    "dataPath": ["Tm4 [Entity] (value of Tm4)"]
+                }]
+            },
+            {
+                "attribute": "Tm4 type",
+                "mapping": [{
+                    "isMandatory": false,
+                    "dataPath": ""
+                }]
+            },
+            {
+                "attribute": "Comments",
+                "mapping": [{
+                    "isMandatory": false,
+                    "dataPath": "sys.argv[2]"
+                }]
+            }
+        ]
+    }
