@@ -12,7 +12,8 @@ class JSONObjMapper:
 
     @classmethod
     def from_dict(cls, d:dict) -> JSONObjMapper:
-        return cls(**d)
+        if cls.is_valid_dictionary(d):
+            return cls(**d)
 
     @classmethod
     def from_json(cls, json_str:str) -> JSONObjMapper:
