@@ -1,9 +1,9 @@
 #!/bin/sh
 
-SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-pushd ${SCRIPT_DIR}
-python3 setup.py install
-popd
+# SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+# pushd ${SCRIPT_DIR}
+# python3 setup.py install
+# popd
 # Do NOT set _FSROOT if you have /mnt at your filesystem root
 _INPUT_DIR="${_FSROOT}/mnt/input/"
 _OUTPUT_DIR="${_FSROOT}/mnt/output/"
