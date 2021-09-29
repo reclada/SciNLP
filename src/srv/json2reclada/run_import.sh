@@ -46,8 +46,8 @@ python3 -m json2reclada ${mappings_path} ${json_src_path} ${json_out_path} ${tra
 echo "JSON2Reclada finished converting, output file saved to ${json_out_path}"
 cat "${json_out_path}" | psql ${DB_URI_QUOTED} -v "ON_ERROR_STOP=1" -c "\COPY reclada.staging FROM STDIN WITH CSV QUOTE ''''"
 if [ $? -ne 0 ]; then
-    echo 'COPY to reclada db succeeded';
-else
     echo 'COPY to reclada db failed, performing rollback';
     psql ${DB_URI_QUOTED} -t -c 'select reclada.rollback_import('"'"${file_guid}"'"')'
+else
+    echo 'COPY to reclada db succeeded';
 fi;
