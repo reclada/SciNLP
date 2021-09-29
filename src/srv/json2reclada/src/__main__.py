@@ -47,14 +47,27 @@ def main():
         transaction_id = int(sys.argv[4])
     else:
         transaction_id = None
-    objects = []
+    if len(sys.argv) > 5:
+        file_GUID = sys.argv[5]
+    else:
+        file_GUID = None
     if isinstance(inputobj, list):
         queue = [x for x in inputobj]
     else:
         queue = [inputobj]
 
+    doc_GUID = str(uuid.uuid4())
     for obj in queue:
         obj['GUID'] = str(uuid.uuid4())
+        obj['documentGUID'] = doc_GUID
+    objects = [
+        {
+            'class': 'Document',
+            'GUID': doc_GUID,
+            'transactionID': transaction_id,
+            'attributes': {'fileGUID': file_GUID, 'name': file_GUID}
+        }
+    ]
     while queue:
         obj = queue.pop(0)
         qpos = 0
@@ -68,7 +81,7 @@ def main():
         objects.append(robj)
         robj['GUID'] = obj['GUID']
         if transaction_id is not None:
-            robj['transactionId'] = transaction_id
+            robj['transactionID'] = transaction_id
         robj = robj.setdefault('attributes', {})
         for k, v in obj.items():
             if k == 'GUID':
