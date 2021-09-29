@@ -98,7 +98,7 @@ def main():
                         if obj_type is None:
                             rlist.append(item['GUID'])
                         else:
-                            item[obj_type] = obj['GUID']
+                            item[obj_type + "GUID"] = obj['GUID']
                     else:
                         rlist.append(item)
             elif isinstance(v, dict):

@@ -40,7 +40,7 @@ echo "Transaction id: ${transaction_id}"
 python3 -m json2reclada ${mappings_path} ${json_src_path} ${json_out_path} ${transaction_id} ${file_guid}
 echo "JSON2Reclada finished converting, output file saved to ${json_out_path}"
 cat "${json_out_path}" | psql ${DB_URI_QUOTED} -v "ON_ERROR_STOP=1" -c "\COPY reclada.staging FROM STDIN WITH CSV QUOTE ''''"
-if $?; then
+if [ $? -ne 0 ]; then
     echo 'COPY to reclada db succeeded';
 else
     echo 'COPY to reclada db failed, performing rollback';
