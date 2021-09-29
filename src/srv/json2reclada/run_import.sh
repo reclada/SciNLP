@@ -1,11 +1,12 @@
 #!/bin/sh
 
+python3 setup.py install
 # Do NOT set _FSROOT if you have /mnt at your filesystem root
 _INPUT_DIR="${_FSROOT}/mnt/input/"
 _OUTPUT_DIR="${_FSROOT}/mnt/output/"
-mappings_path="${_INPUT_DIR}`basename "$1"`"
+mappings_path="${_INPUT_DIR}`basename "$2"`"
 echo "Mappings JSON file path set to: ${mappings_path}"
-json_src_name=`basename "$2"`
+json_src_name=`basename "$3"`
 json_src_path="${_INPUT_DIR}${json_src_name}";
 echo "JSON source file path set to: ${json_src_path}"
 json_out_path="${_OUTPUT_DIR}`basename "${json_src_path%.*}_reclada.csv"`"
