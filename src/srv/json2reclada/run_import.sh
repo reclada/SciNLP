@@ -34,7 +34,7 @@ file_guid=`psql ${DB_URI_QUOTED} -t -c '
             }
         }'"'"'
     )
-' | python3 -c 'import sys, json; print(json.load(sys.stdin)["GUID"])'`
+' | python3 -c 'import sys, json; print(json.load(sys.stdin)[0]["GUID"])'`
 echo "JSON file db object GUID: ${file_guid}"
 transaction_id=`psql ${DB_URI_QUOTED} -t -c '
     select reclada.get_transaction_id_for_import('"'"${file_guid}"'"')
