@@ -22,31 +22,31 @@ def create_parser():
     parser.add_argument(
         'mapping',
         type=argparse.FileType('r', encoding='utf-8'),
-        help='JSON file with mapping'
+        help='Path to the JSON file containing Mapping'
     )
     parser.add_argument(
         'input',
         type=argparse.FileType('r', encoding='utf-8'),
-        help='Input JSON file'
+        help='Path to the Input JSON file'
     )
     parser.add_argument(
         'output',
         type=argparse.FileType('w', encoding='utf-8'),
-        help='Output CSV file'
+        help='Path to the Output CSV file'
     )
     parser.add_argument(
         '-t',
         '--transactionId',
         default=None,
         type=int,
-        help='ID of a transaction'
+        help='ID of transaction'
     )
     parser.add_argument(
         '-g',
         '--guid',
         default=None,
         type=str,
-        help='GUID of file'
+        help='GUID of object'
     )
 
     return parser
