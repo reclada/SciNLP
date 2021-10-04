@@ -1,8 +1,56 @@
 from __future__ import annotations
+
+import argparse
 import json
 import csv
-import sys
 import uuid
+
+
+def create_parser():
+    """
+    The argparse module makes it easy to write user-friendly command-line interfaces.
+    The program defines what arguments it requires, and argparse will figure out how
+    to parse those out of sys.argv. The argparse module also automatically generates
+    help and usage messages and issues errors when users give the program invalid arguments.
+    https://docs.python.org/3/library/argparse.html#required
+
+    Automatically checks for file existence and type of input parameters.
+
+    :return: argparse.ArgumentParser
+    """
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        'mapping',
+        type=argparse.FileType('r', encoding='utf-8'),
+        help='Path to the JSON file containing Mapping'
+    )
+    parser.add_argument(
+        'input',
+        type=argparse.FileType('r', encoding='utf-8'),
+        help='Path to the Input JSON file'
+    )
+    parser.add_argument(
+        'output',
+        type=argparse.FileType('w', encoding='utf-8'),
+        help='Path to the Output CSV file'
+    )
+    parser.add_argument(
+        '-t',
+        '--transactionId',
+        default=None,
+        type=int,
+        help='ID of transaction'
+    )
+    parser.add_argument(
+        '-g',
+        '--guid',
+        default=None,
+        type=str,
+        help='GUID of object'
+    )
+
+    return parser
+
 
 class JSONObjMapper:
 
@@ -51,17 +99,17 @@ class JSONObjMapper:
 
         
 def main():
-    mapper = JSONObjMapper.from_json_file(sys.argv[1])
-    with open(sys.argv[2]) as inputfile:
+    # Create argument parser object and defines arguments
+    parser = create_parser()
+    args = parser.parse_args()
+
+    transaction_id = args.transactionId
+    file_GUID = args.guid
+
+    mapper = JSONObjMapper.from_json_file(args.mapping.name)
+    with open(args.input.name) as inputfile:
         inputobj = json.load(inputfile)
-    if len(sys.argv) > 4:
-        transaction_id = int(sys.argv[4])
-    else:
-        transaction_id = None
-    if len(sys.argv) > 5:
-        file_GUID = sys.argv[5]
-    else:
-        file_GUID = None
+
     if isinstance(inputobj, list):
         queue = [x for x in inputobj]
     else:
@@ -119,7 +167,7 @@ def main():
                 robj[_(k)] = v['GUID']
             else:
                 robj[_(k)] = v
-    with open(sys.argv[3], 'w') as outfile:
+    with open(args.output.name, 'w') as outfile:
         writer = csv.writer(outfile, quotechar='\'')
         for obj in objects:
             writer.writerow([json.dumps(obj, indent=4, ensure_ascii=False)])
