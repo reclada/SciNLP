@@ -8,10 +8,10 @@ echo $@
 # Do NOT set _FSROOT if you have /mnt at your filesystem root
 _INPUT_DIR="${_FSROOT}/mnt/input/"
 _OUTPUT_DIR="${_FSROOT}/mnt/output/"
-mappings_path="${_INPUT_DIR}`basename "$2"`"
+mappings_path=$2
 echo "Mappings JSON file path set to: ${mappings_path}"
-json_src_name=`basename "$3"`
-json_src_path="${_INPUT_DIR}${json_src_name}";
+json_src_name=$3
+json_src_path=${json_src_name};
 echo "JSON source file path set to: ${json_src_path}"
 json_out_path="${_OUTPUT_DIR}`basename "${json_src_path%.*}_reclada.csv"`"
 echo "JSON CSV output file path set to: ${json_out_path}"
@@ -42,7 +42,7 @@ transaction_id=`psql ${DB_URI_QUOTED} -t -c '
 `
 echo "Transaction id: ${transaction_id}"
 
-python3 -m json2reclada ${mappings_path} ${json_src_path} ${json_out_path} ${transaction_id} ${file_guid}
+python3 -m json2reclada ${mappings_path} ${json_src_path} ${json_out_path} -t ${transaction_id} -g ${file_guid}
 echo "JSON2Reclada finished converting, output file saved to ${json_out_path}"
 cat "${json_out_path}" | psql ${DB_URI_QUOTED} -v "ON_ERROR_STOP=1" -c "\COPY reclada.staging FROM STDIN WITH CSV QUOTE ''''"
 if [ $? -ne 0 ]; then
