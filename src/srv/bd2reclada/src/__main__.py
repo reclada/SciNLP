@@ -1,8 +1,8 @@
 import argparse
-import json
 import csv
-import sys
+import json
 import uuid
+
 from .bdtypes import get_obj_type, field_names
 
 
