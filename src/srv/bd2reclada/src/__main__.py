@@ -1,8 +1,43 @@
+import argparse
 import json
 import csv
 import sys
 import uuid
 from .bdtypes import get_obj_type, field_names
+
+
+def create_parser():
+    """
+    The argparse module makes it easy to write user-friendly command-line interfaces.
+    The program defines what arguments it requires, and argparse will figure out how
+    to parse those out of sys.argv. The argparse module also automatically generates
+    help and usage messages and issues errors when users give the program invalid arguments.
+    https://docs.python.org/3/library/argparse.html#required
+
+    Automatically checks for file existence and type of input parameters.
+
+    :return: argparse.ArgumentParser
+    """
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        'input',
+        type=argparse.FileType('r', encoding='utf-8'),
+        help='Path to the Input JSON file. This document.json file is output of Badgerdoc.'
+    )
+    parser.add_argument(
+        'output',
+        type=argparse.FileType('w', encoding='utf-8'),
+        help='Path to the Output CSV file. This file will be use as lite.py input.'
+    )
+    parser.add_argument(
+        '-g',
+        '--guid',
+        default=None,
+        type=str,
+        help='GUID of file'
+    )
+
+    return parser
 
 
 def main():
