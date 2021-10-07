@@ -41,7 +41,12 @@ def create_parser():
 
 
 def main():
-    with open(sys.argv[1]) as inputfile:
+    parser = create_parser()
+    args = parser.parse_args()
+
+    file_GUID = args.guid
+
+    with open(args.input.name) as inputfile:
         inputobj = json.load(inputfile)
     objects = []
     queue = [inputobj]
@@ -87,10 +92,10 @@ def main():
                 robj[_(k)] = v['GUID']
             else:
                 robj[_(k)] = v
-    with open(sys.argv[2], 'w') as outfile:
+    with open(args.output.name, 'w') as outfile:
         writer = csv.writer(outfile, quotechar='\'')
-        if len(sys.argv) > 3:
-            objects[0]['attributes']['fileGUID'] = sys.argv[3]
+        if file_GUID:
+            objects[0]['attributes']['fileGUID'] = file_GUID
         for obj in objects:
             writer.writerow([json.dumps(obj, indent=4)])
 
