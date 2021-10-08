@@ -40,7 +40,15 @@ def create_parser():
     return parser
 
 
-def main():
+def main() -> None:
+    """
+    This function implements recursive iteration through the json input file.
+    It also sorts the rows and columns of the badgerdoc table in ascending order if they are not sorted.
+    A new file of .csv format is created which can be processed by the lite.py module.
+
+    :return: None
+    """
+    # Create argument parser object
     parser = create_parser()
     args = parser.parse_args()
 
