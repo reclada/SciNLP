@@ -1,75 +1,12 @@
 [
     {
-        "measurementType": "Functional Efficacy",
+        "measurementType": "Activity",
         "attributes": [
             {
-                "attribute": "Analyzed Entity Type",
+                "attribute": "Value",
                 "mapping": [{
                     "isMandatory": true,
-                    "dataPath": "Drug"
-                }]
-            },
-            {
-                "attribute": "Analyzed Entity Name",
-                "mapping": [{
-                    "isMandatory": true,
-                    "dataPath": ["Agent", "protein"]
-                }]
-            },
-            {
-                "attribute": "Compound",
-                "mapping": [{
-                    "isMandatory": false,
-                    "dataPath": ["Agent", "protein"]
-                }]
-            },
-            {
-                "attribute": "HEK293/Human α7 nAChR EC50 Mean (nM)",
-                "mapping": [{
-                    "isMandatory": false,
-                    "dataPath": ["HEK293/Human a7 nAChR Mean + SD ECzpo (nM)", "value"]
-                }]
-            },
-            {
-                "attribute": "HEK293/Human α7 nAChR EC50 SD (nM)",
-                "mapping": [{
-                    "isMandatory": false,
-                    "dataPath": ["HEK293/Human a7 nAChR Mean + SD ECzpo (nM)", "sd"]
-                }]
-            },
-            {
-                "attribute": "HEK293/Human α7 nAChR Count",
-                "mapping": [{
-                    "isMandatory": false,
-                    "dataPath": ["HEK293/Human a7 nAChR Mean + SD ECzpo (nM)", "amount"]
-                }]
-            },
-            {
-                "attribute": "HEK293/Human 5-HT3A IC50 Mean (nM)",
-                "mapping": [{
-                    "isMandatory": false,
-                    "dataPath": ["HEK293/Human 5-HToa Mean # SD Cag (nM)", "value"]
-                }]
-            },
-            {
-                "attribute": "HEK293/Human 5-HT3A IC50 SD (nM)",
-                "mapping": [{
-                    "isMandatory": false,
-                    "dataPath": ["HEK293/Human 5-HToa Mean # SD Cag (nM)", "sd"]
-                }]
-            },
-            {
-                "attribute": "HEK293/Human 5-HT3A Count",
-                "mapping": [{
-                    "isMandatory": false,
-                    "dataPath": ["HEK293/Human 5-HToa Mean # SD Cag (nM)", "amount"]
-                }]
-            },
-            {
-                "attribute": "Ratio",
-                "mapping": [{
-                    "isMandatory": false,
-                    "dataPath": ["Ratio"]
+                    "dataPath": "Value"
                 }]
             }
         ]
