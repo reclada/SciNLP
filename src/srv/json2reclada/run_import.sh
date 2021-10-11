@@ -17,7 +17,7 @@ json_out_path="${_OUTPUT_DIR}`basename "${json_src_path%.*}_reclada.csv"`"
 echo "JSON CSV output file path set to: ${json_out_path}"
 file_url=`python3 -c 'import sys,pathlib; print(pathlib.Path(sys.argv[1]).resolve().as_uri())' "$json_src_path"`
 echo "JSON file URL set to: ${file_url}"
-json_src_checksum=($(shasum "$json_src_path"))
+json_src_checksum=`shasum "$json_src_path" | sed 's/[ \t].*//'`
 echo "JSON file checksum: ${json_src_checksum}"
 json_src_mimetype=`file -b --mime-type ${json_src_path}`
 echo "JSON file MIME type: ${json_src_mimetype}"
