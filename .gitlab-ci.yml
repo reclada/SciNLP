@@ -50,6 +50,7 @@ prepare_db:
     - curl --request POST --header "PRIVATE-TOKEN:$DB_REPO_TOKEN" "https://gitlab.reclada.com/api/v4/projects/34/repository/branches?branch=$CI_COMMIT_REF_NAME&ref=test" | jq
     
     - export query="curl --header "PRIVATE-TOKEN:$DB_REPO_TOKEN" "https://gitlab.reclada.com/api/v4/projects/34/pipelines?per_page=1&page=1"\ |\ jq -r '.[].status'"
+    - echo $query
     - while [[ $(query) != "failed" || $(query) != "success" ]]; do sleep 3 done;
 
   needs:
