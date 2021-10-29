@@ -265,7 +265,6 @@ deploy-autotest-env:
     - kubectl cp ./SciNLP/ reclada-autotest/$(kubectl get pods -n reclada-autotest | grep sshfs | awk '{print $1}'):/repos --no-preserve=true
     
   needs:
-    - job: build_scinlp
     - job: prepare_scinlp
       artifacts: true
   tags:
