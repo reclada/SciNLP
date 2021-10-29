@@ -338,4 +338,3 @@ deploy-prod-env:
       when: always
     - if: $CI_COMMIT_REF_NAME == "test"
       when: never
-
