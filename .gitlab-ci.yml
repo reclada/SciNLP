@@ -309,33 +309,33 @@ test-autotest-env:
       when: never
     
 
-# deploy-prod-env:
-#   stage: deploy
-#   script:
-#     - echo "Run update database in prod env"
+deploy-prod-env:
+  stage: deploy
+  script:
+    - echo "Run update database in prod env"
 
-#     - echo "git clone at this place"
-#     - cd $CI_PROJECT_DIR/
+    - echo "git clone at this place"
+    - cd $CI_PROJECT_DIR/
 
-#     - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.reclada.com/developers/SciNLP.git
-#     - kubectl cp ./SciNLP/ reclada-prod/$(kubectl get pods -n reclada-prod | grep sshfs | awk '{print $1}'):/repos --no-preserve=true
+    - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.reclada.com/developers/SciNLP.git
+    - kubectl cp ./SciNLP/ reclada-prod/$(kubectl get pods -n reclada-prod | grep sshfs | awk '{print $1}'):/repos --no-preserve=true
   
-#   needs:
-#     - job: build_scinlp
-#     - job: prepare_scinlp
-#       artifacts: true
-#   tags:
-#       - k8s-devops
-#   rules:
-#     - if: $CI_MERGE_REQUEST_ID =~ /^./ && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "test"
-#       when: never
-#     - if: $CI_MERGE_REQUEST_ID =~ /^./ && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "main"
-#       when: never
-#     - if: $CI_COMMIT_REF_NAME !~ /^dynamic/ 
-#       when: never
-#     - if: $CI_COMMIT_REF_NAME =~ /^dynamic/
-#       when: never
-#     - if: $CI_COMMIT_REF_NAME == "main"
-#       when: always
-#     - if: $CI_COMMIT_REF_NAME == "test"
-#       when: never
+  needs:
+    - job: build_scinlp
+    - job: prepare_scinlp
+      artifacts: true
+  tags:
+      - k8s-devops
+  rules:
+    - if: $CI_MERGE_REQUEST_ID =~ /^./ && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "test"
+      when: never
+    - if: $CI_MERGE_REQUEST_ID =~ /^./ && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "main"
+      when: never
+    - if: $CI_COMMIT_REF_NAME !~ /^dynamic/
+      when: never
+    - if: $CI_COMMIT_REF_NAME =~ /^dynamic/
+      when: never
+    - if: $CI_COMMIT_REF_NAME == "main"
+      when: always
+    - if: $CI_COMMIT_REF_NAME == "test"
+      when: never
