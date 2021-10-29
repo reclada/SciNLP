@@ -321,7 +321,6 @@ deploy-prod-env:
     - kubectl cp ./SciNLP/ reclada-prod/$(kubectl get pods -n reclada-prod | grep sshfs | awk '{print $1}'):/repos --no-preserve=true
   
   needs:
-    - job: build_scinlp
     - job: prepare_scinlp
       artifacts: true
   tags:
