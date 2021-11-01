@@ -2,6 +2,7 @@ stages:
   - prepare
   - db
   - runtime
+  - webui
   - test
   - deploy
   - clean
