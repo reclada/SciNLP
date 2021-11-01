@@ -107,7 +107,7 @@ prepare_runtime:
     - k8s-devops
 
 prepare_webui:
-  stage: deploy
+  stage: webui
   image: 588200329560.dkr.ecr.eu-west-1.amazonaws.com/curljq:01
   script:
     - curl --version
