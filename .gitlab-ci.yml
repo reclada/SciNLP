@@ -79,7 +79,7 @@ prepare_runtime:
     - echo $CI_COMMIT_REF_NAME
     #Create db with the same name prefix as current branch
     - curl --request POST --header "PRIVATE-TOKEN:$RUNTIME_REPO_TOKEN" "https://gitlab.reclada.com/api/v4/projects/36/repository/branches?branch=$CI_COMMIT_REF_NAME&ref=main" | jq
-    # Check pipeline sussess for current branch in runtime repository
+    # Check pipeline sussess for current branch in runtime repository 
     - sleep 60
     - while [ $response != "success" ] && [ $response" != "failed ]; do sleep 5 ; echo "WATING FOR PIPELINE" ; response=$(curl --header "PRIVATE-TOKEN:foyyVyLz93HmC76zAy4n" "https://gitlab.reclada.com/api/v4/projects/36/pipelines?per_page=1&page=1" | jq -r '.[].status') ; echo $response ; done ;
 
