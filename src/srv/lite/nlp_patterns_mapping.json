@@ -1,0 +1,8 @@
+{
+    "types_by_fields": {
+        "pattern": "NLPattern",
+        "attribute": "NLPatternAttribute"
+    },
+    "field_names": {
+    }
+}

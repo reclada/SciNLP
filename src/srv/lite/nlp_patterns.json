@@ -1,0 +1,337 @@
+[
+    {
+        "pattern": "onset ?#(?P<no>\\d+) [FfOoRr]{3} (?P<target>\\w+)",
+        "attributes": [
+            {
+                "attribute": "concept",
+                "evaluation": "'Tonset [Entity] (protein unfolding onset temperature)'"
+            },
+            {
+                "attribute": "number",
+                "evaluation": "int(match.group('no'))"
+            },
+            {
+                "attribute": "target",
+                "evaluation": "match.group('target')"
+            }
+        ]
+    },
+    {
+        "pattern": "(?P<amount>\\d+\\.*\\d+) *°[Cc]{1}",
+        "attributes": [
+            {
+                "attribute": "amount",
+                "evaluation": "float(match.group('amount'))"
+            },
+            {
+                "attribute": "unit",
+                "evaluation": "'celsius [Entity] (The degree Celsius is a unit of temperature on the Celsius scale.)'"
+            }
+        ]
+    },
+    {
+        "pattern": "(?P<amount>\\d+) +\\((?P<percamount>\\d+) *%\\)",
+        "attributes": [
+            {
+                "attribute": "amount",
+                "evaluation": "int(match.group('amount'))"
+            },
+            {
+                "attribute": "unit",
+                "evaluation": "'item [Entity] (a distinct object)'"
+            },
+            {
+                "attribute": "percent",
+                "evaluation": "int(match.group('percamount'))"
+            }
+        ]
+    },
+    {
+        "pattern": "^(?P<amount>\\d+)$",
+        "attributes": [
+            {
+                "attribute": "amount",
+                "evaluation": "int(match.group('amount'))"
+            },
+            {
+                "attribute": "unit",
+                "evaluation": "'item [Entity] (a distinct object)'"
+            }
+        ]
+    },
+    {
+        "pattern": "^(?P<value>\\d+\\.[\\dEe\\+-]+)$",
+        "attributes": [
+            {
+                "attribute": "value",
+                "evaluation": "float(match.group('value'))"
+            }
+        ]
+    },
+    {
+        "pattern": "^(?P<value>\\d+[\\.,]?[\\dEe\\+-]*) *\\+ *(?P<sd>\\d+[\\.,]?[\\dEe\\+-]*) *\\(n *= *(?P<amount>\\d+)\\)$",
+        "attributes": [
+            {
+                "attribute": "value",
+                "evaluation": "float(match.group('value').replace(',', ''))"
+            },
+            {
+                "attribute": "sd",
+                "evaluation": "float(match.group('sd').replace(',', '.'))"
+            },
+            {
+                "attribute": "amount",
+                "evaluation": "int(match.group('amount'))"
+            }
+        ]
+    },
+    {
+        "pattern": "^\\> *(?P<value>\\d+[\\.,]?[\\dEe\\+-]*) *\\([Nn]{1} *= *(?P<amount>\\d+)\\)$",
+        "attributes": [
+            {
+                "attribute": "value",
+                "evaluation": "'>%s' % float(match.group('value').replace(',', ''))"
+            },
+            {
+                "attribute": "sd",
+                "evaluation": "''"
+            },
+            {
+                "attribute": "amount",
+                "evaluation": "int(match.group('amount'))"
+            }
+        ]
+    },
+    {
+        "pattern": "^(?P<value>\\d+[\\.,]?[\\dEe\\+-]*) *\\([Nn]{1} *= *(?P<amount>\\d+)\\)$",
+        "attributes": [
+            {
+                "attribute": "value",
+                "evaluation": "float(match.group('value').replace(',', ''))"
+            },
+            {
+                "attribute": "sd",
+                "evaluation": "''"
+            },
+            {
+                "attribute": "amount",
+                "evaluation": "int(match.group('amount'))"
+            }
+        ]
+    },
+    {
+        "pattern": "^(?P<analyte>[^(]+)\\((?P<antigen>[^\\.]*)\\.(?P<antigenno>[^)]*)\\)$",
+        "attributes": [
+            {
+                "attribute": "analyte",
+                "evaluation": "match.group('analyte').upper() + '(' + match.group('antigen').upper() + '.' + match.group('antigenno') + ')'"
+            },
+            {
+                "attribute": "antigen",
+                "evaluation": "match.group('antigen').upper()"
+            },
+            {
+                "attribute": "antigenMaterial",
+                "evaluation": "match.group('antigen').upper() + '.' + match.group('antigenno')"
+            }
+        ]
+    },
+    {
+        "pattern": "^(?P<antigen>[A-Za-z\\d]*)\\.(?P<antigenno>\\d*)$",
+        "attributes": [
+            {
+                "attribute": "protein",
+                "evaluation": "match.group('antigen').upper() + '.' + match.group('antigenno')"
+            },
+            {
+                "attribute": "analyte",
+                "evaluation": "match.group('antigen').upper() + '.' + match.group('antigenno')"
+            },
+            {
+                "attribute": "antigen",
+                "evaluation": "match.group('antigen').upper()"
+            },
+            {
+                "attribute": "antigenMaterial",
+                "evaluation": "match.group('antigen').upper() + '.' + match.group('antigenno')"
+            }
+        ]
+    },
+    {
+        "pattern": "^(?P<value>\\d+,[\\d+, ]+)$",
+        "attributes": [
+            {
+                "attribute": "value",
+                "evaluation": "list(map(int, match.group('value').split(',')))"
+            }
+        ]
+    },
+    {
+        "pattern": "(?P<amount>\\d+) +\\((?P<percamount>\\d\\.\\d+) *%\\)",
+        "attributes": [
+            {
+                "attribute": "amount",
+                "evaluation": "int(match.group('amount'))"
+            },
+            {
+                "attribute": "unit",
+                "evaluation": "'item [Entity] (a distinct object)'"
+            },
+            {
+                "attribute": "percent",
+                "evaluation": "float(match.group('percamount'))"
+            }
+        ]
+    },
+    {
+        "pattern": "(?P<amount>\\d+) *%",
+        "attributes": [
+            {
+                "attribute": "amount",
+                "evaluation": "int(match.group('amount'))"
+            },
+            {
+                "attribute": "unit",
+                "evaluation": "'percent [Entity] (one hundredth part)'"
+            }
+        ]
+    },
+    {
+        "pattern": "^(?P<amount>\\d+) *(?P<unit>\\w+)$",
+        "attributes": [
+            {
+                "attribute": "amount",
+                "evaluation": "int(match.group('amount'))"
+            },
+            {
+                "attribute": "unit",
+                "evaluation": "list(get_meanings(onto['byword'].get(match.group('unit'), ''))) or [match.group('unit')]"
+            }
+        ]
+    },
+    {
+        "pattern": "(?P<name>\\w+) +\\(*(?P<unit>\\w+)\\)",
+        "attributes": [
+            {
+                "attribute": "feature",
+                "evaluation": "list(get_meanings(onto['byword'].get(match.group('name'), ''))) or [match.group('name')]"
+            },
+            {
+                "attribute": "unit",
+                "evaluation": "list(get_meanings(onto['byword'].get(match.group('unit'), '')))"
+            }
+        ]
+    },
+    {
+        "pattern": "\\(*(?P<unit1>\\w+)\\/(?P<unit2>\\w+)\\)",
+        "attributes": [
+            {
+                "attribute": "baseUnit",
+                "evaluation": "list(get_meanings(onto['byword'].get(match.group('unit1'), ''))) or match.group('unit1')"
+            },
+            {
+                "attribute": "dividedByUnit",
+                "evaluation": "list(get_meanings(onto['byword'].get(match.group('unit2'), ''))) or match.group('unit2')"
+            }
+        ]
+    },
+    {
+        "pattern": "[Aa]nnotations -> [Ss]ample [IiDd]{2}",
+        "attributes": [
+            {
+                "attribute": "concept",
+                "evaluation": "'protein id (protein or sample identifier)'"
+            }
+        ]
+    },
+    {
+        "pattern": "[Cc]apillary",
+        "attributes": [
+            {
+                "attribute": "concept",
+                "evaluation": "'capillary [Entity] (capillary)'"
+            }
+        ]
+    },
+    {
+        "pattern": "[Cc]apillaries",
+        "attributes": [
+            {
+                "attribute": "concept",
+                "evaluation": "'capillary [Entity] (capillary)'"
+            }
+        ]
+    },
+    {
+        "pattern": "^(?P<protein>\\w\\w\\w\\w\\w*\\d+\\.\\d\\d\\d)$",
+        "attributes": [
+            {
+                "attribute": "protein",
+                "evaluation": "match.group('protein').upper()"
+            }
+        ]
+    },
+    {
+        "pattern": "[Rr]atio ↗ -> [IiPp]{2} #(?P<no>\\d) -> ⌀",
+        "attributes": [
+            {
+                "attribute": "concept",
+                "evaluation": "'Tm%(no)s [Entity] (value of Tm%(no)s)' % match.groupdict()"
+            }
+        ]
+    },
+    {
+        "pattern": "[Rr]atio ↗ -> [IiPp]{2} #(?P<no>\\d) -> σ",
+        "attributes": [
+            {
+                "attribute": "concept",
+                "evaluation": "'Tm%(no)s σ (deviation of Tm%(no)s)' % match.groupdict()"
+            }
+        ]
+    },
+    {
+        "pattern": "[Rr]atio ↗ -> [OoNn]{2} -> ⌀",
+        "attributes": [
+            {
+                "attribute": "concept",
+                "evaluation": "'Tonset [Entity] (protein unfolding onset temperature)' % match.groupdict()"
+            }
+        ]
+    },
+    {
+        "pattern": "[Rr]atio ↗ -> [OoNn]{2} -> σ",
+        "attributes": [
+            {
+                "attribute": "concept",
+                "evaluation": "'Tonset σ (protein unfolding onset temperature deviation)' % match.groupdict()"
+            }
+        ]
+    },
+    {
+        "pattern": "[Rr]atio ↗ -> [Ii]nitial[Vv]alue -> ⌀",
+        "attributes": [
+            {
+                "attribute": "concept",
+                "evaluation": "'start [Entity] (initial value)' % match.groupdict()"
+            }
+        ]
+    },
+    {
+        "pattern": "[Rr]atio ↗ -> [Ii]nitial[Vv]alue -> σ",
+        "attributes": [
+            {
+                "attribute": "concept",
+                "evaluation": "'start σ (initial value deviation)' % match.groupdict()"
+            }
+        ]
+    },
+    {
+        "pattern": "(?P<name>[Ss]cattering ↗ -> .*)",
+        "attributes": [
+            {
+                "attribute": "name",
+                "evaluation": "match.group('name').replace(' ↗', '').replace(' -> ', ' ')"
+            }
+        ]
+    }
+]
