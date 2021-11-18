@@ -66,6 +66,37 @@ def get_meanings(concs):
                 yield attr['obj']
 
 
+class TableSolver(object):
+    def __init__(self):
+        self.cells = []
+        self.horiz_header = {}
+        self.vert_header = {}
+
+    def add_cell(self, cell):
+        self.cells.append(cell)
+        if cell['cellType'] == 'header':
+            if cell['row'] == 0:
+                self.horiz_header[cell['column']] = cell
+            if cell['column'] == 0:
+                self.vert_header[cell['row']] = cell
+
+    def iter_data_dicts(self):
+        yield from self.build_table().iter_data_dicts()
+
+    def build_table(self):
+        tclass = self.determine_table_class()
+        t = tclass()
+        for cell in self.cells:
+            t.add_cell(cell)
+        return t
+
+    def determine_table_class(self):
+        if len(self.vert_header) > len(self.horiz_header):
+            return VertTable
+        # Fallback
+        return Table
+
+
 class Table(object):
     def __init__(self):
         self.header = {}
@@ -110,6 +141,24 @@ class Table(object):
                 obj.append({'attribute': header_text, 'value': value, 'attributeEntities': entities, 'valueEntities': ventities})
             yield obj
 
+class VertTable(Table):
+
+    def add_header(self, cell):
+        col = cell['row']
+        colspan = cell['rowspan']
+        for i in range(col, col + colspan):
+            if i not in self.header:
+                self.header[i] = cell['text'].strip()
+            else:
+                if self.header[i].strip():
+                    self.header[i] += ' -> ' + cell['text'].strip()
+                else:
+                    self.header[i] = cell['text'].strip()
+
+    def add_data(self, cell):
+        row = self.data.setdefault(cell['column'], {})
+        row[cell['row']] = cell['text'].strip()
+
 
 by_ids = {}
 tables = {}
@@ -126,7 +175,7 @@ for row in csv.reader(open(sys.argv[1]), quotechar='\''):
     obj = json.loads(row[0])
     by_ids[obj['GUID']] = obj
     if obj['class'] == 'Table':
-        tables[obj['GUID']] = Table()
+        tables[obj['GUID']] = TableSolver()
         taborder.append(obj['GUID'])
     elif obj['class'] == 'Cell':
         table = tables[obj['attributes']['table']]
