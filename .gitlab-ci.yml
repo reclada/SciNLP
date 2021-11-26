@@ -347,7 +347,20 @@ test-autotest-env:
       when: never
     - if: $CI_COMMIT_REF_NAME == "test"
       when: never
-    
+
+sast-autotest-env:
+  stage: autotest
+  image: python:3.8
+  script:
+    - echo "Run SAST tests for autotest env"
+    - pip install -U bandit
+    - ls -la
+    - bandit -r . -x ./src/srv/
+  tags:
+      - k8s-devops
+  rules:
+    - if: $CI_MERGE_REQUEST_ID =~ /^./ 
+      when: always
 
 deploy-prod-env:
   stage: deploy
@@ -366,6 +379,8 @@ deploy-prod-env:
   tags:
       - k8s-devops
   rules:
+    - if: $CI_COMMIT_REF_NAME == "main"
+      when: always
     - if: $CI_MERGE_REQUEST_ID =~ /^./ && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "test"
       when: never
     - if: $CI_MERGE_REQUEST_ID =~ /^./ && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "main"
@@ -374,8 +389,6 @@ deploy-prod-env:
       when: never
     - if: $CI_COMMIT_REF_NAME =~ /^dynamic/
       when: never
-    - if: $CI_COMMIT_REF_NAME == "main"
-      when: always
     - if: $CI_COMMIT_REF_NAME == "test"
       when: never
 
