@@ -8,6 +8,7 @@ echo $@
 # Do NOT set _FSROOT if you have /mnt at your filesystem root
 _INPUT_DIR="${_FSROOT}/mnt/input/"
 _OUTPUT_DIR="${_FSROOT}/mnt/output/"
+mkdir -p ${_OUTPUT_DIR}
 mappings_path=$2
 echo "Mappings JSON file path set to: ${mappings_path}"
 json_src_name=$3
