@@ -54,6 +54,8 @@ prepare_db:
     - job: prepare_scinlp
       artifacts: true
   rules:
+    - if: $CI_COMMIT_REF_NAME == "main"
+      when: never
     - if: $CI_COMMIT_MESSAGE =~ /^delenv/
       when: never
     - if: $CI_COMMIT_REF_NAME !~ /^dynamic/ && $CI_MERGE_REQUEST_ID =~ /^./ && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "main"
@@ -64,8 +66,6 @@ prepare_db:
       when: never
     - if: $CI_COMMIT_REF_NAME =~ /^dynamic/ && $CI_COMMIT_MESSAGE !~ /^delenv/ && $CI_MERGE_REQUEST_ID !~ /^./ 
       when: always
-    - if: $CI_COMMIT_REF_NAME == "main"
-      when: never
     - if: $CI_COMMIT_REF_NAME == "test"
       when: never
   tags:
@@ -373,10 +373,6 @@ deploy-prod-env:
 
     - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.reclada.com/developers/SciNLP.git
     - kubectl cp ./SciNLP/ reclada-prod/$(kubectl get pods -n reclada-prod | grep sshfs | awk '{print $1}'):/repos --no-preserve=true
-  
-  needs:
-    - job: prepare_scinlp
-      artifacts: true
   tags:
       - k8s-devops
   rules:
@@ -408,6 +404,8 @@ push-to-github:
     - git push origin HEAD:$CI_COMMIT_REF_NAME --force
   tags:
       - k8s-devops
+  needs:
+    - job: deploy-prod-env
   rules:
     - if: $CI_COMMIT_REF_NAME == "main"
       when: always
