@@ -377,7 +377,7 @@ deploy-prod-env:
 
     # - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.reclada.com/developers/SciNLP.git
     # - cd ..
-    - kubectl cp $CI_PROJECT_DIR/ reclada-prod/$(kubectl get pods -n reclada-prod | grep sshfs | awk '{print $1}'):/repos --no-preserve=true
+    - kubectl cp $CI_PROJECT_DIR/ reclada-prod/$(kubectl get pods -n reclada-prod | grep coordinator | awk '{print $1}'):/repos --no-preserve=true
   tags:
       - k8s-devops
   rules:
