@@ -370,9 +370,10 @@ deploy-prod-env:
     - echo "Run update database in prod env"
 
     - echo "git clone at this place"
-    - cd $CI_PROJECT_DIR/
+    # - cd $CI_PROJECT_DIR/
 
-    - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.reclada.com/developers/SciNLP.git
+    # - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.reclada.com/developers/SciNLP.git
+    - cd ../$CI_PROJECT_DIR/
     - kubectl cp ./SciNLP/ reclada-prod/$(kubectl get pods -n reclada-prod | grep sshfs | awk '{print $1}'):/repos --no-preserve=true
   tags:
       - k8s-devops
