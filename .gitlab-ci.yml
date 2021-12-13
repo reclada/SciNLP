@@ -54,6 +54,8 @@ prepare_db:
     - job: prepare_scinlp
       artifacts: true
   rules:
+    - if: $CI_COMMIT_REF_NAME == "main"
+      when: never
     - if: $CI_COMMIT_MESSAGE =~ /^delenv/
       when: never
     - if: $CI_COMMIT_REF_NAME !~ /^dynamic/ && $CI_MERGE_REQUEST_ID =~ /^./ && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "main"
@@ -64,8 +66,6 @@ prepare_db:
       when: never
     - if: $CI_COMMIT_REF_NAME =~ /^dynamic/ && $CI_COMMIT_MESSAGE !~ /^delenv/ && $CI_MERGE_REQUEST_ID !~ /^./ 
       when: always
-    - if: $CI_COMMIT_REF_NAME == "main"
-      when: never
     - if: $CI_COMMIT_REF_NAME == "test"
       when: never
   tags:
@@ -174,6 +174,7 @@ k8s-dynamic-env:
     - echo "Copy Scinlp to efs"
 
     - git clone -b $CI_COMMIT_REF_NAME https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.reclada.com/developers/SciNLP.git
+    - sleep 120
     - kubectl cp ./SciNLP/ $NAMESPACE/$(kubectl get pods -n $NAMESPACE | grep sshfs | awk '{print $1}'):/repos --no-preserve=true
   needs:
     - job: prepare_db
@@ -364,18 +365,12 @@ sast-autotest-env:
 
 deploy-prod-env:
   stage: deploy
+  image: 588200329560.dkr.ecr.eu-west-1.amazonaws.com/helm-kubectl:v1.0.0-0
   script:
     - echo "Run update database in prod env"
 
     - echo "git clone at this place"
-    - cd $CI_PROJECT_DIR/
-
-    - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.reclada.com/developers/SciNLP.git
-    - kubectl cp ./SciNLP/ reclada-prod/$(kubectl get pods -n reclada-prod | grep sshfs | awk '{print $1}'):/repos --no-preserve=true
-  
-  needs:
-    - job: prepare_scinlp
-      artifacts: true
+    - kubectl cp $CI_PROJECT_DIR/ reclada-prod/$(kubectl get pods -n reclada-prod | grep coordinator | awk '{print $1}'):/repos --no-preserve=true
   tags:
       - k8s-devops
   rules:
@@ -407,6 +402,8 @@ push-to-github:
     - git push origin HEAD:$CI_COMMIT_REF_NAME --force
   tags:
       - k8s-devops
+  needs:
+    - job: deploy-prod-env
   rules:
     - if: $CI_COMMIT_REF_NAME == "main"
       when: always
