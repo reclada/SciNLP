@@ -122,10 +122,14 @@ class Table(object):
                     self.header[i] = cell['text'].strip()
 
     def add_data(self, cell):
-        row = self.data.setdefault(cell['row'], {})
-        row[cell['column']] = cell['text'].strip()
+        for rownum in range(cell['row'], cell['row'] + cell['rowspan']):
+            row = self.data.setdefault(rownum, {})
+            for colnum in range(cell['column'], cell['column'] + cell['colspan']):
+                row[colnum] = cell['text'].strip()
 
     def iter_data_dicts(self):
+        # First check if some headers remain merged and split them
+        self.split_merged_headers()
         for rownum in sorted(self.data):
             row = self.data[rownum]
             obj = []
@@ -140,6 +144,41 @@ class Table(object):
                     ventities.append(mobj)
                 obj.append({'attribute': header_text, 'value': value, 'attributeEntities': entities, 'valueEntities': ventities})
             yield obj
+
+    def split_merged_headers(self):
+        prev_header = None
+        subheader_no = 1
+        for col in range(min(self.header), max(self.header) + 1):
+            cur_header = self.header[col]
+            if cur_header == prev_header:
+                self.add_header(
+                    {
+                        'column': col - 1,
+                        'colspan': 1,
+                        'text': str(subheader_no)
+                    }
+                )
+                subheader_no += 1
+            else:
+                if subheader_no > 1:
+                    self.add_header(
+                        {
+                            'column': col - 1,
+                            'colspan': 1,
+                            'text': str(subheader_no)
+                        }
+                    )
+                subheader_no = 1
+            prev_header = cur_header
+        if subheader_no > 1:
+            self.add_header(
+                {
+                    'column': col,
+                    'colspan': 1,
+                    'text': str(subheader_no)
+                }
+            )
+
 
 class VertTable(Table):
 
