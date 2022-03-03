@@ -74,11 +74,19 @@ class TableSolver(object):
 
     def add_cell(self, cell):
         self.cells.append(cell)
-        if cell['cellType'] == 'header':
-            if cell['row'] == 0:
-                self.horiz_header[cell['column']] = cell
-            if cell['column'] == 0:
-                self.vert_header[cell['row']] = cell
+
+    def classify_headers(self):
+        minrow = min(cell['row'] for cell in self.cells)
+        mincol = min(cell['column'] for cell in self.cells)
+        for cell in self.cells:
+            if cell['cellType'] == 'header':
+                self.classify_header(cell, minrow, mincol)
+
+    def classify_header(self, cell, minrow, mincol):
+        if cell['row'] == minrow:
+            self.horiz_header[cell['column']] = cell
+        if cell['column'] == mincol:
+            self.vert_header[cell['row']] = cell
 
     def iter_data_dicts(self):
         yield from self.build_table().iter_data_dicts()
@@ -91,6 +99,7 @@ class TableSolver(object):
         return t
 
     def determine_table_class(self):
+        self.classify_headers()
         if len(self.vert_header) > len(self.horiz_header):
             return VertTable
         # Fallback
@@ -148,6 +157,8 @@ class Table(object):
     def split_merged_headers(self):
         prev_header = None
         subheader_no = 1
+        if not self.header:
+            return
         for col in range(min(self.header), max(self.header) + 1):
             cur_header = self.header[col]
             if cur_header == prev_header:
