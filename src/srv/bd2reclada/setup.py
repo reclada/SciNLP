@@ -11,9 +11,13 @@ def create_links(work_dir):
     :param work_dir: directory in which the directory tree structure would be created
     """
     # create reclada directory
-    os.mkdir(work_dir+"/reclada")
+    reclada_folder = work_dir+"/reclada"
+    if not os.path.isdir(reclada_folder):
+        os.mkdir(reclada_folder)
     # create a symbolic link to src folder
-    os.symlink(work_dir+"/src", work_dir+"/reclada/bd22reclada", target_is_directory=True)
+    dest_folder = work_dir+"/reclada/bd2reclada"
+    if not os.path.isdir(dest_folder):
+        os.symlink(work_dir+"/src", dest_folder, target_is_directory=True)
 
 # get the current directory
 cur_dir = os.getcwd()
