@@ -194,7 +194,7 @@ class Table(object):
 class VertTable(Table):
 
     def add_header(self, cell):
-        if cell['row']:
+        if cell.get('row'):
             col = cell['row']
             colspan = cell['rowspan']
             for i in range(col, col + colspan):
@@ -207,7 +207,7 @@ class VertTable(Table):
                         self.header[i] = cell['text'].strip()
 
     def add_data(self, cell):
-        if cell['row']:
+        if cell.get('row'):
             row = self.data.setdefault(cell['column'], {})
             row[cell['row']] = cell['text'].strip()
 
