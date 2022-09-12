@@ -194,20 +194,22 @@ class Table(object):
 class VertTable(Table):
 
     def add_header(self, cell):
-        col = cell['row']
-        colspan = cell['rowspan']
-        for i in range(col, col + colspan):
-            if i not in self.header:
-                self.header[i] = cell['text'].strip()
-            else:
-                if self.header[i].strip():
-                    self.header[i] += ' -> ' + cell['text'].strip()
-                else:
+        if cell['row']:
+            col = cell['row']
+            colspan = cell['rowspan']
+            for i in range(col, col + colspan):
+                if i not in self.header:
                     self.header[i] = cell['text'].strip()
+                else:
+                    if self.header[i].strip():
+                        self.header[i] += ' -> ' + cell['text'].strip()
+                    else:
+                        self.header[i] = cell['text'].strip()
 
     def add_data(self, cell):
-        row = self.data.setdefault(cell['column'], {})
-        row[cell['row']] = cell['text'].strip()
+        if cell['row']:
+            row = self.data.setdefault(cell['column'], {})
+            row[cell['row']] = cell['text'].strip()
 
 
 by_ids = {}
